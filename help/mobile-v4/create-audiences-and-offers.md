@@ -9,7 +9,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '1049'
 ht-degree: 1%
@@ -78,13 +78,17 @@ Siga los mismos pasos enumerados anteriormente para crear una audiencia para los
 
    ![Crear una Audiencia de usuario que regresa](assets/audience_returning_mobile_app_users.jpg)
 
->[!NOTE] Todas las métricas y dimensiones del ciclo vital recopiladas en el SDK [!DNL Target] móvil van precedidas de &quot;a&quot; (p. ej., a.Launches) y están disponibles en la opción &quot;Personalizado&quot; del menú desplegable y se pueden utilizar para generar audiencias.
+>[!NOTE]
+>
+>Todas las métricas y dimensiones del ciclo vital recopiladas en el SDK [!DNL Target] móvil van precedidas de &quot;a&quot; (p. ej., a.Launches) y están disponibles en la opción &quot;Personalizado&quot; del menú desplegable y se pueden utilizar para generar audiencias.
 
 ### Crear una Audiencia para los usuarios que reserven un viaje a San Diego
 
 A continuación, crearemos algunas audiencias para algunos de los destinos ofrecidos por la aplicación We.Travel. En la última lección pasamos el destino como parámetro de ubicación en la solicitud de ubicación wetravel_context_dest. Ese parámetro está disponible en la opción &quot;Personalizado&quot; del menú desplegable.
 
->[!NOTE] Si un parámetro que espera ver en el menú desplegable Personalizado no aparece en la interfaz, compruebe con el doble que se esté pasando en la [!DNL Target] solicitud. Si ha comprobado que está en la solicitud, pero no se ha cargado de forma diferida en la [!DNL Target] interfaz, sólo puede escribir el nombre del parámetro y pulsar Intro para seguir definiendo la audiencia
+>[!NOTE]
+>
+>Si un parámetro que espera ver en el menú desplegable Personalizado no aparece en la interfaz, compruebe con el doble que se esté pasando en la [!DNL Target] solicitud. Si ha comprobado que está en la solicitud, pero no se ha cargado de forma diferida en la [!DNL Target] interfaz, sólo puede escribir el nombre del parámetro y pulsar Intro para seguir definiendo la audiencia
 
 1. Asigne un nombre al _destino de la audiencia: San Diego_.
 1. Utilice una regla personalizada con esta definición: _locationDest contiene San Diego_.
