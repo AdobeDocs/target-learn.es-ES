@@ -7,7 +7,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 0%
@@ -47,7 +47,9 @@ Aunque solo hemos agregado `Config.collectLifecycleData()` al controlador HomeAc
 
 Las propiedades de Adobe Target se definen en la [!DNL Target] interfaz y se utilizan para definir límites para personalizar aplicaciones y sitios web. El parámetro at_property identifica la propiedad específica en la que se accede a sus ofertas y actividades y se mantienen. Añadiremos una propiedad a las solicitudes de recuperación previa y de ubicación activa.
 
->[!NOTE] Puede que vea o no las opciones de Propiedades en la [!DNL Target] interfaz, según su licencia. Si no tiene estas opciones, o si no utiliza Propiedades en la compañía, vaya a la siguiente sección de esta lección.
+>[!NOTE]
+>
+>Puede que vea o no las opciones de Propiedades en la [!DNL Target] interfaz, según su licencia. Si no tiene estas opciones, o si no utiliza Propiedades en la compañía, vaya a la siguiente sección de esta lección.
 
 Puede recuperar el valor de at_property en la [!DNL Target] interfaz en [!UICONTROL Configuración] > [!UICONTROL Propiedades].  Pase el ratón sobre la propiedad, seleccione el icono de fragmento de código y copie el `at_property` valor:
 
@@ -140,9 +142,13 @@ public void targetLoadRequest(final ArrayList<Recommandation> recommandations) {
 Ejecute el emulador y abra Logcat. Filtre uno de los parámetros para comprobar que la solicitud contiene los parámetros necesarios:
 ![Validar los parámetros personalizados en la solicitud de ubicación activa](assets/parameters_live_location_validation.jpg)
 
->[!NOTE] Solicitudes y parámetros de confirmación de pedido: Aunque no se utiliza en este proyecto de demostración, los detalles de los pedidos generalmente se capturan en una implementación real, por lo que [!DNL Target] pueden utilizar los detalles de los pedidos como métricas y dimensiones. Consulte la documentación para obtener instrucciones sobre cómo [implementar la solicitud de confirmación de pedido y los parámetros](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html).
+>[!NOTE]
+>
+>Solicitudes y parámetros de confirmación de pedido: Aunque no se utiliza en este proyecto de demostración, los detalles de los pedidos generalmente se capturan en una implementación real, por lo que [!DNL Target] pueden utilizar los detalles de los pedidos como métricas y dimensiones. Consulte la documentación para obtener instrucciones sobre cómo [implementar la solicitud de confirmación de pedido y los parámetros](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-target-methods.html).
 
->[!NOTE] Analytics para Destinatario (A4T): Adobe Analytics se puede configurar como fuente de sistema de informes para [!DNL Target]. Esto permite que todas las métricas y dimensiones recopiladas por el SDK de Destinatario se vean en Adobe Analytics. Consulte la Descripción general [de](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) A4T para obtener más información.
+>[!NOTE]
+>
+>Analytics para Destinatario (A4T): Adobe Analytics se puede configurar como fuente de sistema de informes para [!DNL Target]. Esto permite que todas las métricas y dimensiones recopiladas por el SDK de Destinatario se vean en Adobe Analytics. Consulte la Descripción general [de](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) A4T para obtener más información.
 
 ¡Buen trabajo! Ahora que los parámetros están establecidos, estamos listos para usar esos parámetros para crear audiencias y ofertas en Adobe Target.
 
