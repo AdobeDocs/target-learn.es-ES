@@ -9,7 +9,7 @@ audience: developer
 doc-type: tutorial
 activity-type: implement
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: 199fbde58696a0511623c5500cc6afbbcfdd67a3
 workflow-type: tm+mt
 source-wordcount: '785'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # Marcado de funciones
 
-Los propietarios de productos de aplicaciones móviles necesitan la flexibilidad para desplegar nuevas funciones en su aplicación sin tener que invertir en varias versiones de la aplicación. También es posible que deseen desplegar las funciones gradualmente a un porcentaje de la base de usuarios para comprobar la eficacia. Adobe Target se puede utilizar para experimentar con características UX como color, copia, botones, texto e imágenes y para proporcionar esas características a audiencias específicas.
+Los propietarios de productos de aplicaciones móviles necesitan la flexibilidad para desplegar nuevas funciones en su aplicación sin tener que invertir en varias versiones de la aplicación. También es posible que deseen desplegar las funciones gradualmente a un porcentaje de la base de usuarios para comprobar la eficacia. Adobe Target se puede utilizar para experimentar con características UX como color, copia, botones, texto e imágenes, y para proporcionar esas características a audiencias específicas.
 
 En esta lección, crearemos una oferta de &quot;indicador de función&quot; que se puede usar como activador para habilitar funciones específicas de la aplicación.
 
@@ -35,7 +35,9 @@ Al final de esta lección, podrá:
 
 En la aplicación de demostración de nuestras lecciones anteriores, agregaremos una nueva ubicación llamada &quot;wetravel_feature_flag_recs&quot; a la solicitud de recuperación previa en la Actividad principal y la cargaremos en la pantalla con un nuevo método Java.
 
->[!NOTE] Una de las ventajas de utilizar una solicitud de recuperación previa es que la adición de una nueva solicitud no agrega sobrecarga de red adicional ni causa trabajo de carga adicional, ya que la solicitud se empaqueta dentro de la solicitud de recuperación previa
+>[!NOTE]
+>
+>Una de las ventajas de utilizar una solicitud de recuperación previa es que la adición de una nueva solicitud no agrega sobrecarga de red adicional ni causa trabajo de carga adicional, ya que la solicitud se empaqueta dentro de la solicitud de recuperación previa
 
 En primer lugar, compruebe que la constante wetravel_feature_flag_recs se agrega al archivo Constant.java:
 
