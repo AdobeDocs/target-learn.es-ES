@@ -1,8 +1,8 @@
 ---
 title: Descargar y actualizar la aplicación de muestra We.Travel
 seo-title: Descargue la aplicación de ejemplo y compruebe el SDK de los servicios móviles
-description: 'La aplicación de ejemplo We.Travel se ha implementado previamente con el SDK v4 de Adobe Mobile Services. Solo tiene que actualizarlo para que apunte a su propia organización Experience Cloud y a las cuentas de la solución.   '
-seo-description: La aplicación de ejemplo We.Travel se ha implementado previamente con el SDK v4 de Adobe Mobile Services. Solo tiene que actualizarlo para que apunte a su propia organización Experience Cloud y a las cuentas de la solución.
+description: 'La aplicación de ejemplo We.Travel está preimplementada con el SDK v4 de Adobe Mobile Services. Solo tiene que actualizarlo para que apunte a su propia organización Experience Cloud y a las cuentas de la solución.   '
+seo-description: La aplicación de ejemplo We.Travel está preimplementada con el SDK v4 de Adobe Mobile Services. Solo tiene que actualizarlo para que apunte a su propia organización Experience Cloud y a las cuentas de la solución.
 feature: mobile
 kt: 3040
 audience: developer
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 # Descargar y actualizar la aplicación de muestra We.Travel
 
-La aplicación de ejemplo We.Travel se ha implementado previamente con el SDK v4 de Adobe Mobile Services. Solo tiene que actualizarla para que apunte a su propia organización Experience Cloud y a las cuentas de la solución.
+La aplicación de ejemplo We.Travel está preimplementada con el SDK v4 de Adobe Mobile Services. Solo tiene que actualizarla para que apunte a su propia organización Experience Cloud y a las cuentas de la solución.
 
 ## Objetivos de aprendizaje
 
