@@ -1,8 +1,8 @@
 ---
 title: Marcado de funciones
 seo-title: Marcado de funciones
-description: Adobe Target se puede utilizar para experimentar con características UX como color, copia, botones, texto e imágenes y para proporcionar esas características a audiencias específicas.
-seo-description: Adobe Target se puede utilizar para experimentar con características UX como color, copia, botones, texto e imágenes y para proporcionar esas características a audiencias específicas.
+description: Adobe Target se puede utilizar para experimentar con características UX como color, copia, botones, texto e imágenes, y para proporcionar esas características a audiencias específicas.
+seo-description: Adobe Target se puede utilizar para experimentar con características UX como color, copia, botones, texto e imágenes, y para proporcionar esas características a audiencias específicas.
 feature: mobile
 kt: 3040
 audience: developer
