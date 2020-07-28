@@ -40,7 +40,7 @@ ht-degree: 8%
    + [Uso del Compositor de experiencias visuales](../experiences/use-the-visual-experience-composer.md)
    + [Uso del Compositor de experiencias visuales para aplicaciones de una sola página (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
    + [Uso del Compositor de experiencias basadas en formularios](../experiences/use-the-form-based-experience-composer.md)
-   + [Uso de fragmentos de experiencia de AEM en Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [Uso de fragmentos de experiencia AEM en Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Informes{#reports}
    + [Uso de los informes de perspectivas de personalización](../reports/use-the-personalization-insights-reports.md)
 + Integraciones{#integrations}
@@ -48,7 +48,7 @@ ht-degree: 8%
    + [Entrada de datos: Utilizar proveedores de datos para integrar datos de terceros](../integrations/use-data-providers-to-integrate-third-party-data.md)
    + [Entrada de datos: Implementar proveedores de datos para integrar datos de terceros](../integrations/implement-data-providers-to-integrate-third-party-data.md)
    + [Salida de datos: Usar tokens de respuesta y Eventos personalizados de at.js](../integrations/use-response-tokens-and-atjs-custom-events.md)
-   + [Uso de fragmentos de experiencia de AEM en Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [Uso de fragmentos de experiencia AEM en Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Administration{#administration}
    + [Configuración de las preferencias de cuenta](../administration/set-up-account-preferences.md)
    + [Comprender los permisos de usuario de Enterprise](../administration/understanding-enterprise-user-permissions.md)
@@ -56,12 +56,12 @@ ht-degree: 8%
    + [Configurar propiedades](../administration/set-up-properties.md)
 + Recommendations{#recommendations}
    + [Crear una actividad de Recommendations](../recommendations/create-a-recommendations-activity.md)
-   + [Usar Ofertas de Recomendaciones](../recommendations/use-recommendations-offers.md)
+   + [Usar Ofertas de Recommendations](../recommendations/use-recommendations-offers.md)
    + [Explicación de las fuentes](../recommendations/understanding-feeds.md)
    + [Crear una fuente](../recommendations/create-a-feed.md)
    + [Crear criterios](../recommendations/create-criteria.md)
    + [Crear diseños personalizados](../recommendations/create-custom-designs.md)
    + [Crear colecciones y exclusiones](../recommendations/create-collections-and-exclusions.md)
 + Resolución de problemas{#troubleshooting}
-   + [Solución de problemas con el depurador de Experience Cloud](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
+   + [Resolución de problemas con el Experience Cloud Debugger](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
    + [Resolución de problemas con rastros de Destinatario](../troubleshooting/troubleshoot-with-target-traces.md)
