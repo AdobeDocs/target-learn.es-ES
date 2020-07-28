@@ -295,7 +295,7 @@ Esta fue una actualización más sofisticada que hicimos en la aplicación y lue
 1. Hemos interrumpido el comportamiento anterior de la aplicación de mostrar tres promociones predeterminadas al comentar las líneas de código
 1. En su lugar, le pedimos a la aplicación que ejecutara una nueva función, a la que llamamos targetLoadRequest de forma arbitraria
 1. Definimos la `targetLoadRequest` función para realizar una solicitud al Destinatario mediante el método Destinatario.loadRequest y ejecutar inmediatamente la `filterRecommendationBasedOnOffer()` función cuando se recibe la respuesta de [!DNL Target] oferta
-1. La `filterRecommendationBasedOnOffer()` función interpreta la respuesta y decide qué promociones deben aplicarse a la pantalla
+1. La `filterRecommendationBasedOnOffer()` función interpreta la respuesta y decide qué promociones se deben aplicar a la pantalla
 
 Este es un patrón de uso muy común al usar [!DNL Target] en aplicaciones móviles.  Ambos son muy poderosos, ya que puedes personalizar casi cualquier aspecto de tu aplicación móvil. También requiere la coordinación entre el código de la aplicación y las ofertas que definiremos más adelante en la [!DNL Target] interfaz. Debido a esta coordinación, algunos casos de uso de personalización pueden requerir que actualice la aplicación en el almacén de aplicaciones para iniciar la actividad.
 
