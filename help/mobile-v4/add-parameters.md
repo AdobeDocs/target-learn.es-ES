@@ -1,6 +1,6 @@
 ---
 title: Añadir parámetros a las solicitudes
-description: En esta lección, agregaremos métricas del ciclo vital de Adobe y parámetros personalizados a las solicitudes de Destinatario agregadas en la lección anterior. Estas métricas y parámetros se utilizarán para crear audiencias personalizadas más adelante en el tutorial.
+description: En esta lección agregaremos métricas del ciclo vital de Adobe y parámetros personalizados a las solicitudes de Destinatario agregadas en la lección anterior. Estas métricas y parámetros se utilizarán para crear audiencias personalizadas más adelante en el tutorial.
 feature: mobile
 kt: 3040
 audience: developer
@@ -23,7 +23,7 @@ En esta lección, agregaremos métricas del ciclo vital de Adobe y parámetros p
 
 Al final de esta lección, podrá:
 
-* Añadir las métricas del ciclo vital de Adobe Mobile
+* Añadir las métricas del ciclo vital móvil de Adobe
 * Añadir parámetros a una solicitud de recuperación previa
 * Añadir parámetros a una ubicación activa
 * Validar los parámetros de ambas solicitudes
