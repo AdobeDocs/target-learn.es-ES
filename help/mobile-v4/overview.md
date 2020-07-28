@@ -1,6 +1,6 @@
 ---
 title: Adobe Target con el SDK v4 de Adobe Mobile Services para Android
-description: El Adobe Target con el SDK v4 de Adobe Mobile Services para Android es el punto de partida perfecto para los desarrolladores de Android que ya utilizan el SDK v4 de Adobe Mobile Services y desean personalizar inicios las experiencias de la aplicación con Adobe Target.
+description: El Adobe Target con el SDK v4 de Adobe Mobile Services para Android es el punto de partida perfecto para los desarrolladores de Android que ya utilizan el SDK v4 de Adobe Mobile Services y desean inicio a la personalización de las experiencias de la aplicación con Adobe Target.
 feature: mobile
 kt: 3040
 audience: developer
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 # Información general
 
-_El Adobe Target con el SDK v4 de Adobe Mobile Services para Android_ es el punto de partida perfecto para los desarrolladores de Android que ya utilizan el SDK v4 de Adobe Mobile Services y desean personalizar inicios las experiencias de la aplicación con Adobe Target.
+_El Adobe Target con el SDK v4 de Adobe Mobile Services para Android_ es el punto de partida perfecto para los desarrolladores de Android que ya utilizan el SDK v4 de Adobe Mobile Services y desean inicio a la personalización de las experiencias de la aplicación con Adobe Target.
 
 Se proporciona una aplicación de demostración de Android para completar las clases. Después de completar este tutorial, debe estar preparado para implementar inicios [!DNL Target] en su propia aplicación de Android.
 
@@ -40,7 +40,7 @@ Tras completar este tutorial, podrá:
 
 En estas lecciones se supone que:
 
-* Tener un Adobe Id y acceso de nivel de aprobador a la interfaz de Adobe Target (consulte los pasos de verificación a continuación)
+* Tener un ID de Adobe y acceso de nivel de aprobador a la interfaz de Adobe Target (consulte los pasos de verificación a continuación)
 * Conozca el código de cliente de Adobe Target para poder realizar solicitudes a su propia cuenta. El código de cliente se muestra en la interfaz de Adobe Target en la pantalla Ajustes > Implementación > Editar la configuración de at.js
 * Tener acceso a la interfaz de usuario de [Mobile Services y familiarizarse con ella](https://mobilemarketing.adobe.com)
 * Tenga un IDE para el desarrollo de aplicaciones móviles Android. Este tutorial incluye [Android Studio](https://developer.android.com/studio/install) en varios pasos y capturas de pantalla
@@ -53,12 +53,12 @@ Además, se supone que está familiarizado con el desarrollo de Android en Java.
 
 Esta lección requiere acceso al Adobe Target. Antes de seguir los pasos siguientes, asegúrese de tener acceso al Adobe Target haciendo lo siguiente:
 
-1. Inicie sesión en [Adobe Experience Cloud](https://experience.adobe.com/)
+1. Inicie sesión en el [Adobe Experience Cloud](https://experience.adobe.com/)
 1. From the Experience Cloud home screen, click [!DNL Target]:
    ![Pantalla principal del Experience Cloud](assets/aec_homeScreen_clickTarget.png)
 1. Debe llegar a la lista Actividades en Adobe Target, como se muestra a continuación, y debe ver que el usuario tiene acceso a nivel Aprobador. Si no puede acceder [!DNL Target] o no puede comprobar el acceso a nivel de aprobador, póngase en contacto con uno de los administradores Experience Cloud de su compañía, solicite este acceso y reanude este tutorial una vez que se haya concedido:
 
-   ![Interfaz de usuario de Adobe](assets/targetUI_approver.png)
+   ![IU de Adobe](assets/targetUI_approver.png)
 
 ## Acerca de las lecciones
 
