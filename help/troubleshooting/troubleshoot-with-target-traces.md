@@ -25,5 +25,5 @@ ht-degree: 17%
 
 * [Adobe Experience Cloud Debugger en la tienda de Chrome](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
 * [Solución de problemas de la documentación de ayuda de Destinatario](https://docs.adobe.com/content/help/en/target/using/troubleshoot/troubleshooting-target.html)
-* [Solución de problemas de Destinatario con el vídeo del depurador de Experience Cloud](troubleshoot-with-the-experience-cloud-debugger.md)
-* [Cómo usar el vídeo Experience Cloud Debugger](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/use-the-experience-cloud-debugger.html)
+* [Solución de problemas de Destinatario con el vídeo del Experience Cloud Debugger](troubleshoot-with-the-experience-cloud-debugger.md)
+* [Cómo usar el vídeo del Experience Cloud Debugger](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/debugger/use-the-experience-cloud-debugger.html)
