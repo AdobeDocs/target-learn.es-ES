@@ -88,7 +88,7 @@ A continuación, crearemos algunas audiencias para algunos de los destinos ofrec
 
 >[!NOTE]
 >
->Si un parámetro que espera ver en el menú desplegable Personalizado no aparece en la interfaz, compruebe con el doble que se esté pasando en la [!DNL Target] solicitud. Si ha comprobado que está en la solicitud, pero no se ha cargado de forma diferida en la [!DNL Target] interfaz, sólo puede escribir el nombre del parámetro y pulsar Intro para seguir definiendo la audiencia
+>Si un parámetro que espera ver en el menú desplegable Personalizado no aparece en la interfaz, compruebe con el doble que se esté pasando en la [!DNL Target] solicitud. Si ha comprobado que está en la solicitud pero no se ha cargado a medida en la [!DNL Target] interfaz, sólo puede escribir el nombre del parámetro y pulsar Intro para seguir definiendo la audiencia
 
 1. Asigne un nombre al _destino de la audiencia: San Diego_.
 1. Utilice una regla personalizada con esta definición: _locationDest contiene San Diego_.
