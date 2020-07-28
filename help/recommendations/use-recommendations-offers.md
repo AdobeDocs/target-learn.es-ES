@@ -1,7 +1,7 @@
 ---
-title: Usar Ofertas de Recomendaciones en Actividades de pruebas A/B y de segmentación de experiencias
-seo-title: Usar Ofertas de Recomendaciones en Actividades de Prueba A/B y Segmentación de experiencias en Adobe Target
-description: Las ofertas de Recomendaciones se pueden usar con Actividades de Prueba A/B y de Segmentación de experiencias.
+title: Usar Ofertas de Recommendations en Actividades de pruebas A/B y de segmentación de experiencias
+seo-title: Usar Ofertas de Recommendations en Actividades de pruebas A/B y de segmentación de experiencias en Adobe Target
+description: Las ofertas de Recommendations se pueden usar con Actividades A/B de pruebas y segmentación de experiencias.
 feature: recommendations
 kt: kt-3451
 audience: marketer
@@ -16,9 +16,9 @@ ht-degree: 35%
 ---
 
 
-# Usar Ofertas de Recomendaciones en Actividades de pruebas A/B y de segmentación de experiencias
+# Usar Ofertas de Recommendations en Actividades de pruebas A/B y de segmentación de experiencias
 
-Las ofertas de Recomendaciones se pueden usar con Actividades de Prueba A/B y de Segmentación de experiencias. Esta funcionalidad revela capacidades completamente nuevas, como:
+Las ofertas de Recommendations se pueden usar con Actividades A/B de pruebas y segmentación de experiencias. Esta funcionalidad revela capacidades completamente nuevas, como:
 
 * Mezcle contenido de recomendaciones y no recomendaciones dentro de la misma actividad
 * Experimentar fácilmente con la colocación de recomendaciones en la página, incluido el orden de varias recomendaciones
@@ -29,5 +29,5 @@ Las ofertas de Recomendaciones se pueden usar con Actividades de Prueba A/B y de
 
 ## Recursos adicionales
 
-* [Recomendaciones como documentación de oferta](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-as-an-offer.html)
-* [Creación de un vídeo de Actividad de Recomendaciones](create-a-recommendations-activity.md)
+* [Recommendations como documentación de oferta](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-as-an-offer.html)
+* [Creación de un vídeo de Actividad de Recommendations](create-a-recommendations-activity.md)
