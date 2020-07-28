@@ -1,6 +1,6 @@
 ---
-title: Información general sobre los tutoriales de Adobe Target
-seo-title: Información general sobre los tutoriales de Adobe Target
+title: Información general sobre Tutorials de Adobe Target
+seo-title: Información general sobre Tutorials de Adobe Target
 description: Una colección de tutoriales y vídeos de procedimientos para convertirlo en un usuario potente del Adobe Target
 translation-type: tm+mt
 source-git-commit: 0ef2d3c853aa85fef8c9f524588b29b02c7aceda
@@ -17,13 +17,13 @@ Adobe Target es la solución de Adobe Experience Cloud que le proporciona todo l
 
 ## Novedades
 
-* **[Uso de Ofertas de Recomendaciones (vídeo)](recommendations/use-recommendations-offers.md)**   <br>
+* **[Uso de Ofertas de Recommendations (vídeo)](recommendations/use-recommendations-offers.md)**   <br>
    *Utilice las recomendaciones del producto en Actividades de Prueba A/B y Segmentación de experiencias.*
 
 * **[Implementación del Compositor de experiencias visuales de Destinatario en aplicaciones de Android™ (tutorial)](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)**   <br>
    *Implemente el Compositor de experiencias visuales (VEC) de Destinatario en las aplicaciones nativas de Android.*
 
-* **[Creación de una Actividad de Recomendaciones (vídeo)](recommendations/create-a-recommendations-activity.md)**   <br>
+* **[Creación de una Actividad de Recommendations (vídeo)](recommendations/create-a-recommendations-activity.md)**   <br>
    *Recomiende productos a sus clientes a escala con esta función Premium.*
 
 ## Selección de personal
@@ -58,11 +58,11 @@ Adobe Target es la solución de Adobe Experience Cloud que le proporciona todo l
   </td>
   <td>
     <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-      <img alt="Solución de problemas de Destinatario con el depurador de Experience Cloud" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
+      <img alt="Resolución de problemas de Destinatario con el Experience Cloud Debugger" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
     </a>
     <div>
       <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-    <strong>Solución de problemas de Destinatario con el depurador de Experience Cloud</strong>
+    <strong>Resolución de problemas de Destinatario con el Experience Cloud Debugger</strong>
     </a>
     </div>
     <p>
