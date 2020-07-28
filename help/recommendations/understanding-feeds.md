@@ -1,6 +1,6 @@
 ---
-title: Explicación de las fuentes en Recomendaciones
-seo-title: Explicación de las fuentes en las recomendaciones de Adobe Target
+title: Explicación de las fuentes en Recommendations
+seo-title: Explicación de las fuentes en Adobe Target Recommendations
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -15,7 +15,7 @@ ht-degree: 18%
 ---
 
 
-# Explicación de las fuentes en Recomendaciones
+# Explicación de las fuentes en Recommendations
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695?quality=12)
 
@@ -26,4 +26,4 @@ ht-degree: 18%
 * [Crear diseños personalizados](create-custom-designs.md)
 * [Crear colecciones y exclusiones](create-collections-and-exclusions.md)
 * [Crear una actividad de Recommendations](create-a-recommendations-activity.md)
-* [Documentación de Recomendaciones](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Documentación de Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
