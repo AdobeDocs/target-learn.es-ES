@@ -1,6 +1,6 @@
 ---
 title: Uso de los informes de perspectivas de personalización en Adobe Target
-description: Las actividades de Personalización automatizada y Destinatario automático utilizan aprendizaje automático avanzado para ofrecer la experiencia más adaptada a cada visitante en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares. Los informes Perspectivas de personalización proporcionan información sobre cómo estos modelos toman sus decisiones.
+description: Las actividades de Automated Personalization y Destinatario automático utilizan aprendizaje automático avanzado para ofrecer la experiencia más adaptada a cada visitante en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares. Los informes Perspectivas de personalización proporcionan información sobre cómo estos modelos toman sus decisiones.
 audience: analyst
 difficulty: 3
 author: Daniel Wright
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # Uso de los informes de perspectivas de personalización
 
-Las actividades de Personalización automatizada y Destinatario automático utilizan aprendizaje automático avanzado para ofrecer la experiencia más adaptada a cada visitante en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares. Los informes Perspectivas de personalización proporcionan información sobre cómo estos modelos toman sus decisiones.
+Las actividades de Automated Personalization y Destinatario automático utilizan aprendizaje automático avanzado para ofrecer la experiencia más adaptada a cada visitante en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares. Los informes Perspectivas de personalización proporcionan información sobre cómo estos modelos toman sus decisiones.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?quality=12)
 
