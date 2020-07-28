@@ -1,6 +1,6 @@
 ---
-title: Crear una fuente en Recomendaciones
-seo-title: Crear una fuente en Recomendaciones de Adobe Target
+title: Crear una fuente en Recommendations
+seo-title: Crear una fuente en Adobe Target Recommendations
 audience: marketer
 difficulty: 3
 author: Daniel Wright
@@ -15,7 +15,7 @@ ht-degree: 17%
 ---
 
 
-# Crear una fuente en Recomendaciones
+# Crear una fuente en Recommendations
 
 >[!VIDEO](https://video.tv.adobe.com/v/27696?quality=12)
 
@@ -26,4 +26,4 @@ ht-degree: 17%
 * [Crear criterios](create-criteria.md)
 * [Crear diseños personalizados](create-custom-designs.md)
 * [Crear colecciones y exclusiones](create-collections-and-exclusions.md)
-* [Documentación de Recomendaciones](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Documentación de Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
