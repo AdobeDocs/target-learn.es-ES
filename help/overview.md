@@ -1,12 +1,12 @@
 ---
 title: Información general sobre Tutorials de Adobe Target
 seo-title: Información general sobre Tutorials de Adobe Target
-description: Una colección de tutoriales y vídeos de procedimientos para convertirlo en un usuario potente del Adobe Target
+description: Una colección de tutoriales y vídeos explicativos para convertirlo en un usuario potente de Adobe Target
 translation-type: tm+mt
-source-git-commit: 0ef2d3c853aa85fef8c9f524588b29b02c7aceda
+source-git-commit: 49b21a85ca776f9da12f14cab85772395ba4ce16
 workflow-type: tm+mt
-source-wordcount: '216'
-ht-degree: 18%
+source-wordcount: '242'
+ht-degree: 16%
 
 ---
 
@@ -17,14 +17,19 @@ Adobe Target es la solución de Adobe Experience Cloud que le proporciona todo l
 
 ## Novedades
 
+* **[Uso de la API de Recommendations (tutorial)](recommendations-api-tutorial/recs-api-overview.md)**   <br>
+   *Para desarrolladores: Realice prácticas prácticas con las[!DNL Recommendations]API para configurar y administrar[!DNL Recommendations]catálogos y criterios personalizados, entre otras cosas.*
+
+* **[Implementación de Adobe Target con el SDK v4 de Adobe Mobile Services para Android (tutorial)](mobile-v4/overview.md)**   <br>
+   *Para desarrolladores que ya utilizan el SDK v4 de Adobe Mobile Services: aprenda a personalizar inicios las experiencias de la aplicación con Adobe Target. Estos pasos se proporcionan como compatibilidad con usuarios heredados.<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
+
 * **[Uso de Ofertas de Recommendations (vídeo)](recommendations/use-recommendations-offers.md)**   <br>
-   *Utilice las recomendaciones del producto en Actividades de Prueba A/B y Segmentación de experiencias.*
+   *Para todos los usuarios de Destinatario: Obtenga información sobre cómo utilizar las recomendaciones de productos en Actividades A/B y de segmentación de experiencias.*
 
-* **[Implementación del Compositor de experiencias visuales de Destinatario en aplicaciones de Android™ (tutorial)](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)**   <br>
-   *Implemente el Compositor de experiencias visuales (VEC) de Destinatario en las aplicaciones nativas de Android.*
-
-* **[Creación de una Actividad de Recommendations (vídeo)](recommendations/create-a-recommendations-activity.md)**   <br>
-   *Recomiende productos a sus clientes a escala con esta función Premium.*
+<!--
+* **[Create a Recommendations Activity (Video)](recommendations/create-a-recommendations-activity.md)**
+    <br>
+    *Recommend products to your customers at scale with this Premium feature.* -->
 
 ## Selección de personal
 
