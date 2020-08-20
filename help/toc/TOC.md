@@ -4,9 +4,9 @@ user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 audience: end-user
 solution: Target
 translation-type: tm+mt
-source-git-commit: 51c9942aba45fbe7a28dec18ae6cd2a6979bacfc
+source-git-commit: ad45a6993e8ee58bed589f1994539839b44b484c
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '365'
 ht-degree: 8%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 8%
 + Audiencias{#audiences}
    + [Usar Audiencias](../audiences/use-audiences.md)
    + [Crear scripts de perfil](../audiences/create-profile-scripts.md)
-   + [Usar la comparación de Perfiles para generar Audiencias](../audiences/use-profile-comparison-to-build-audiences.md)
+   + [Utilizar la comparación de Perfiles para generar Audiencias](../audiences/use-profile-comparison-to-build-audiences.md)
 + Experiencias{#experiences}
    + [Uso del Compositor de experiencias visuales](../experiences/use-the-visual-experience-composer.md)
    + [Uso del Compositor de experiencias visuales para aplicaciones de una sola página (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
@@ -85,6 +85,5 @@ ht-degree: 8%
 + Móvil{#mobile}
    + [Implementación de Adobe Target con el SDK v4 de Adobe Mobile Services para Android](../mobile-v4/overview.md)
 + API{#apis}
-   + [Comprender las API de Destinatario](../apis/api-overview.md)
    + [Configuración de la autenticación de API de Adobe](../apis/configure-io-target-integration.md)
    + [Uso de las API de Recommendations](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)
