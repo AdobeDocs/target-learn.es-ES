@@ -11,9 +11,9 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Adobe Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 562cf1fe659ade7fa085a3ba6cb9e7ae3c1957a5
+source-git-commit: c67105ec2ec4a72f7c1080dccc0051f5a7ef5b26
 workflow-type: tm+mt
-source-wordcount: '1876'
+source-wordcount: '1877'
 ht-degree: 2%
 
 ---
@@ -35,7 +35,7 @@ En esta lección se explican los pasos preliminares necesarios para generar los 
 | Recurso | Detalles |
 | --- | --- |
 | Postman | Para completar estos pasos correctamente, obtenga la aplicación [](https://www.postman.com/downloads/) Postman para su sistema operativo. Postman Basic es gratis con la creación de cuentas. Aunque no es necesario para utilizar las API de Adobe Target en general, Postman facilita los flujos de trabajo de API y Adobe Target proporciona varias colecciones de Postman para ayudar a ejecutar sus API y aprender a funcionar. El resto de este tutorial asume el conocimiento práctico de Postman. Para obtener ayuda, consulte la documentación [de](https://learning.getpostman.com/)Postman. |
-| Referencias | Durante el resto de este tutorial se asume la familiaridad con los siguientes recursos:<UL><li>[Github de E/S Adobe](https://github.com/adobeio)</li><li>[Documentación de E/S de Adobe de Destinatario](https://developers.adobetarget.com/api/#introduction)</li><li>[Documentación de la API de Recommendations](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
+| Referencias | Durante el resto de este tutorial se asume la familiaridad con los siguientes recursos:<UL><li>[Github de E/S Adobe](https://github.com/adobeio)</li><li>[Documentación de E/S de Adobe de destinatario](https://developers.adobetarget.com/api/#introduction)</li><li>[Documentación de la API de Recommendations](https://developers.adobetarget.com/api/recommendations/)</li></ul> |
 
 ## Creación de un proyecto de E/S de Adobe
 
@@ -110,12 +110,14 @@ Estos pasos también se describen a continuación.
    ![JWT4](assets/configure-io-target-jwt4.png)
 5. Elija el archivo y haga clic en **Abrir**.
    ![JWT5](assets/configure-io-target-jwt5.png)
-6. En el modal **Administrar Entornos** de Postman, haga clic en el nombre del entorno recién importado para inspeccionarlo. (Es posible que el nombre de su entorno sea diferente del que se muestra aquí. Edite el nombre como desee. No necesariamente debe coincidir con el nombre del proyecto de Adobe).
+6. En el modal **Administrar Entornos** de Postman, haga clic en el nombre del entorno recién importado para inspeccionarlo. (Es posible que el nombre de su entorno sea diferente del que se muestra aquí. Edite el nombre como desee. No es necesario que coincida necesariamente con el nombre del proyecto de Adobe).
    ![JWT6](assets/configure-io-target-jwt6.png)
-7. Nota `CLIENT_SECRET` y `API_KEY` (junto con otras variables) tienen sus valores previamente rellenados, tomados de su integración como se define en Adobe Developer Console. (La variable Postman `CLIENT_SECRET` debe coincidir con la credencial de `CLIENT SECRET` Adobe tal como se muestra en la Consola de programadores, y `API_KEY` en Postman debe coincidir también `CLIENT ID` en la Consola de programadores). Por el contrario, la nota `PRIVATE_KEY`, `JWT_TOKEN`y `ACCESS_TOKEN` están en blanco. inicios proporcionando el `PRIVATE_KEY` valor.
+7. Nota `CLIENT_SECRET` y `API_KEY` (junto con otras variables) tienen sus valores previamente rellenados, tomados de su integración como se define en Adobe Developer Console. (La variable Postman `CLIENT_SECRET` debe coincidir con la credencial de `CLIENT SECRET` Adobe tal como se muestra en la Consola de programadores, y `API_KEY` en Postman debe coincidir también `CLIENT ID` en la Consola de programadores). Por el contrario, la nota `PRIVATE_KEY`, `JWT_TOKEN`y `ACCESS_TOKEN` están en blanco. Inicios proporcionando el `PRIVATE_KEY` valor.
    ![JWT7](assets/configure-io-target-jwt7.png)
 
-   >[!SURPRISE]
+   >[!NOTE]
+   >
+   >**¡Sorpresa!**
    >
    >¡Prueba emergente! ¿Puedes recordar dónde está tu clave privada?
    >Así es, está en el archivo `config` descargado anteriormente desde la consola de desarrolladores de Adobe!
