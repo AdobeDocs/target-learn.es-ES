@@ -1,10 +1,10 @@
 ---
 user-guide-title: 'Tutoriales de Adobe Target. '
-user-guide-url: /content/help/en/target-learn/tutorials/overview.html
+breadcrumb-title: Target Tutorials
 audience: end-user
 solution: Target
 translation-type: tm+mt
-source-git-commit: ad45a6993e8ee58bed589f1994539839b44b484c
+source-git-commit: 23f1b9b62d88596ec6571e9d4d90798dd14a5de9
 workflow-type: tm+mt
 source-wordcount: '365'
 ht-degree: 8%
@@ -60,7 +60,7 @@ ht-degree: 8%
 + Audiencias{#audiences}
    + [Usar Audiencias](../audiences/use-audiences.md)
    + [Crear scripts de perfil](../audiences/create-profile-scripts.md)
-   + [Utilizar la comparación de Perfiles para generar Audiencias](../audiences/use-profile-comparison-to-build-audiences.md)
+   + [Usar la comparación de Perfiles para generar Audiencias](../audiences/use-profile-comparison-to-build-audiences.md)
 + Experiencias{#experiences}
    + [Uso del Compositor de experiencias visuales](../experiences/use-the-visual-experience-composer.md)
    + [Uso del Compositor de experiencias visuales para aplicaciones de una sola página (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
