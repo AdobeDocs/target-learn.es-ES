@@ -8,10 +8,10 @@ doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 7265fd8611aacc94d1a66c10cd641c0644f2d43f
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
 source-wordcount: '1473'
 ht-degree: 0%
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 # Obtención [!DNL Recommendations] de la API de Envío
 
-Las [!DNL Recommendations] API de Adobe Target y Adobe Target se pueden usar para ofrecer respuestas a páginas web, pero también en experiencias no basadas en HTML, como aplicaciones, pantallas, consolas, correos electrónicos, kioscos y otros dispositivos de visualización. En otras palabras, cuando no se pueden utilizar [!DNL Target] bibliotecas y JavaScript, la API **[!DNL Target]de **Envío aún nos permite acceder a toda la gama de[!DNL Target]funcionalidades para ofrecer experiencias personalizadas.
+Las [!DNL Recommendations] API de Adobe Target y Adobe Target se pueden usar para ofrecer respuestas a páginas web, pero también en experiencias no basadas en HTML, como aplicaciones, pantallas, consolas, correos electrónicos, kioscos y otros dispositivos de visualización. En otras palabras, cuando no se pueden utilizar [!DNL Target] bibliotecas y JavaScript, la API **[!DNL Target]de** Envío aún nos permite acceder a toda la gama de [!DNL Target] funcionalidades para ofrecer experiencias personalizadas.
 
 >[!NOTE]
 >
@@ -114,11 +114,11 @@ En una sección [](manage-catalog.md) anterior aprendimos a administrar las enti
 | [Diseños](http://developers.adobetarget.com/api/recommendations/#tag/Designs) | Lista, creación, obtención, edición, eliminación y validación de diseños. |
 | [Entidades](http://developers.adobetarget.com/api/recommendations/#tag/Entities) | Guarde, elimine y obtenga entidades. |
 | [Promociones](http://developers.adobetarget.com/api/recommendations/#tag/Promotions) | Lista, creación, obtención, edición y eliminación de promociones. |
-| [Criterios de Categoría](http://developers.adobetarget.com/api/recommendations/#tag/Category-Criteria) | Lista, creación, obtención, edición y eliminación de criterios de categoría. |
+| [Criterios de categoría](http://developers.adobetarget.com/api/recommendations/#tag/Category-Criteria) | Lista, creación, obtención, edición y eliminación de criterios de categoría. |
 | [Criterios personalizados](http://developers.adobetarget.com/api/recommendations/#tag/Custom-Criteria) | Lista, creación, obtención, edición y eliminación de criterios personalizados. |
 | [Criterios de elemento](http://developers.adobetarget.com/api/recommendations/#tag/Item-Criteria) | Lista, creación, obtención, edición y eliminación de criterios de elementos. |
 | [Criterios de popularidad](http://developers.adobetarget.com/api/recommendations/#tag/Popularity-Criteria) | Lista, creación, obtención, edición y eliminación de criterios de popularidad. |
-| [Criterios de atributo de Perfil](http://developers.adobetarget.com/api/recommendations/#tag/Profile-Attribute-Criteria) | Lista, creación, obtención, edición y eliminación de criterios de atributos de perfil. |
+| [Criterios de atributo de perfil](http://developers.adobetarget.com/api/recommendations/#tag/Profile-Attribute-Criteria) | Lista, creación, obtención, edición y eliminación de criterios de atributos de perfil. |
 | [Criterios recientes](http://developers.adobetarget.com/api/recommendations/#tag/Recent-Criteria) | Lista, creación, obtención, edición y eliminación de criterios recientes. |
 | [Criterios de secuencia](http://developers.adobetarget.com/api/recommendations/#tag/Sequence-Criteria) | Lista, creación, obtención, edición y eliminación de criterios de secuencia. |
 
