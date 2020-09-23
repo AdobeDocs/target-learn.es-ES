@@ -8,10 +8,10 @@ doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 78b30bc0018527f9d8b2a5b50edee86e877d14c7
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
 source-wordcount: '931'
 ht-degree: 1%
@@ -27,7 +27,7 @@ Puede utilizar las API de [Recommendations](https://developers.adobetarget.com/a
 
 >[!TIP]
 >
->Enviar el **[!UICONTROL IMS: Generar + autenticación JWT mediante solicitud de autentificador]** de usuario siempre que necesite actualizar el token de acceso para la autenticación, ya que caduca pasados 24 horas. Consulte [Configurar la autenticación](../apis/configure-io-target-integration.md) de API de Adobe para obtener instrucciones.
+>Enviar el **[!UICONTROL IMS: Generar + autenticación JWT mediante solicitud de autentificador]** de usuario siempre que necesite actualizar el token de acceso para la autenticación, ya que caduca después de 24 horas. Consulte [Configurar la autenticación](../apis/configure-io-target-integration.md) de API de Adobe para obtener instrucciones.
 
 ![JWT3ff](assets/configure-io-target-jwt3ff.png)
 
@@ -127,7 +127,7 @@ El objeto JSON se puede escalar para enviar varios productos. Por ejemplo, este 
 
 1. ¡Ahora es tu turno! Utilice la API de **guardado de entidades** para agregar los siguientes elementos al catálogo. Utilice el JSON de muestra anterior como punto de partida. (Tendrá que ampliar el JSON para incluir entidades adicionales).
 
-   ![SaveEntities6.png](assets/SaveEntities06.png)
+   ![SaveEntities5.png](assets/SaveEntities06.png)
 
 Vaya, parece que esos dos últimos artículos no pertenecen. Inspeccionémoslos con la API de **obtención de entidad** y, si es necesario, elimínelos con la API de **eliminación de entidades** .
 
