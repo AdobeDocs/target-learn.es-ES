@@ -8,10 +8,10 @@ doc-type: tutorial
 activity: use
 feature: api
 topics: recommendations;adobe recommendations;premium;api;apis
-solution: Adobe Target
+solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 78b30bc0018527f9d8b2a5b50edee86e877d14c7
+source-git-commit: c221f434ce9daec03dbb4d897343775b40b14462
 workflow-type: tm+mt
 source-wordcount: '959'
 ht-degree: 1%
@@ -59,7 +59,7 @@ Continúe con este tutorial después de haber leído la advertencia anterior y s
 
 En este caso, tenemos un error. Analicemos el error examinando los criterios personalizados con mayor detenimiento, utilizando la API **de criterios personalizados de** Lista.
 
-## Criterios personalizados de Lista
+## Criterios personalizados de lista
 
 Para recuperar una lista de todos los criterios personalizados junto con los detalles de cada uno, utilice la API [de criterios personalizados de](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom)Lista. La sintaxis es:
 
