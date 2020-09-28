@@ -1,17 +1,17 @@
 ---
 title: Usar Audiencias en Adobe Target
 seo-title: Usar Audiencias en Adobe Target
-description: 'null'
+description: Descubra cómo se utilizan las Audiencias para la optimización.
 audience: marketer
 difficulty: 1
 author: Daniel Wright
 doc-type: use
 activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: 902c05d4403cf367c559bf51a14563859be7b804
+source-git-commit: 9d90be1fed34f07415d1619dfd007c4ec586ed0a
 workflow-type: tm+mt
-source-wordcount: '16'
-ht-degree: 6%
+source-wordcount: '22'
+ht-degree: 0%
 
 ---
 
