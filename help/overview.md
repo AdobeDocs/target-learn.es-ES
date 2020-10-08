@@ -3,27 +3,33 @@ title: Información general sobre Tutorials de Adobe Target
 seo-title: Información general sobre Tutorials de Adobe Target
 description: Una colección de tutoriales y vídeos explicativos para convertirlo en un usuario potente de Adobe Target
 translation-type: tm+mt
-source-git-commit: 49b21a85ca776f9da12f14cab85772395ba4ce16
+source-git-commit: c5b9c78f8934d3973ef78723fe3e57173bb65035
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '245'
 ht-degree: 16%
 
 ---
 
 
-# Información general
+# Información general sobre Tutorials de Adobe Target
 
 Adobe Target es la solución de Adobe Experience Cloud que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles. Utilice estos vídeos y tutoriales para conocer los numerosos componentes de Adobe Target.
 
 ## Novedades
 
-* **[Uso de la API de Recommendations (tutorial)](recommendations-api-tutorial/recs-api-overview.md)**   <br>
+* **[Uso de la API de Recommendations (tutorial)](recommendations-api-tutorial/recs-api-overview.md)**
+
+   <br>
    *Para desarrolladores: Realice prácticas prácticas con las[!DNL Recommendations]API para configurar y administrar[!DNL Recommendations]catálogos y criterios personalizados, entre otras cosas.*
 
-* **[Implementación de Adobe Target con el SDK v4 de Adobe Mobile Services para Android (tutorial)](mobile-v4/overview.md)**   <br>
+* **[Implementación de Adobe Target con el SDK v4 de Adobe Mobile Services para Android (tutorial)](mobile-v4/overview.md)**
+
+   <br>
    *Para desarrolladores que ya utilizan el SDK v4 de Adobe Mobile Services: aprenda a personalizar inicios las experiencias de la aplicación con Adobe Target. Estos pasos se proporcionan como compatibilidad con usuarios heredados.<!-- Concepts learned here are also applicable to Adobe Experience Platform Mobile SDK (v5).-->*
 
-* **[Uso de Ofertas de Recommendations (vídeo)](recommendations/use-recommendations-offers.md)**   <br>
+* **[Uso de Ofertas de Recommendations (vídeo)](recommendations/use-recommendations-offers.md)**
+
+   <br>
    *Para todos los usuarios de Destinatario: Obtenga información sobre cómo utilizar las recomendaciones de productos en Actividades A/B y de segmentación de experiencias.*
 
 <!--
