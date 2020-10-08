@@ -11,7 +11,7 @@ topics: recommendations;adobe recommendations;premium;api;apis
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 7e57febf5f552d697260283a3f98f9b403663f28
+source-git-commit: 624172d4bc4bc2431ad8af0956c93d3bcc0b9870
 workflow-type: tm+mt
 source-wordcount: '1885'
 ht-degree: 2%
@@ -181,13 +181,17 @@ En este ejercicio, utilizará su nuevo token de acceso de portador enviando una 
 1. Abra el modal Administrar Entornos y seleccione el entorno.
    ![JWT11](assets/configure-io-target-jwt11.png)
 1. Escriba para agregar una nueva variable `{{TENANT_ID}}` de entorno. Copie y pegue el valor de ID de inquilino en los campos VALOR **** INICIAL y VALOR **** ACTUAL para la nueva variable de `TENANT_ID` entorno.
+
    ![testtoken5](assets/configure-io-target-testtoken5.png)
+
    >[!NOTE]
    >
    >El Id. del inquilino es diferente del [!DNL Target] suyo `clientcode`. El ID del inquilino existe en la dirección URL cuando se inicia sesión en [!DNL Target]. Para obtener su ID de inquilino, inicie sesión en la [!DNL Adobe Experience Cloud], abra [!DNL Target]y haga clic en la [!DNL Target] tarjeta. Utilice el valor de ID de inquilino como se indica en el subdominio de URL.
    >
    >Por ejemplo, si la dirección URL al iniciar sesión en Adobe Target es
-   ><https://mycompany.experiencecloud.adobe.com/...>
+   >
+   >`<https://mycompany.experiencecloud.adobe.com/...>`
+   >
    >su ID de inquilino es &quot;mi empresa&quot;.
 
 1. Envíe su solicitud después de asegurarse de que ha seleccionado el entorno correcto. Debe recibir una respuesta que contenga su lista de actividades.
