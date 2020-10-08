@@ -1,17 +1,17 @@
 ---
-title: Información general sobre Tutorials de Adobe Target
-seo-title: Información general sobre Tutorials de Adobe Target
-description: Una colección de tutoriales y vídeos explicativos para convertirlo en un usuario potente de Adobe Target
+title: 'Tutoriales de Adobe Target. '
+seo-title: 'Tutoriales de Adobe Target. '
+description: Una colección de tutoriales y vídeos explicativos para convertirle en un usuario potente de Adobe Target
 translation-type: tm+mt
-source-git-commit: c5b9c78f8934d3973ef78723fe3e57173bb65035
+source-git-commit: eeb11a0ab043d8db4cb5b732baedd4cc44f6f57b
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 16%
+source-wordcount: '243'
+ht-degree: 20%
 
 ---
 
 
-# Información general sobre Tutorials de Adobe Target
+# Tutoriales de Adobe Target. 
 
 Adobe Target es la solución de Adobe Experience Cloud que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles. Utilice estos vídeos y tutoriales para conocer los numerosos componentes de Adobe Target.
 
