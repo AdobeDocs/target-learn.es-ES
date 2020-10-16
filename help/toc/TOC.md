@@ -1,14 +1,14 @@
 ---
 title: 'Tutoriales de Adobe Target. '
 user-guide-title: 'Tutoriales de Adobe Target. '
-breadcrumb-title: Target Tutorials
+breadcrumb-title: Tutoriales de Target
 audience: end-user
 solution: Target
 translation-type: tm+mt
 source-git-commit: 6b8bded0235ed9d894fe30ff505d39b789fbeef1
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 8%
+source-wordcount: '378'
+ht-degree: 9%
 
 ---
 
