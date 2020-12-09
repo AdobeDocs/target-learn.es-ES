@@ -4,10 +4,11 @@ user-guide-title: 'Tutoriales de Adobe Target. '
 breadcrumb-title: Tutoriales de Target
 audience: end-user
 solution: Target
+type: tutorial
 translation-type: tm+mt
-source-git-commit: 6b8bded0235ed9d894fe30ff505d39b789fbeef1
+source-git-commit: 009b19539470c64d7497e848e6042f8399192903
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 9%
 
 ---
@@ -37,13 +38,14 @@ ht-degree: 9%
    + [Próximos pasos para diseñar una implementación de Destinatario](../dev101/2.6-next-steps-design-target-implementation.md)
    + [Uso de la opción de inclusión para controlar las soluciones de Experience Cloud en función del consentimiento del usuario](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
    + [Comprender la implementación híbrida de Adobe Target](../implementation/hybrid-deployment.md)
+   + [Información general sobre la toma de decisiones en el dispositivo](../implementation/on-device-decisioning-overview.md)
 + Integraciones{#integrations}
    + [Integrar Destinatario con Analytics](../dev101/3.2-target-analytics.md)
    + [Usar Analytics como fuente de datos para Destinatario (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
    + [Integrar Destinatario con Audience Manager](../dev101/3.3-target-dmp.md)
    + [Integrar Destinatario con Audiencias Experience Cloud](../dev101/3.4-target-exc-audiences.md)
    + [Integración de Target con Campaign](../dev101/3.6-target-campaign.md)
-   + [Integración de Destinatario con E/S de Adobe](../dev101/3.7-target-io.md)
+   + [Integrar Destinatario con Adobe I/O](../dev101/3.7-target-io.md)
    + [Integrar Destinatario con Scene7](../dev101/3.8-target-scene7.md)
    + [Integrar Destinatario con Adobe Experience Manager](../dev101/3.5-target-aem.md)
    + [Uso de fragmentos de experiencia AEM en Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
