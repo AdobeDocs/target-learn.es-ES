@@ -1,5 +1,5 @@
 ---
-title: Crear pruebas multivariable en Adobe Target
+title: Creación de pruebas multivariable en Adobe Target
 description: 'null'
 audience: marketer
 difficulty: 1
