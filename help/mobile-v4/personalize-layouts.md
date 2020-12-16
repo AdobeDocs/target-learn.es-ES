@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # Personalización de diseños
 
-Ahora es el momento de unir todo y crear las experiencias personalizadas. Una _Actividad_ es el [!DNL Target] mecanismo que vincula las ubicaciones, audiencias y ofertas de forma que, cuando se realiza la solicitud desde la aplicación, responde [!DNL Target] con el contenido personalizado. Crearemos dos actividades de personalización en [!DNL Target] y validaremos que el contenido personalizado se muestra al usuario correcto en el momento y en la ubicación adecuados.
+Ahora es el momento de unir todo y crear las experiencias personalizadas. Una _Actividad_ es el mecanismo [!DNL Target] que vincula las ubicaciones, audiencias y ofertas juntas, de modo que cuando la solicitud se realiza desde la aplicación, [!DNL Target] responde con el contenido personalizado. Generaremos dos actividades de personalización en [!DNL Target] y validaremos que el contenido personalizado se muestra al usuario correcto en el momento y en la ubicación correctos.
 
 ## Objetivos de aprendizaje
 
@@ -41,14 +41,14 @@ A continuación se presenta un resumen de la actividad que construiremos:
 | Nuevos usuarios de aplicaciones móviles | wetravel_engagement_home, wetravel_engagement_search | Inicio: Participación de nuevos usuarios, buscar: Participación de nuevos usuarios |
 | Devolución de usuarios de aplicaciones móviles | wetravel_engagement_home, wetravel_engagement_search | Inicio: Usuarios que regresan, default_content |
 
-En la [!DNL Target] interfaz, haga lo siguiente:
+En la interfaz [!DNL Target] haga lo siguiente:
 
-1. Seleccione **[!UICONTROL Actividades]** > **[!UICONTROL Crear Actividad]** > Segmentación **[!UICONTROL de experiencias]**.
+1. Seleccione **[!UICONTROL Actividades]** > **[!UICONTROL Crear Actividad]** > **[!UICONTROL Segmentación de experiencias]**.
 
    ![Crear Actividad](assets/activity_create_1.jpg)
 
-1. Haga clic en Aplicación **[!UICONTROL móvil]**.
-1. Seleccione el Compositor **[!UICONTROL de formularios]**.
+1. Haga clic en **[!UICONTROL Aplicación móvil]**.
+1. Seleccione el **[!UICONTROL Compositor de formularios]**.
 1. Seleccione el espacio de trabajo (el mismo espacio de trabajo que utilizó en las lecciones anteriores).
 1. Seleccione la propiedad (la misma propiedad que utilizó en las lecciones anteriores).
 1. Haga clic en **[!UICONTROL Siguiente]**.
@@ -56,18 +56,18 @@ En la [!DNL Target] interfaz, haga lo siguiente:
    ![Crear Actividad](assets/activity_create_2.jpg)
 
 1. Cambie el título de la actividad a **[!UICONTROL Participación de usuarios]**.
-1. Seleccione **[!UICONTROL elipsis]** > **[!UICONTROL Cambiar Audiencia]**.
+1. Seleccione la **[!UICONTROL elipsis]** > **[!UICONTROL Cambiar Audiencia]**.
    ![Nuevos usuarios de aplicaciones móviles cambiar Audiencia](assets/activity_create_3.jpg)
-1. Establezca la audiencia en **[!UICONTROL Nuevos usuarios]** de aplicaciones móviles.
+1. Establezca la audiencia en **[!UICONTROL Nuevos usuarios de aplicaciones móviles]**.
 1. Haga clic en **[!UICONTROL Finalizado]**.
    ![Nueva Audiencia de usuarios de aplicaciones móviles](assets/activity_create_4.jpg)
 
 1. Cambie la ubicación a _wetravel_engagement_home_.
-1. Seleccione la flecha desplegable junto a Contenido predeterminado y seleccione **[!UICONTROL Cambiar Oferta]** HTML.
+1. Seleccione la flecha desplegable junto a Contenido predeterminado y seleccione **[!UICONTROL Cambiar Oferta HTML]**.
 
    ![Nueva Audiencia de usuarios de aplicaciones móviles](assets/activity_create_5.jpg)
 
-1. Seleccione la **[!UICONTROL página principal: Participación en la oferta de nuevos usuarios]** .
+1. Seleccione el **[!UICONTROL Inicio: Participación en la oferta Nuevos usuarios]**.
 1. Seleccione **[!UICONTROL Listo]**.
 
    ![Nueva Audiencia de usuarios de aplicaciones móviles](assets/activity_create_6.jpg)
@@ -75,12 +75,12 @@ En la [!DNL Target] interfaz, haga lo siguiente:
 1. Seleccione **[!UICONTROL Añadir ubicación]**.
    ![Nueva Audiencia de usuarios de aplicaciones móviles](assets/activity_create_7.jpg)
 
-1. Seleccione la ubicación _wetravel_engagement_search_ .
+1. Seleccione la ubicación _wetravel_engagement_search_.
 1. Cambie la oferta HTML.
 
    ![Nueva Audiencia de usuarios de aplicaciones móviles](assets/activity_create_8.jpg)
 
-1. Seleccione la **[!UICONTROL búsqueda: Participación en la oferta de nuevos usuarios]** .
+1. Seleccione la **[!UICONTROL búsqueda: Participación en la oferta Nuevos usuarios]**.
 1. Haga clic en **[!UICONTROL Finalizado]**.
 
    ![Nueva Audiencia de usuarios de aplicaciones móviles](assets/activity_create_9.jpg)
@@ -91,8 +91,8 @@ Acaba de conectar una audiencia a ubicaciones y ofertas, creando la experiencia 
 
 Ahora cree una experiencia para los usuarios de aplicaciones móviles que regresan:
 
-1. Seleccione **[!UICONTROL Añadir segmentación]** de experiencias a la izquierda.
-1. Seleccione la Audiencia **[!UICONTROL Devolución de usuarios]** de aplicaciones móviles.
+1. Seleccione **[!UICONTROL Añadir Segmentación de experiencias]** a la izquierda.
+1. Seleccione la Audiencia **[!UICONTROL Devolución de usuarios de aplicaciones móviles]**.
 1. Seleccione **[!UICONTROL Listo]**.
    ![Devolución de la Audiencia de usuarios de aplicaciones móviles](assets/activity_create_11.jpg)
 
@@ -102,21 +102,21 @@ Ahora utilice el mismo proceso que hemos utilizado anteriormente para configurar
 
 Continuemos con la siguiente pantalla de la configuración:
 
-1. Click **[!UICONTROL Next]** to advance to the **[!UICONTROL Targeting]** screen.
-1. Utilice la configuración predeterminada para la segmentación. Si tiene experiencias para audiencias que se superponen (por ejemplo, usuarios _de_ Nueva York y usuarios _que_ se vuelven a usar), puede organizar el orden de prioridad en esta pantalla.
-1. Haga clic en **[!UICONTROL Siguiente]** para avanzar hacia **[!UICONTROL Objetivos y configuración]**.
+1. Haga clic en **[!UICONTROL Siguiente]** para avanzar a la pantalla **[!UICONTROL Objetivo]**.
+1. Utilice la configuración predeterminada para la segmentación. Si tenía experiencias para audiencias que se solapaban (p. ej. _Usuarios de Nueva York_ y _Nuevos usuarios_) puede organizar el orden de prioridad en esta pantalla.
+1. Haga clic en **[!UICONTROL Siguiente]** para avanzar a **[!UICONTROL Objetivos y configuración]**.
 
    ![Actividad de participación de usuarios: establecimiento de objetivos predeterminado](assets/activity_engage_users_targeting.jpg)
 
 Ahora completemos la configuración de la actividad:
 
-1. Establezca el Objetivo **** principal en **[!UICONTROL Conversión]**.
-1. Establezca la acción en **[!UICONTROL Visualizó un mbox]** > _wetravel_context_dest_ (como esta ubicación se encuentra en la pantalla de confirmación, podemos utilizarla para medir las conversiones).
+1. Establezca el **[!UICONTROL Objetivo principal]** en **[!UICONTROL Conversión]**.
+1. Establezca la acción en **[!UICONTROL Visualizó un mbox]** > _wetravel_context_dest_ (como esta ubicación está en la pantalla de confirmación, podemos utilizarla para medir las conversiones).
 
    ![Actividad de participación de usuarios: objetivos](assets/activity_create_12.jpg)
 
 1. Mantenga el resto de la configuración en pantalla a los valores predeterminados.
-1. Click **[!UICONTROL Save &amp; Close]** to save the Activity.
+1. Haga clic en **[!UICONTROL Guardar y cerrar]** para guardar la Actividad.
 1. Active la **[!UICONTROL Actividad]** en la siguiente pantalla.
 
 ![Audiencia de la experiencia B](assets/activity_create_13.jpg)
@@ -144,8 +144,8 @@ Repita el mismo proceso que el anterior para la siguiente Actividad: &quot;Ofert
 
 En el paso Objetivos y configuración, cambiaremos el objetivo principal a la ubicación en la pantalla de confirmación de reservación:
 
-1. En Configuración **[!UICONTROL de]** Sistema de informes, establezca el Objetivo **** principal en **[!UICONTROL Conversión]**.
-1. Establezca la acción en **[!UICONTROL Visualizado un mbox]** > _wetravel_context_dest_ (en esta actividad, esta métrica no tiene sentido, ya que también es la misma ubicación que ofrece la experiencia).
+1. En **[!UICONTROL Configuración de Sistema de informes]**, establezca el **[!UICONTROL Objetivo principal]** en **[!UICONTROL Conversión]**.
+1. Establezca la acción en **[!UICONTROL Visualizó un mbox]** > _wetravel_context_dest_ (en esta actividad, esta métrica no tiene sentido, ya que también es la misma ubicación que ofrece la experiencia).
 1. Haga clic en **[!UICONTROL Guardar y cerrar]**.
 
 ![Ofertas contextuales: experiencia](assets/activity_create_14.jpg)
@@ -156,11 +156,11 @@ Active la Actividad en la siguiente pantalla.
 
 ## Validar la Oferta principal
 
-Ejecute el emulador y observe la primera oferta que aparece en la parte inferior de la pantalla de inicio. Si es un usuario que regresa con 5 o más inicios de la aplicación, verá la oferta de _bienvenida_ mostrada. Si es un usuario nuevo (menos de 5 inicios de aplicación), debería ver el _nuevo mensaje de usuario_ :
+Ejecute el emulador y observe la primera oferta que aparece en la parte inferior de la pantalla de inicio. Si es un usuario que regresa con 5 o más inicios de la aplicación, verá la oferta _bienvenido de nuevo_. Si es un usuario nuevo (menos de 5 inicios de aplicación), debería ver el mensaje _nuevo usuario_:
 
 ![Validar Oferta principal](assets/layout_home_validate.jpg)
 
-Si la nueva oferta de usuario no se muestra, intente borrar los datos del emulador. Esto restablecerá los inicios de la aplicación a 1 la próxima vez que se inicie. Esto se realiza en **[!UICONTROL Herramientas]** > Administrador **[!UICONTROL de AVD]**. También es posible que tenga que reiniciar Android Studio si Logcat no funciona correctamente:
+Si la nueva oferta de usuario no se muestra, intente borrar los datos del emulador. Esto restablecerá los inicios de la aplicación a 1 la próxima vez que se inicie. Esto se realiza en **[!UICONTROL Herramientas]** > **[!UICONTROL Administrador de AVD]**. También es posible que tenga que reiniciar Android Studio si Logcat no funciona correctamente:
 
 ![Emulador de borrado](assets/layout_home_validate_avd_wipe.jpg)
 
@@ -170,9 +170,9 @@ También puede validar la respuesta en Logcat filtrando para _wetravel_engagemen
 
 ## Validar la Oferta de búsqueda
 
-Seleccione **[!UICONTROL San José]** como su **[!UICONTROL salida]** y **[!UICONTROL San Diego]** como su **[!UICONTROL destino]** y haga clic en **[!UICONTROL Buscar bus]** para buscar autobuses disponibles.
+Seleccione **[!UICONTROL San José]** como su **[!UICONTROL Salida]** y **[!UICONTROL San Diego]** como su **[!UICONTROL Destino]** y haga clic en **[!UICONTROL Buscar bus]** para buscar buses disponibles.
 
-En la pantalla de resultados, debería ver el mensaje _usar filtros_ . Si es un usuario que regresa con 5 o más inicios de la aplicación, no aparecerá ningún mensaje aquí, ya que el contenido predeterminado se establece para esta ubicación (que está en blanco):
+En la pantalla de resultados, debería ver el mensaje _use filtros_. Si es un usuario que regresa con 5 o más inicios de la aplicación, no aparecerá ningún mensaje aquí, ya que el contenido predeterminado se establece para esta ubicación (que está en blanco):
 
 ![Validar Oferta de búsqueda](assets/layout_search_validate.jpg)
 
@@ -182,20 +182,20 @@ Ahora continúe con el proceso de reservación:
 
 * Seleccione un bus en la pantalla de resultados.
 * Seleccione un asiento en la pantalla de cierre de compra.
-* Seleccione **[!UICONTROL Tarjeta]** de crédito en la pantalla de pago (deje la información de pago en blanco - no se realizará ninguna reserva).
+* Seleccione **[!UICONTROL Tarjeta de crédito]** en la pantalla de pago (deje la información de pago en blanco - no se realizará ninguna reservación real).
 
-Como San Diego fue seleccionado como destino, debería ver la pancarta de oferta SAM _de_ DJ en la pantalla de confirmación:
+Como San Diego fue seleccionado como destino, debería ver la pancarta de oferta _DJ SAM_ en la pantalla de confirmación:
 
 ![Validar Oferta de contexto: San Diego](assets/layout_context_san_diego.jpg)
 
-Ahora seleccione **[!UICONTROL Listo]** e intente otra reserva con Los Ángeles como destino. La pantalla de confirmación debería mostrar la pancarta _Universal Studios_ :
+Ahora seleccione **[!UICONTROL Listo]** e intente otra reserva con Los Ángeles como destino. La pantalla de confirmación debe mostrar el letrero _Universal Studios_:
 
-![Validar Oferta de contexto: Los Ángeles](assets/layout_context_los_angeles.jpg)
+![Validar Oferta de contexto - Los Ángeles](assets/layout_context_los_angeles.jpg)
 
 ## Conclusión. 
 
-¡Felicitaciones! Esto concluye la parte principal del tutorial de Adobe Target SDK 4.x para Android. Ahora tiene las habilidades para implementar la personalización en las aplicaciones de Android. Puede consultar esta documentación y aplicación de demostración como referencia para sus futuros proyectos.
+¡Felicitaciones! Esto concluye la parte principal del tutorial de SDK 4.x de Adobe Target para Android. Ahora tiene las habilidades para implementar la personalización en las aplicaciones de Android. Puede consultar esta documentación y aplicación de demostración como referencia para sus futuros proyectos.
 
-Siguiente: El marcado de funciones es otra característica que se puede implementar con Adobe Target en Android. Para obtener más información sobre el marcado de funciones, consulte la siguiente lección.
+Siguiente: El marcado de funciones es otra función que se puede implementar con Adobe Target en Android. Para obtener más información sobre el marcado de funciones, consulte la siguiente lección.
 
 **[SIGUIENTE: Marca de función >](feature-flagging.md)**
