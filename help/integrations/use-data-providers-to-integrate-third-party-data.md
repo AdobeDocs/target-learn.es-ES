@@ -1,6 +1,6 @@
 ---
-title: Utilizar proveedores de datos para integrar datos de terceros en Adobe Target
-seo-title: Utilizar proveedores de datos para integrar datos de terceros en Adobe Target
+title: Usar proveedores de datos para integrar datos de terceros en Adobe Target
+seo-title: Usar proveedores de datos para integrar datos de terceros en Adobe Target
 description: Proveedores de datos es una funcionalidad que permite pasar fácilmente datos de terceros a Target.  Un tercero podría ser un servicio de pronóstico del clima, un DMP o incluso su propio servicio web. Puede usar estos datos para crear audiencias, dirigir contenido y enriquecer el perfil del visitante.
 audience: marketer
 difficulty: 5
@@ -16,7 +16,7 @@ ht-degree: 40%
 ---
 
 
-# Utilizar proveedores de datos para integrar datos de terceros en Adobe Target
+# Usar proveedores de datos para integrar datos de terceros en Adobe Target
 
 [!UICONTROL Proveedores de datos es una funcionalidad que permite pasar fácilmente datos de terceros a Target.  ]  Un tercero podría ser un servicio de pronóstico del clima, un DMP o incluso su propio servicio web. Puede usar estos datos para crear audiencias, dirigir contenido y enriquecer el perfil del visitante.
 
@@ -24,14 +24,14 @@ ht-degree: 40%
 
 ## Cómo utilizar los proveedores de datos
 
-1. El experto en implementación agrega código antes de at.js (o en la sección Encabezado de biblioteca de at.js) que realiza la llamada de API a terceros, analiza la respuesta y especifica con pares nombre/valor de la respuesta a la que se va a enviar [!DNL Target].
+1. El experto en implementación agrega código antes de at.js (o en la sección Encabezado de biblioteca de at.js) que hace la llamada de API a terceros, analiza la respuesta y especifica con pares nombre/valor de la respuesta para enviarla a [!DNL Target].
 1. at.js administra el parpadeo e incluye los pares nombre/valor como parámetros personalizados en la solicitud de Destinatario global.
-1. Marketer crea audiencias en la [!DNL Target] interfaz basándose en estos parámetros personalizados.
+1. Marketer crea audiencias en la interfaz [!DNL Target] basándose en estos parámetros personalizados.
 1. Marketer utiliza estas audiencias para destinatario de experiencias, actividades y métricas, así como para audiencias de sistemas de informes.
 
 >[!NOTE]
 >
->[!UICONTROL Los proveedores] de datos requieren at.js 1.3 o superior
+>[!UICONTROL Los ] proveedores de datos requieren at.js 1.3 o superior
 
 ## Materiales de apoyo
 
