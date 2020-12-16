@@ -1,8 +1,8 @@
 ---
 title: Marcado de funciones
 seo-title: Marcado de funciones
-description: Adobe Target se puede utilizar para experimentar con características UX como color, copia, botones, texto e imágenes, y para proporcionar esas características a audiencias específicas.
-seo-description: Adobe Target se puede utilizar para experimentar con características UX como color, copia, botones, texto e imágenes, y para proporcionar esas características a audiencias específicas.
+description: Adobe Target se puede utilizar para experimentar con funciones UX como color, copia, botones, texto e imágenes y proporcionar dichas funciones a audiencias específicas.
+seo-description: Adobe Target se puede utilizar para experimentar con funciones UX como color, copia, botones, texto e imágenes y proporcionar dichas funciones a audiencias específicas.
 feature: mobile
 kt: 3040
 audience: developer
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # Marcado de funciones
 
-Los propietarios de productos de aplicaciones móviles necesitan la flexibilidad para desplegar nuevas funciones en su aplicación sin tener que invertir en varias versiones de la aplicación. También es posible que deseen desplegar las funciones gradualmente a un porcentaje de la base de usuarios para comprobar la eficacia. Adobe Target se puede utilizar para experimentar con características UX como color, copia, botones, texto e imágenes, y para proporcionar esas características a audiencias específicas.
+Los propietarios de productos de aplicaciones móviles necesitan la flexibilidad para desplegar nuevas funciones en su aplicación sin tener que invertir en varias versiones de la aplicación. También es posible que deseen desplegar las funciones gradualmente a un porcentaje de la base de usuarios para comprobar la eficacia. Adobe Target se puede utilizar para experimentar con funciones UX como color, copia, botones, texto e imágenes y proporcionar dichas funciones a audiencias específicas.
 
 En esta lección, crearemos una oferta de &quot;indicador de función&quot; que se puede usar como activador para habilitar funciones específicas de la aplicación.
 
@@ -28,7 +28,7 @@ En esta lección, crearemos una oferta de &quot;indicador de función&quot; que 
 Al final de esta lección, podrá:
 
 * Añadir una nueva ubicación en la solicitud de recuperación previa de lotes
-* Crear una [!DNL Target] actividad con una oferta que se utilizará como indicador de función
+* Crear una actividad [!DNL Target] con una oferta que se utilizará como indicador de función
 * Carga y validación de la oferta del indicador de funciones en la aplicación
 
 ## Añadir una nueva ubicación en la solicitud de recuperación previa a la Actividad principal
@@ -112,7 +112,7 @@ Una vez agregado el código, ejecute el emulador en la Actividad Inicio y vea Lo
 
 ## Creación de una Oferta JSON con marca de característica
 
-Ahora crearemos una oferta JSON sencilla que actuará como indicador o activador de una audiencia específica: la audiencia que recibirá el despliegue de funciones en su aplicación. En la [!DNL Target] interfaz, cree una nueva oferta:
+Ahora crearemos una oferta JSON sencilla que actuará como indicador o activador de una audiencia específica: la audiencia que recibirá el despliegue de funciones en su aplicación. En la interfaz [!DNL Target], cree una nueva oferta:
 
 ![Crear Oferta JSON con marca de característica](assets/feature_flag_json_offer.jpg)
 
@@ -132,17 +132,17 @@ Ahora vamos a crear una actividad de prueba A/B con esa oferta. Para ver los pas
 
 1. Haga clic en **[!UICONTROL Añadir experiencia]** para agregar experiencia B.
 1. Deje la ubicación &quot;wetravel_feature_flag_recs&quot;
-1. Deje el contenido **[!UICONTROL predeterminado]** para el contenido
-1. Click **[!UICONTROL Next]** to advance to the [!UICONTROL Targeting] screen
+1. Deje **[!UICONTROL Contenido predeterminado]** para el contenido
+1. Haga clic en **[!UICONTROL Siguiente]** para avanzar a la pantalla [!UICONTROL Objetivo]
 
    ![Configuración de Actividad de marca de característica](assets/feature_flag_activity_2.jpg)
 
-1. En la pantalla [!UICONTROL Segmentación] , compruebe que el método de Asignación [!UICONTROL de] tráfico esté establecido en la configuración predeterminada (Manual) y que cada experiencia tenga la asignación predeterminada del 50 %. Seleccione **[!UICONTROL Siguiente]** para avanzar a **[!UICONTROL Objetivos y configuración]**.
+1. En la pantalla [!UICONTROL Objetivo], verifique que el método [!UICONTROL Asignación de tráfico] esté establecido en la configuración predeterminada (Manual) y que cada experiencia tenga la asignación predeterminada del 50%. Seleccione **[!UICONTROL Siguiente]** para avanzar a **[!UICONTROL Objetivos y configuración]**.
 
    ![Configuración de Actividad de marca de característica](assets/feature_flag_activity_3.jpg)
 
-1. Establezca el Objetivo **** principal en **[!UICONTROL Conversión]**.
-1. Defina la acción como **[!UICONTROL Visualizó un mbox]**. Utilizaremos la ubicación &quot;wetravel_context_dest&quot; (ya que esta ubicación se encuentra en la pantalla Confirmación, podemos utilizarla para ver si la nueva característica genera más conversiones).
+1. Establezca el **[!UICONTROL Objetivo principal]** en **[!UICONTROL Conversión]**.
+1. Establezca la acción en **[!UICONTROL Visualizó un mbox]**. Utilizaremos la ubicación &quot;wetravel_context_dest&quot; (ya que esta ubicación se encuentra en la pantalla Confirmación, podemos utilizarla para ver si la nueva característica genera más conversiones).
 1. Haga clic en **[!UICONTROL Guardar y cerrar]**.
 
    ![Configuración de Actividad de marca de característica](assets/feature_flag_activity_4.jpg)
@@ -151,19 +151,19 @@ Activar la actividad.
 
 ## Validar la Actividad de marca de función
 
-Ahora utilice el emulador para ver la solicitud. Dado que establecemos el objetivo en el 50 % de los usuarios, verá que la respuesta del indicador de característica contiene el `{enable:1}` valor.
+Ahora utilice el emulador para ver la solicitud. Dado que establecemos el objetivo en el 50 % de los usuarios, verá que la respuesta del indicador de características contiene el valor `{enable:1}`.
 
 ![Validación de marca de característica](assets/feature_flag_validation.jpg)
 
-Si no ve el `{enable:1}` valor, significa que no fue el objetivo de la experiencia. Como prueba temporal, para forzar la oferta a que se muestre, puede:
+Si no ve el valor `{enable:1}`, significa que no fue el objetivo de la experiencia. Como prueba temporal, para forzar la oferta a que se muestre, puede:
 
 1. Desactive la actividad.
 1. Cambie la asignación de tráfico al 100 % en la nueva experiencia de funciones.
 1. Guarde y reactive.
 1. Borre los datos del emulador y reinicie la aplicación.
-1. La oferta ahora debe devolver el `{enable:1}` valor.
+1. La oferta ahora debe devolver el valor `{enable:1}`.
 
-En un escenario activo, la respuesta se puede usar para habilitar más lógica personalizada en la aplicación para mostrar el conjunto de funciones específico que desea mostrar en la audiencia de destinatario. `{enable:1}`
+En un escenario activo, la respuesta `{enable:1}` se puede utilizar para habilitar más lógica personalizada en la aplicación para mostrar el conjunto de funciones específico que desea mostrar en la audiencia de destinatario.
 
 ## Conclusión. 
 
