@@ -21,7 +21,7 @@ Adobe Target es la solución de Adobe Experience Cloud que le proporciona todo l
 
    *Para arquitectos: Empiece con la toma de decisiones en el dispositivo para ofrecer experiencias de latencia cercanas a cero a sus consumidores.*
 * **[Uso de la API de Recommendations (tutorial)](recommendations-api-tutorial/recs-api-overview.md)**
-   *Para desarrolladores: Realice prácticas prácticas con las [!DNL Recommendations] API para configurar y administrar [!DNL Recommendations] catálogos y criterios personalizados, entre otras cosas.*
+   *Para desarrolladores: Realice prácticas prácticas con las  [!DNL Recommendations] API para configurar y administrar  [!DNL Recommendations] catálogos y criterios personalizados, entre otras cosas.*
 
 * **[Implementación de Adobe Target con el SDK v4 de Adobe Mobile Services para Android (tutorial)](mobile-v4/overview.md)**
 
