@@ -1,6 +1,6 @@
 ---
-title: Utilizar Analytics como fuente de datos para Destinatario (A4T)
-seo-title: Utilizar Analytics como fuente de datos para Destinatario (A4T)
+title: Usar Analytics como fuente de datos para Destinatario (A4T)
+seo-title: Usar Analytics como fuente de datos para Destinatario (A4T)
 description: 'null'
 audience: marketer
 difficulty: 2
@@ -16,6 +16,6 @@ ht-degree: 3%
 ---
 
 
-# Utilizar Adobe Analytics como fuente de datos para Adobe Target (A4T)
+# Usar Adobe Analytics como fuente de datos para Adobe Target (A4T)
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384/?quality=12)
