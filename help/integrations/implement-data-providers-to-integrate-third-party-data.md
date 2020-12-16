@@ -16,13 +16,13 @@ ht-degree: 0%
 ---
 
 
-# Implementar proveedores [!UICONTROL de datos] para integrar datos de terceros en Adobe Target
+# Implementar [!UICONTROL Data Providers] para integrar datos de terceros en Adobe Target
 
-Implementation details and examples of how to use Adobe Target&#39;s [!UICONTROL Data Providers] feature to retrieve data from third-party data providers and pass it in the Target request.
+Detalles de implementación y ejemplos de cómo utilizar la función [!UICONTROL Data Providers] de Adobe Target para recuperar datos de proveedores de datos de terceros y pasarlos en la solicitud de Destinatario.
 
 >[!NOTE]
 >
->[!UICONTROL Los proveedores] de datos requieren `at.js` 1.3 o superior
+>[!UICONTROL Los ] proveedores de datos requieren  `at.js` 1.3 o superior
 
 ## Implementar los componentes básicos de los proveedores de datos
 
@@ -44,7 +44,7 @@ Aquí puede encontrar un ejemplo práctico con el código utilizado en el vídeo
 
 >[!VIDEO](https://video.tv.adobe.com/v/22346/)
 
-Cómo incorporar datos de varios proveedores a su [!DNL Target] solicitud global.\
+Cómo incorporar datos de varios proveedores a su solicitud [!DNL Target] global.\
 Aquí puede encontrar un ejemplo práctico con el código utilizado en el vídeo:
 [https://target.enablementadobe.com/data-providers/combined.html](https://target.enablementadobe.com/data-providers/combined.html)
 
@@ -52,12 +52,12 @@ Aquí puede encontrar un ejemplo práctico con el código utilizado en el vídeo
 
 >[!VIDEO](https://video.tv.adobe.com/v/22347/)
 
-Minimice el impacto en el tiempo de carga de la página almacenando datos en un objeto de almacenamiento de sesión. Como alternativa, puede pasar los valores como parámetros de perfil utilizando el `profile.` prefijo y pasarlos simplemente en la primera [!DNL Target] solicitud de la sesión. Sin embargo, estaría limitado a pasar cincuenta parámetros de perfil por solicitud.
+Minimice el impacto en el tiempo de carga de la página almacenando datos en un objeto de almacenamiento de sesión. Como alternativa, puede pasar los valores como parámetros de perfil utilizando el prefijo `profile.` y pasarlos en la primera solicitud [!DNL Target] de la sesión. Sin embargo, estaría limitado a pasar cincuenta parámetros de perfil por solicitud.
 
 Aquí puede encontrar un ejemplo práctico con el código utilizado en el vídeo: [https://target.enablementadobe.com/data-providers/reducedCalls.html](https://target.enablementadobe.com/data-providers/reducedCalls.html)
 
 ## Materiales de apoyo
 
-* [Usar proveedores de datos con Adobe Target](use-data-providers-to-integrate-third-party-data.md)
+* [Uso de proveedores de datos con Adobe Target](use-data-providers-to-integrate-third-party-data.md)
 
 * [Documentación de proveedores de datos](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/targetgobalsettings.html#data-providers)
