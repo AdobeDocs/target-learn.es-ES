@@ -1,5 +1,5 @@
 ---
-user-guide-title: Adobe Target con el SDK v4 de Adobe Mobile Services para Android
+user-guide-title: Adobe Target con Adobe Mobile Services SDK v4 para Android
 user-guide-url: /content/help/en/target-learn/mobile-sdk-v4-android/overview.html
 audience: end-user
 translation-type: tm+mt
@@ -11,7 +11,7 @@ ht-degree: 2%
 ---
 
 
-# Adobe Target con el SDK v4 de Adobe Mobile Services para Android {#mobile-sdk-v4-android}
+# Adobe Target con Adobe Mobile Services SDK v4 para Android {#mobile-sdk-v4-android}
 
 + [Información general](overview.md)
 + [Descargar y actualizar la aplicación de muestra](download-and-update-the-sample-app.md)
