@@ -1,5 +1,5 @@
 ---
-title: 'Usar las capacidades artificiales de inteligencia y automatización del Adobe Target para enfrentar los desafíos de la personalización '
+title: 'Utilice las capacidades de inteligencia artificial y automatización de Adobe Target para cumplir con los desafíos de la personalización '
 description: Este vídeo trata sobre la importancia de la personalización, los desafíos de la personalización, la solución de estos desafíos (las cuatro ofertas de AI/Automatización en Adobe Target) y los elementos clave para ofrecer experiencias personalizadas. Es una versión editada de la presentación de Jamie Brighton en la Cumbre de Adobe 2018.
 seo-description: Este vídeo trata sobre la importancia de la personalización, los desafíos de la personalización, la solución de estos desafíos (las cuatro ofertas de AI/Automatización en Adobe Target) y los elementos clave para ofrecer experiencias personalizadas. Es una versión editada de la presentación de Jamie Brighton en la Cumbre de Adobe 2018.
 audience: marketer
