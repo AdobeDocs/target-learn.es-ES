@@ -1,8 +1,8 @@
 ---
 title: Crear Audiencias y Ofertas en Adobe Target
 seo-title: Crear Audiencias y Ofertas en Adobe Target
-description: 'En esta lección, construiremos audiencias y ofertas en Adobe Target para los tres lugares que implementamos en las lecciones anteriores. Se utilizarán para mostrar experiencias personalizadas en la siguiente lección.   '
-seo-description: En esta lección, construiremos audiencias y ofertas en Adobe Target para los tres lugares que implementamos en las lecciones anteriores. Se utilizarán para mostrar experiencias personalizadas en la siguiente lección.
+description: 'En esta lección, construiremos audiencias y ofertas en Adobe Target para las tres ubicaciones que implementamos en las lecciones anteriores. Se utilizarán para mostrar experiencias personalizadas en la siguiente lección.   '
+seo-description: En esta lección, construiremos audiencias y ofertas en Adobe Target para las tres ubicaciones que implementamos en las lecciones anteriores. Se utilizarán para mostrar experiencias personalizadas en la siguiente lección.
 feature: mobile
 kt: 3040
 audience: developer
@@ -19,7 +19,7 @@ ht-degree: 1%
 
 # Crear Audiencias y Ofertas en Adobe Target
 
-En esta lección, vamos a entrar en la [!DNL Target] interfaz y construir audiencias y ofertas para las tres ubicaciones que implementamos en las lecciones anteriores.
+En esta lección, vamos a entrar en la interfaz [!DNL Target] y construir audiencias y ofertas para las tres ubicaciones que implementamos en las lecciones anteriores.
 
 ## Objetivos de aprendizaje
 
@@ -51,20 +51,20 @@ Ahora vamos a crear las audiencias que usaremos para personalizar la aplicación
 
 ### Crear una Audiencia para nuevos usuarios
 
-Las Audiencias de Adobe Target se utilizan para identificar grupos específicos de visitantes. Las Ofertas se pueden dirigir a esos grupos específicos. Para las dos primeras ubicaciones, utilizaremos una audiencia &quot;Nuevos usuarios&quot;:
+Las Audiencias de Adobe Target se utilizan para identificar grupos específicos de visitantes. Las ofertas se pueden dirigir a esos grupos específicos. Para las dos primeras ubicaciones, utilizaremos una audiencia &quot;Nuevos usuarios&quot;:
 
 1. Haga clic en **[!UICONTROL Audiencias]** en la navegación superior.
-1. Click the **[!UICONTROL Create Audience]** button.
+1. Haga clic en el botón **[!UICONTROL Crear Audiencia]**.
    ![Crear una nueva Audiencia de usuario](assets/audience_new_mobile_app_users_1.jpg)
 
-1. Introduzca **[!UICONTROL Nuevos usuarios]** de aplicaciones móviles como nombre de audiencia.
+1. Escriba **[!UICONTROL Nuevos usuarios de aplicaciones móviles]** como nombre de audiencia.
 1. Seleccione **[!UICONTROL Añadir regla]**.
-1. Seleccione una regla **[!UICONTROL personalizada]** .
+1. Seleccione una regla **[!UICONTROL Personalizada]**.
    ![Crear una nueva Audiencia de usuario](assets/audience_new_mobile_app_users_2.jpg)
 
 1. Seleccione **[!UICONTROL a.Launches]**.
-1. Select **[!UICONTROL is less than]**.
-1. Enter **5**.
+1. Seleccionar **[!UICONTROL es menor que]**.
+1. Introduzca **5**.
 1. Guarde la nueva audiencia.
    ![Crear una nueva Audiencia de usuario](assets/audience_new_mobile_app_users_3.jpg)
 
@@ -72,7 +72,7 @@ Las Audiencias de Adobe Target se utilizan para identificar grupos específicos 
 
 Siga los mismos pasos enumerados anteriormente para crear una audiencia para los usuarios que regresan.
 
-1. Asigne un nombre a la audiencia _que devuelve usuarios_ de aplicaciones móviles.
+1. Asigne un nombre a la audiencia _Devolución de usuarios de aplicaciones móviles_.
 1. Usar **[!UICONTROL a.Launches es bueno o igual a 5]** como regla personalizada.
 1. Guarde la nueva audiencia.
 
@@ -80,7 +80,7 @@ Siga los mismos pasos enumerados anteriormente para crear una audiencia para los
 
 >[!NOTE]
 >
->Todas las métricas y dimensiones del ciclo vital recopiladas en el SDK [!DNL Target] móvil van precedidas de &quot;a&quot; (p. ej., a.Launches) y están disponibles en la opción &quot;Personalizado&quot; del menú desplegable y se pueden utilizar para generar audiencias.
+>Todas las métricas y dimensiones del ciclo vital recopiladas en el [!DNL Target] SDK móvil van precedidas de &quot;a&quot; (por ejemplo, a.Launches) y están disponibles en la opción &quot;Personalizado&quot; del menú desplegable y se pueden utilizar para generar audiencias.
 
 ### Crear una Audiencia para los usuarios que reserven un viaje a San Diego
 
@@ -88,9 +88,9 @@ A continuación, crearemos algunas audiencias para algunos de los destinos ofrec
 
 >[!NOTE]
 >
->Si un parámetro que espera ver en el menú desplegable Personalizado no aparece en la interfaz, compruebe con el doble que se esté pasando en la [!DNL Target] solicitud. Si ha comprobado que está en la solicitud pero no se ha cargado a medida en la [!DNL Target] interfaz, sólo puede escribir el nombre del parámetro y pulsar Intro para seguir definiendo la audiencia
+>Si un parámetro que espera ver en el menú desplegable Personalizado no aparece en la interfaz [!DNL Target], compruebe con doble que se esté pasando en la solicitud. Si ha comprobado que está en la solicitud, pero no se ha cargado de forma diferida en la interfaz [!DNL Target], sólo puede escribir el nombre del parámetro y pulsar Intro para continuar definiendo la audiencia
 
-1. Asigne un nombre al _destino de la audiencia: San Diego_.
+1. Asigne un nombre a la audiencia _Destino: San Diego_.
 1. Utilice una regla personalizada con esta definición: _locationDest contiene San Diego_.
 1. Guarde la nueva audiencia.
 
@@ -98,15 +98,15 @@ A continuación, crearemos algunas audiencias para algunos de los destinos ofrec
 
 ### Crear una Audiencia para los usuarios que reserven un viaje a Los Ángeles
 
-1. Asigne un nombre al _destino de la audiencia: Los Ángeles_
-1. Utilice una regla personalizada con esta definición: _locationDest contiene Los Angeles_
+1. Asigne un nombre a la audiencia _Destino: Los Ángeles_
+1. Utilice una regla personalizada con esta definición: _locationDest contiene Los Ángeles_
 1. Guarde la nueva audiencia.
 
 ![Crear Audiencia &quot;Los Ángeles&quot;](assets/audience_locationDest_los_angeles.jpg)
 
 ## Creación de ofertas
 
-Ahora, vamos a crear ofertas para mostrar estos mensajes. Como recordatorio, las ofertas son fragmentos de código/contenido que se entregan en la [!DNL Target] respuesta. Se crean con mayor frecuencia en la interfaz de usuario, pero también se pueden crear mediante API o mediante la integración de fragmentos de experiencia con Adobe Experience Manager. [!DNL Target] En las aplicaciones móviles, las ofertas JSON son comunes. En este tutorial, utilizaremos ofertas HTML, que se pueden utilizar para distribuir contenido de texto sin formato (incluido JSON) en la aplicación.
+Ahora, vamos a crear ofertas para mostrar estos mensajes. Como recordatorio, las ofertas son fragmentos de código/contenido que se entregan en la respuesta [!DNL Target]. Generalmente se crean en la interfaz de usuario [!DNL Target], pero también se pueden crear mediante API o mediante la integración de fragmentos de experiencia con Adobe Experience Manager. En las aplicaciones móviles, las ofertas JSON son comunes. En este tutorial, utilizaremos ofertas HTML, que se pueden utilizar para distribuir contenido de texto sin formato (incluido JSON) en la aplicación.
 
 ### Crear la Oferta para nuevos usuarios
 
@@ -114,12 +114,12 @@ Primero, creemos ofertas para los mensajes a Nuevos usuarios:
 
 1. Haga clic en **[!UICONTROL Ofertas]** en la navegación superior.
 1. Haga clic en **[!UICONTROL Crear]**.
-1. Seleccione Oferta **** HTML.
+1. Seleccione **[!UICONTROL Oferta HTML]**.
 
    ![Crear Oferta principal](assets/offer_home_1.jpg)
 
-1. Asigne un nombre a la _página principal de la oferta: Participación de nuevos usuarios_.
-1. Introduzca _Seleccionar origen y destino para buscar buses_ disponibles como código.
+1. Asigne un nombre a la oferta _Inicio: Participación de nuevos usuarios_.
+1. Escriba _Seleccione Origen y Destino para buscar buses disponibles_ como código.
 1. Guarde la nueva oferta.
 
    ![Crear Oferta HTML principal](assets/offer_home_2.jpg)
@@ -128,8 +128,8 @@ Primero, creemos ofertas para los mensajes a Nuevos usuarios:
 
 Ahora vamos a crear la oferta única para los usuarios que regresan (la segunda oferta será el contenido predeterminado, que se mostrará como nada):
 
-1. Asigne un nombre a la _página principal de la oferta: Usuarios_ que regresan.
-1. ¡Vuelve a entrar _Bienvenida! Utilice el código de promoción BACK30 durante el cierre de compra para obtener un descuento del 10 %._ como código HTML.
+1. Asigne un nombre a la oferta _Inicio: Usuarios que regresan_.
+1. Escriba _Bienvenido de nuevo. Utilice el código de promoción BACK30 durante el cierre de compra para obtener un descuento del 10 %._ como código HTML.
 1. Guarde la nueva oferta.
 
    ![Crear Oferta HTML principal](assets/offer_home_returning_users.jpg)
@@ -138,7 +138,7 @@ Ahora vamos a crear la oferta única para los usuarios que regresan (la segunda 
 
 Cuando se devuelve &quot;DJ&quot; a la actividad de agradecimiento, la lógica de la función filterRecommendationsBasedOnOffer() mostrará un letrero para &quot;Rock Night with DJ SAM&quot;:
 
-1. Asigne un nombre a la _promoción de ofertas para San Diego_.
+1. Asigne un nombre a la oferta _Promoción para San Diego_.
 1. Introduzca _DJ_ como código HTML.
 1. Guarde la nueva oferta.
 
@@ -148,8 +148,8 @@ Cuando se devuelve &quot;DJ&quot; a la actividad de agradecimiento, la lógica d
 
 Cuando se devuelve &quot;Universal&quot; a la actividad de agradecimiento, la lógica de la función filterRecommendationsBasedOnOffer() mostrará una pancarta para &quot;Universal Studios&quot;:
 
-1. Asigne un nombre a la _promoción de ofertas de Los Ángeles_.
-1. Introduzca _Universal_ como código HTML.
+1. Asigne un nombre a la oferta _Promoción para Los Ángeles_.
+1. Escriba _Universal_ como código HTML.
 1. Guarde la nueva oferta.
 
 ![Crear Oferta &quot;Los Ángeles&quot;](assets/offer_los_angeles.jpg)
