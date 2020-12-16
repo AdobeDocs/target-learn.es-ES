@@ -1,6 +1,6 @@
 ---
-title: Creación de secuencias de comandos de Perfil en Adobe Target
-seo-title: Creación de secuencias de comandos de Perfil en Adobe Target
+title: Creación de scripts de Perfil en Adobe Target
+seo-title: Creación de scripts de Perfil en Adobe Target
 description: 'null'
 audience: marketer
 difficulty: 5
@@ -16,6 +16,6 @@ ht-degree: 5%
 ---
 
 
-# Creación de secuencias de comandos de Perfil en Adobe Target
+# Creación de scripts de Perfil en Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17394/?quality=12)
