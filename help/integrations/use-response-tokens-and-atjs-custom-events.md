@@ -18,13 +18,13 @@ ht-degree: 2%
 
 # Usar tokens de respuesta y Eventos personalizados de at.js con Adobe Target
 
-Los tokens de respuesta y `at.js` los Eventos personalizados le permiten compartir información de perfiles de [!DNL Target] sistemas de terceros. Cualquier objeto del perfil de [!DNL Target] [!DNL Target] visitante, incluidos los atributos de perfil personalizados, la información geográfica, los detalles de actividad y los perfiles integrados, se pueden agregar a la respuesta, donde puede utilizar JavaScript personalizado para integrarlo con un tercero.
+Los tokens de respuesta y los `at.js` Eventos personalizados le permiten compartir información de perfiles de [!DNL Target] a sistemas de terceros. Cualquier objeto del perfil de visitante [!DNL Target], incluidos los atributos de perfil personalizados, la información geográfica, los detalles de actividad y los perfiles integrados, se puede agregar a la respuesta [!DNL Target], donde puede utilizar JavaScript personalizado para integrarlo con un tercero.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/?quality=12)
 
 ## Cómo usar tokens de respuesta y Eventos personalizados de at.js
 
-1. Determinar de qué datos necesita [!DNL Target]
+1. Determinar qué datos necesita de [!DNL Target]
 1. Active los tokens de respuesta para los datos que necesita activando el botón de alternancia en la pantalla Configuración->Tokens de respuesta
 1. Determinar qué detector de evento necesita utilizar
 1. Escriba el JavaScript necesario para escuchar el evento de Adobe Target, leer los tokens de respuesta y hacer lo que necesite para la integración
