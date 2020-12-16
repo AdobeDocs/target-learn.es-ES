@@ -37,7 +37,7 @@ Al final de este vídeo, podrá:
 * Describir la toma de decisiones en dispositivos y sus ventajas
 * Habilitar la toma de decisiones en el dispositivo en Destinatario
 * Creación de una actividad de compositor basada en formularios para su uso con la toma de decisiones en dispositivos
-* Obtenga más información sobre la configuración del SDK necesaria para la toma de decisiones en el dispositivo en la documentación del SDK de [Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* Para obtener más información sobre la configuración del SDK necesaria para la toma de decisiones en el dispositivo, visite la [documentación del SDK de Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
 * Comprender la experiencia de los usuarios finales con el contenido entregado mediante la toma de decisiones en el dispositivo
 
 
@@ -47,4 +47,4 @@ Al final de este vídeo, podrá:
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
 
-For more information, visit the [Adobe Target SDK documentation](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning).
+Para obtener más información, visite la [documentación del SDK de Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning).
