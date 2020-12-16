@@ -16,7 +16,7 @@ ht-degree: 31%
 ---
 
 
-# Uso del Compositor de experiencias [!UICONTROL visuales] en Adobe Target
+# Utilice el [!UICONTROL Compositor de experiencias visuales] en Adobe Target
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399/?quality=12)
 
