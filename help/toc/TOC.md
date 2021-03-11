@@ -6,88 +6,89 @@ audience: end-user
 solution: Target
 type: tutorial
 translation-type: tm+mt
-source-git-commit: 009b19539470c64d7497e848e6042f8399192903
+source-git-commit: 60a434ae3bac84a9dfc3715850bb93ca8598ef2b
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 9%
+source-wordcount: '393'
+ht-degree: 8%
 
 ---
 
 
 # Tutoriales de Adobe Target.   {#tutorials}
 
-+ [Información general sobre Tutorials de Adobe Target](../overview.md)
++ [Información general sobre los Tutorials de Adobe Target](../overview.md)
 + Administration{#administration}
    + [Estrategia de implementación y gobernanza del sistema](../dev101/1.1-implementation-strategy-sys-governance.md)
-   + [Configuración de las preferencias de cuenta](../administration/set-up-account-preferences.md)
+   + [Configurar preferencias de cuenta](../administration/set-up-account-preferences.md)
    + [Comprender los permisos de usuario de Enterprise](../administration/understanding-enterprise-user-permissions.md)
-   + [Configurar permisos de usuario de Enterprise](../dev101/1.2-configure-ent-user-permissions.md)
-   + [Configurar espacios de trabajo](../administration/set-up-workspaces.md)
-   + [Introducción a Ajustes de administración](../dev101/1.3-intro-to-admin-setup.md)
+   + [Configuración de permisos de usuario de Enterprise](../dev101/1.2-configure-ent-user-permissions.md)
+   + [Configuración de espacios de trabajo](../administration/set-up-workspaces.md)
+   + [Introducción a la configuración de administración](../dev101/1.3-intro-to-admin-setup.md)
    + [Configurar propiedades](../administration/set-up-properties.md)
 + Implementación{#implementation}
-   + [Introducción a la implementación de Destinatario](../dev101/2.1-intro-to-target-implementation.md)
-   + [Integrar Destinatario con Launch](../dev101/3.1-target-launch.md)
+   + [Introducción a la implementación de Target](../dev101/2.1-intro-to-target-implementation.md)
+   + [Integración de Target con Launch](../dev101/3.1-target-launch.md)
    + [Implementar en sitios web con Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)
-   + [Ventajas de utilizar ubicaciones](../dev101/2.2-benefits-of-locations.md)
-   + [Introducción a las solicitudes de Destinatario](../dev101/2.3-intro-to-target-requests.md)
-   + [Introducción a los parámetros de Destinatario](../dev101/2.4-intro-to-target-params.md)
-   + [Comprender cómo funciona at.js 2.0](../implementation/understanding-how-atjs-20-works.md)
+   + [Ventajas de usar ubicaciones](../dev101/2.2-benefits-of-locations.md)
+   + [Introducción a las solicitudes de Target](../dev101/2.3-intro-to-target-requests.md)
+   + [Introducción a los parámetros de Target](../dev101/2.4-intro-to-target-params.md)
+   + [Cómo funciona at.js 2.0](../implementation/understanding-how-atjs-20-works.md)
    + [Implementar at.js 2.0 en una aplicación de una sola página (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
-   + [Diseño de una implementación de Destinatario](../dev101/2.5-design-target-implementation.md)
-   + [Próximos pasos para diseñar una implementación de Destinatario](../dev101/2.6-next-steps-design-target-implementation.md)
-   + [Uso de la opción de inclusión para controlar las soluciones de Experience Cloud en función del consentimiento del usuario](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
+   + [Diseño de una implementación de Target](../dev101/2.5-design-target-implementation.md)
+   + [Pasos siguientes para diseñar una implementación de Target](../dev101/2.6-next-steps-design-target-implementation.md)
+   + [Uso de la inclusión para controlar soluciones de Experience Cloud basadas en el consentimiento del usuario](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
    + [Comprender la implementación híbrida de Adobe Target](../implementation/hybrid-deployment.md)
-   + [Información general sobre la toma de decisiones en el dispositivo](../implementation/on-device-decisioning-overview.md)
+   + [Información general sobre las decisiones en dispositivos](../implementation/on-device-decisioning-overview.md)
 + Integraciones{#integrations}
-   + [Integrar Destinatario con Analytics](../dev101/3.2-target-analytics.md)
-   + [Usar Analytics como fuente de datos para Destinatario (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
-   + [Integrar Destinatario con Audience Manager](../dev101/3.3-target-dmp.md)
-   + [Integrar Destinatario con Audiencias Experience Cloud](../dev101/3.4-target-exc-audiences.md)
+   + [Integración de Target con Analytics](../dev101/3.2-target-analytics.md)
+   + [Uso de Analytics como fuente de datos para Target (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
+   + [Configuración de informes de A4T en Analysis Workspace para actividades de segmentación automática](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
+   + [Integración de Target con el Audience Manager](../dev101/3.3-target-dmp.md)
+   + [Integración de Target con Audiencias de Experience Cloud](../dev101/3.4-target-exc-audiences.md)
    + [Integración de Target con Campaign](../dev101/3.6-target-campaign.md)
-   + [Integrar Destinatario con Adobe I/O](../dev101/3.7-target-io.md)
-   + [Integrar Destinatario con Scene7](../dev101/3.8-target-scene7.md)
-   + [Integrar Destinatario con Adobe Experience Manager](../dev101/3.5-target-aem.md)
-   + [Uso de fragmentos de experiencia AEM en Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
-   + [Entrada de datos: Utilizar proveedores de datos para integrar datos de terceros](../integrations/use-data-providers-to-integrate-third-party-data.md)
-   + [Entrada de datos: Implementar proveedores de datos para integrar datos de terceros](../integrations/implement-data-providers-to-integrate-third-party-data.md)
-   + [Salida de datos: Usar tokens de respuesta y Eventos personalizados de at.js](../integrations/use-response-tokens-and-atjs-custom-events.md)
+   + [Integración de Target con Adobe I/O](../dev101/3.7-target-io.md)
+   + [Integración de Target con Scene7](../dev101/3.8-target-scene7.md)
+   + [Integración de Target con Adobe Experience Manager](../dev101/3.5-target-aem.md)
+   + [Uso AEM fragmentos de experiencias en Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [Entrada de datos: Usar proveedores de datos para integrar datos de terceros](../integrations/use-data-providers-to-integrate-third-party-data.md)
+   + [Entrada de datos: Implemente Proveedores de datos para integrar datos de terceros](../integrations/implement-data-providers-to-integrate-third-party-data.md)
+   + [Salida de datos: Use tokens de respuesta y eventos personalizados de at.js](../integrations/use-response-tokens-and-atjs-custom-events.md)
 + Actividades{#activities}
-   + [Comprender los tipos de Actividades](../activities/understanding-the-types-of-activities.md)
-   + [Utilice las capacidades de inteligencia artificial y automatización para cumplir con los desafíos de la personalización](../activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)
+   + [Comprender los tipos de actividades](../activities/understanding-the-types-of-activities.md)
+   + [Usar las capacidades artificiales de inteligencia y automatización para cumplir con los desafíos de la personalización](../activities/use-the-artificial-intelligence-and-automation-capabilities-to-meet-the-challenges-of-personalization.md)
    + [Crear pruebas A/B](../activities/create-ab-tests.md)
-   + [Crear Actividades de segmentación de experiencias](../activities/create-experience-targeting-activities.md)
+   + [Crear actividades de segmentación de experiencias](../activities/create-experience-targeting-activities.md)
    + [Crear pruebas multivariable](../activities/create-multivariate-tests.md)
-   + [Usar objetivo de Actividad](../activities/use-activity-targeting.md)
-   + [Usar configuración de Actividad](../activities/use-activity-settings.md)
-   + [Usar métricas en Actividades](../activities/use-metrics-in-activities.md)
+   + [Usar Segmentación de actividades](../activities/use-activity-targeting.md)
+   + [Usar la configuración de actividades](../activities/use-activity-settings.md)
+   + [Uso de métricas en actividades](../activities/use-metrics-in-activities.md)
 + Audiencias{#audiences}
-   + [Usar Audiencias](../audiences/use-audiences.md)
+   + [Usar audiencias](../audiences/use-audiences.md)
    + [Crear scripts de perfil](../audiences/create-profile-scripts.md)
-   + [Usar la comparación de Perfiles para generar Audiencias](../audiences/use-profile-comparison-to-build-audiences.md)
+   + [Usar la comparación de perfiles para crear audiencias](../audiences/use-profile-comparison-to-build-audiences.md)
 + Experiencias{#experiences}
-   + [Uso del Compositor de experiencias visuales](../experiences/use-the-visual-experience-composer.md)
+   + [Usar el Compositor de experiencias visuales](../experiences/use-the-visual-experience-composer.md)
    + [Uso del Compositor de experiencias visuales para aplicaciones de una sola página (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
    + [Uso del Compositor de experiencias basadas en formularios](../experiences/use-the-form-based-experience-composer.md)
-   + [Uso de fragmentos de experiencia AEM en Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [Uso AEM fragmentos de experiencias en Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Informes{#reports}
-   + [Uso de los informes de perspectivas de personalización](../reports/use-the-personalization-insights-reports.md)
+   + [Uso de los informes de Perspectivas de personalización](../reports/use-the-personalization-insights-reports.md)
 + Recommendations{#recommendations}
    + [Crear una actividad de Recommendations](../recommendations/create-a-recommendations-activity.md)
-   + [Usar Ofertas de Recommendations](../recommendations/use-recommendations-offers.md)
+   + [Usar ofertas de Recommendations](../recommendations/use-recommendations-offers.md)
    + [Explicación de las fuentes](../recommendations/understanding-feeds.md)
    + [Crear una fuente](../recommendations/create-a-feed.md)
    + [Crear criterios](../recommendations/create-criteria.md)
    + [Crear diseños personalizados](../recommendations/create-custom-designs.md)
-   + [Crear colecciones y exclusiones](../recommendations/create-collections-and-exclusions.md)
+   + [Creación de colecciones y exclusiones](../recommendations/create-collections-and-exclusions.md)
 + Resolución de problemas{#troubleshooting}
-   + [Resolución de problemas con el Experience Cloud Debugger](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
-   + [Resolución de problemas con rastros de Destinatario](../troubleshooting/troubleshoot-with-target-traces.md)
+   + [Solución de problemas con el Experience Cloud Debugger](../troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md)
+   + [Resolución de problemas con trazos de destino](../troubleshooting/troubleshoot-with-target-traces.md)
    + [Solución de problemas de errores de mbox](../dev101/4.1-troubleshoot-mbox-errors.md)
-   + [Solución de errores de Actividad](../dev101/4.2-troubleshoot-activity-errors.md)
+   + [Resolución de problemas de errores de actividades](../dev101/4.2-troubleshoot-activity-errors.md)
    + [Solución de problemas de errores de integración de A4T](../dev101/4.3-troubleshoot-integration-errors.md)
 + Móvil{#mobile}
-   + [Implementación de Adobe Target con el SDK v4 de Adobe Mobile Services para Android](../mobile-v4/overview.md)
+   + [Implementar Adobe Target con el SDK v4 de Adobe Mobile Services para Android](../mobile-v4/overview.md)
 + API{#apis}
    + [Configuración de la autenticación de API de Adobe](../apis/configure-io-target-integration.md)
    + [Uso de las API de Recommendations](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)
