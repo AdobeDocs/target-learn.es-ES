@@ -10,7 +10,7 @@ topic: Analytics for Target (A4T), Segmentación automática
 solution: Target
 author: Judy Kim
 translation-type: tm+mt
-source-git-commit: 814ce9b49eff6cbc41a84bb65718f4e5f4f0142d
+source-git-commit: 98ea1a58e1adef2f8778fc0f6654228bf8b550ab
 workflow-type: tm+mt
 source-wordcount: '2237'
 ht-degree: 1%
@@ -34,7 +34,7 @@ Este tutorial explica las modificaciones recomendadas para analizar las activida
 
 Para crear un informe de A4T para [!DNL Auto-Target], comience con el panel **[!UICONTROL Analytics para Target]** en Workspace, como se muestra a continuación, o comience con una tabla improvisada. A continuación, realice las siguientes selecciones:
 
-1. **[!UICONTROL Experiencia]** de control: Puede elegir cualquier experiencia; sin embargo, posteriormente anularemos esta opción. Tenga en cuenta que para las actividades [!DNL Auto-Target], la experiencia de control es realmente una estrategia de control, que puede ser a) Servir aleatoriamente entre todas las experiencias o b) Servir una sola experiencia (esta opción se realiza en el momento de crear la actividad en Adobe Target). Incluso si ha elegido la opción (b) (su actividad [!DNL Auto-Target] designó una experiencia específica como Control), debe seguir el enfoque descrito en este tutorial para analizar A4T en actividades [!DNL Auto-Target].
+1. **[!UICONTROL Experiencia]** de control: Puede elegir cualquier experiencia; sin embargo, anulará esta opción más adelante. Tenga en cuenta que para las actividades [!DNL Auto-Target], la experiencia de control es realmente una estrategia de control, que puede ser a) Servir aleatoriamente entre todas las experiencias o b) Servir una sola experiencia (esta opción se realiza en el momento de crear la actividad en Adobe Target). Incluso si ha elegido la opción (b) (su actividad [!DNL Auto-Target] designó una experiencia específica como Control), debe seguir el enfoque descrito en este tutorial para analizar A4T en actividades [!DNL Auto-Target].
 2. **[!UICONTROL Métrica de normalización]**: Seleccione Visitas.
 3. **[!UICONTROL Métricas de éxito]**: Aunque puede seleccionar cualquier métrica en la que desee informar, generalmente debe ver los informes sobre la misma métrica que se eligió para la optimización durante la creación de la actividad en Adobe Target.
 
@@ -45,7 +45,7 @@ Para crear un informe de A4T para [!DNL Auto-Target], comience con el panel **[!
 >
 >Para configurar el panel Analytics for Target para actividades de segmentación automática , elija cualquier experiencia de control, elija Visitas como métrica de normalización y elija la misma métrica de objetivo que se eligió para la optimización durante la creación de la actividad de Target.
 
-## Utilice la dimensión Control frente a Destino para comparar el modelo ML de ensamblado de Adobe Target con su control
+## Utilice la dimensión Control vs. Targeted para comparar el modelo ML de ensamblado de Adobe Target con su control
 
 El panel predeterminado de A4T está diseñado para pruebas A/B clásicas (manuales) o actividades de asignación automática, cuyo objetivo es comparar el rendimiento de experiencias individuales con la experiencia de control. En las actividades [!DNL Auto-Target], sin embargo, la primera comparación de pedidos debe ser entre Control *strategy* y la *estrategia* de destino (en otras palabras, determinar el alza del rendimiento general del modelo ML de ensamblado [!DNL Auto-Target] sobre la estrategia de control).
 
@@ -86,9 +86,9 @@ Permita comparar los informes de nivel de visitante y de nivel de visita:
 
 | Experiencia | Visitantes únicos | Visitas | Conversiones | Norma de visitante. Conv. de pulsaciones | La norma de la visita. Conv. de pulsaciones |
 | --- | --- | --- | --- | --- | --- |
-| Una | 1 | 3 | - | 0% | 0% |
+| Una | 1 | 1 | - | 0% | 0% |
 | B | 2 | 3 | 1 | 50% | 33,3 % |
-| Totales | 2 | 4 | 1 | 50 % | 25 % |
+| Totales | 2 | 4 | 3 | 50 % | 25 % |
 *Tabla 1: Ejemplo que compara informes normalizados por visitantes con informes normalizados por visitas para un escenario en el que las decisiones se mantienen fieles a una visita (y no al visitante, como sucede con las pruebas A/B normales). Las métricas normalizadas por visitantes son confusas en este escenario.*
 
 Como se muestra en la tabla, hay una clara incongruencia de los números de nivel de visitante. A pesar de que hay dos visitantes únicos totales, no se trata de una suma de visitantes únicos individuales para cada experiencia. Aunque la tasa de conversión a nivel de visitante no es necesariamente incorrecta, cuando se compara una experiencia individual, las tasas de conversión a nivel de visita probablemente tengan mucho más sentido. Formalmente, la unidad de análisis (&quot;visitas&quot;) es la misma que la unidad de adherencia en la toma de decisiones, lo que significa que se pueden agregar y comparar desgloses de métricas a nivel de experiencia.
