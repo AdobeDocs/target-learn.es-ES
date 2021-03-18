@@ -1,9 +1,8 @@
 ---
 user-guide-title: Uso de las API de Recommendations
 user-guide-url: /content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html
-solution: Target
 translation-type: tm+mt
-source-git-commit: e7965702b852da879012837241dded12c0f182c2
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
 source-wordcount: '25'
 ht-degree: 0%
@@ -16,7 +15,7 @@ ht-degree: 0%
 + [Información general de la API de Recs](recs-api-overview.md)
 + [Administrar el catálogo con API](manage-catalog.md)
 + [Administrar criterios personalizados](manage-custom-criteria.md)
-+ [Uso de la API de Envío con Recommendations](fetch-recs-server-side-delivery-api.md)
++ [Uso de la API de envío con Recommendations](fetch-recs-server-side-delivery-api.md)
 
 <!--+ [Debug API calls](6debug.md)
 + [Download the Calculated Recommendations CSV](7download-calc-recs-csv.md)-->
