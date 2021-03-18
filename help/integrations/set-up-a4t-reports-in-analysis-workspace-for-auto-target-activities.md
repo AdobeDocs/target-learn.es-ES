@@ -3,15 +3,15 @@ title: Configuración de informes de A4T en Analysis Workspace para actividades 
 description: Una vez que haya configurado la integración de Analytics for Target (A4T) y esté ejecutando actividades de segmentación automática, ¿cómo puede asegurarse de que está interpretando los resultados correctamente? Siga estos pasos para configurar los informes de A4T en Analysis Workspace y obtener los resultados esperados al ejecutar actividades de segmentación automática.
 role: Profesional empresarial
 level: Intermedio
-topic: Personalización
-feature: Analytics for Target (A4T), Segmentación automática
+topic: Personalización, integraciones
+feature: Analytics for Target (A4T), Segmentación automática, integraciones
 doc-type: tutorial
 thumbnail: null
 kt: null
 translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '2262'
+source-wordcount: '2264'
 ht-degree: 1%
 
 ---
@@ -85,7 +85,7 @@ Permita comparar los informes de nivel de visitante y de nivel de visita:
 
 | Experiencia | Visitantes únicos | Visitas | Conversiones | Norma de visitante. Conv. de pulsaciones | La norma de la visita. Conv. de pulsaciones |
 | --- | --- | --- | --- | --- | --- |
-| Una | 1 | 1 | - | 0% | 0% |
+| Una | 1 | 3 | - | 0% | 0% |
 | B | 2 | 3 | 1 | 50% | 33,3 % |
 | Totales | 2 | 4 | 1 | 50 % | 25 % |
 *Tabla 1: Ejemplo que compara informes normalizados por visitantes con informes normalizados por visitas para un escenario en el que las decisiones se mantienen fieles a una visita (y no al visitante, como sucede con las pruebas A/B normales). Las métricas normalizadas por visitantes son confusas en este escenario.*
