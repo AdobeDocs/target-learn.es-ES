@@ -1,18 +1,17 @@
 ---
 title: Configuración de informes de A4T en Analysis Workspace para actividades de segmentación automática
-description: Configuración de informes de A4T en Analysis Workspace para obtener los resultados esperados al ejecutar actividades de segmentación automática
-kt: null
-audience: business user
-doc-type: tutorial
-activity: use, setup
+description: Una vez que haya configurado la integración de Analytics for Target (A4T) y esté ejecutando actividades de segmentación automática, ¿cómo puede asegurarse de que está interpretando los resultados correctamente? Siga estos pasos para configurar los informes de A4T en Analysis Workspace y obtener los resultados esperados al ejecutar actividades de segmentación automática.
+role: Profesional empresarial
+level: Intermedio
+topic: Personalización
 feature: Analytics for Target (A4T), Segmentación automática
-topic: Analytics for Target (A4T), Segmentación automática
-solution: Target
-author: Judy Kim
+doc-type: tutorial
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 98ea1a58e1adef2f8778fc0f6654228bf8b550ab
+source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
 workflow-type: tm+mt
-source-wordcount: '2237'
+source-wordcount: '2262'
 ht-degree: 1%
 
 ---
@@ -88,7 +87,7 @@ Permita comparar los informes de nivel de visitante y de nivel de visita:
 | --- | --- | --- | --- | --- | --- |
 | Una | 1 | 1 | - | 0% | 0% |
 | B | 2 | 3 | 1 | 50% | 33,3 % |
-| Totales | 2 | 4 | 3 | 50 % | 25 % |
+| Totales | 2 | 4 | 1 | 50 % | 25 % |
 *Tabla 1: Ejemplo que compara informes normalizados por visitantes con informes normalizados por visitas para un escenario en el que las decisiones se mantienen fieles a una visita (y no al visitante, como sucede con las pruebas A/B normales). Las métricas normalizadas por visitantes son confusas en este escenario.*
 
 Como se muestra en la tabla, hay una clara incongruencia de los números de nivel de visitante. A pesar de que hay dos visitantes únicos totales, no se trata de una suma de visitantes únicos individuales para cada experiencia. Aunque la tasa de conversión a nivel de visitante no es necesariamente incorrecta, cuando se compara una experiencia individual, las tasas de conversión a nivel de visita probablemente tengan mucho más sentido. Formalmente, la unidad de análisis (&quot;visitas&quot;) es la misma que la unidad de adherencia en la toma de decisiones, lo que significa que se pueden agregar y comparar desgloses de métricas a nivel de experiencia.
