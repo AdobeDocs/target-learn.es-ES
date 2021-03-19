@@ -1,18 +1,18 @@
 ---
-title: Implementación híbrida de Adobe Target
-description: Adobe Target oferta un modelo de implementación híbrida único para la personalización, que combina implementaciones de lado del cliente y de lado del servidor.
-topics: implementation
-feature: implementation
-audience: developer, architect
-activity: understand
+title: Opciones de implementación híbrida
+description: 'Vea este vídeo para obtener más información sobre el modelo de implementación híbrido único de Adobe Target para la personalización: mezcla implementaciones del lado del cliente y del lado del servidor.'
+role: Desarrollador, Arquitecto
+level: Principiante
+topic: Personalización, arquitectura, desarrollo
+feature: Implementación, Implementación en el lado del servidor, Implementación en el lado del cliente
 doc-type: feature video
-team: Evangelism
-kt: 6165
 thumbnail: null
+kt: 6165
+team: Evangelism
 translation-type: tm+mt
-source-git-commit: 3c4e25461527c361a7eb2281504e56ddc2f9ea5b
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '151'
 ht-degree: 1%
 
 ---
@@ -20,17 +20,15 @@ ht-degree: 1%
 
 # Implementación híbrida de Adobe Target
 
-## Descripción
-
-Adobe Target oferta un modelo de implementación híbrida único para la personalización, que combina implementaciones de lado del cliente y de lado del servidor. Este modelo híbrido permite a los usuarios no técnicos crear un experimento o una actividad de personalización mediante el Compositor de experiencias visuales WYSIWYG y hacer que la experiencia se ejecute, envíe y procese en el servidor para un envío de alto rendimiento. 
+Adobe Target ofrece un modelo de implementación híbrido único para la personalización: mezcla implementaciones del lado del cliente y del lado del servidor. Este modelo híbrido permite a los usuarios no técnicos crear un experimento o una actividad de personalización mediante el Compositor de experiencias visuales WYSIWYG, así como hacer que la experiencia se ejecute, envíe y procese en el lado del servidor para obtener un envío de alto rendimiento. 
 
 ## Objetivos
 
-Al final de este video, usted:
+Al final de este vídeo, deberá:
 
 * Comprender lo que implica una implementación híbrida de Adobe Target
-* Comprenda los beneficios de una implementación híbrida
-* Observar la reducción de las llamadas al servidor que permite una implementación híbrida
+* Comprender las ventajas de una implementación híbrida
+* Observe la reducción en las llamadas al servidor que es posible gracias a una implementación híbrida
 
 ## Audiencia prevista
 
@@ -39,4 +37,7 @@ Al final de este video, usted:
 
 >[!VIDEO](https://video.tv.adobe.com/v/41698/?quality=12)
 
-<!-- JUDY: add to this once we have documentation. And/or add to this, with links to the on-device decisioning content. For more information, visit the [documentation](https://docs.adobe.com/content/help/en/target/using/implement-target/implementing-target.html). -->
+## Recursos adicionales
+
+* [Información general sobre las decisiones en dispositivos](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/on-device-decisioning-overview.html?lang=en#implementation)
+* [Documentación del SDK para Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
