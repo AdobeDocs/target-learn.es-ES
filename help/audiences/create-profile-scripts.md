@@ -1,21 +1,36 @@
 ---
-title: Creación de scripts de Perfil en Adobe Target
-seo-title: Creación de scripts de Perfil en Adobe Target
-description: 'null'
-audience: marketer
-difficulty: 5
+title: Cómo crear scripts de perfil
+description: Este vídeo presenta a los usuarios de Adobe Target los scripts de perfil. Vea este vídeo si tiene experiencia con Adobe Target y desea conocer los conceptos básicos del uso de scripts de perfil para realizar objetivos más especializados o crear audiencias.
+role: Profesional empresarial, desarrollador
+level: Con experiencia
+topic: Personalización
+feature: Audiencias, administración y configuración
+doc-type: feature video
+thumbnail: null
+kt: null
+badge: premium
 author: Daniel Wright
-doc-type: develop
-activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: 902c05d4403cf367c559bf51a14563859be7b804
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '19'
-ht-degree: 5%
+source-wordcount: '75'
+ht-degree: 6%
 
 ---
 
 
-# Creación de scripts de Perfil en Adobe Target
+# Creación de scripts de perfil en Adobe Target
+
+## Descripción
+
+En este vídeo, aprenderá a:
+
+* Describir scripts de perfil
+* Creación de scripts de perfil
+
+## Audiencia prevista
+
+* Profesional empresarial
+* Desarrollador
 
 >[!VIDEO](https://video.tv.adobe.com/v/17394/?quality=12)
