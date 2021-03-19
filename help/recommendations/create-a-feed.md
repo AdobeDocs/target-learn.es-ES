@@ -1,21 +1,33 @@
 ---
-title: Crear una fuente en Recommendations
-seo-title: Crear una fuente en Adobe Target Recommendations
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Cómo crear una fuente en Recommendations
+description: Obtenga información sobre cómo crear una fuente de datos en Adobe Target Recommendations
+role: Profesional empresarial
+level: Intermedio
+topic: Personalización
+feature: Recommendations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 024678e0569b92da8e470a1299f0f7a585ba2371
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '45'
-ht-degree: 17%
+source-wordcount: '78'
+ht-degree: 12%
 
 ---
 
 
-# Crear una fuente en Recommendations
+# Crear una fuente en Adobe Target Recommendations
+
+## Descripción
+
+En este vídeo, aprenderá a:
+
+* Creación de una fuente de datos en Adobe Target Recommendations
+
+## Audiencia prevista
+
+* Profesional empresarial
 
 >[!VIDEO](https://video.tv.adobe.com/v/27696?quality=12)
 
@@ -25,5 +37,5 @@ ht-degree: 17%
 * [Crear una actividad de Recommendations](create-a-recommendations-activity.md)
 * [Crear criterios](create-criteria.md)
 * [Crear diseños personalizados](create-custom-designs.md)
-* [Crear colecciones y exclusiones](create-collections-and-exclusions.md)
+* [Creación de colecciones y exclusiones](create-collections-and-exclusions.md)
 * [Documentación de Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
