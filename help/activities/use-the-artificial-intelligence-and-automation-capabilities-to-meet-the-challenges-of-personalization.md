@@ -1,7 +1,6 @@
 ---
 title: 'Cómo usar la inteligencia artificial y la automatización para enfrentar los desafíos de la personalización '
 description: En este vídeo se explica la importancia de la personalización, los desafíos de una buena personalización, la solución de estos desafíos (las cuatro ofertas de AI/automatización en Adobe Target) y los componentes clave para ofrecer experiencias personalizadas. Es una versión editada de la presentación de Jamie Brighton en la Cumbre de Adobe 2018.
-badge: premium
 role: Profesional empresarial
 level: Principiante
 topic: Personalización
@@ -9,8 +8,9 @@ feature: Asignación automática, Segmentación automática, Automated Personali
 doc-type: value video
 thumbnail: null
 kt: null
+badge: premium
 translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
