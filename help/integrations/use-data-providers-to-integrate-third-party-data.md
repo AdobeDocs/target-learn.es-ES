@@ -1,22 +1,24 @@
 ---
-title: Usar proveedores de datos para integrar datos de terceros en Adobe Target
-seo-title: Usar proveedores de datos para integrar datos de terceros en Adobe Target
-description: Proveedores de datos es una funcionalidad que permite pasar fácilmente datos de terceros a Target.  Un tercero podría ser un servicio de pronóstico del clima, un DMP o incluso su propio servicio web. Puede usar estos datos para crear audiencias, dirigir contenido y enriquecer el perfil del visitante.
-audience: marketer
-difficulty: 5
+title: Cómo usar proveedores de datos para integrar datos de terceros
+description: Este tutorial presenta a los usuarios los proveedores de datos. Aprenda a utilizar la capacidad de proveedores de datos para pasar fácilmente datos de terceros a Adobe Target.
+role: Profesional empresarial, desarrollador
+level: Con experiencia
+topic: Personalización, integraciones
+feature: Implementación, integraciones, API/SDK
+doc-type: feature video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: use
-activity-type: feature-video
 translation-type: tm+mt
-source-git-commit: b331bb29c099bd91df27300ebe199cafa12516db
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 40%
+source-wordcount: '220'
+ht-degree: 22%
 
 ---
 
 
-# Usar proveedores de datos para integrar datos de terceros en Adobe Target
+# Utilice Data Providers para integrar datos de terceros en Adobe Target
 
 [!UICONTROL Proveedores de datos es una funcionalidad que permite pasar fácilmente datos de terceros a Target.  ]  Un tercero podría ser un servicio de pronóstico del clima, un DMP o incluso su propio servicio web. Puede usar estos datos para crear audiencias, dirigir contenido y enriquecer el perfil del visitante.
 
@@ -24,16 +26,16 @@ ht-degree: 40%
 
 ## Cómo utilizar los proveedores de datos
 
-1. El experto en implementación agrega código antes de at.js (o en la sección Encabezado de biblioteca de at.js) que hace la llamada de API a terceros, analiza la respuesta y especifica con pares nombre/valor de la respuesta para enviarla a [!DNL Target].
-1. at.js administra el parpadeo e incluye los pares nombre/valor como parámetros personalizados en la solicitud de Destinatario global.
-1. Marketer crea audiencias en la interfaz [!DNL Target] basándose en estos parámetros personalizados.
-1. Marketer utiliza estas audiencias para destinatario de experiencias, actividades y métricas, así como para audiencias de sistemas de informes.
+1. El experto en implementación agrega código antes de at.js (o en la sección Encabezado de biblioteca de at.js) que realiza la llamada de API a terceros, analiza la respuesta y especifica con pares de nombre/valor de la respuesta que se enviará a [!DNL Target].
+1. at.js administra el parpadeo e incluye los pares nombre/valor como parámetros personalizados en la solicitud global de Target.
+1. El especialista en marketing crea audiencias en la interfaz [!DNL Target] en función de estos parámetros personalizados.
+1. El especialista en marketing utiliza estas audiencias para segmentar experiencias, actividades y métricas, así como para crear informes de audiencias.
 
 >[!NOTE]
 >
->[!UICONTROL Los ] proveedores de datos requieren at.js 1.3 o superior
+>[!UICONTROL Proveedores ] de datos requiere at.js 1.3 o superior
 
 ## Materiales de apoyo
 
-* [Implementar proveedores de datos en at.js y Adobe Target](implement-data-providers-to-integrate-third-party-data.md)
+* [Implementación de proveedores de datos en at.js y Adobe Target](implement-data-providers-to-integrate-third-party-data.md)
 * [Documentación de proveedores de datos](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/functions-overview/targetgobalsettings.html#data-providers)
