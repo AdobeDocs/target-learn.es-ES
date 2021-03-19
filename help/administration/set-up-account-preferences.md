@@ -1,20 +1,32 @@
 ---
-title: Configuración de las preferencias de cuenta en Adobe Target
-description: 'null'
-audience: administrator
-difficulty: 1
-author: Daniel Wright
-doc-type: setup
-activity-type: feature-video
+title: Cómo configurar las preferencias de cuenta
+description: En este vídeo se describen las preferencias de cuenta de Adobe Target. Vea este vídeo para ver ejemplos del impacto que tienen las diferentes configuraciones en Adobe Target.
+role: Administrador
+level: Principiante
+topic: Administration
+feature: Administración & Configuración
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 6ebdda26ef1e210cca495fe9ea73c67eca039d6f
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '12'
-ht-degree: 8%
+source-wordcount: '56'
+ht-degree: 10%
 
 ---
 
 
-# Configuración de las preferencias de cuenta
+# Configuración de las preferencias de cuenta en Adobe Target
+
+## Descripción
+
+En este vídeo, aprenderá a:
+
+* Describir las distintas configuraciones de cuenta en Adobe Target
+
+## Audiencia prevista
+
+* Administrador
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379/?quality=12)
