@@ -1,14 +1,16 @@
 ---
-title: Implementar proveedores de datos para integrar datos de terceros en Adobe Target
-seo-title: Implementar proveedores de datos para integrar datos de terceros en Adobe Target
-description: Detalles de implementación y ejemplos de cómo utilizar la función Proveedores de datos de Adobe Target para recuperar datos de proveedores de datos de terceros y pasarlos en la solicitud de Destinatario.
-audience: developer
-difficulty: 5
+title: Implementación de proveedores de datos para integrar datos de terceros
+description: Este tutorial proporciona detalles de implementación y ejemplos de cómo utilizar la función Proveedores de datos de Adobe Target para recuperar datos de proveedores de datos de terceros y pasarlos en la solicitud de Target.
+role: Desarrollador
+level: Con experiencia
+topic: Personalización, integraciones
+feature: Implementación, integraciones, API/SDK
+doc-type: technical video
+kt: null
+thumbnail: null
 author: Daniel Wright
-doc-type: implement
-activity-type: technical-video
 translation-type: tm+mt
-source-git-commit: 37443ae4c1cdda387c8db0053201d520fa1ec224
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 0%
@@ -16,19 +18,19 @@ ht-degree: 0%
 ---
 
 
-# Implementar [!UICONTROL Data Providers] para integrar datos de terceros en Adobe Target
+# Implemente [!UICONTROL Proveedores de datos] para integrar datos de terceros en Adobe Target
 
-Detalles de implementación y ejemplos de cómo utilizar la función [!UICONTROL Data Providers] de Adobe Target para recuperar datos de proveedores de datos de terceros y pasarlos en la solicitud de Destinatario.
+Detalles de implementación y ejemplos de cómo utilizar la función [!UICONTROL Data Providers] de Adobe Target para recuperar datos de proveedores de datos de terceros y pasarlos en la solicitud de Target.
 
 >[!NOTE]
 >
->[!UICONTROL Los ] proveedores de datos requieren  `at.js` 1.3 o superior
+>[!UICONTROL Proveedores ] de datos requiere  `at.js` 1.3 o superior
 
-## Implementar los componentes básicos de los proveedores de datos
+## Implementación de los componentes básicos de los proveedores de datos
 
 >[!VIDEO](https://video.tv.adobe.com/v/22348/?quality=12)
 
-Información general rápida sobre los componentes básicos de un `dataProvider` y cómo obtener el código en el orden correcto.\
+Una visión general rápida de los componentes básicos de un `dataProvider` y cómo obtener el código en el orden correcto.\
 Aquí puede encontrar un ejemplo práctico con el código utilizado en el vídeo:
 [https://target.enablementadobe.com/data-providers/simple.html](https://target.enablementadobe.com/data-providers/simple.html)
 
@@ -44,7 +46,7 @@ Aquí puede encontrar un ejemplo práctico con el código utilizado en el vídeo
 
 >[!VIDEO](https://video.tv.adobe.com/v/22346/)
 
-Cómo incorporar datos de varios proveedores a su solicitud [!DNL Target] global.\
+Cómo incorporar datos de varios proveedores a su solicitud global [!DNL Target].\
 Aquí puede encontrar un ejemplo práctico con el código utilizado en el vídeo:
 [https://target.enablementadobe.com/data-providers/combined.html](https://target.enablementadobe.com/data-providers/combined.html)
 
@@ -52,7 +54,7 @@ Aquí puede encontrar un ejemplo práctico con el código utilizado en el vídeo
 
 >[!VIDEO](https://video.tv.adobe.com/v/22347/)
 
-Minimice el impacto en el tiempo de carga de la página almacenando datos en un objeto de almacenamiento de sesión. Como alternativa, puede pasar los valores como parámetros de perfil utilizando el prefijo `profile.` y pasarlos en la primera solicitud [!DNL Target] de la sesión. Sin embargo, estaría limitado a pasar cincuenta parámetros de perfil por solicitud.
+Minimice el impacto en el tiempo de carga de la página almacenando datos en un objeto de almacenamiento de sesión. Como alternativa, puede pasar los valores como parámetros de perfil utilizando el prefijo `profile.` y pasarlos en la primera solicitud [!DNL Target] de la sesión. Sin embargo, se limitaría a pasar cincuenta parámetros de perfil por solicitud.
 
 Aquí puede encontrar un ejemplo práctico con el código utilizado en el vídeo: [https://target.enablementadobe.com/data-providers/reducedCalls.html](https://target.enablementadobe.com/data-providers/reducedCalls.html)
 
