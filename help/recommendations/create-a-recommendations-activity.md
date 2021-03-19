@@ -1,30 +1,42 @@
 ---
-title: Crear una actividad de Recommendations
-seo-title: Creación de una Actividad de Recommendations en Adobe Target
-audience: marketer
-difficulty: 3
-author: Daniel Wright
-doc-type: use
-activity-type: feature-video
+title: Cómo crear una actividad de Recommendations
+description: Obtenga información sobre cómo crear una actividad de Adobe Target Recommendations
+role: Profesional empresarial
+level: Intermedio
+topic: Personalización
+feature: Recommendations
+doc-type: feature video
+thumbnail: null
+kt: null
 translation-type: tm+mt
-source-git-commit: 86131453514cc9acb67ba0594e260996902c46d3
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '53'
-ht-degree: 22%
+source-wordcount: '80'
+ht-degree: 12%
 
 ---
 
 
-# Crear una actividad de Recommendations
+# Crear una actividad de Adobe Target Recommendations
+
+## Descripción
+
+En este vídeo, aprenderá a:
+
+* Crear una actividad de Recommendations
+
+## Audiencia prevista
+
+* Profesional empresarial
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?quality=12)
 
 ## Recursos adicionales
 
-* [Usar Ofertas de Recommendations en Actividades de pruebas A/B y de segmentación de experiencias](use-recommendations-offers.md)
+* [Uso de ofertas de Recommendations en pruebas A/B y actividades de segmentación de experiencias](use-recommendations-offers.md)
 * [Explicación de las fuentes](understanding-feeds.md)
 * [Crear una fuente](create-a-feed.md)
 * [Crear criterios](create-criteria.md)
 * [Crear diseños personalizados](create-custom-designs.md)
-* [Crear colecciones y exclusiones](create-collections-and-exclusions.md)
+* [Creación de colecciones y exclusiones](create-collections-and-exclusions.md)
 * [Documentación de Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
