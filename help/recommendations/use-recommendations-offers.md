@@ -1,24 +1,25 @@
 ---
-title: Usar Ofertas de Recommendations en Actividades de pruebas A/B y de segmentación de experiencias
-seo-title: Usar Ofertas de Recommendations en Actividades de pruebas A/B y de segmentación de experiencias en Adobe Target
-description: Las ofertas de Recommendations se pueden usar con Actividades A/B de pruebas y segmentación de experiencias.
-feature: recommendations
-kt: kt-3451
-audience: marketer
-doc-type: feature-video
-activity-type: use
+title: Cómo utilizar ofertas de Recommendations en pruebas A/B y actividades de segmentación de experiencias
+description: Aprenda a utilizar ofertas de Recommendations en pruebas A/B y actividades de segmentación de experiencias en Adobe Target.
+role: Profesional empresarial
+level: Intermedio
+topic: Personalización
+feature: Recommendations, Segmentación automática, Asignación automática
+doc-type: feature video
+thumbnail: null
+kt: 3451
 translation-type: tm+mt
-source-git-commit: cbc8499b9c4018d709d8d93405b3f816b091b36e
+source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 35%
+source-wordcount: '138'
+ht-degree: 28%
 
 ---
 
 
-# Usar Ofertas de Recommendations en Actividades de pruebas A/B y de segmentación de experiencias
+# Uso de ofertas de Recommendations en pruebas A/B y actividades de segmentación de experiencias
 
-Las ofertas de Recommendations se pueden usar con Actividades A/B de pruebas y segmentación de experiencias. Esta funcionalidad revela capacidades completamente nuevas, como:
+Las ofertas de Recommendations se pueden utilizar con pruebas A/B y actividades de segmentación de experiencias. Esta funcionalidad abre abundantes funciones, lo que le permite:
 
 * Mezcle contenido de recomendaciones y no recomendaciones dentro de la misma actividad
 * Experimentar fácilmente con la colocación de recomendaciones en la página, incluido el orden de varias recomendaciones
@@ -29,5 +30,5 @@ Las ofertas de Recommendations se pueden usar con Actividades A/B de pruebas y s
 
 ## Recursos adicionales
 
-* [Recommendations como documentación de oferta](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-as-an-offer.html)
-* [Creación de un vídeo de Actividad de Recommendations](create-a-recommendations-activity.md)
+* [Documentación de ofertas de Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations-as-an-offer.html)
+* [Vídeo Crear una actividad de Recommendations](create-a-recommendations-activity.md)
