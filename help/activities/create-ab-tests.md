@@ -1,10 +1,10 @@
 ---
 title: Cómo crear una prueba A/B
 description: Este vídeo muestra a los usuarios a través del flujo de trabajo clave para crear actividades A/B en Adobe Target. Vea este vídeo para aprender a crear una actividad A/B básica con el Compositor de experiencias visuales (VEC).
-role: Profesional empresarial
-level: Principiante
-topic: Personalización
-feature: Pruebas A/B, actividades, Compositor de experiencias visuales (VEC)
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: A/B Tests, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null

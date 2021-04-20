@@ -1,10 +1,10 @@
 ---
 title: Cómo utilizar los informes de Perspectivas de personalización
 description: Las actividades de Automated Personalization y Segmentación automática utilizan aprendizaje automático avanzado para ofrecer a cada visitante la experiencia más adaptada en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares. Los informes de Perspectivas de personalización proporcionan información sobre cómo estos modelos toman sus decisiones.
-role: Profesional empresarial
-level: Intermedio
-topic: Personalización
-feature: Informes, Automated Personalization, Segmentación automática
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Reports, Automated Personalization, Auto-Target
 doc-type: feature video
 kt: null
 thumbnail: null

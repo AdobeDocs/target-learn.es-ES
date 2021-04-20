@@ -1,10 +1,10 @@
 ---
 title: Crear audiencias y ofertas en Adobe Target
 description: 'En esta lección, creamos audiencias y ofertas en Adobe Target para las tres ubicaciones que implementamos en las lecciones anteriores. Se utilizarán para mostrar experiencias personalizadas en la siguiente lección.   '
-role: Desarrollador
-level: Intermedio
-topic: Móvil, personalización
-feature: Implementar Mobile
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

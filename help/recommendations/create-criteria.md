@@ -1,9 +1,9 @@
 ---
 title: Cómo crear criterios en Recommendations
 description: Obtenga información sobre cómo crear criterios en Adobe Target Recommendations
-role: Profesional empresarial
-level: Intermedio
-topic: Personalización
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

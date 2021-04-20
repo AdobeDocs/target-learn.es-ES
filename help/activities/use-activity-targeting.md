@@ -1,10 +1,10 @@
 ---
 title: Cómo usar la segmentación de actividades
 description: Adobe Target proporciona diferentes palancas para controlar las experiencias que se muestran a diferentes audiencias cuando una actividad se activa. Aprenda a controlar quién ve qué utilizando audiencias y asignación de tráfico.
-role: Profesional empresarial
-level: Intermedio
-topic: Personalización
-feature: Actividades, Audiencias
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Activities, Audiences
 doc-type: feature video
 thumbnail: null
 kt: null

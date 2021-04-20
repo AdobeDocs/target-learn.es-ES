@@ -1,10 +1,10 @@
 ---
 title: Implementación de proveedores de datos para integrar datos de terceros
 description: Este tutorial proporciona detalles de implementación y ejemplos de cómo utilizar la función Proveedores de datos de Adobe Target para recuperar datos de proveedores de datos de terceros y pasarlos en la solicitud de Target.
-role: Desarrollador
-level: Con experiencia
-topic: Personalización, integraciones
-feature: Implementación, integraciones, API/SDK
+role: Developer
+level: Experienced
+topic: Personalization, Integrations
+feature: Implementation, Integrations, APIs/SDKs
 doc-type: technical video
 kt: null
 thumbnail: null

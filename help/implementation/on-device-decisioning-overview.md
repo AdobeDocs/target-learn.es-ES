@@ -1,10 +1,10 @@
 ---
 title: ¿Qué es la toma de decisiones en dispositivos?
 description: La toma de decisiones en dispositivos Adobe Target permite la entrega de contenido de latencia casi nula. Vea este vídeo para obtener más información sobre la toma de decisiones en el dispositivo y cómo habilitarla.
-role: Arquitecto
-level: Principiante
-topic: Arquitectura, desarrollo
-feature: Implementación, Implementación en el lado del servidor, Implementación en el lado del cliente
+role: Architect
+level: Beginner
+topic: Architecture, Development
+feature: Implementation, Implement Server-side, Implement Client-side
 doc-type: feature video
 team: Evangelism
 kt: 6691

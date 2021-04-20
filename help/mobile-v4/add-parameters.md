@@ -1,10 +1,10 @@
 ---
 title: Añadir parámetros a las solicitudes
 description: En esta lección, agregaremos métricas del ciclo vital del Adobe y parámetros personalizados a las solicitudes de Target que se agregaron en la lección anterior. Estas métricas y parámetros se utilizarán para crear audiencias personalizadas más adelante en el tutorial.
-role: Desarrollador
-level: Intermedio
-topic: Móvil, personalización
-feature: Implementar Mobile
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

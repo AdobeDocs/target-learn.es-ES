@@ -1,9 +1,9 @@
 ---
 title: ¿Qué es una fuente en Recommendations?
 description: Descubra qué es una fuente de Adobe Target Recommendations y cómo se utiliza
-role: Profesional empresarial
-level: Intermedio
-topic: Personalización
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

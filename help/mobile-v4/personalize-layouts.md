@@ -1,10 +1,10 @@
 ---
 title: Personalización de diseños
 description: 'En esta última lección, creamos dos actividades de personalización en Target para nuestras audiencias. Obtenga información sobre cómo cargar y mostrar las actividades en la aplicación y validar que el contenido se muestra en el momento adecuado en las ubicaciones adecuadas.  '
-role: Desarrollador
-level: Intermedio
-topic: Móvil, personalización
-feature: Implementar Mobile
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

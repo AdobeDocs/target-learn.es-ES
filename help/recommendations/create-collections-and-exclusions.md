@@ -1,9 +1,9 @@
 ---
 title: Cómo crear colecciones y exclusiones en Recommendations
 description: Descubra qué es una colección de Recommendations y cómo utilizarla. Descubra qué es una exclusión de Recommendations y cómo utilizarla.
-role: Profesional empresarial
-level: Intermedio
-topic: Personalización
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

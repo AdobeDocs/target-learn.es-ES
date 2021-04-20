@@ -1,10 +1,10 @@
 ---
 title: Cómo configurar espacios de trabajo
 description: Este vídeo muestra a los administradores cómo crear espacios de trabajo en Adobe Target.
-role: Administrador
-level: Principiante
+role: Administrator
+level: Beginner
 topic: Administration
-feature: Administración & Configuración
+feature: Administration & Configuration
 doc-type: feature video
 thumbnail: null
 kt: null

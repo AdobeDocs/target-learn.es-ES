@@ -1,10 +1,10 @@
 ---
 title: Indicador de características
 description: Adobe Target se puede utilizar para experimentar con funciones de experiencia de usuario como color, copia, botones, texto e imágenes, y proporcionar esas funciones a audiencias específicas.
-role: Desarrollador
-level: Intermedio
-topic: Móvil, personalización
-feature: Implementar Mobile
+role: Developer
+level: Intermediate
+topic: Mobile, Personalization
+feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null

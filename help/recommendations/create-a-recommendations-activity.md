@@ -1,9 +1,9 @@
 ---
 title: Cómo crear una actividad de Recommendations
 description: Obtenga información sobre cómo crear una actividad de Adobe Target Recommendations
-role: Profesional empresarial
-level: Intermedio
-topic: Personalización
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

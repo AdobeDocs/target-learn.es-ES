@@ -1,10 +1,10 @@
 ---
 title: Opciones de implementación híbrida
 description: 'Vea este vídeo para obtener más información sobre el modelo de implementación híbrido único de Adobe Target para la personalización: mezcla implementaciones del lado del cliente y del lado del servidor.'
-role: Desarrollador, Arquitecto
-level: Principiante
-topic: Personalización, arquitectura, desarrollo
-feature: Implementación, Implementación en el lado del servidor, Implementación en el lado del cliente
+role: Developer, Architect
+level: Beginner
+topic: Personalization, Architecture, Development
+feature: Implementation, Implement Server-side, Implement Client-side
 doc-type: feature video
 thumbnail: null
 kt: 6165

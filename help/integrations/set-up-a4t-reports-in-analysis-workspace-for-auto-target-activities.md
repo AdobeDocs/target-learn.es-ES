@@ -1,10 +1,10 @@
 ---
 title: Configuración de informes de A4T en Analysis Workspace para actividades de segmentación automática
 description: Una vez que haya configurado la integración de Analytics for Target (A4T) y esté ejecutando actividades de segmentación automática, ¿cómo puede asegurarse de que está interpretando los resultados correctamente? Siga estos pasos para configurar los informes de A4T en Analysis Workspace y obtener los resultados esperados al ejecutar actividades de segmentación automática.
-role: Profesional empresarial
-level: Intermedio
-topic: Personalización, integraciones
-feature: Analytics for Target (A4T), Segmentación automática, integraciones
+role: Business Practitioner
+level: Intermediate
+topic: Personalization, Integrations
+feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 thumbnail: null
 kt: null

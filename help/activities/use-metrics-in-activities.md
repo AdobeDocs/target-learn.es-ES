@@ -1,10 +1,10 @@
 ---
 title: Cómo usar métricas en actividades
 description: ¿Cómo se mide si una actividad de Adobe Target es satisfactoria? En este vídeo, aprenda los distintos tipos de métricas de objetivo y cómo utilizarlas para medir el rendimiento de su actividad.
-role: Profesional empresarial
-level: Intermedio
-topic: Personalización
-feature: Actividades
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Activities
 doc-type: feature video
 thumbnail: null
 kt: null

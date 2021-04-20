@@ -1,10 +1,10 @@
 ---
 title: Cómo usar el Compositor de experiencias visuales (VEC)
 description: Estos dos vídeos presentan a los especialistas en marketing del Compositor de experiencias visuales (VEC) de Adobe Target. Vea estos vídeos para aprender a crear actividades con el VEC.
-role: Profesional empresarial
-level: Principiante
-topic: Personalización
-feature: Compositor de experiencias visuales (VEC), experiencias y ofertas
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Visual Experience Composer (VEC), Experiences and Offers
 doc-type: feature video
 thumbnail: null
 kt: null

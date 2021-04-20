@@ -1,10 +1,10 @@
 ---
 title: Cómo utilizar ofertas de Recommendations en pruebas A/B y actividades de segmentación de experiencias
 description: Aprenda a utilizar ofertas de Recommendations en pruebas A/B y actividades de segmentación de experiencias en Adobe Target.
-role: Profesional empresarial
-level: Intermedio
-topic: Personalización
-feature: Recommendations, Segmentación automática, Asignación automática
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
+feature: Recommendations, Auto-Target, Auto-Allocate
 doc-type: feature video
 thumbnail: null
 kt: 3451

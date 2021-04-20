@@ -1,10 +1,10 @@
 ---
 title: Cómo solucionar problemas con rastros de Target
 description: Adobe Experience Cloud Debugger le permite entender de forma rápida y sencilla su implementación de Target. Obtenga información sobre cómo autenticarse en el Experience Cloud y utilizar la potente herramienta Target Traces para inspeccionar su actividad y las cualificaciones de audiencia, así como su perfil del visitante.
-role: Profesional empresarial
-level: Intermedio
-topic: Personalización, rendimiento
-feature: 'Resolución de problemas  '
+role: Business Practitioner
+level: Intermediate
+topic: Personalization, Performance
+feature: Troubleshooting
 doc-type: feature video
 kt: null
 thumbnail: null

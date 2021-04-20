@@ -1,9 +1,9 @@
 ---
 title: Cómo crear una fuente en Recommendations
 description: Obtenga información sobre cómo crear una fuente de datos en Adobe Target Recommendations
-role: Profesional empresarial
-level: Intermedio
-topic: Personalización
+role: Business Practitioner
+level: Intermediate
+topic: Personalization
 feature: Recommendations
 doc-type: feature video
 thumbnail: null

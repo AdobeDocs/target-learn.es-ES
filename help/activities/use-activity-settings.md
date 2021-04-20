@@ -1,10 +1,10 @@
 ---
 title: Cómo usar la configuración de actividades
 description: Vea este vídeo para aprender a utilizar distintas configuraciones de actividad en Adobe Target, como objetivos, niveles de prioridad, tiempos de inicio y finalización y audiencias.
-role: Profesional empresarial
-level: Principiante
-topic: Personalización
-feature: Actividades
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Activities
 doc-type: feature video
 thumbnail: null
 kt: null

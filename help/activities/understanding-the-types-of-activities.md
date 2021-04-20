@@ -1,10 +1,10 @@
 ---
 title: ¿Cuáles son los diferentes tipos de actividades?
 description: Conozca los diferentes tipos de actividades incluidas en Adobe Target y cómo pueden ayudarle a lograr sus objetivos. Vea este vídeo para conocer los conceptos básicos de las actividades A/B, las pruebas multivariable (MVT), las actividades de segmentación de experiencias (XT), Recommendations y las actividades de Automated Personalization (AP).
-role: Profesional empresarial
-level: Principiante
-topic: Personalización
-feature: Actividades, Pruebas A/B, Pruebas multivariable, Segmentación de experiencias, Recommendations, Automated Personalization, Compositor de experiencias visuales (VEC)
+role: Business Practitioner
+level: Beginner
+topic: Personalization
+feature: Activities, A/B Tests, Multivariate Tests, Experience Targeting, Recommendations, Automated Personalization, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null

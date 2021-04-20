@@ -1,10 +1,10 @@
 ---
 title: Implementación de parámetros de mbox mediante DTM
 description: Este vídeo muestra a los desarrolladores cómo implementar parámetros de mbox mediante la activación de Adobe, anteriormente conocido como Dynamic Tag Management (DTM) de Adobe.
-role: Desarrollador
-level: Intermedio
-topic: Personalización, arquitectura, desarrollo
-feature: Implementación
+role: Developer
+level: Intermediate
+topic: Personalization, Architecture, Development
+feature: Implementation
 doc-type: technical video
 kt: null
 thumbnail: null
