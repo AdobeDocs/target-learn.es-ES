@@ -1,22 +1,21 @@
 ---
 title: ¿Qué son las audiencias y cómo se usan?
-description: Este vídeo muestra a los usuarios de Adobe Target cómo usar audiencias para segmentar actividades y filtrar informes.
-role: Business Practitioner
+description: Este vídeo muestra a los usuarios de Adobe Target cómo usar audiencias para direccionar actividades y filtrar informes.
+role: User
 level: Beginner
-topic: Personalization
-feature: Audiences, Reports
+topic: Personalización
+feature: Audiencias, Informes
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: c164eba0-d548-4ace-b9e7-746bdafa844d
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '69'
-ht-degree: 1%
+source-wordcount: '66'
+ht-degree: 25%
 
 ---
-
 
 # Usar audiencias en Adobe Target
 
