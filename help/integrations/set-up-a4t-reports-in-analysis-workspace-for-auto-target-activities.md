@@ -1,21 +1,20 @@
 ---
 title: Configuración de informes de A4T en Analysis Workspace para actividades de segmentación automática
 description: Una vez que haya configurado la integración de Analytics for Target (A4T) y esté ejecutando actividades de segmentación automática, ¿cómo puede asegurarse de que está interpretando los resultados correctamente? Siga estos pasos para configurar los informes de A4T en Analysis Workspace y obtener los resultados esperados al ejecutar actividades de segmentación automática.
-role: Business Practitioner
+role: User
 level: Intermediate
-topic: Personalization, Integrations
-feature: Analytics for Target (A4T), Auto-Target, Integrations
+topic: Personalización, integraciones
+feature: Analytics for Target (A4T), Segmentación automática, integraciones
 doc-type: tutorial
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '2264'
+source-wordcount: '2261'
 ht-degree: 1%
 
 ---
-
 
 # Configuración de informes de A4T en Analysis Workspace para actividades [!DNL Auto-Target]
 
@@ -79,13 +78,13 @@ Aquí se muestra un ejemplo del informe resultante.
 
 Al analizar una actividad [!DNL Auto-Target], elija siempre Visitas como métrica de normalización predeterminada. [!DNL Auto-Target] personalización selecciona una experiencia para un visitante una vez por visita (formalmente, una vez por sesión de Adobe Target), lo que significa que la experiencia mostrada a un usuario puede cambiar en cada visita. Por lo tanto, si usa Visitantes únicos como métrica de normalización, el hecho de que un solo usuario termine viendo varias experiencias (en diferentes visitas) podría conllevar tasas de conversión confusas.
 
-Un ejemplo sencillo demuestra este punto: considere un escenario en el que dos visitantes entren a una campaña que solo tenga dos experiencias. El primer visitante visita dos veces. Se les asigna la Experiencia A en la primera visita, pero la Experiencia B en la segunda visita (debido a que su estado de perfil cambia en esa segunda visita). Después de la segunda visita, el visitante convierte realizando un pedido. La conversión se atribuye a la experiencia mostrada más recientemente (Experiencia B). El segundo visitante también visita dos veces y se muestra Experiencia B ambas veces, pero nunca convierte.
+Un ejemplo sencillo demuestra este punto: considere un escenario en el que dos visitantes entren a una campaña que solo tenga dos experiencias. El primer visitante visita dos veces. Se les asigna la Experiencia A en la primera visita, pero la Experiencia B en la segunda visita (debido a que el estado de su perfil cambia en esa segunda visita). Después de la segunda visita, el visitante convierte realizando un pedido. La conversión se atribuye a la experiencia mostrada más recientemente (Experiencia B). El segundo visitante también visita dos veces y se muestra Experiencia B ambas veces, pero nunca convierte.
 
 Permita comparar los informes de nivel de visitante y de nivel de visita:
 
 | Experiencia | Visitantes únicos | Visitas | Conversiones | Norma de visitante. Conv. de pulsaciones | La norma de la visita. Conv. de pulsaciones |
 | --- | --- | --- | --- | --- | --- |
-| Una | 1 | 3 | - | 0% | 0% |
+| Una | 1 | 1 | - | 0% | 0% |
 | B | 2 | 3 | 1 | 50% | 33,3 % |
 | Totales | 2 | 4 | 1 | 50 % | 25 % |
 *Tabla 1: Ejemplo que compara informes normalizados por visitantes con informes normalizados por visitas para un escenario en el que las decisiones se mantienen fieles a una visita (y no al visitante, como sucede con las pruebas A/B normales). Las métricas normalizadas por visitantes son confusas en este escenario.*
@@ -118,7 +117,7 @@ Una vez creado el segmento, utilícelo para filtrar la métrica Visitas, de modo
 
 **Para filtrar Visitas con este segmento:**
 
-1. Arrastre el segmento recién creado desde la barra de herramientas de componentes y pase el ratón por encima de la base de la etiqueta de métrica **[!UICONTROL Visitas]** hasta que aparezca un mensaje **[!UICONTROL Filtro por]** azul.
+1. Arrastre el segmento recién creado desde la barra de herramientas de componentes y pase el ratón por encima de la base de la etiqueta de métrica **[!UICONTROL Visitas]** hasta que aparezca un mensaje **[!UICONTROL Filtrar por]** azul.
 2. Libere el segmento. El filtro se aplicará a esa métrica.
 
 El panel final aparecerá de la siguiente manera.
