@@ -1,22 +1,21 @@
 ---
 title: Cómo configurar los permisos de usuario de Enterprise
 description: Este vídeo presenta a los administradores de Adobe Target los permisos de usuario, las propiedades y los espacios de trabajo. Vea este vídeo para conocer los diferentes niveles de usuario y cómo utilizar propiedades y espacios de trabajo para controlar el acceso de los usuarios.
-role: Administrator
+role: Admin
 level: Beginner
-topic: Administration
-feature: Administration & Configuration
+topic: Administración
+feature: Administración y configuración
 doc-type: feature video
 thumbnail: null
 kt: null
 badge: premium
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: bb8d691b-4cf5-468d-8f47-bd3d7a713124
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 8%
+source-wordcount: '71'
+ht-degree: 4%
 
 ---
-
 
 # Explicación de los permisos de usuario de Enterprise en Adobe Target
 
