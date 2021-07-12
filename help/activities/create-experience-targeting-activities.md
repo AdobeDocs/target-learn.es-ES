@@ -1,21 +1,20 @@
 ---
 title: Cómo crear actividades de segmentación de experiencias
 description: Las actividades de Segmentación de experiencias (XT) permiten a los especialistas en marketing dirigirse a contenido específico para una audiencia específica. Conozca las ventajas de las actividades XT y cómo crearlas y utilizarlas.
-role: Business Practitioner
+role: User
 level: Beginner
-topic: Personalization
-feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
+topic: Personalización
+feature: Segmentación de experiencias, actividades, Compositor de experiencias visuales (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null
-translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+exl-id: 997d0902-ff30-4944-b08c-fe6d9f7bcc35
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '218'
 ht-degree: 19%
 
 ---
-
 
 # Crear actividades de segmentación de experiencias
 
