@@ -1,22 +1,21 @@
 ---
 title: Cómo usar proveedores de datos para integrar datos de terceros
 description: Este tutorial presenta a los usuarios los proveedores de datos. Aprenda a utilizar la capacidad de proveedores de datos para pasar fácilmente datos de terceros a Adobe Target.
-role: Business Practitioner, Developer
+role: User, Developer
 level: Experienced
-topic: Personalization, Integrations
-feature: Implementation, Integrations, APIs/SDKs
+topic: Personalización, integraciones
+feature: Implementación, integraciones, API/SDK
 doc-type: feature video
 kt: null
 thumbnail: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 1892136e-14e3-4e52-8b1f-aee806d2f83a
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '216'
 ht-degree: 22%
 
 ---
-
 
 # Utilice Data Providers para integrar datos de terceros en Adobe Target
 
