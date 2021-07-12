@@ -1,22 +1,21 @@
 ---
 title: Cómo usar la comparación de perfiles para crear audiencias
 description: Este vídeo muestra a los usuarios de Adobe Target cómo usar la función Comparación de perfiles para comparar dos valores de perfil numéricos entre sí al crear una audiencia.
-role: Business Practitioner
+role: User
 level: Experienced
-topic: Personalization
-feature: Audiences
+topic: Personalización
+feature: Audiencias
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
+source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '176'
 ht-degree: 5%
 
 ---
-
 
 # Uso de la comparación de perfiles para crear audiencias en Adobe Target
 
