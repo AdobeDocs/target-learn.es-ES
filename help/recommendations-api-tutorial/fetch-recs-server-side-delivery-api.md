@@ -9,14 +9,13 @@ doc-type: tutorial
 kt: 3815
 thumbnail: null
 author: Judy Kim
-translation-type: tm+mt
-source-git-commit: 2c371ea17ce38928bcf3655a0d604a69e29963a0
+exl-id: 553d1208-647f-479d-acc7-d7760469d642
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '1459'
-ht-degree: 0%
+source-wordcount: '1418'
+ht-degree: 2%
 
 ---
-
 
 # Recuperación de [!DNL Recommendations] con la API de envío
 
@@ -94,8 +93,7 @@ Los siguientes recursos proporcionan ejemplos de varias implementaciones no cent
 
 | Recurso | Detalles |
 | --- | --- |
-| [Consumo de API de RESTful en AEM](https://helpx.adobe.com/experience-manager/using/restful-services.html) | Cómo crear e implementar un paquete OSGi de Adobe Experience Manager que consuma datos de un servicio web RESTful de terceros. |
-| [Adobe Target en todas partes: implementación del lado del servidor o en IoT](https://expleague.azureedge.net/labs/L733/index.html) | Adobe Summit 2019 Lab que ofrece experiencia práctica para una aplicación React que aprovecha las API del lado del servidor de Adobe Target. |
+| [Adobe Target en todas partes: implementación del lado del servidor o en IoT](https://expleague.azureedge.net/labs/L733/index.html) | Adobe Summit 2019 Lab que proporciona experiencia práctica para una aplicación React que aprovecha las API del lado del servidor de Adobe Target. |
 | [Adobe Target en una aplicación móvil sin el SDK de Adobe](https://community.tealiumiq.com/t5/Universal-Data-Hub/Adobe-Target-in-a-Mobile-App-Without-the-Adobe-SDK/ta-p/26753) | Esta guía le muestra cómo configurar Adobe Target en su aplicación móvil sin instalar el SDK de Adobe. Esta solución utiliza la vista web del SDK de Tealium y el módulo Comandos remotos para enviar y recibir solicitudes a la API de visitante de Adobe (Experience Cloud) y a la API de Adobe Target. |
 | [Cómo funciona Adobe Target en las aplicaciones móviles](https://docs.adobe.com/content/help/en/target/using/implement-target/mobile-apps/mobile-how-target-works-mobile-apps.html) | Cómo funciona [!DNL Target] con el SDK de Mobile |
 | [Configuración  [!DNL Target] extension in Experience Platform Launch and Implementing [!DNL Target] de las API](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Pasos para configurar la extensión [!DNL Target] en el Experience Platform Launch, añadir la extensión [!DNL Target] a la aplicación e implementar las API [!DNL Target] para solicitar actividades, ofertas de recuperación previa e introducir el modo de vista previa visual. |

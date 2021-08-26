@@ -8,14 +8,13 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 88a5be3f-d61f-43e7-997a-574ef56122ed
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '1810'
+source-wordcount: '1804'
 ht-degree: 0%
 
 ---
-
 
 # Agregar solicitudes de Adobe Target
 
@@ -54,7 +53,7 @@ A continuación se describen algunos de los términos clave de Target que utiliz
 
 La primera solicitud que implementaremos en We.Travel es una solicitud de recuperación previa por lotes con dos [!DNL Target] ubicaciones en la pantalla principal. En una lección posterior, configuraremos ofertas para estas ubicaciones que muestran mensajes para ayudar a guiar a los nuevos usuarios a través del proceso de reserva.
 
-Una solicitud de recuperación previa obtiene contenido [!DNL Target] lo más mínimo posible almacenando en caché la respuesta del servidor de Adobe Target (oferta). Una solicitud de recuperación previa por lotes recupera y almacena en caché varias ofertas, cada una asociada a una ubicación diferente. Todas las ubicaciones recuperadas previamente se almacenan en caché en el dispositivo para su uso futuro en la sesión del usuario. Al recuperar previamente varias ubicaciones en la pantalla principal, podemos recuperar ofertas para usarlas más adelante, a medida que el visitante navega por la aplicación. Consulte la [documentación de recuperación previa](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html) para obtener más información sobre los métodos de recuperación previa.
+Una solicitud de recuperación previa obtiene contenido [!DNL Target] lo más mínimo posible almacenando en caché la respuesta del servidor de Adobe Target (oferta). Una solicitud de recuperación previa por lotes recupera y almacena en caché varias ofertas, cada una asociada a una ubicación diferente. Todas las ubicaciones recuperadas previamente se almacenan en caché en el dispositivo para su uso futuro en la sesión del usuario. Al recuperar previamente varias ubicaciones en la pantalla principal, podemos recuperar ofertas para usarlas más adelante, a medida que el visitante navega por la aplicación. Consulte la [documentación de recuperación previa](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en) para obtener más información sobre los métodos de recuperación previa.
 
 ### Añadir la solicitud de recuperación previa por lotes
 

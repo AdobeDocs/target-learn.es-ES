@@ -1,19 +1,18 @@
 ---
-user-guide-title: 'Tutoriales de Adobe Target. '
+user-guide-title: 'Tutoriales de Adobe Target '
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-translation-type: tm+mt
-source-git-commit: b21d69b01e6bc6d2ba93b6425f86feacee567b06
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 7%
+source-wordcount: '388'
+ht-degree: 9%
 
 ---
 
 
-# Tutoriales de Adobe Target.   {#tutorials}
+# Tutoriales de Adobe Target  {#tutorials}
 
 + [Información general sobre los Tutorials de Adobe Target](../overview.md)
-+ Administration{#administration}
++ Administración{#administration}
    + [Estrategia de implementación y gobernanza del sistema](../dev101/1.1-implementation-strategy-sys-governance.md)
    + [Configurar preferencias de cuenta](../administration/set-up-account-preferences.md)
    + [Comprender los permisos de usuario de Enterprise](../administration/understanding-enterprise-user-permissions.md)
@@ -24,7 +23,7 @@ ht-degree: 7%
 + Implementación{#implementation}
    + [Introducción a la implementación de Target](../dev101/2.1-intro-to-target-implementation.md)
    + [Integración de Target con Launch](../dev101/3.1-target-launch.md)
-   + [Implementar en sitios web con Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html)
+   + [Implementar en sitios web con Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
    + [Ventajas de usar ubicaciones](../dev101/2.2-benefits-of-locations.md)
    + [Introducción a las solicitudes de Target](../dev101/2.3-intro-to-target-requests.md)
    + [Introducción a los parámetros de Target](../dev101/2.4-intro-to-target-params.md)
@@ -32,14 +31,14 @@ ht-degree: 7%
    + [Implementar at.js 2.0 en una aplicación de una sola página (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Diseño de una implementación de Target](../dev101/2.5-design-target-implementation.md)
    + [Pasos siguientes para diseñar una implementación de Target](../dev101/2.6-next-steps-design-target-implementation.md)
-   + [Uso de la inclusión para controlar soluciones de Experience Cloud basadas en el consentimiento del usuario](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/id-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html)
+   + [Uso de la inclusión para controlar soluciones de Experience Cloud basadas en el consentimiento del usuario](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [Comprender la implementación híbrida de Adobe Target](../implementation/hybrid-deployment.md)
    + [Información general sobre las decisiones en dispositivos](../implementation/on-device-decisioning-overview.md)
 + Integraciones{#integrations}
    + [Integración de Target con Analytics](../dev101/3.2-target-analytics.md)
    + [Uso de Analytics como fuente de datos para Target (A4T)](../integrations/use-analytics-as-a-data-source-a4t.md)
    + [Configuración de informes de A4T en Analysis Workspace para actividades de segmentación automática](../integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)
-   + [Integración de Target con el Audience Manager](../dev101/3.3-target-dmp.md)
+   + [Integración de Target con Audience Manager](../dev101/3.3-target-dmp.md)
    + [Integración de Target con Audiencias de Experience Cloud](../dev101/3.4-target-exc-audiences.md)
    + [Integración de Target con Campaign](../dev101/3.6-target-campaign.md)
    + [Integración de Target con Adobe I/O](../dev101/3.7-target-io.md)
@@ -87,4 +86,4 @@ ht-degree: 7%
    + [Implementar Adobe Target con el SDK v4 de Adobe Mobile Services para Android](../mobile-v4/overview.md)
 + API{#apis}
    + [Configuración de la autenticación de API de Adobe](../apis/configure-io-target-integration.md)
-   + [Uso de las API de Recommendations](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)
+   + [Uso de las API de Recommendations](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html?lang=en)

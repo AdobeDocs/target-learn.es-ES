@@ -8,14 +8,13 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 thumbnail: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 244bcf7a-b59b-4dd1-bd05-0a55ce7a7132
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
-
 
 # Descargar y actualizar la aplicación de ejemplo de We.Travel
 
@@ -40,7 +39,7 @@ Al final de esta lección, podrá:
 
 ## Verificación y actualización de la configuración del SDK de Mobile Services para [!DNL Target]
 
-El SDK de Adobe Mobile Services se ha preinstalado en la aplicación We.Travel [de acuerdo con la documentación](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html). Ahora actualizará la instalación para que apunte a su propia cuenta [!DNL Target].
+El SDK de Adobe Mobile Services se ha preinstalado en la aplicación We.Travel [de acuerdo con la documentación](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en). Ahora actualizará la instalación para que apunte a su propia cuenta [!DNL Target].
 
 En primer lugar, cree una nueva aplicación en la interfaz de usuario de Mobile Services:
 

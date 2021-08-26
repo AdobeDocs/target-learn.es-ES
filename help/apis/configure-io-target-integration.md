@@ -3,16 +3,16 @@ title: Configuración de la autenticación para las API de Adobe Target
 description: Este tutorial guía a los desarrolladores por los pasos necesarios para generar los tokens de autenticación necesarios para interactuar correctamente con las API de Adobe Target. Siga estos pasos para utilizar la consola de desarrollador de Adobe para generar y probar el token de acceso al portador, que es necesario para utilizar las API de Target.
 role: Developer, Admin, Architect
 level: Intermediate
-topic: Personalización, administración, integraciones, desarrollo
-feature: API/SDK, administración y configuración
+topic: Personalization, Administration, Integrations, Development
+feature: APIs/SDKs, Administration & Configuration
 doc-type: tutorial
 kt: null
 thumbnail: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
 workflow-type: tm+mt
-source-wordcount: '1892'
+source-wordcount: '1884'
 ht-degree: 2%
 
 ---
@@ -93,8 +93,7 @@ Existen muchas maneras de especificar los detalles de su proyecto en Postman, pe
 > 2. Generar un token de acceso con Postman
 
 >
-> 
-Estos pasos también se proporcionan a continuación.
+> Estos pasos también se proporcionan a continuación.
 
 1. En la [Consola del desarrollador de Adobe](https://console.adobe.io/), navegue para ver las credenciales de la **[!UICONTROL Cuenta de servicio (JWT)]** de su nuevo proyecto. Utilice la navegación izquierda o la sección **[!UICONTROL Credentials]** como se muestra.
    ![JWT1](assets/configure-io-target-jwt1.png)
@@ -197,4 +196,4 @@ En este ejercicio, utilizará el nuevo token de acceso de portador enviando una 
 1. Envíe la solicitud después de asegurarse de que ha seleccionado el entorno correcto. Debe recibir una respuesta que contenga su lista de actividades.
    ![testtoken6](assets/configure-io-target-testtoken6.png)
 
-¡Felicidades! Ahora que ha comprobado la autenticación de su Adobe, puede utilizarla para interactuar con las API de Adobe Target (así como con otras API de Adobe). Por ejemplo, puede [usar las API de Recommendations](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html) para crear o administrar recomendaciones.
+¡Felicidades! Ahora que ha comprobado la autenticación de su Adobe, puede utilizarla para interactuar con las API de Adobe Target (así como con otras API de Adobe). Por ejemplo, puede [usar las API de Recommendations](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html?lang=en) para crear o administrar recomendaciones.
