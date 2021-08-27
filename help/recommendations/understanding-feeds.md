@@ -3,15 +3,15 @@ title: ¿Qué es una fuente en Recommendations?
 description: Descubra qué es una fuente de Adobe Target Recommendations y cómo se utiliza
 role: User
 level: Intermediate
-topic: Personalización
-feature: Recomendaciones
+topic: Personalization
+feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
 exl-id: f9de86e7-1967-4ab7-a600-00e86220f209
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '77'
+source-wordcount: '75'
 ht-degree: 12%
 
 ---
@@ -37,4 +37,4 @@ En este vídeo, aprenderá a:
 * [Crear diseños personalizados](create-custom-designs.md)
 * [Creación de colecciones y exclusiones](create-collections-and-exclusions.md)
 * [Crear una actividad de Recommendations](create-a-recommendations-activity.md)
-* [Documentación de Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Documentación de Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

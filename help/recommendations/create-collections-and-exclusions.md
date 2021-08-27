@@ -3,16 +3,16 @@ title: Cómo crear colecciones y exclusiones en Recommendations
 description: Descubra qué es una colección de Recommendations y cómo utilizarla. Descubra qué es una exclusión de Recommendations y cómo utilizarla.
 role: User
 level: Intermediate
-topic: Personalización
-feature: Recomendaciones
+topic: Personalization
+feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
 exl-id: 10448c36-44b8-4a2f-a3c5-9e0130593a17
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 12%
+source-wordcount: '79'
+ht-degree: 11%
 
 ---
 
@@ -38,4 +38,4 @@ En este vídeo, aprenderá a:
 * [Crear una fuente](create-a-feed.md)
 * [Crear criterios](create-criteria.md)
 * [Crear diseños personalizados](create-custom-designs.md)
-* [Documentación de Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Documentación de Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

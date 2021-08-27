@@ -3,16 +3,16 @@ title: Cómo crear actividades de segmentación de experiencias
 description: Las actividades de Segmentación de experiencias (XT) permiten a los especialistas en marketing dirigirse a contenido específico para una audiencia específica. Conozca las ventajas de las actividades XT y cómo crearlas y utilizarlas.
 role: User
 level: Beginner
-topic: Personalización
-feature: Segmentación de experiencias, actividades, Compositor de experiencias visuales (VEC)
+topic: Personalization
+feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 thumbnail: null
 kt: null
 exl-id: 997d0902-ff30-4944-b08c-fe6d9f7bcc35
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 19%
+source-wordcount: '210'
+ht-degree: 20%
 
 ---
 
@@ -35,10 +35,10 @@ En este vídeo, aprenderá a:
 ## Recursos adicionales
 
 * [Descargar el manual de reproducción para la personalización de experiencias](https://guided.adobe.com/?promoid=K42KVXHD&amp;mv=other&amp;search=personalization+playbook#recommended/solutions/target)
-* [Documentación de segmentación de experiencias](https://docs.adobe.com/content/help/en/target/using/activities/experience-targeting/experience-target.html)
+* [Documentación de segmentación de experiencias](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
 
 ## Otras funciones utilizadas en este vídeo
 
-* [Documentación de Audiencias para informes](https://docs.adobe.com/help/en/target/using/audiences/managing-audience-filters.html)
-* [Creación de la documentación de Audiences](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
-* [Creación de experiencias con la documentación del Compositor de experiencias visuales](https://docs.adobe.com/content/help/en/target/using/experiences/experiences.html)
+* [Documentación de Audiencias para informes](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [Creación de la documentación de Audiences](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
+* [Creación de experiencias con la documentación del Compositor de experiencias visuales](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=en)

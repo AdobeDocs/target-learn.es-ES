@@ -3,16 +3,16 @@ title: Cómo crear criterios en Recommendations
 description: Obtenga información sobre cómo crear criterios en Adobe Target Recommendations
 role: User
 level: Intermediate
-topic: Personalización
-feature: Recomendaciones
+topic: Personalization
+feature: Recommendations
 doc-type: feature video
 thumbnail: null
 kt: null
 exl-id: 14135335-9f51-4e5d-905f-3cd6760c54cd
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 15%
+source-wordcount: '62'
+ht-degree: 14%
 
 ---
 
@@ -37,4 +37,4 @@ En este vídeo, aprenderá a:
 * [Crear una actividad de Recommendations](create-a-recommendations-activity.md)
 * [Explicación de las fuentes](understanding-feeds.md)
 * [Crear una fuente](create-a-feed.md)
-* [Documentación de Recommendations](https://docs.adobe.com/content/help/en/target/using/recommendations/recommendations.html)
+* [Documentación de Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

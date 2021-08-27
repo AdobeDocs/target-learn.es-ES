@@ -3,16 +3,16 @@ title: Cómo usar la comparación de perfiles para crear audiencias
 description: Este vídeo muestra a los usuarios de Adobe Target cómo usar la función Comparación de perfiles para comparar dos valores de perfil numéricos entre sí al crear una audiencia.
 role: User
 level: Experienced
-topic: Personalización
-feature: Audiencias
+topic: Personalization
+feature: Audiences
 doc-type: feature video
 thumbnail: null
 kt: null
 author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '174'
 ht-degree: 5%
 
 ---
@@ -36,7 +36,7 @@ En este vídeo, aprenderá a:
 
 ## Recursos adicionales
 
-* [Creación de una audiencia de comparación de atributos de perfil](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html)
-* [Métodos para obtener los datos en Adobe Target](https://docs.adobe.com/content/help/en/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html)
-* [Creación de audiencias](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/create-audience.html)
+* [Creación de una audiencia de comparación de atributos de perfil](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
+* [Métodos para obtener los datos en Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/methods/methods-to-get-data-into-target.html?lang=en)
+* [Creación de audiencias](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
 * [Vídeo Crear actividades de segmentación de experiencias](../activities/create-experience-targeting-activities.md)
