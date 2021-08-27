@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: 3040
 thumbnail: null
 exl-id: 0250e55f-a233-4060-84e1-86d1f88a6106
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: ee58c7c85708722cf040cd9b039a2855dd390a16
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 0%
@@ -31,7 +31,7 @@ Al final de esta lección, podrá:
 
 ## Añadir los parámetros del ciclo vital
 
-Habilitemos el [Adobe de métricas del ciclo vital móvil](https://docs.adobe.com/content/help/en/mobile-services/android/metrics.html). Esto agregará parámetros a las solicitudes de ubicación que contengan información enriquecida sobre el dispositivo del usuario y la participación en la aplicación. Generaremos audiencias en la siguiente lección utilizando los datos que proporciona la solicitud de ciclo vital.
+Habilitemos el [Adobe de métricas del ciclo vital móvil](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en). Esto agregará parámetros a las solicitudes de ubicación que contengan información enriquecida sobre el dispositivo del usuario y la participación en la aplicación. Generaremos audiencias en la siguiente lección utilizando los datos que proporciona la solicitud de ciclo vital.
 
 Para habilitar las métricas del ciclo vital, vuelva a abrir el controlador HomeActivity y añada `Config.collectLifecycleData(this);` a la función onResume() :
 

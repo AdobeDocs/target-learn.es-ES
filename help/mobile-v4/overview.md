@@ -8,14 +8,13 @@ feature: Implement Mobile, Overview
 doc-type: tutorial
 kt: 3040
 thumbnail: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 20f8ed4f-a86d-4c5e-9296-71a93724caa3
+source-git-commit: ee58c7c85708722cf040cd9b039a2855dd390a16
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 2%
+source-wordcount: '549'
+ht-degree: 3%
 
 ---
-
 
 # Adobe Target con Adobe Mobile Services SDK v4 para Android: información general
 
@@ -25,7 +24,7 @@ Se proporciona una aplicación Android de ejemplo para completar las lecciones. 
 
 Tras completar este tutorial, podrá:
 
-* Validar la configuración del SDK [Adobe Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html)
+* Validar la configuración del SDK [Adobe Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en)
 * Implemente los siguientes tipos de solicitudes [!DNL Target]:
    * Recuperación previa de contenido [!DNL Target]
    * Lleve por lotes varias [!DNL Target] ubicaciones (mboxes) en una sola solicitud
@@ -44,7 +43,7 @@ En estas lecciones, se da por hecho que:
 
 * Tener un ID de Adobe y acceso a nivel de aprobador a la interfaz de Adobe Target (consulte los pasos de verificación a continuación)
 * Conozca el código de cliente de Adobe Target para poder realizar solicitudes en su propia cuenta. El código de cliente se muestra en la interfaz de Adobe Target en la   Configuración > Implementación > Editar la pantalla de configuración de at.js
-* Tener acceso a la [interfaz de usuario de Mobile Services](https://mobilemarketing.adobe.com) y estar familiarizados con ella
+* Tener acceso a la [interfaz de usuario de Mobile Services](https://mobilemarketing.adobe.com/) y estar familiarizados con ella
 * Tenga un IDE para el desarrollo de aplicaciones móviles de Android. Este tutorial incluye [Android Studio](https://developer.android.com/studio/install) en varios pasos y capturas de pantalla
 
 Si no tiene el acceso necesario a las soluciones de Experience Cloud, póngase en contacto con el administrador Experience Cloud.
