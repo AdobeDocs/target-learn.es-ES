@@ -7,15 +7,13 @@ topic: Mobile, Personalization
 feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
-thumbnail: null
-translation-type: tm+mt
-source-git-commit: b89732fcca0be8bffc6e580e4ae0e62df3c3655d
+exl-id: 4b153e4f-a979-49a8-8c26-f7ac95162a2f
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '1015'
+source-wordcount: '1009'
 ht-degree: 1%
 
 ---
-
 
 # Crear audiencias y ofertas en Adobe Target
 
@@ -106,7 +104,7 @@ A continuación, crearemos algunas audiencias para algunos de los destinos ofrec
 
 ## Creación de ofertas
 
-Ahora, vamos a crear ofertas para mostrar estos mensajes. Como recordatorio, las ofertas son fragmentos de código/contenido que se entregan en la respuesta [!DNL Target]. Normalmente se crean en la interfaz de usuario [!DNL Target], pero también se pueden crear mediante API o utilizando la integración de fragmentos de experiencias con Adobe Experience Manager. En las aplicaciones móviles, las ofertas JSON son comunes. En este tutorial, se utilizan ofertas HTML, que se pueden utilizar para enviar contenido de texto sin formato (incluido JSON) a la aplicación.
+Ahora, vamos a crear ofertas para mostrar estos mensajes. Como recordatorio, las ofertas son fragmentos de código/contenido que se entregan en la respuesta [!DNL Target]. Normalmente se crean en la interfaz de usuario [!DNL Target], pero también se pueden crear mediante API o utilizando la integración de fragmentos de experiencias con Adobe Experience Manager. En las aplicaciones móviles, las ofertas JSON son comunes. En este tutorial, se utilizan ofertas de HTML, que se pueden utilizar para enviar contenido de texto sin formato (incluido JSON) a la aplicación.
 
 ### Creación de la oferta para nuevos usuarios
 
@@ -114,7 +112,7 @@ En primer lugar, vamos a crear ofertas para los mensajes a Nuevos usuarios:
 
 1. Haga clic en **[!UICONTROL Ofertas]** en la barra de navegación superior.
 1. Haga clic en **[!UICONTROL Crear]**.
-1. Seleccione **[!UICONTROL Oferta HTML]**.
+1. Seleccione **[!UICONTROL Oferta de HTML]**.
 
    ![Crear oferta principal](assets/offer_home_1.jpg)
 
@@ -122,24 +120,24 @@ En primer lugar, vamos a crear ofertas para los mensajes a Nuevos usuarios:
 1. Introduzca _Seleccione Origen y Destino para buscar los buses disponibles_ como código.
 1. Guarde la nueva oferta.
 
-   ![Crear oferta HTML de inicio](assets/offer_home_2.jpg)
+   ![Crear oferta de HTML principal](assets/offer_home_2.jpg)
 
 ### Creación de la oferta para usuarios que regresan
 
 Ahora vamos a crear la oferta única para usuarios que regresan (la segunda oferta será contenido predeterminado, que se mostrará como nada):
 
 1. Asigne un nombre a la oferta _Home: Devolver usuarios_.
-1. Introduzca _Bienvenido de nuevo! Utilice el código promocional BACK30 durante el cierre de compra para obtener un descuento del 10 %._ como código HTML.
+1. Introduzca _Bienvenido de nuevo! Utilice el código promocional BACK30 durante el cierre de compra para obtener un descuento del 10 %._ como código de HTML.
 1. Guarde la nueva oferta.
 
-   ![Crear oferta HTML de inicio](assets/offer_home_returning_users.jpg)
+   ![Crear oferta de HTML principal](assets/offer_home_returning_users.jpg)
 
 ### Creación de la oferta de San Diego
 
 Cuando se devuelve &quot;DJ&quot; a la actividad de agradecimiento, la lógica de la función filterRecommendationsBasedOnOffer() mostrará un banner para &quot;Rock Night with DJ SAM&quot;:
 
 1. Asigne un nombre a la oferta _Promoción para San Diego_.
-1. Introduzca _DJ_ como código HTML.
+1. Introduzca _DJ_ como código de HTML.
 1. Guarde la nueva oferta.
 
 ![Crear oferta &quot;San Diego&quot;](assets/offer_san_diego.jpg)
@@ -149,7 +147,7 @@ Cuando se devuelve &quot;DJ&quot; a la actividad de agradecimiento, la lógica d
 Cuando se devuelve &quot;Universal&quot; a la actividad de agradecimiento, la lógica de la función filterRecommendationsBasedOnOffer() mostrará un banner para &quot;Universal Studios&quot;:
 
 1. Asigne un nombre a la oferta _Promoción para Los Ángeles_.
-1. Introduzca _Universal_ como código HTML.
+1. Introduzca _Universal_ como código de HTML.
 1. Guarde la nueva oferta.
 
 ![Crear oferta &quot;Los Ángeles&quot;](assets/offer_los_angeles.jpg)

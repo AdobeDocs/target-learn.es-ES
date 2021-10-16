@@ -3,17 +3,16 @@ title: Cómo usar el Compositor de experiencias basadas en formularios
 description: Este vídeo muestra a los usuarios de Adobe Target cómo y cuándo utilizar el compositor de experiencias basadas en formularios.
 role: User
 level: Beginner
-topic: Personalización
-feature: Compositor de experiencias basadas en formularios, experiencias y ofertas, Compositor de experiencias visuales (VEC)
+topic: Personalization
+feature: Form-based Experience Composer, Experiences and Offers, Visual Experience Composer (VEC)
 doc-type: feature video
-thumbnail: null
 kt: null
 author: Daniel Wright
 exl-id: 7d216524-03a7-4acd-bd06-345d37ba24be
-source-git-commit: ee9aac0144e35abf32c5d8eafe10a013bf30d8d3
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 8%
+source-wordcount: '70'
+ht-degree: 10%
 
 ---
 

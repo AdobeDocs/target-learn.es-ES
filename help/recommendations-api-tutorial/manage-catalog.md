@@ -7,10 +7,9 @@ topic: Personalization, Administration, Integrations, Development
 feature: APIs/SDKs, Recommendations, Administration & Configuration
 doc-type: tutorial
 kt: 3815
-thumbnail: null
 author: Judy Kim
 exl-id: 8060b69b-e8e5-4fe7-895f-742410d8ed45
-source-git-commit: d1517f0763290eb61a9e4eef4f2eb215a9cdd667
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 2%
@@ -125,7 +124,7 @@ El objeto JSON se puede escalar para enviar varios productos. Por ejemplo, este 
 
 1. ¡Ahora es tu turno! Utilice la API **Save Entities** para añadir los siguientes elementos al catálogo. Utilice el archivo JSON de muestra anterior como punto de partida. (Deberá ampliar el JSON para incluir entidades adicionales).
 
-   ![SaveEntities5.png](assets/SaveEntities06.png)
+   ![SaveEntities 6.png](assets/SaveEntities06.png)
 
 Uy, parece que esos dos últimos artículos no pertenecen. Inspeccionémoslos usando la API **Get Entity** y, si es necesario, elimínelos mediante la API **Delete Entities**.
 

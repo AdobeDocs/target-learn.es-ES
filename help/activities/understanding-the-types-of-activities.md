@@ -4,16 +4,15 @@ description: Conozca los diferentes tipos de actividades incluidas en Adobe Targ
 landing-page-description: Conozca los conceptos básicos de las actividades A/B, las pruebas multivariable, las actividades de segmentación de experiencias, Recommendations y las actividades de Automated Personalization.
 role: User
 level: Beginner
-topic: Personalización
-feature: Actividades, Pruebas A/B, Pruebas multivariable, Segmentación de experiencias, Recommendations, Automated Personalization, Compositor de experiencias visuales (VEC)
+topic: Personalization
+feature: Activities, A/B Tests, Multivariate Tests, Experience Targeting, Recommendations, Automated Personalization, Visual Experience Composer (VEC)
 doc-type: feature video
-thumbnail: null
 kt: null
 exl-id: effcb28d-56cc-4592-86b1-53b1c68e3672
-source-git-commit: 5e3fdcb2f86e4811a0cbcfde66c3d6a6c8270355
+source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 31%
+source-wordcount: '122'
+ht-degree: 36%
 
 ---
 
