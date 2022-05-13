@@ -1,7 +1,7 @@
 ---
 user-guide-title: 'Tutoriales de Adobe Target '
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
-source-git-commit: a6b645b6d9693a4c8882fd47ee0d61698c0b834d
+source-git-commit: df4e2a7660e92ee87d9678d8bb9bb9d6a22bf6b4
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 9%
@@ -41,7 +41,7 @@ ht-degree: 9%
    + [Integración de Target con Audience Manager](../dev101/3.3-target-dmp.md)
    + [Integración de Target con Audiencias de Experience Cloud](../dev101/3.4-target-exc-audiences.md)
    + [Integración de Target con Campaign](../dev101/3.6-target-campaign.md)
-   + [Integración de Target con Adobe I/O](../dev101/3.7-target-io.md)
+   + [Integración de Target con la consola de Adobe Developer](../dev101/3.7-target-io.md)
    + [Integración de Target con Scene7](../dev101/3.8-target-scene7.md)
    + [Integración de Target con Adobe Experience Manager](../dev101/3.5-target-aem.md)
    + [Uso AEM fragmentos de experiencias en Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
