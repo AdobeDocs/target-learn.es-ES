@@ -1,10 +1,11 @@
 ---
 title: QuickStart para pruebas de personalización y creación de hojas de ruta
-description: 'Obtenga información sobre un marco que puede utilizar para empezar a validar actividades de personalización y crear una hoja de ruta de personalización para ejecutarla a través de Adobe Target y Adobe Analytics.  '
+description: Obtenga información sobre un marco que puede utilizar para empezar a validar actividades de personalización y crear una hoja de ruta de personalización para ejecutarla a través de Adobe Target y Adobe Analytics.
 solution: Target,Analytics
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: c0b6f9a0-7074-4e25-81e6-9781a54e2156
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1402'
+source-wordcount: '1420'
 ht-degree: 0%
 
 ---
@@ -86,3 +87,5 @@ Una vez que su actividad de personalización haya atraído una muestra represent
 ### Más información
 
 Le recomendamos que vea este vídeo en el que se describen cada uno de estos pasos: [https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/](https://adobecustomersuccess.adobeconnect.com/pvsqvdvunpai/)
+
+Obtenga más información sobre la estrategia y el liderazgo mental en [Éxito del cliente](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) hub.

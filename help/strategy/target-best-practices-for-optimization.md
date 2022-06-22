@@ -1,10 +1,11 @@
 ---
 title: Prácticas recomendadas para optimización
-description: 'Conozca los seis aspectos básicos de la optimización de Adobe y cómo aplicarlos. '
+description: Conozca los seis aspectos básicos de la optimización de Adobe y cómo aplicarlos.
 solution: Target
-source-git-commit: fd679d3fc2c72b9852d8129adf8c1187bf22b25f
+exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
+source-git-commit: 46f61d8f503f230a79b4072ea0d75edd41403708
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -115,3 +116,5 @@ La personalización también incluye el tipo de actividad de prueba de segmentac
 Teniendo en cuenta lo anterior, Adobe recomienda optimizar antes de personalizar y avanzar en la personalización de un amplio a otro nivel. Para madurar las actividades de personalización de amplio a granular, comenzará a utilizar un estilo de personalización (amplio) de uno a varios (con pruebas A/B) y, a continuación, pasará a un estilo de personalización (granular) uno a uno (con actividades de personalización automatizada).
 
 Para obtener más información, escuche [seminario web sobre cómo comprender y optimizar su implementación de Adobe Target](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/), con Business Consultant, Katie Cozby.
+
+Obtenga más información sobre la estrategia y el liderazgo mental en [Éxito del cliente](https://experienceleague.corp.adobe.com/docs/customer-success/customer-success/overview.html) hub.
