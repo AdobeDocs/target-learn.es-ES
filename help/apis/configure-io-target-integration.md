@@ -9,7 +9,7 @@ doc-type: tutorial
 kt: null
 author: Judy Kim
 exl-id: 8a1e93e4-67b2-4942-a8da-fc0f2cbb2df2
-source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
+source-git-commit: cee2618bb92284da1f82d108a0aff0d39340a15b
 workflow-type: tm+mt
 source-wordcount: '1882'
 ht-degree: 3%
@@ -195,4 +195,4 @@ En este ejercicio, utilizará el nuevo token de acceso de portador enviando una 
 1. Envíe la solicitud después de asegurarse de que ha seleccionado el entorno correcto. Debe recibir una respuesta que contenga su lista de actividades.
    ![testtoken6](assets/configure-io-target-testtoken6.png)
 
-¡Felicidades! Ahora que ha comprobado la autenticación de su Adobe, puede utilizarla para interactuar con las API de Adobe Target (así como con otras API de Adobe). Por ejemplo, puede [Uso de las API de Recommendations](https://developer.adobe.com/target/before-administer/recs-api/){target=_blank} para crear o administrar recomendaciones.
+¡Felicidades! Ahora que ha comprobado la autenticación de su Adobe, puede utilizarla para interactuar con las API de Adobe Target (así como con otras API de Adobe). Por ejemplo, puede [Uso de las API de Recommendations](https://developer.adobe.com/target/before-administer/recs-api/){target=&quot;_blank&quot;} para crear o administrar recomendaciones.
