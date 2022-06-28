@@ -9,16 +9,16 @@ doc-type: tutorial
 kt: 3815
 author: Judy Kim
 exl-id: ee63bd3e-200a-4c08-b364-9f17a479033b
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 0ecfde208b3e201de135512d5aab70192fc2b826
 workflow-type: tm+mt
-source-wordcount: '941'
+source-wordcount: '949'
 ht-degree: 1%
 
 ---
 
 # Administrar criterios personalizados
 
-A veces los algoritmos proporcionados por [!DNL Recommendations] no pueden mostrar elementos concretos que desee promocionar. En tal situación, los criterios personalizados permiten entregar un conjunto específico de artículos recomendados para un elemento clave o categoría determinados. La asignación se define entre el elemento clave o la categoría y los artículos recomendados, y se importa como criterio personalizado. Este proceso se describe en la [documentación de criterios personalizados](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/recommendations-csv.html?lang=en). Como se indica en esa documentación, puede crear, editar y eliminar criterios personalizados a través de la interfaz de usuario (IU) [!DNL Target]. Sin embargo, [!DNL Target] también proporciona un conjunto de API de criterios personalizados que permiten una administración más detallada de los criterios personalizados.
+A veces, los algoritmos proporcionados por [!DNL Recommendations] no pueden mostrar elementos concretos que desee promocionar. En tal situación, los criterios personalizados permiten entregar un conjunto específico de artículos recomendados para un elemento clave o categoría determinados. La asignación se define entre el elemento clave o la categoría y los artículos recomendados, y se importa como criterio personalizado. Este proceso se describe en la sección [documentación de criterios personalizados](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/recommendations-csv.html?lang=en). Como se indica en esa documentación, puede crear, editar y eliminar criterios personalizados mediante la variable [!DNL Target] interfaz de usuario (IU). Sin embargo, [!DNL Target] también proporciona un conjunto de API de criterios personalizados que permiten una administración más detallada de los criterios personalizados.
 
 >[!IMPORTANT]
 >
@@ -28,21 +28,21 @@ A veces los algoritmos proporcionados por [!DNL Recommendations] no pueden mostr
 
 ## Crear criterios personalizados
 
-Para crear criterios personalizados utilizando la [Create Custom Criteria API](https://developers.adobetarget.com/api/recommendations/#operation/createCriteriaCustom), la sintaxis es:
+Para crear criterios personalizados con la variable [Crear API de criterios personalizados](https://developers.adobetarget.com/api/recommendations/#operation/createCriteriaCustom), la sintaxis es:
 
 `POST https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom`
 
 >[!WARNING]
 >
->Los criterios personalizados creados con la API Crear criterios personalizados , tal como se describe en este ejercicio, aparecerán en la interfaz de usuario, donde persistirán. No podrá editarlas ni eliminarlas de la interfaz de usuario. Puede editarlos o eliminarlos **mediante API**, pero de cualquier manera, seguirán apareciendo en la interfaz de usuario [!DNL Target]. Para mantener la opción de editar o eliminar de la interfaz de usuario, cree los criterios personalizados empleando la IU por [documentación](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/recommendations-csv.html?lang=en), en lugar de usar la API Crear criterio personalizado.
+>Los criterios personalizados creados con la API Crear criterios personalizados , tal como se describe en este ejercicio, aparecerán en la interfaz de usuario, donde persistirán. No podrá editarlas ni eliminarlas de la interfaz de usuario. Puede editarlas o eliminarlas **mediante API**, pero de cualquier manera, seguirán apareciendo en la variable [!DNL Target] IU. Para mantener la opción de editar o eliminar de la interfaz de usuario, cree los criterios personalizados empleando la interfaz de usuario de [la documentación](https://experienceleague.adobe.com/docs/target/using/recommendations/criteria/recommendations-csv.html?lang=en), en lugar de usar la API Crear criterio personalizado .
 
 Continúe solo con este tutorial después de haber leído la advertencia anterior y se sienta cómodo creando nuevos criterios personalizados que no se pueden eliminar posteriormente de la interfaz de usuario.
 
-1. Compruebe `TENANT_ID` y `API_KEY` para **Crear criterios personalizados** y haga referencia a las variables de entorno de Postman establecidas anteriormente. Utilice la siguiente imagen para comparar.
+1. Verificar `TENANT_ID` y `API_KEY` para **Crear criterios personalizados** haga referencia a las variables de entorno de Postman establecidas anteriormente. Utilice la siguiente imagen para comparar.
 
    ![CreateCustomCriteria1](assets/CreateCustomCriteria1.png)
 
-2. Añada su **Body** como **raw** JSON que define la ubicación del archivo CSV de criterios personalizados. Utilice el ejemplo proporcionado en la documentación [Crear API de criterios personalizados](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom) como plantilla y proporcione los `environmentId` y otros valores según sea necesario. Para este ejemplo, utilizamos LAST_PURCHASED como clave.
+2. Agregue la **Cuerpo** como **raw** JSON que define la ubicación del archivo CSV de criterios personalizados. Utilice el ejemplo proporcionado en la variable [Crear API de criterios personalizados](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom) documentación como plantilla, que proporciona su `environmentId` y otros valores según sea necesario. Para este ejemplo, utilizamos LAST_PURCHASED como clave.
 
    ![CreateCustomCriteria2](assets/CreateCustomCriteria2.png)
 
@@ -50,30 +50,30 @@ Continúe solo con este tutorial después de haber leído la advertencia anterio
 
    ![CreateCustomCriteria3](assets/CreateCustomCriteria3.png)
 
-4. Para comprobar que se han creado los criterios personalizados, vaya dentro de Adobe Target a **[!UICONTROL Recommendations] > [!UICONTROL Criteria]** y busque los criterios por su nombre, o utilice la **List Custom Criteria API** en el siguiente paso.
+4. Para comprobar que se han creado los criterios personalizados, vaya a **[!UICONTROL Recommendations] > [!UICONTROL Criterios]** y busque sus criterios por nombre, o use el **API de criterios personalizados de lista** en el siguiente paso.
 
    ![CreateCustomCriteria4](assets/CreateCustomCriteria4.png)
 
-En este caso, tenemos un error. Investiguemos el error examinando los criterios personalizados más detenidamente, usando la **API de criterios personalizados de lista**.
+En este caso, tenemos un error. Investiguemos el error examinando los criterios personalizados más detenidamente, usando la variable **API de criterios personalizados de lista**.
 
 ## Enumerar criterios personalizados
 
-Para recuperar una lista de todos los criterios personalizados junto con los detalles de cada uno, utilice la [List Custom Criteria API](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom). La sintaxis es:
+Para recuperar una lista de todos los criterios personalizados junto con los detalles de cada uno, use la variable [API de criterios personalizados de lista](https://developers.adobetarget.com/api/recommendations/#operation/getAllCriteriaCustom). La sintaxis es:
 
 `GET https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom`
 
-1. Compruebe `TENANT_ID` y `API_KEY` como antes y envíe la solicitud. En la respuesta, tenga en cuenta el ID de criterios personalizados, así como los detalles relativos al mensaje de error que ya se han indicado.
+1. Verificar `TENANT_ID` y `API_KEY` como antes, y envíe la solicitud. En la respuesta, tenga en cuenta el ID de criterios personalizados, así como los detalles relativos al mensaje de error que ya se han indicado.
    ![ListCustomCriteria](assets/ListCustomCriteria.png)
 
 En este caso, el error se produjo porque la información del servidor es incorrecta, lo que significa que [!DNL Target] no puede acceder al archivo CSV que contiene la definición de criterios personalizados. Editemos los criterios personalizados para corregirlos.
 
 ## Editar criterios personalizados
 
-Para cambiar los detalles de una definición de criterios personalizados, utilice la [Editar API de criterios personalizados](https://developers.adobetarget.com/api/recommendations/#operation/updateCriteriaCustom). La sintaxis es:
+Para cambiar los detalles de una definición de criterios personalizados, use la variable [Editar API de criterios personalizados](https://developers.adobetarget.com/api/recommendations/#operation/updateCriteriaCustom). La sintaxis es:
 
 `POST https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom/:criteriaId`
 
-1. Compruebe `TENANT_ID` y `API_KEY`, como antes.
+1. Verificar `TENANT_ID` y `API_KEY`, como antes.
    ![EditarCriteriosPersonalizados1](assets/EditCustomCriteria1.png)
 
 1. Especifique el ID de criterio de los criterios personalizados (únicos) que desea editar.
@@ -85,11 +85,11 @@ Para cambiar los detalles de una definición de criterios personalizados, utilic
 1. Envíe la solicitud y anote la respuesta.
    ![EditarCriteriosPersonalizados4](assets/EditCustomCriteria4.png)
 
-Comprobemos el éxito de los criterios personalizados actualizados mediante la **API Get Custom Criteria**.
+Comprobemos el éxito de los criterios personalizados actualizados mediante el **Obtener API de criterios personalizados**.
 
 ## Obtener criterios personalizados
 
-Para ver los detalles de criterios personalizados para un criterio personalizado específico, use [Get Custom Criteria API](https://developers.adobetarget.com/api/recommendations/#operation/getCriteriaCustom). La sintaxis es:
+Para ver los detalles de criterios personalizados de un criterio personalizado específico, use la variable [Obtener API de criterios personalizados](https://developers.adobetarget.com/api/recommendations/#operation/getCriteriaCustom). La sintaxis es:
 
 `GET https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom/:criteriaId`
 
@@ -102,7 +102,7 @@ Para ver los detalles de criterios personalizados para un criterio personalizado
 
 ## Eliminar criterios personalizados
 
-Con el ID de criterios anotado anteriormente, elimine los criterios personalizados con la [API Eliminar criterios personalizados](https://developers.adobetarget.com/api/recommendations/#operation/deleteCriteriaCustom). La sintaxis es:
+Con el ID de criterios que se ha indicado anteriormente, elimine los criterios personalizados con la variable [Eliminar API de criterios personalizados](https://developers.adobetarget.com/api/recommendations/#operation/deleteCriteriaCustom). La sintaxis es:
 
 `DELETE https://mc.adobe.io/{{TENANT_ID}}/target/recs/criteria/custom/:criteriaId`
 
@@ -114,8 +114,8 @@ Con el ID de criterios anotado anteriormente, elimine los criterios personalizad
 En este caso, el error 404 esperado indica que no se pueden encontrar los criterios eliminados.
 
 >[!NOTE]
->Como recordatorio, los criterios no se eliminarán de la interfaz de usuario de [!DNL Target] aunque se hayan eliminado, ya que se crearon con la API Crear criterio personalizado.
+>Como recordatorio, los criterios no se eliminarán del [!DNL Target] Aunque se haya eliminado, ya que se creó con la API Crear criterios personalizados .
 
-¡Felicidades! Ahora puede crear, enumerar, editar, eliminar y obtener detalles sobre criterios personalizados mediante la API [!DNL Recommendations]. En la siguiente sección, utilizará la API de envío [!DNL Target] para recuperar recomendaciones.
+¡Felicidades! Ahora puede crear, enumerar, editar, eliminar y obtener detalles sobre criterios personalizados mediante el [!DNL Recommendations] API. En la siguiente sección, utilizará la variable [!DNL Target] API de envío para recuperar recomendaciones.
 
-[Siguiente: &quot;Buscar Recommendations con la API de envío del lado del servidor&quot; >](fetch-recs-server-side-delivery-api.md)
+[Siguiente: &quot;Buscar Recommendations con la API de envío del lado del servidor&quot; >](https://developer.adobe.com/target/before-administer/recs-api/fetch-recs-server-side-delivery-api/){target=_blank}
