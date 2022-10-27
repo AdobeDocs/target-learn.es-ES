@@ -8,7 +8,7 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 1c09ae58070d9f55aab555531f9a03dacbb26f03
+source-git-commit: e1acb84970b967625e0b6c7495067ed6456a6aa3
 workflow-type: tm+mt
 source-wordcount: '2653'
 ht-degree: 1%
@@ -86,6 +86,7 @@ Permita comparar los informes de nivel de visitante y de nivel de visita:
 | Una | 1 | 1 | - | 0% | 0% |
 | B | 2 | 3 | 1 | 50% | 33,3 % |
 | Totales | 2 | 4 | 1 | 50 % | 25 % |
+
 *Tabla 1: Ejemplo que compara informes normalizados por visitantes con informes normalizados por visitas para un escenario en el que las decisiones se mantienen fieles a una visita (y no al visitante, como sucede con las pruebas A/B normales). Las métricas normalizadas por visitantes son confusas en este escenario.*
 
 Como se muestra en la tabla, hay una clara incongruencia de los números de nivel de visitante. A pesar de que hay dos visitantes únicos totales, no se trata de una suma de visitantes únicos individuales para cada experiencia. Aunque la tasa de conversión a nivel de visitante no es necesariamente incorrecta, cuando se compara una experiencia individual, las tasas de conversión a nivel de visita probablemente tengan mucho más sentido. Formalmente, la unidad de análisis (&quot;visitas&quot;) es la misma que la unidad de adherencia en la toma de decisiones, lo que significa que se pueden agregar y comparar desgloses de métricas a nivel de experiencia.
