@@ -1,9 +1,8 @@
 ---
-source-git-commit: ef3c016c2e7fdf12cefd340ec8ff988ad8e6c567
+source-git-commit: e3e1cf48415af1e54976fb8543927e093aca7194
 workflow-type: tm+mt
-translation-type: tm+mt
-source-wordcount: '296'
-ht-degree: 88%
+source-wordcount: '294'
+ht-degree: 89%
 
 ---
 # Contribución
@@ -20,7 +19,7 @@ se presupone que acepta este código. Comunique los comportamientos inaceptables
 
 ## Documentación de la Guía del colaborador
 
-See the [Contributor Guide](https://docs.adobe.com/content/help/en/contributor/contributor-guide/introduction.html).
+Consulte la [Guía del colaborador](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 ## ¿Tiene preguntas?
 
@@ -32,7 +31,7 @@ dentro de los hilos de problemas (cuando sea necesario).
 
 Todas las contribuciones de terceros a este proyecto deben estar acompañadas por un contrato de licencia de colaborador
 firmado. Esto le proporciona permiso a Adobe para redistribuir las contribuciones
-como parte del proyecto. [Firme nuestro CLA](http://opensource.adobe.com/cla.html). Solo 
+como parte del proyecto. [Firmar nuestro contrato de licencia de colaborador](http://opensource.adobe.com/cla.html). Solo 
 tiene que enviar un contrato de licencia de colaborador de Adobe, por lo que, si ha enviado uno anteriormente,
 ya está listo para comenzar.
 
