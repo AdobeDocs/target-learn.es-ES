@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: dd0c3ed5cd44d6b70b7c69bfcfbca5940900772b
+source-git-commit: ba33152906afda02ebf65365d9783ba8a4ea3c83
 workflow-type: tm+mt
-source-wordcount: '2278'
+source-wordcount: '2282'
 ht-degree: 1%
 
 ---
@@ -203,6 +203,8 @@ La definición completa de la métrica calculada se muestra aquí.
 ## Resumen: Muestra final [!DNL Analysis Workspace] panel para [!UICONTROL Segmentación automática] informes
 
 Al combinar todos los pasos anteriores en un solo panel, la figura siguiente muestra una vista completa del informe recomendado para [!UICONTROL Segmentación automática] Actividades de A4T. Este informe es el mismo que el que utiliza el [!DNL Target] Modelos XML para optimizar la métrica de objetivo. El informe incorpora todos los matices y recomendaciones que se examinan en este tutorial. Este informe también es el más cercano a las metodologías de contabilización utilizadas en la versión tradicional [!DNL Target]Impulsado por informes [!UICONTROL Segmentación automática] actividades.
+
+Haga clic para expandir la imagen.
 
 ![Informe final de A4T en [!DNL Analysis Workspace]](assets/Figure8.png "Informe A4T en Analysis Workspace"){width="600" zoomable="yes"}
 
