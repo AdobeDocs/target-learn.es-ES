@@ -1,31 +1,37 @@
 ---
 title: Aprenda a utilizar Adobe Target
-description: Aprenda a utilizar Adobe Target con esta colección de tutoriales y vídeos que abarcan todos sus componentes. Utilice la potencia de Adobe Target de forma eficaz.
+description: Aprenda a utilizar [!DNL Adobe Target] con esta colección de tutoriales y vídeos que abarcan todos sus componentes.
 role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: da8f839931f4c68d3ee8ef9e1c8ca377d79a4cb0
+source-git-commit: ca57cc6fae9bb68b9ad432afe64ffea726cd6872
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 17%
+source-wordcount: '249'
+ht-degree: 15%
 
 ---
 
 # Aprenda a utilizar Adobe Target
 
-Adobe Target es la solución de Adobe Experience Cloud que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles. Utilice estos vídeos y tutoriales para conocer los muchos componentes de Adobe Target.
+[!DNL Adobe Target] es la solución de [!DNL Adobe Experience Cloud] que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles. Utilice estos vídeos y tutoriales para conocer los numerosos componentes de [!DNL Adobe Target].
 
 <div id="whats-new-section">
 
 ## Novedades
 
-* **[Configuración de informes de A4T en Analysis Workspace para actividades de segmentación automática](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
+* **[Configuración de informes de A4T en [!DNL Analysis Workspace] para [!DNL Auto-Allocate] actividades](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)**
 
-   *Para profesionales del sector empresarial: ¿Está utilizando A4T para la segmentación automática? Siga estos pasos para configurar los informes de A4T en Analysis Workspace y asegurarse de que obtiene los resultados esperados al ejecutar actividades de segmentación automática.*
-* **[Información general sobre las decisiones en dispositivos](implementation/on-device-decisioning-overview.md)**
+   Para profesionales del sector empresarial: [!UICONTROL Analytics for Target] Integración de (A4T) para [!UICONTROL Asignación automática] le permite ver los datos de los informes en [!DNL Adobe Analytics]e incluso puede optimizar para eventos personalizados o métricas definidas en [!DNL Analytics].
 
-   *Para arquitectos: Empiece con la toma de decisiones en el dispositivo para ofrecer experiencias de latencia cercanas a cero a sus consumidores.*
+* **[Configuración de informes de A4T en [!DNL Analysis Workspace] para [!UICONTROL Segmentación automática] actividades](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
+
+   Para profesionales del sector empresarial: ¿Utiliza A4T para [!UICONTROL Segmentación automática]? Siga estos pasos para configurar los informes de A4T en [!DNL Analysis Workspace] para asegurarse de obtener los resultados esperados al ejecutar [!UICONTROL Segmentación automática] actividades.
+
+* **[Información general sobre la toma de decisiones en el dispositivo](implementation/on-device-decisioning-overview.md)**
+
+   Para arquitectos: Introducción a [!UICONTROL toma de decisiones en el dispositivo] para ofrecer experiencias de latencia cercanas a cero a sus consumidores.
+
 <!-- * **[Use the Recommendations API (Tutorial)](recommendations-api-tutorial/recs-api-overview.md)**
     *For developers: Get hands-on practice using the [!DNL Recommendations] APIs to configure and manage [!DNL Recommendations] catalogs and custom criteria, and more.*-->
 
@@ -39,7 +45,6 @@ Adobe Target es la solución de Adobe Experience Cloud que le proporciona todo l
 * **[Create a Recommendations Activity (Video)](recommendations/create-a-recommendations-activity.md)**
     <br>
     *Recommend products to your customers at scale with this Premium feature.* -->
-
 
 </div>
 
@@ -71,28 +76,28 @@ Adobe Target es la solución de Adobe Experience Cloud que le proporciona todo l
   </td>
   <td>
     <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
-      <img alt="Implementar at.js 2.0 en una aplicación de una sola página (SPA)" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png" />
+      <img alt="SPA Implementar at.js 2.0 en una aplicación de una sola página ()" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png" />
     </a>
     <div>
       <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
-    <strong>Implementar at.js 2.0 en una aplicación de una sola página (SPA)</strong>
+    <strong>SPA Implementar at.js 2.0 en una aplicación de una sola página ()</strong>
     </a>
     </div>
     <p>
-    <em>Descubra la compatibilidad de at.js 2.x con SPA</em>
+    <em>SPA Consulte cómo at.js 2.x admite la aplicación de la versión de la aplicación de</em>
     <p>
   </td>
   <td>
     <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-      <img alt="Resolución de problemas de Target con el Experience Cloud Debugger" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
+      <img alt="Solución de problemas de Target con el Experience Cloud Debugger" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
     </a>
     <div>
       <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-    <strong>Resolución de problemas de Target con el Experience Cloud Debugger</strong>
+    <strong>Solución de problemas de Target con el Experience Cloud Debugger</strong>
     </a>
     </div>
     <p>
-    <em>Ampliar la implementación</em>
+    <em>Aumente la implementación</em>
     <p>
   </td>
 </tr>
