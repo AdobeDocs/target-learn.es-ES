@@ -2,6 +2,7 @@
 title: Configuración de informes de A4T en [!DNL Analysis Workspace] para [!DNL Auto-Target] Actividades
 description: ¿Cómo configuro los informes de A4T en? [!DNL Analysis Workspace] para obtener los resultados esperados al ejecutar [!UICONTROL Segmentación automática] actividades?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
 role: User
 level: Intermediate
 topic: Personalization, Integrations
@@ -10,7 +11,7 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 14a362214dce9d698c78438c3a47424b59aa4632
+source-git-commit: 0ab5bc8b2ad4b5b32069b022d95d0862ec84e868
 workflow-type: tm+mt
 source-wordcount: '2253'
 ht-degree: 1%
@@ -51,7 +52,7 @@ Para crear un A4T para [!UICONTROL Segmentación automática] informe, comience 
 
 ## Utilice el [!UICONTROL Control frente a objetivo] dimensión para comparar el [!DNL Target] Ensamblar el modelo XML al control
 
-El panel predeterminado de A4T está diseñado para clásico (manual) [!UICONTROL Prueba A/B] o [!UICONTROL Asignación automática] actividades en las que el objetivo es comparar el rendimiento de las experiencias individuales con el de la experiencia de control. Entrada [!UICONTROL Segmentación automática] sin embargo, la comparación de primer orden debe ser entre el control *estrategia* y el objetivo *estrategia*. En otras palabras, determinar el alza del rendimiento global de la [!UICONTROL Segmentación automática] ensamblar el modelo XML sobre la estrategia de control).
+El panel predeterminado de A4T está diseñado para clásico (manual) [!UICONTROL Prueba A/B] o [!UICONTROL Asignación automática] actividades en las que el objetivo es comparar el rendimiento de las experiencias individuales con el de la experiencia de control. Entrada [!UICONTROL Segmentación automática] sin embargo, la comparación de primer orden debe ser entre el control *estrategia* y el objetivo *estrategia*. En otras palabras, determinar el alza del rendimiento global de la [!UICONTROL Segmentación automática] ensamble el modelo ML sobre la estrategia de control.
 
 Para realizar esta comparación, utilice el **[!UICONTROL Control frente a objetivo (Analytics for Target)]** dimensión. Arrastre y suelte para reemplazar el **[!UICONTROL Experiencias de Target]** en el informe predeterminado de A4T.
 
