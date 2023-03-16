@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # Aprenda a utilizar Adobe Target
 
-[!DNL Adobe Target] es la solución de [!DNL Adobe Experience Cloud] que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles. Utilice estos vídeos y tutoriales para conocer los numerosos componentes de [!DNL Adobe Target].
+[!DNL Adobe Target] es la solución de [!DNL Adobe Experience Cloud] que le proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes con el fin de maximizar los ingresos de sus sitios web, aplicaciones, medios sociales y otros canales digitales, tanto para PC como para móviles. Utilice estos vídeos y tutoriales para conocer los muchos componentes de [!DNL Adobe Target].
 
 <div id="whats-new-section">
 
@@ -22,11 +22,11 @@ ht-degree: 15%
 
 * **[Configuración de informes de A4T en [!DNL Analysis Workspace] para [!DNL Auto-Allocate] actividades](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.md)**
 
-   Para profesionales del sector empresarial: [!UICONTROL Analytics for Target] Integración de (A4T) para [!UICONTROL Asignación automática] le permite ver los datos de los informes en [!DNL Adobe Analytics]e incluso puede optimizar para eventos personalizados o métricas definidas en [!DNL Analytics].
+   Para profesionales del sector empresarial: La variable [!UICONTROL Analytics para Target] Integración de (A4T) para [!UICONTROL Asignación automática] permite ver los datos de los informes en [!DNL Adobe Analytics]e incluso puede optimizar para eventos personalizados o métricas definidos en [!DNL Analytics].
 
 * **[Configuración de informes de A4T en [!DNL Analysis Workspace] para [!UICONTROL Segmentación automática] actividades](integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.md)**
 
-   Para profesionales del sector empresarial: ¿Utiliza A4T para [!UICONTROL Segmentación automática]? Siga estos pasos para configurar los informes de A4T en [!DNL Analysis Workspace] para asegurarse de obtener los resultados esperados al ejecutar [!UICONTROL Segmentación automática] actividades.
+   Para profesionales del sector empresarial: ¿Está utilizando A4T para [!UICONTROL Segmentación automática]? Siga estos pasos para configurar los informes de A4T en [!DNL Analysis Workspace] para asegurarse de que se obtienen los resultados esperados al ejecutar [!UICONTROL Segmentación automática] actividades.
 
 * **[Información general sobre la toma de decisiones en el dispositivo](implementation/on-device-decisioning-overview.md)**
 
@@ -76,28 +76,28 @@ ht-degree: 15%
   </td>
   <td>
     <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
-      <img alt="SPA Implementar at.js 2.0 en una aplicación de una sola página ()" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png" />
+      <img alt="Implementar at.js 2.0 en una aplicación de una sola página (SPA)" src="assets/implementing_adobetargetsatjs20inasinglepageapplicationspa.png" />
     </a>
     <div>
       <a href="implementation/implement-atjs-20-in-a-single-page-application.md">
-    <strong>SPA Implementar at.js 2.0 en una aplicación de una sola página ()</strong>
+    <strong>Implementar at.js 2.0 en una aplicación de una sola página (SPA)</strong>
     </a>
     </div>
     <p>
-    <em>SPA Consulte cómo at.js 2.x admite la aplicación de la versión de la aplicación de</em>
+    <em>Descubra la compatibilidad de at.js 2.x con SPA</em>
     <p>
   </td>
   <td>
     <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-      <img alt="Solución de problemas de Target con el Experience Cloud Debugger" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
+      <img alt="Resolución de problemas de Target con el Experience Cloud Debugger" src="assets/using_the_experienceclouddebuggerwithadobetarget.png" />
     </a>
     <div>
       <a href="troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md">
-    <strong>Solución de problemas de Target con el Experience Cloud Debugger</strong>
+    <strong>Resolución de problemas de Target con el Experience Cloud Debugger</strong>
     </a>
     </div>
     <p>
-    <em>Aumente la implementación</em>
+    <em>Ampliar la implementación</em>
     <p>
   </td>
 </tr>
