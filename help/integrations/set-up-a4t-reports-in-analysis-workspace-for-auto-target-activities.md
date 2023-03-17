@@ -11,9 +11,9 @@ doc-type: tutorial
 thumbnail: null
 kt: null
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-source-git-commit: 0c15c9f448556ba4f5746de62f0673c16202d65f
+source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
 workflow-type: tm+mt
-source-wordcount: '2253'
+source-wordcount: '2647'
 ht-degree: 1%
 
 ---
@@ -138,7 +138,7 @@ El panel final aparece de la siguiente manera:
 
 *Figura 6: Panel de informes con el segmento &quot;Visita con actividad de segmentación automática específica&quot; aplicado a la variable [!UICONTROL Visitas] métrica. Este segmento garantiza que solo las visitas en las que un usuario interactuó con la variable [!DNL Target] la actividad en cuestión se incluye en el informe.*
 
-## Alinee la atribución entre la formación del modelo ML y la generación de métricas de objetivo
+## Asegúrese de que la métrica de objetivo y la atribución estén alineadas con su criterio de optimización
 
 La integración de A4T permite el uso de [!UICONTROL Segmentación automática] Modelo ML que debe ser *entrenado* utilizando los mismos datos de evento de conversión que [!DNL Adobe Analytics] usa para *generar informes de rendimiento*. Sin embargo, hay ciertas hipótesis que deben emplearse para interpretar estos datos al entrenar los modelos ML, que difieren de las hipótesis por defecto realizadas durante la fase de notificación en [!DNL Adobe Analytics].
 
@@ -148,7 +148,13 @@ Por lo tanto, la diferencia entre la atribución utilizada por la variable [!DNL
 
 >[!TIP]
 >
->Si los modelos ML están optimizando una métrica que se atribuye de forma diferente a la de las métricas que está viendo en un informe, es posible que los modelos no funcionen como se espera. Para evitar esta situación, asegúrese de que las métricas de objetivo del informe utilizan la misma atribución utilizada por la variable [!DNL Target] Modelos ML.
+>Si los modelos ML están optimizando una métrica que se atribuye de forma diferente a la de las métricas que está viendo en un informe, es posible que los modelos no funcionen como se espera. Para evitarlo, asegúrese de que las métricas de objetivo del informe utilizan la misma definición de métrica y atribución que usa la variable [!DNL Target] Modelos ML.
+
+La definición exacta de la métrica y la configuración de atribución dependen de la variable [criterio de optimización](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported) especificado durante la creación de la actividad.
+
+### Conversiones definidas de Target o [!DNL Analytics] métricas con *Maximizar el valor de la métrica por visita*
+
+Cuando la métrica es un [!DNL Target] conversión o [!DNL Analytics] métricas con **Maximizar el valor de la métrica por visita**, la definición de métrica de objetivo permite que se produzcan varios eventos de conversión en la misma visita.
 
 Para ver las métricas de objetivo que tienen la misma metodología de atribución utilizada por la variable [!DNL Target] Modelos ML, siga estos pasos:
 
@@ -170,9 +176,43 @@ Para ver las métricas de objetivo que tienen la misma metodología de atribuci�
 
 Estos pasos garantizan que el informe atribuya la métrica de objetivo a la visualización de la experiencia, si se ha producido el evento de métrica de objetivo *en cualquier momento* (&quot;participación&quot;) en la misma visita en la que se mostró una experiencia.
 
+### [!DNL Analytics] métricas con *Tasas de conversión de visitas únicas*
+
+**Definir la visita con el segmento de métrica positiva**
+
+En el escenario en el que seleccionó *Maximizar la tasa de conversión de visitas únicas* como criterio de optimización, la definición correcta de la tasa de conversión es la fracción de visitas en las que el valor de la métrica es positivo. Esto se puede lograr creando un segmento que filtre a las visitas con un valor positivo de la métrica y luego filtrando la métrica de visitas.
+
+1. Como antes, seleccione **[!UICONTROL Componentes > Crear segmento]** en la [!DNL Analysis Workspace] barra de herramientas.
+2. Especifique un **[!UICONTROL Título]** para su segmento.
+
+   En el ejemplo que se muestra a continuación, se nombra el segmento [!DNL "Visits with an order"].
+
+3. Arrastre la métrica base que utilizó en su objetivo de optimización al segmento.
+
+   En el ejemplo que se muestra a continuación, utilizamos la variable **pedidos** de modo que la tasa de conversión mida la fracción de visitas en las que se registra un pedido.
+
+4. En la parte superior izquierda del contenedor de definición de segmento, seleccione **[!UICONTROL Incluir]** **Visita**.
+5. Utilice la variable **[!UICONTROL es bueno que]** y establezca el valor en 0.
+
+   Si establece el valor en 0, este segmento incluye las visitas en las que la métrica de pedidos es positiva.
+
+6. Haga clic en **[!UICONTROL Guardar]**.
+
+![Figura 7.png](assets/Figure7.png)
+
+*Figura 7: El filtro de definición de segmento para las visitas con un orden positivo. Según la métrica de optimización de su actividad, debe reemplazar los pedidos por una métrica adecuada*
+
+**Aplicar esto a las visitas en la métrica filtrada de actividad**
+
+Este segmento ahora se puede usar para filtrar visitas con un número positivo de pedidos y en las que se produjo una visita para la variable [!DNL Auto-Target] actividad. El procedimiento para filtrar una métrica es similar al de antes y después de aplicar el nuevo segmento a la métrica de visitas ya filtrada, el panel de informes debería parecerse a la Figura 8
+
+![Figura8.png](assets/Figure8.png)
+
+*Figura 8: El panel de informes con la métrica de conversión de visita única correcta: el número de visitas en las que se registró una visita de la actividad y en las que la métrica de conversión (pedidos en este ejemplo) no fue cero.*
+
 ## Paso final: Cree una tasa de conversión que capture la magia de arriba
 
-Con las modificaciones de la variable [!UICONTROL Visita] y métricas de objetivo en secciones anteriores, la modificación final que debe realizar para su A4T predeterminado para [!UICONTROL Segmentación automática] el panel de informes es crear tasas de conversión que sean la proporción correcta (la de una métrica de objetivo con la atribución correcta), a una métrica filtrada apropiadamente [!UICONTROL Visitas] métrica.
+Con las modificaciones de la variable [!UICONTROL Visita] y las métricas de objetivo de las secciones anteriores, la modificación final que debe realizar a su A4T predeterminado para [!DNL Auto-Target] el panel de informes tiene como objetivo crear tasas de conversión que sean la proporción correcta (la de la métrica de objetivo corregida) y una métrica &quot;Visitas&quot; filtrada correctamente.
 
 Para ello, cree un [!UICONTROL Métrica calculada] siguiendo estos pasos:
 
@@ -186,9 +226,13 @@ Para ello, cree un [!UICONTROL Métrica calculada] siguiendo estos pasos:
 1. Arrastre el **[!UICONTROL Visitas]** en el contenedor de segmento.
 1. Haga clic en **[!UICONTROL Guardar]**.
 
+>[!TIP]
+>
+> También puede crear esta métrica utilizando la variable [funcionalidad de métrica calculada rápida](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html).
+
 La definición completa de la métrica calculada se muestra aquí.
 
-![Figura 7.png](assets/Figure7.png)
+![Figura9.png](assets/Figure9.png)
 
 *Figura 7: La definición de métrica de tasa de conversión del modelo corregida por la visita y la atribución. (Tenga en cuenta que esta métrica depende de la métrica y la actividad de objetivos. En otras palabras, esta definición de métrica no se puede reutilizar en todas las actividades).*
 
@@ -202,6 +246,6 @@ Al combinar todos los pasos anteriores en un solo panel, la figura siguiente mue
 
 Haga clic en para expandir la imagen.
 
-![Informe final de A4T en [!DNL Analysis Workspace]](assets/Figure8.png "Informe de A4T en Analysis Workspace"){width="600" zoomable="yes"}
+![Informe final de A4T en [!DNL Analysis Workspace]](assets/Figure10.png "Informe de A4T en Analysis Workspace"){width="600" zoomable="yes"}
 
-*Figura 8: El A4T final [!UICONTROL Segmentación automática] informe en [!DNL Adobe Analytics] [!DNL Workspace], que combina todos los ajustes a las definiciones de métricas descritas en las secciones anteriores de este tutorial.*
+*Figura 10: El A4T final [!UICONTROL Segmentación automática] informe en [!DNL Adobe Analytics] [!DNL Workspace], que combina todos los ajustes a las definiciones de métricas descritas en las secciones anteriores de este tutorial.*
