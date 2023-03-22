@@ -2,16 +2,16 @@
 title: Configuración de informes de A4T en [!DNL Analysis Workspace] para [!UICONTROL Asignación automática] Actividades
 description: ¿Cómo configuro los informes de A4T en [!DNL Analysis Workspace] para obtener los resultados esperados al ejecutar [!UICONTROL Asignación automática] actividades.
 role: User
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#beta newtab=true" tooltip="What are Target Beta release features?"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 952348fa8e8bdba04d543774ba365063ae63eb43
+source-git-commit: 1dc33affb1e9782f1b9c1d01402124dd40dac436
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -20,16 +20,23 @@ ht-degree: 0%
 
 Un [!DNL Auto-Allocate] actividad identifica un ganador entre dos o más experiencias y le reasigna automáticamente más tráfico mientras la prueba sigue ejecutándose y aprendiendo. La variable [!UICONTROL Analytics para Target] Integración de (A4T) para [!UICONTROL Asignación automática] permite ver los datos de los informes en [!DNL Adobe Analytics]e incluso puede optimizar para eventos personalizados o métricas definidos en [!DNL Analytics].
 
-Aunque las funciones de análisis enriquecidos están disponibles en [!DNL Adobe Analytics] [!DNL Analysis Workspace], algunas modificaciones al valor predeterminado **[!UICONTROL Analytics para Target]** para interpretar correctamente [!DNL Auto-Allocate] actividades, debido a los matices en [criterios de optimización](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#supported).
+Aunque las funciones de análisis enriquecidos están disponibles en [!DNL Adobe Analytics] [!DNL Analysis Workspace], algunas modificaciones al valor predeterminado **[!UICONTROL Analytics para Target]** para interpretar correctamente [!DNL Auto-Allocate] actividades, debido a los matices en [criterios de optimización](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank}.
 
 Este tutorial explica las modificaciones recomendadas para el análisis [!DNL Auto-Allocate] actividades en [!DNL Analysis Workspace]. Los conceptos clave son:
 
 * [!UICONTROL Visitantes] siempre debe utilizarse como métrica de normalización en [!DNL Auto-Allocate] actividades.
 * Cuando la métrica es un [!DNL Adobe Analytics] , el numerador apropiado para la tasa de conversión depende del tipo de criterios de optimización elegidos durante la configuración de la actividad.
    * El criterio de optimización &quot;maximizar la tasa de conversión de visitantes únicos&quot; tiene una tasa de conversión cuyo numerador es un recuento de los visitantes únicos con un valor positivo de la métrica.
-   * El valor &quot;maximizar métrica por visitante* tiene una tasa de conversión cuyo numerador es el valor de métrica normal en [!DNL Adobe Analytics]. Esto se proporciona de forma predeterminada en la variable **[!UICONTROL Analytics para Target]** panel en [!DNL Analysis Workspace].
+   * El valor &quot;maximizar métrica por visitante&quot; tiene una tasa de conversión cuyo numerador es el valor de métrica normal en [!DNL Adobe Analytics]. Esto se proporciona de forma predeterminada en la variable **[!UICONTROL Analytics para Target]** panel en [!DNL Analysis Workspace].
 * Cuando la métrica de optimización sea [!DNL Target] métrica de conversión definida, la variable predeterminada **[!UICONTROL Analytics para Target]** panel en [!DNL Analysis Workspace] gestiona la configuración del panel.
-* La variable [!UICONTROL Confianza] números vistos en [!DNL Analysis Workspace] no refleja el [estadísticas más conservadoras utilizadas por [!UICONTROL Asignación automática]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html?lang=en#section_98388996F0584E15BF3A99C57EEB7629), y por lo tanto, se deben eliminar del panel de A4T. En su lugar, consulte estos valores en [!DNL Target] informes.
+* Para todos [!UICONTROL Asignación automática] actividades creadas antes de la [!DNL Target Standard/Premium] Versión 23.3.1 (28 de marzo de 2023) [!DNL Analytics Workspace] y [!DNL Target] mostrar el mismo valor para [!UICONTROL Confianza].
+
+   Para todos [!UICONTROL Asignación automática] actividades creadas después del 28 de marzo de 2023, los valores de intervalo de confianza observados en [!DNL Analysis Workspace] no refleja el [estadísticas más conservadoras utilizadas por [!UICONTROL Asignación automática]](https://experienceleague.adobe.com/docs/target/using/activities/auto-allocate/automated-traffic-allocation.html#section_98388996F0584E15BF3A99C57EEB7629){target=_blank} si estas actividades tienen *both* de las condiciones siguientes:
+
+   * [!DNL Analytics] como fuente de informes (A4T)
+   * [!DNL Analytics] métricas de optimización
+
+   If *both* de estas condiciones, las métricas de confianza deben eliminarse del panel A4T. En su lugar, haga referencia a estos valores en [!DNL Target] informes.
 
 ## Creación de A4T para [!DNL Auto-Allocate] panel en [!DNL Analysis Workspace]
 
@@ -84,7 +91,7 @@ Una vez creado el segmento apropiado, el valor predeterminado es  **[!UICONTROL 
 
    *Figura 4: Filtrado [!UICONTROL Visitantes únicos] por el segmento recién creado*
 
-3. Una tasa de conversión puede ser [calculado rápidamente](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=en) resaltando la primera y la segunda columnas, haciendo clic con el botón derecho, seleccionando **[!UICONTROL Crear métrica a partir de la selección]** > **[!UICONTROL Dividir]**.
+3. Una tasa de conversión puede ser [calculado rápidamente](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html) resaltando la primera y la segunda columnas, haciendo clic con el botón derecho, seleccionando **[!UICONTROL Crear métrica a partir de la selección]** > **[!UICONTROL Dividir]**.
 
    La tasa de conversión predeterminada debe eliminarse y reemplazarse con esta nueva métrica calculada, como se muestra en la imagen siguiente. Es posible que tenga que editar la métrica recién calculada para que se muestre como un **[!UICONTROL Formato]** > **[!UICONTROL Porcentaje]** hasta dos lugares decimales como se muestra.
 
