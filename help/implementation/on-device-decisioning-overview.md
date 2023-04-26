@@ -9,10 +9,10 @@ doc-type: feature video
 team: Evangelism
 kt: 6691
 exl-id: 3b24efd3-a5b3-41a6-92f4-15433ddb2a26
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: f86096ee7fac47854220e805859b54d8c0be3cd7
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 6%
+source-wordcount: '185'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +35,7 @@ Al final de este vídeo, podrá:
 * Describir la toma de decisiones en dispositivos y sus ventajas
 * Habilitar la toma de decisiones en el dispositivo en Target
 * Cree una actividad de compositor basada en formularios que se utilizará con la toma de decisiones en el dispositivo.
-* Para obtener más información sobre la configuración del SDK necesaria para la toma de decisiones en el dispositivo, consulte la [documentación del SDK para Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* Para obtener más información sobre la configuración del SDK necesaria para la toma de decisiones en el dispositivo, visite el [Documentación del SDK para Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
 * Comprender lo que los usuarios finales experimentarán para el contenido entregado mediante la toma de decisiones en el dispositivo
 
 ## Audiencia prevista
@@ -44,4 +44,4 @@ Al final de este vídeo, podrá:
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
 
-Para obtener más información, consulte la [documentación del SDK para Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning).
+Para obtener más información, consulte [Información general sobre la toma de decisiones en dispositivos](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} en el *Guía para desarrolladores de Adobe Target*.
