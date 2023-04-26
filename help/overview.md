@@ -5,10 +5,10 @@ role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
-source-git-commit: 0b160a9c72c922d184383c699cea463df46a5ecd
+source-git-commit: cc9f5d26ff0b2fdce1209e777838738e3b03bd47
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 10%
+source-wordcount: '474'
+ht-degree: 11%
 
 ---
 
@@ -41,6 +41,10 @@ Para profesionales del sector empresarial: ¿Está utilizando A4T para [!UICONTR
 
 Para arquitectos: Introducción a [!UICONTROL toma de decisiones en el dispositivo] para ofrecer experiencias de latencia cercanas a cero a sus consumidores. Consulte [Información general sobre la toma de decisiones en dispositivos](implementation/on-device-decisioning-overview.md).
 
+### Migrar [!DNL Target] de at.js 2.*x* a [!DNL Adobe Experience Platform Web SDK]
+
+Obtenga información sobre cómo migrar una [!DNL Target] Implementación de at.js para [!DNL Adobe Experience Platform Web SDK]. Consulte [Migrar [!DNL Target] de at.js 2.x a [!DNL Platform Web SDK]](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=es){target=_blank} en el *Guía de Tutorials de Adobe Experience Platform*.
+
 ## Vídeos más populares
 
 Los clientes de Target son los que más acceden a los siguientes vídeos:
@@ -67,20 +71,14 @@ La variable [!DNL Adobe Target] el personal recomienda los siguientes recursos:
 
 ### Implementación de Target con etiquetas de Adobe Experience Platform
 
-Obtenga información sobre cómo implementar la extensión de Adobe Target con una solicitud de carga de página y parámetros personalizados.
-
-Para obtener más información, consulte [Añadir Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html){target=_blank} en el *Guía del tutorial Implementar en sitios web con etiquetas*.
+Obtenga información sobre cómo implementar la extensión de Adobe Target con una solicitud de carga de página y parámetros personalizados. Para obtener más información, consulte [Añadir Adobe Target](https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html){target=_blank} en el *Guía del tutorial Implementar en sitios web con etiquetas*.
 
 ### Implementar at.js 2.0 en una aplicación de una sola página (SPA)
 
-Obtenga información sobre cómo implementar at.js 2.0 (y versiones posteriores) en SPA.
-
-Para obtener más información, consulte [Implementar Adobe Target at.js 2.0 en una aplicación de una sola página (SPA)](implementation/implement-atjs-20-in-a-single-page-application.md).
+Obtenga información sobre cómo implementar at.js 2.0 (y versiones posteriores) en SPA. Para obtener más información, consulte [Implementar Adobe Target at.js 2.0 en una aplicación de una sola página (SPA)](implementation/implement-atjs-20-in-a-single-page-application.md).
 
 ### Resolución de problemas de Target con el Experience Cloud Debugger
 
-Aprenda a utilizar Adobe Experience Cloud Debugger para comprender su [!DNL Target] implementación. Obtenga información sobre cómo ver rápidamente la configuración de la biblioteca, examinar las solicitudes para asegurarse de que los parámetros personalizados se pasan correctamente, activar el registro de la consola y desactivar todo [!DNL Target] y utilice la herramienta de seguimiento de mbox.
-
-Para obtener más información, consulte [Resolución de problemas [!DNL Target] con la variable [!DNL Experience Cloud Debugger]](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md).
+Aprenda a utilizar Adobe Experience Cloud Debugger para comprender su [!DNL Target] implementación. Obtenga información sobre cómo ver rápidamente la configuración de la biblioteca, examinar las solicitudes para asegurarse de que los parámetros personalizados se pasan correctamente, activar el registro de la consola y desactivar todo [!DNL Target] y utilice la herramienta de seguimiento de mbox. Para obtener más información, consulte [Resolución de problemas [!DNL Target] con la variable [!DNL Experience Cloud Debugger]](troubleshooting/troubleshoot-with-the-experience-cloud-debugger.md).
 
 
