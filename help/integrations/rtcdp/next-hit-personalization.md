@@ -2,14 +2,14 @@
 title: ¿Qué es la personalización de próxima visita con Real-Time CDP y Adobe Target?
 description: Aprenda a personalizar la siguiente visita con Real-time Customer Data Platform (CDP) y Adobe Target.
 role: User
-solution: Real-time Customer Data Platform,Target
+solution: Real-Time Customer Data Platform,Target
 feature-set: Experience Platform,Target
 feature: Integrations,Segments,Web SDK,Destinations,Datastreams,Audiences,Experience Targeting
 level: Intermediate
 jira: KT-9629
 thumbnail: 340091.jpg
 exl-id: 08568a37-1450-4fdc-ba58-37ea026028c7
-source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
+source-git-commit: 808bb4dc45397d9c69d0fa3955db8118e725381f
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 7%
