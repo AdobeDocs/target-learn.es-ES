@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 99d49995ec7e3dd502a149376693e2770f3e2a9d
+source-git-commit: 8ef61ac0abf008039561bebe7d8d20b84f447487
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1302'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,13 @@ Este tutorial muestra las modificaciones recomendadas para el análisis [!DNL Au
 
 * [!UICONTROL Visitantes] siempre debe utilizarse como métrica de normalización en [!DNL Auto-Allocate] actividades.
 * Cuando la métrica es un [!DNL Adobe Analytics] métrica, el cálculo de la tasa de conversión varía, según el tipo de criterios de optimización definidos durante la configuración de la actividad.
-   * El numerador de tasas de conversión &quot;maximizar la tasa de conversión de visitantes únicos&quot; es un recuento de visitantes únicos *con un valor positivo de la métrica*.
-   * Este método no requiere un segmento adicional para que coincida con la tasa de conversión mostrada en la variable [!DNL Target] IU.
-* El numerador de tasas de conversión &quot;maximizar el valor de la métrica por visitante&quot; es el valor de métrica normal en [!DNL Adobe Analytics]. Esta métrica se proporciona de forma predeterminada en [!DNL Analytics for Target] panel en [!DNL Analysis Workspace].
-   * Qué significa esto: maximiza el número de visitantes que realizan la conversión (&quot;contar una vez por visitante&quot;).
-   * Este método requiere la creación de un segmento adicional en los informes para que coincida con la tasa de conversión mostrada en la [!DNL Target] IU.
+   * La tasa de conversión &quot;maximizar el valor de la métrica por visitante&quot;: numerador es el valor de métrica normal en [!DNL Adobe Analytics] (esto se proporciona de forma predeterminada en las [!UICONTROL Analytics for Target] panel en [!DNL Analysis Workspace]).
+      * Qué significa esto: maximiza el número de conversiones por visitante (&quot;contar cada uno por visitante&quot;).
+      * Este método no requiere un segmento adicional para que coincida con la tasa de conversión mostrada en la variable [!DNL Target] IU.
+   * La tasa de conversión &quot;maximizar la tasa de conversión de visitantes únicos&quot;: numerador es un recuento de los visitantes únicos con un valor positivo de la métrica.
+      * Qué significa esto: maximiza el número de visitantes que realizan la conversión (&quot;contar una vez por visitante&quot;).
+      * Este método *HACE* requiere la creación de un segmento adicional en los informes para que coincida con la tasa de conversión mostrada en la [!DNL Target] IU.
+
 * Cuando la métrica de optimización sea un [!DNL Target] métrica de conversión definida, la predeterminada **[!UICONTROL Analytics for Target]** panel en [!DNL Analysis Workspace] controla la configuración del panel.
 * Para todos [!UICONTROL Asignación automática] actividades creadas antes de [!DNL Target Standard/Premium] Versión 23.3.1 (30 de marzo de 2023) [!DNL Analytics Workspace] y [!DNL Target] mostrar el mismo valor para [!UICONTROL Confianza].
 
@@ -45,7 +47,7 @@ Este tutorial muestra las modificaciones recomendadas para el análisis [!DNL Au
 Para crear un panel de A4T para una [!DNL Auto-Allocate] inicio del informe con **[!UICONTROL Analytics for Target]** panel en [!DNL Analysis Workspace], como se muestra a continuación. A continuación, realice las siguientes selecciones:
 
 1. **[!UICONTROL Experiencia de control]**: puede elegir cualquier experiencia.
-1. **[!UICONTROL Métrica de normalización]**: Seleccionar visitantes (visitantes incluidos en el panel A4T de forma predeterminada). [!DNL Auto-Allocate] siempre normaliza las tasas de conversión de los visitantes únicos.
+1. **[!UICONTROL Métrica de normalización]**: Seleccionar visitantes (los visitantes se incluyen en el panel A4T de forma predeterminada). [!DNL Auto-Allocate] siempre normaliza las tasas de conversión de los visitantes únicos.
 1. **[!UICONTROL Métricas de éxito]**: Seleccione la misma métrica que utilizó durante la creación de la actividad. Si esto fuera un [!DNL Target] métrica de conversión definida, seleccione **Conversión de actividad**. De lo contrario, seleccione la [!DNL Adobe Analytics] métrica que ha utilizado.
 
 ![[!UICONTROL Analytics for Target] configuración del panel para [!DNL Auto-Allocate] actividades.](assets/AAFigure1.png)
@@ -74,9 +76,9 @@ Se muestra un ejemplo de este panel para [!UICONTROL Ingresos] , donde &quot;Max
 
 *Figura 2: El informe recomendado para [!DNL Auto-Allocate] actividades con un [!DNL Analytics] métrica &quot;Maximizar el valor de la métrica según los criterios de optimización de visitantes&quot;. Para estos tipos de métricas, así como [!DNL Target] métricas de conversión definidas, la opción predeterminada **[!UICONTROL Analytics for Target]**panel en [!DNL Analysis Workspace] se puede utilizar.*
 
-## [!DNL Analytics] métricas con criterios de optimización Maximizar visitantes únicos
+## [!DNL Analytics] métricas con criterios de optimización &quot;Maximizar la tasa de conversión de visitantes únicos&quot;
 
-El criterio de optimización &quot;Maximizar visitantes únicos con tasa de conversión&quot; hace referencia al recuento de visitantes para los que el valor de la métrica es positivo. Por ejemplo: si la tasa de conversión se define como &quot;Ingresos&quot;, el criterio &quot;Maximizar visitantes únicos con tasa de conversión&quot; se optimizaría en cuanto al recuento de visitantes únicos para los que los ingresos fueron buenos. En otras palabras, este criterio maximizaría el recuento de visitantes que generan ingresos, en lugar del valor de los ingresos en sí.
+El criterio de optimización &quot;Maximizar la tasa de conversión de visitantes únicos&quot; hace referencia al recuento de visitantes para los que el valor de la métrica es positivo. Por ejemplo: si la tasa de conversión se define como &quot;Ingresos&quot;, el criterio &quot;Maximizar tasa de conversión de visitante único&quot; se optimizaría en cuanto a la cantidad de visitantes únicos para los cuales los ingresos fueron buenos. En otras palabras, este criterio maximizaría el recuento de visitantes que generan ingresos, en lugar del valor de los ingresos en sí.
 
 >[!NOTE]
 >
