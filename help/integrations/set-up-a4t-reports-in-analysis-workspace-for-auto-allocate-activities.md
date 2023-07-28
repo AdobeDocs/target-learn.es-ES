@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 8ef61ac0abf008039561bebe7d8d20b84f447487
+source-git-commit: dddb90e66d127782d4fe1347bd43553cd8c04d58
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1303'
 ht-degree: 0%
 
 ---
@@ -25,10 +25,10 @@ Este tutorial muestra las modificaciones recomendadas para el análisis [!DNL Au
 
 * [!UICONTROL Visitantes] siempre debe utilizarse como métrica de normalización en [!DNL Auto-Allocate] actividades.
 * Cuando la métrica es un [!DNL Adobe Analytics] métrica, el cálculo de la tasa de conversión varía, según el tipo de criterios de optimización definidos durante la configuración de la actividad.
-   * La tasa de conversión &quot;maximizar el valor de la métrica por visitante&quot;: numerador es el valor de métrica normal en [!DNL Adobe Analytics] (esto se proporciona de forma predeterminada en las [!UICONTROL Analytics for Target] panel en [!DNL Analysis Workspace]).
+   * El numerador de tasas de conversión &quot;maximizar el valor de la métrica por visitante&quot;: es el valor de métrica normal en [!DNL Adobe Analytics] (esto se proporciona de forma predeterminada en las [!UICONTROL Analytics for Target] panel en A[!DNL nalysis Workspace]).
       * Qué significa esto: maximiza el número de conversiones por visitante (&quot;contar cada uno por visitante&quot;).
       * Este método no requiere un segmento adicional para que coincida con la tasa de conversión mostrada en la variable [!DNL Target] IU.
-   * La tasa de conversión &quot;maximizar la tasa de conversión de visitantes únicos&quot;: numerador es un recuento de los visitantes únicos con un valor positivo de la métrica.
+   * El numerador de tasas de conversión &quot;maximizar la tasa de conversión de visitantes únicos&quot;: es un recuento de los visitantes únicos con un valor positivo de la métrica.
       * Qué significa esto: maximiza el número de visitantes que realizan la conversión (&quot;contar una vez por visitante&quot;).
       * Este método *HACE* requiere la creación de un segmento adicional en los informes para que coincida con la tasa de conversión mostrada en la [!DNL Target] IU.
 
@@ -74,7 +74,7 @@ Se muestra un ejemplo de este panel para [!UICONTROL Ingresos] , donde &quot;Max
 
 ![[!UICONTROL Informe de asignación automática de Analytics for Target] panel](assets/AAFigure2.png)
 
-*Figura 2: El informe recomendado para [!DNL Auto-Allocate] actividades con un [!DNL Analytics] métrica &quot;Maximizar el valor de la métrica según los criterios de optimización de visitantes&quot;. Para estos tipos de métricas, así como [!DNL Target] métricas de conversión definidas, la opción predeterminada **[!UICONTROL Analytics for Target]**panel en [!DNL Analysis Workspace] se puede utilizar.*
+*Figura 2: El informe recomendado para [!DNL Auto-Allocate] actividades con un [!DNL Analytics] métrica &quot;Maximizar el valor de la métrica por visitante&quot;, criterios de optimización. Para estos tipos de métricas, así como [!DNL Target] métricas de conversión definidas, la opción predeterminada **[!UICONTROL Analytics for Target]**panel en [!DNL Analysis Workspace] se puede utilizar.*
 
 ## [!DNL Analytics] métricas con criterios de optimización &quot;Maximizar la tasa de conversión de visitantes únicos&quot;
 
