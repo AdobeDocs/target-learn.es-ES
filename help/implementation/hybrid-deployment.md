@@ -9,26 +9,26 @@ doc-type: feature video
 kt: 6165
 team: Evangelism
 exl-id: e669d773-494f-4eb7-82da-6b3f23508d9f
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: 17d2bc2929eed3c029705c3842c902141c639f02
 workflow-type: tm+mt
 source-wordcount: '140'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
 # Implementación híbrida de Adobe Target
 
-Adobe Target ofrece un modelo de implementación híbrido único para la personalización: mezcla implementaciones del lado del cliente y del lado del servidor. Este modelo híbrido permite a los usuarios no técnicos crear un experimento o una actividad de personalización mediante el Compositor de experiencias visuales WYSIWYG, así como hacer que la experiencia se ejecute, envíe y procese en el lado del servidor para obtener un envío de alto rendimiento. 
+Adobe Target ofrece un modelo de implementación híbrido único para la personalización: mezcla implementaciones del lado del cliente y del lado del servidor. Este modelo híbrido permite a los usuarios no técnicos crear un experimento o una actividad de personalización con el Compositor de experiencias visuales WYSIWYG, así como hacer que la experiencia se ejecute, envíe y procese en el servidor para obtener un buen rendimiento de entregas.
 
 ## Objetivos
 
-Al final de este vídeo, deberá:
+Al final de este vídeo, hará lo siguiente:
 
 * Comprender lo que implica una implementación híbrida de Adobe Target
 * Comprender las ventajas de una implementación híbrida
-* Observe la reducción en las llamadas al servidor que es posible gracias a una implementación híbrida
+* Observe la reducción de llamadas al servidor que hace posible una implementación híbrida
 
-## Audiencia prevista
+## Audiencia objetivo
 
 * Desarrolladores
 * Arquitectos
@@ -37,5 +37,5 @@ Al final de este vídeo, deberá:
 
 ## Recursos adicionales
 
-* [Información general sobre las decisiones en dispositivos](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/on-device-decisioning-overview.html?lang=en#implementation)
+* [Información general sobre la toma de decisiones en dispositivos](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/on-device-decisioning-overview.html?lang=en#implementation)
 * [Documentación del SDK para Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
