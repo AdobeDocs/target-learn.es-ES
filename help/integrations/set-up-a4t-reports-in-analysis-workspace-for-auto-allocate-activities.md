@@ -8,7 +8,7 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 194579db80fdac60e204e36ab769975be2795eee
+source-git-commit: d85e6510bf5243a4a37edff5d0ce9342af3162e2
 workflow-type: tm+mt
 source-wordcount: '1575'
 ht-degree: 0%
@@ -52,13 +52,13 @@ Las siguientes secciones especifican qué configuraciones son necesarias, según
 
    El [!UICONTROL Columna] se muestra el cuadro de diálogo configuración:
 
-   ![Cuadro de diálogo Configuración de columna](/help/integrations/assets/column-settings-dialog-box.png)
+   ![Cuadro de diálogo Configuración de columna](/help/integrations/assets/column-settings-dialog-box.png){width="200"}
 
 1. Anule la selección de **[!UICONTROL Porcentaje]** casilla de verificación
 
-El panel de A4T ahora no incluye porcentajes como tasa de conversión y coincide con [!DNL Target], como se muestra a continuación:
+   El panel de A4T ahora no incluye porcentajes como tasa de conversión y coincide con [!DNL Target], como se muestra a continuación:
 
-![Columna Tasa de conversión sin porcentajes](/help/integrations/assets/no-percentages.png)
+   ![Columna Tasa de conversión sin porcentajes](/help/integrations/assets/no-percentages.png)
 
 ### Alinee la fecha y la hora en el panel A4T {#aligning-date-and-time}
 
@@ -160,9 +160,9 @@ Las secciones siguientes contienen más información sobre directrices adicional
 1. Arrastre y suelte la métrica &quot;Tasa de conversión&quot; recién creada en el panel existente.
 1. Haga clic en el icono de engranaje y, a continuación, deseleccione **[!UICONTROL Porcentaje]** , ya que este valor puede generar confusión.
 
-La configuración correcta del informe debería generar un resultado similar a la siguiente ilustración:
+   La configuración correcta del informe debería generar un resultado similar a la siguiente ilustración:
 
-![Tasa de conversión de visita única en el informe del panel A4T](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
+   ![Tasa de conversión de visita única en el informe del panel A4T](/help/integrations/assets/a4t-aa-maximize-metric-value-revenue.png)
 
 ## [!DNL Target]Tasa de conversión definida por el usuario
 
