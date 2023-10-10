@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: d85e6510bf5243a4a37edff5d0ce9342af3162e2
+source-git-commit: 3afbb97e2276ed98ea05e254026c8943acc6fee0
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1582'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Las siguientes secciones especifican qué configuraciones son necesarias, según
 
 >[!NOTE]
 >
-Los distintivos &quot;Ningún ganador aún&quot; y &quot;Ganador&quot; no están disponibles en el panel A4T de [!DNL Analysis Workspace] y tampoco disponible en el [!DNL Target] informe. Para obtener más información, consulte [Asignación automática](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *Compatibilidad de A4T con actividades de asignación automática y segmentación automática* en el *[!UICONTROL Guía para profesionales de Adobe Target Business]*.
+Los distintivos &quot;Ningún ganador aún&quot; y &quot;Ganador&quot; no están disponibles en el panel A4T de [!DNL Analysis Workspace]. Además, el distintivo de &quot;estrella&quot; ganadora se muestra en [!DNL Target] informes para [!UICONTROL Asignación automática] Las actividades de deben ignorarse. Para obtener más información, consulte [Asignación automática](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=en#aa){target=_blank} in *Compatibilidad de A4T con actividades de asignación automática y segmentación automática* en el *[!UICONTROL Guía para profesionales de Adobe Target Business]*.
 
 ## Creación de A4T para [!UICONTROL Asignación automática] panel en [!DNL Analysis Workspace]
 
