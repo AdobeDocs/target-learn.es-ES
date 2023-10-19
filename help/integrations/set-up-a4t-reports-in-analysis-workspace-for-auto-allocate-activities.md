@@ -8,9 +8,9 @@ feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
 kt: null
 exl-id: 7d53adce-cc05-4754-9369-9cc1763a9450
-source-git-commit: 78e5b5f7fa8f4c1a08c06c6d2b0e1a5242cd464c
+source-git-commit: b820a3f8a964d88027de5c27b45a76fcc878042d
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1552'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Para configurar el informe, realice los siguientes cambios en el informe de A4T:
 
 | Cambios necesarios | Informe activado por Target | Informe del panel de A4T |
 | --- | --- | --- |
-| Maximización de conversiones para un [!DNL Analytics] métrica | <ul><li>[!UICONTROL Confianza] Las métricas de se deben eliminar.</li><li>Eliminar todo [!UICONTROL Alza] métricas.</li><li>Anule la selección de la presentación porcentual en [!UICONTROL Tasa de conversión] para evitar confusiones. Consulte [Directrices generales para A4T](#guidance) más abajo.</li></ul> | <ul><li>Eliminar [!UICONTROL Confianza] métricas.</li><li>Eliminar todo [!UICONTROL Alza] métricas.</li><li>Cree un segmento para filtrar a los visitantes con un valor de métrica positivo que vieron la actividad analizada. Consulte [Crear un segmento](#segment) más abajo.</li><li>Reemplace el que se rellena automáticamente [!UICONTROL Tasa de conversión] métrica, de modo que esa sea la división entre [!UICONTROL Visitantes únicos] con un valor de métrica positivo y visitantes únicos. Consulte [Actualizar la métrica Tasa de conversión](#update-conversion-metric) más abajo.</li><li>Anule la selección de la presentación porcentual en [!UICONTROL Tasa de conversión] para evitar confusiones. Consulte [Directrices generales para A4T](#guidance) más abajo.</li><li>Asegúrese de que los intervalos de fecha y hora se alinean con los valores que ve en la variable [!DNL Target] informe. Consulte [Directrices generales para A4T](#guidance) más abajo.</li></ul> |
+| Maximización de conversiones para un [!DNL Analytics] métrica | <ul><li>Eliminar [!UICONTROL Confianza] métricas.</li><li>Eliminar todo [!UICONTROL Alza] métricas.</li><li>Anule la selección de la presentación porcentual en [!UICONTROL Tasa de conversión] para evitar confusiones. Consulte [Directrices generales para A4T](#guidance) más abajo.</li></ul> | <ul><li>Eliminar [!UICONTROL Confianza] métricas.</li><li>Eliminar todo [!UICONTROL Alza] métricas.</li><li>Cree un segmento para filtrar a los visitantes con un valor de métrica positivo que vieron la actividad analizada. Consulte [Crear un segmento](#segment) más abajo.</li><li>Reemplace el que se rellena automáticamente [!UICONTROL Tasa de conversión] métrica, de modo que esa sea la división entre [!UICONTROL Visitantes únicos] con un valor de métrica positivo y visitantes únicos. Consulte [Actualizar la métrica Tasa de conversión](#update-conversion-metric) más abajo.</li><li>Anule la selección de la presentación porcentual en [!UICONTROL Tasa de conversión] para evitar confusiones. Consulte [Directrices generales para A4T](#guidance) más abajo.</li><li>Asegúrese de que los intervalos de fecha y hora se alinean con los valores que ve en la variable [!DNL Target] informe. Consulte [Directrices generales para A4T](#guidance) más abajo.</li></ul> |
 
 ### Informe del panel A4T predeterminado: directrices adicionales
 
