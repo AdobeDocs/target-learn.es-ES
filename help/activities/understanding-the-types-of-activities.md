@@ -21,13 +21,13 @@ ht-degree: 56%
 
 ## Descripción
 
-En este vídeo, aprenderá a:
+En este vídeo, aprenderá a hacer lo siguiente:
 
-* Describir actividades A/B, pruebas multivariable (MVT), actividades de segmentación de experiencias (XT), Recommendations y actividades de Automated Personalization (AP) en Adobe Target
-* Elija el mejor tipo de actividad para lograr sus objetivos comerciales
-* Describir el flujo de trabajo básico común a todos los tipos de actividades
+* Describa actividades A/B, pruebas multivariable (MVT), actividades de segmentación de experiencias (XT), Recommendations y actividades de Automated Personalization (AP) en Adobe Target
+* Elija el mejor tipo de actividad para lograr sus objetivos empresariales
+* Describa el flujo de trabajo básico común a todos los tipos de actividades
 
-## Audiencia prevista
+## Audiencia objetivo
 
 * Profesional empresarial
 

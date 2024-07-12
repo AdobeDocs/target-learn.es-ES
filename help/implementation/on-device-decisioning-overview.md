@@ -1,6 +1,6 @@
 ---
-title: ¿Qué es la toma de decisiones en dispositivos?
-description: La toma de decisiones en dispositivos Adobe Target permite la entrega de contenido de latencia casi nula. Vea este vídeo para obtener más información sobre la toma de decisiones en el dispositivo y cómo habilitarla.
+title: Qué es la toma de decisiones en el dispositivo
+description: La toma de decisiones en el dispositivo de Adobe Target permite una entrega de contenido con latencia cercana a cero. Vea este vídeo para obtener más información acerca de la toma de decisiones en el dispositivo y cómo habilitarla.
 role: Architect
 level: Beginner
 topic: Architecture, Development
@@ -11,37 +11,37 @@ kt: 6691
 exl-id: 3b24efd3-a5b3-41a6-92f4-15433ddb2a26
 source-git-commit: f86096ee7fac47854220e805859b54d8c0be3cd7
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 3%
+source-wordcount: '174'
+ht-degree: 2%
 
 ---
 
-# Información general sobre las decisiones en dispositivos
+# Información general sobre la toma de decisiones en dispositivos
 
 ## Descripción
 
-La toma de decisiones en dispositivos Adobe Target permite la entrega de contenido de latencia casi nula. Este vídeo de 7 minutos:
+La toma de decisiones en el dispositivo de Adobe Target permite una entrega de contenido con latencia cercana a cero. Este vídeo de 7 minutos:
 
-* Describe la toma de decisiones en el dispositivo, incluida su comparación con otros métodos de implementación de Target
+* Describe la toma de decisiones en el dispositivo, incluido cómo se compara con otros métodos de implementación de Target
 * Muestra cómo habilitar la toma de decisiones en el dispositivo en Target
 * Examina una actividad de compositor basada en formularios de ejemplo que se ha configurado con contenido JSON
-* Muestra el código SDK de Node.JS de muestra que contiene la configuración clave necesaria para la toma de decisiones en el dispositivo.
+* Muestra código SDK de Node.JS de muestra que contiene la configuración clave necesaria para la toma de decisiones en el dispositivo
 * Muestra los resultados en un explorador
 
 ## Objetivos
 
-Al final de este vídeo, podrá:
+Al final de este vídeo, debería poder hacer lo siguiente:
 
-* Describir la toma de decisiones en dispositivos y sus ventajas
+* Describir la toma de decisiones en el dispositivo y sus ventajas
 * Habilitar la toma de decisiones en el dispositivo en Target
-* Cree una actividad de compositor basada en formularios que se utilizará con la toma de decisiones en el dispositivo.
-* Para obtener más información sobre la configuración del SDK necesaria para la toma de decisiones en el dispositivo, visite el [Documentación del SDK para Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
-* Comprender lo que los usuarios finales experimentarán para el contenido entregado mediante la toma de decisiones en el dispositivo
+* Crear una actividad de compositor basada en formularios destinada a utilizarse con la toma de decisiones en el dispositivo
+* Para obtener más información acerca de la configuración del SDK necesaria para la toma de decisiones en el dispositivo, visite la [documentación del SDK para Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* Comprenda qué experimentarán los usuarios finales en el contenido entregado mediante la toma de decisiones en el dispositivo
 
-## Audiencia prevista
+## Audiencia objetivo
 
 * Arquitectos
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032/?quality=12)
 
-Para obtener más información, consulte [Información general sobre la toma de decisiones en dispositivos](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} en el *Guía para desarrolladores de Adobe Target*.
+Para obtener más información, consulte [Información general sobre la toma de decisiones en el dispositivo](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=es){target=_blank} en la *Guía para desarrolladores de Adobe Target*.

@@ -1,6 +1,6 @@
 ---
 title: Administración e implementación de parámetros
-description: Este vídeo muestra a los arquitectos y desarrolladores de Adobe Target cómo diferenciar entre parámetros de solicitud y parámetros de perfil, configurar y almacenar en déclencheur las solicitudes mediante JavaScript y sistemas de administración de etiquetas, y comprender los requisitos de implementación para móviles, direccionamiento de correo electrónico y API.
+description: Este vídeo muestra a los arquitectos y desarrolladores de Adobe Target cómo diferenciar entre parámetros de solicitud y parámetros de perfil, configurar y almacenar en déclencheur las solicitudes mediante JavaScript y sistemas de administración de etiquetas, y comprender los requisitos de implementación para móviles, segmentación por correo electrónico y API.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development

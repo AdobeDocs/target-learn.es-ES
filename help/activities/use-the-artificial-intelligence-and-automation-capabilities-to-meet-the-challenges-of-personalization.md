@@ -1,6 +1,6 @@
 ---
-title: 'Cómo usar la inteligencia artificial y la automatización para enfrentar los desafíos de la personalización '
-description: En este vídeo se explica la importancia de la personalización, los desafíos de una buena personalización, la solución de estos desafíos (las cuatro ofertas de AI/automatización en Adobe Target) y los componentes clave para ofrecer experiencias personalizadas. Es una versión editada de la presentación del Adobe Summit 2018 de Jamie Brighton.
+title: Cómo utilizar la inteligencia artificial y la automatización para superar los desafíos de Personalization
+description: Este vídeo explica la importancia de la personalización, los desafíos de hacer bien la personalización, la solución a estos desafíos (las cuatro ofertas de IA/automatización en Adobe Target) y los componentes clave para ofrecer experiencias personalizadas. Es una versión editada de la presentación del Adobe Summit 2018 de Jamie Brighton.
 role: User
 level: Beginner
 topic: Personalization
@@ -11,13 +11,13 @@ badge: premium
 exl-id: 6379a49c-e978-4ccb-84c6-811d68d68028
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '119'
 ht-degree: 0%
 
 ---
 
-# Usar la inteligencia artificial y la automatización para cumplir con los desafíos de la personalización
+# Utilice la inteligencia artificial y la automatización para superar los desafíos de Personalization
 
-En este vídeo se explica la importancia de la personalización, los desafíos de una buena personalización, la solución de estos desafíos (las cuatro ofertas de AI/automatización en Adobe Target) y los componentes clave para ofrecer experiencias personalizadas. Es una versión editada de la presentación del Adobe Summit 2018 de Jamie Brighton.
+Este vídeo explica la importancia de la personalización, los desafíos de hacer bien la personalización, la solución a estos desafíos (las cuatro ofertas de IA/automatización en Adobe Target) y los componentes clave para ofrecer experiencias personalizadas. Es una versión editada de la presentación del Adobe Summit 2018 de Jamie Brighton.
 
 >[!VIDEO](https://video.tv.adobe.com/v/25440/?quality=12)

@@ -1,6 +1,6 @@
 ---
 title: Cómo crear pruebas multivariable
-description: Este vídeo muestra a los usuarios a través del flujo de trabajo clave para crear una prueba multivariable (MVT) en Adobe Target. Conozca los pasos para crear e interpretar MVT.
+description: Este vídeo muestra a los usuarios el flujo de trabajo clave para crear una prueba multivariable (MVT) en Adobe Target. Conozca los pasos para crear e interpretar las MVT.
 role: User
 level: Beginner
 topic: Personalization
@@ -19,11 +19,11 @@ ht-degree: 1%
 
 ## Descripción
 
-En este vídeo, aprenderá a:
+En este vídeo, aprenderá a hacer lo siguiente:
 
 * Use el Compositor de experiencias visuales (VEC) de Adobe Target para crear una prueba multivariable (MVT)
 
-## Audiencia prevista
+## Audiencia objetivo
 
 * Profesional empresarial
 

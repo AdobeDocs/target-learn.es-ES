@@ -1,5 +1,5 @@
 ---
-title: Cómo utilizar ofertas de Recommendations en pruebas A/B y actividades de segmentación de experiencias
+title: Cómo usar ofertas de Recommendations en pruebas A/B y actividades de segmentación de experiencias
 description: Aprenda a utilizar ofertas de Recommendations en pruebas A/B y actividades de segmentación de experiencias en Adobe Target.
 role: User
 level: Intermediate
@@ -10,14 +10,14 @@ kt: 3451
 exl-id: 16908f07-cda4-4a34-9e11-42b419e3917b
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 30%
+source-wordcount: '123'
+ht-degree: 1%
 
 ---
 
-# Uso de ofertas de Recommendations en pruebas A/B y actividades de segmentación de experiencias
+# Usar ofertas de Recommendations en pruebas A/B y actividades de segmentación de experiencias
 
-Las ofertas de Recommendations se pueden utilizar con pruebas A/B y actividades de segmentación de experiencias. Esta funcionalidad abre abundantes funciones, lo que le permite:
+Las ofertas de Recommendations se pueden utilizar con pruebas A/B y actividades de segmentación de experiencias. Esta funcionalidad abre funciones enriquecidas, lo que le permite:
 
 * Mezcle contenido de recomendaciones y no recomendaciones dentro de la misma actividad
 * Experimentar fácilmente con la colocación de recomendaciones en la página, incluido el orden de varias recomendaciones
@@ -28,5 +28,5 @@ Las ofertas de Recommendations se pueden utilizar con pruebas A/B y actividades 
 
 ## Recursos adicionales
 
-* [Documentación de ofertas de Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=en)
+* [Documentación de Recommendations como oferta](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations-as-an-offer.html?lang=en)
 * [Vídeo Crear una actividad de Recommendations](create-a-recommendations-activity.md)

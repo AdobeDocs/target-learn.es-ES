@@ -10,8 +10,8 @@ kt: null
 exl-id: 10448c36-44b8-4a2f-a3c5-9e0130593a17
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 11%
+source-wordcount: '71'
+ht-degree: 12%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 11%
 
 ## Descripción
 
-En este vídeo, aprenderá a:
+En este vídeo, aprenderá a hacer lo siguiente:
 
 * Crear colecciones
 * Creación de exclusiones
 
-## Audiencia prevista
+## Audiencia objetivo
 
 * Profesional empresarial
 
@@ -32,7 +32,7 @@ En este vídeo, aprenderá a:
 
 ## Recursos adicionales
 
-* [Crear una actividad de Recommendations](create-a-recommendations-activity.md)
+* [Crear una actividad de Recomendaciones](create-a-recommendations-activity.md)
 * [Explicación de las fuentes](understanding-feeds.md)
 * [Crear una fuente](create-a-feed.md)
 * [Crear criterios](create-criteria.md)

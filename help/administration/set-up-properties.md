@@ -1,5 +1,5 @@
 ---
-title: Cómo configurar propiedades
+title: Cómo configurar las propiedades
 description: Este vídeo muestra a los administradores cómo crear propiedades en Adobe Target.
 role: Admin
 level: Beginner
@@ -11,8 +11,8 @@ badge: premium
 exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '38'
-ht-degree: 5%
+source-wordcount: '39'
+ht-degree: 7%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 5%
 
 ## Descripción
 
-En este vídeo, aprenderá a:
+En este vídeo, aprenderá a hacer lo siguiente:
 
-* Crear propiedades en Adobe Target
+* Creación de propiedades en Adobe Target
 
-## Audiencia prevista
+## Audiencia objetivo
 
 * Administrador
 

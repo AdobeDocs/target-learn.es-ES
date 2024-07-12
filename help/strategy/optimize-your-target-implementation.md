@@ -7,7 +7,7 @@ role: Leader, User
 exl-id: 49b69f41-0993-437c-bb69-84392be427df
 source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Si es nuevo en su organización y desea familiarizarse con las funciones de una práctica de pruebas y optimización, este artículo le ayuda a empezar. Empezaremos con una descripción general de la implementación y estructura de Adobe Target. Aprenderá a comprender y auditar la configuración de su organización. Por último, analizaremos técnicas comunes de resolución de problemas y sugerencias para crear un repositorio de conocimientos para su equipo.
 
-Adobe Target es una herramienta que permite probar y segmentar contenido único para diferentes visitantes. Para obtener una descripción general de las funciones disponibles, [visite esta guía](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en).
+Adobe Target es una herramienta que permite probar y segmentar contenido único para diferentes visitantes. Para obtener una descripción general de las características disponibles, [visite esta guía](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en).
 
 ## Implementación y estructura de Target
 
@@ -30,17 +30,17 @@ Existen tres tipos de actividades fundamentales de Target:
 2. Pruebas multivariable (MVT)
 3. Pruebas de experiencia
 
-**La prueba A/B** compara dos o más experiencias para ver cuál mejora más las conversiones durante un periodo de prueba previamente establecido. La prueba A/B es un experimento muy controlado con mediciones de tráfico, divididas por porcentajes en lugar de por una regla, lo que le permite:
+**La prueba A/B** compara dos o más experiencias para ver cuál mejora más las conversiones durante un período de prueba previamente establecido. La prueba A/B es un experimento muy controlado con mediciones de tráfico, divididas por porcentajes en lugar de por una regla, lo que le permite:
 
 * para analizar los datos de prueba.
 * para obtener información sobre su audiencia.
 * para determinar qué experiencia ofrece el mejor rendimiento.
 
-**Pruebas multivariable** (MVT) compara combinaciones de ofertas entre elementos de una página para ver qué combinación ofrece el mejor rendimiento para una audiencia específica. Esta prueba también identifica qué elemento de la página mejora más las conversiones durante un periodo de prueba previamente establecido. MVT proporciona:
+**Pruebas multivariable** (MVT) compara combinaciones de ofertas entre elementos de una página para ver cuál ofrece el mejor resultado para una audiencia específica. Esta prueba también identifica qué elemento de la página mejora más las conversiones durante un periodo de prueba previamente establecido. MVT proporciona:
 
 * Una forma de mostrar varias ofertas en varios elementos.
 * Un método para probar la experiencia única resultante con un objetivo específico.
-* Una perspectiva de los elementos que tienen un impacto negativo o positivo bueno en las interacciones del visitante.
+* Saber qué elementos tienen el mayor impacto negativo o positivo en las interacciones del visitante.
 
 **Pruebas de experiencia** (Segmentación de experiencias) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing. Este método proporciona una forma de dirigir contenido específico a una audiencia específica en función de un conjunto de reglas de asignación definidas.
 
@@ -60,11 +60,11 @@ Target se basa en un &quot;mbox global&quot; que permite afectar a cualquier ele
 
 Para comprender su implementación actual, Adobe recomienda revisar la implementación de la interfaz de usuario de Target junto con la implementación del Administrador de etiquetas y Carga de página.
 
-**Para revisar su [!DNL Target] interfaz de usuario:**
+**Para revisar la interfaz de usuario de [!DNL Target]:**
 
-1. Empiece su revisión en el [!DNL Target] IU:
+1. Empiece a revisar en la interfaz de usuario de [!DNL Target]:
 
-   * Revise la [!DNL Target] pila tecnológica
+   * Revisar la pila de tecnología [!DNL Target]
    * Confirmar las funciones disponibles
    * Identificar dónde se encuentra activa la implementación
 
@@ -74,7 +74,7 @@ Para comprender su implementación actual, Adobe recomienda revisar la implement
 
 1. Desactivar actividades antiguas:
 
-   * Archivar y limpiar [!DNL Target] recurso que ya no tiene uso actual o futuro
+   * Archivar y limpiar [!DNL Target] recurso que ya no tenga uso actual o futuro
 
 1. Revisar audiencias.
 
@@ -89,20 +89,20 @@ Para revisar el administrador de etiquetas y la carga de página:
 
 1. Confirme lo siguiente en el administrador de etiquetas:
 
-   * La implementación de lo esperado [!DNL Target] Código JavaScript
+   * Implementación del código JavaScript [!DNL Target] esperado
    * La solución de ocultación de contenido adecuada
-   * Establezca las reglas necesarias para rellenar la variable [!DNL Target] llamadas de con los parámetros esperados
+   * Establezca las reglas necesarias para rellenar las llamadas de [!DNL Target] con los parámetros esperados
 
 1. Confirme lo siguiente durante la carga de la página:
 
-   * Números de versión coincidentes para la dirección URL de solicitud y [!DNL Target] URL de solicitud
+   * Números de versión coincidentes para la dirección URL de solicitud y la dirección URL de solicitud [!DNL Target]
    * Valor de Experience Cloud ID rellenado (cuerpo de nube)
    * Presentar los valores de integración esperados (cuerpo de nube)
-   * Rellenado [!DNL Target] parámetros en las páginas adecuadas
+   * Se rellenaron [!DNL Target] parámetros en las páginas apropiadas
 
 ## [!DNL Target] actividades de auditoría
 
-Para evitar pasar manualmente por cada página para realizar la auditoría [!DNL Target] , utilice Adobe Auditor para comprender mejor el estado técnico actual de la implementación. Adobe Auditor utiliza ObservePoint y se puede configurar para que se ejecute de forma manual a fin de identificar los problemas de implementación de alto nivel en su sitio.
+Para evitar pasar manualmente por cada página para auditar [!DNL Target] actividades, use Adobe Auditor para comprender el estado técnico actual de la implementación. Adobe Auditor utiliza ObservePoint y se puede configurar para que se ejecute de forma manual a fin de identificar los problemas de implementación de alto nivel en su sitio.
 
 Adobe Auditor proporciona lo siguiente:
 
@@ -127,18 +127,18 @@ A continuación se ofrecen sugerencias generales para la resolución de problema
 ### Caché y cookies**
 
 * Borrando la caché y las cookies
-* Tenga cuidado al usar el modo privado (por ejemplo: el modo privado en Firefox puede bloquearse [!DNL Target])
+* Tenga cuidado al utilizar el modo privado (por ejemplo: el modo privado en Firefox puede bloquear [!DNL Target])
 
 ### ¿Cumple los requisitos para la actividad?
 
 * Compruebe que ha realizado los mismos pasos que la audiencia utilizó en la actividad
-* Uso `mboxTrace` o tokens de respuesta para comprobar los valores de perfil y segmento
+* Utilice `mboxTrace` o tokens de respuesta para comprobar los valores de perfil y segmento
 
 ### Sugerencias generales para la resolución de problemas al validar elementos visuales/funcionales
 
-Si está en la [!DNL Target] y no ve la experiencia visual esperada:
+Si se encuentra en la experiencia [!DNL Target] y no ve la experiencia visual esperada:
 
-Compruebe la [!DNL Target] respuesta:
+Compruebe la respuesta de [!DNL Target]:
 
 * Si no se ejecuta el código:
 
@@ -157,13 +157,13 @@ Lo ideal es que el repositorio permita la edición y el guardado automático den
 
 Entre los documentos habituales de un repositorio de conocimientos se incluyen:
 
-* **Documento de información general** - un documento utilizado para explicar claramente las metas, los objetivos, los procesos y la estructura del programa
-* **Repositorio de ideas** : un documento utilizado para administrar y priorizar ideas potenciales que no están listas para el proceso de prueba
-* **Hoja de ruta del programa** - un documento utilizado para gestionar todos los aspectos de las actividades de prueba una vez que las ideas estén listas para iniciar el proceso de prueba
-* **Documento de plan de actividad** : un documento utilizado para esbozar la información necesaria para crear e iniciar actividades
-* **Documento de plan de actividad** - un documento utilizado para comunicar los resultados y los pasos recomendados a las partes interesadas
-* **Panel del programa** : documento utilizado para rastrear el rendimiento del programa, la cadencia y los beneficios de ingresos a lo largo del tiempo.
+* **Documento de información general**: documento utilizado para explicar claramente las metas, los objetivos, los procesos y la estructura del programa
+* **Repositorio de ideas**: un documento que se usa para administrar y priorizar ideas potenciales que no están listas para el proceso de prueba
+* **Hoja de ruta del programa**: un documento usado para administrar todos los aspectos de las actividades de prueba una vez que las ideas estén listas para iniciar el proceso de prueba
+* **Documento de plan de actividades**: documento utilizado para esbozar la información necesaria para generar e iniciar actividades
+* **Documento de plan de actividades**: documento utilizado para comunicar los resultados y los pasos siguientes recomendados a las partes interesadas
+* **Panel del programa**: un documento que se usa para rastrear el rendimiento del programa, la cadencia y los beneficios de ingresos a lo largo del tiempo.
 
-Para obtener más información, consulte nuestra [seminario web](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) con el consultor principal Wilder Freed.
+Para obtener más información, revise nuestro [seminario web](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) con el consultor sénior Wilder Freed.
 
-Obtenga más información sobre estrategia y liderazgo mental en [Éxito del cliente](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html) hub.
+Obtenga más información sobre estrategia y liderazgo mental en el centro de [Éxito del cliente](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).

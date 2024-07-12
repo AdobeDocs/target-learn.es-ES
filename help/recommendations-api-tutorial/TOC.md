@@ -1,20 +1,20 @@
 ---
-user-guide-title: Uso de las API de Recommendations
+user-guide-title: Uso de API de Recommendations
 user-guide-url: /content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html
 source-git-commit: 542ff406fc24df54a2f1b007422492341ea46507
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '28'
 ht-degree: 0%
 
 ---
 
 
-# Usar las API de Adobe Target Recommendations{#recommendations-api-tutorial}
+# Uso de las API de Adobe Target Recommendations{#recommendations-api-tutorial}
 
-+ [Información general de la API de Recs](recs-api-overview.md)
-+ [Administrar el catálogo con API](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-catalog.html){target="_blank"}
++ [Resumen de API de Recs](recs-api-overview.md)
++ [Administrar su catálogo con API](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-catalog.html){target="_blank"}
 + [Administrar criterios personalizados](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/manage-custom-criteria.html){target="_blank"}
-+ [Uso de la API de envío con Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/fetch-recs-server-side-delivery-api.html){target="_blank"}
++ [Usar la API de envío con Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/fetch-recs-server-side-delivery-api.html){target="_blank"}
 
 <!--+ [Debug API calls](6debug.md)
 + [Download the Calculated Recommendations CSV](7download-calc-recs-csv.md)-->

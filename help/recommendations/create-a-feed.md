@@ -10,8 +10,8 @@ kt: null
 exl-id: d09f01aa-4b24-4f5c-93ef-03bc0d28d85c
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 12%
+source-wordcount: '65'
+ht-degree: 10%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 12%
 
 ## Descripción
 
-En este vídeo, aprenderá a:
+En este vídeo, aprenderá a hacer lo siguiente:
 
 * Creación de una fuente de datos en Adobe Target Recommendations
 
-## Audiencia prevista
+## Audiencia objetivo
 
 * Profesional empresarial
 
@@ -32,7 +32,7 @@ En este vídeo, aprenderá a:
 ## Recursos adicionales
 
 * [Explicación de las fuentes](understanding-feeds.md)
-* [Crear una actividad de Recommendations](create-a-recommendations-activity.md)
+* [Crear una actividad de Recomendaciones](create-a-recommendations-activity.md)
 * [Crear criterios](create-criteria.md)
 * [Crear diseños personalizados](create-custom-designs.md)
 * [Creación de colecciones y exclusiones](create-collections-and-exclusions.md)

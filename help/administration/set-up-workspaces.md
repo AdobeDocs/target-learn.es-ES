@@ -19,11 +19,11 @@ ht-degree: 5%
 
 ## Descripción
 
-En este vídeo, aprenderá a:
+En este vídeo, aprenderá a hacer lo siguiente:
 
-* Crear espacios de trabajo en Adobe Target
+* Creación de espacios de trabajo en Adobe Target
 
-## Audiencia prevista
+## Audiencia objetivo
 
 * Administrador
 

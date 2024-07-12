@@ -1,6 +1,6 @@
 ---
-title: Cómo usar métricas en actividades
-description: ¿Cómo se mide si una actividad de Adobe Target es satisfactoria? En este vídeo, aprenda los distintos tipos de métricas de objetivo y cómo utilizarlas para medir el rendimiento de su actividad.
+title: Uso de métricas en actividades
+description: ¿Cómo se mide si una actividad de Adobe Target tiene éxito? En este vídeo, aprenderá los diferentes tipos de métricas de objetivo y cómo utilizarlas para medir el rendimiento de su actividad.
 role: User
 level: Intermediate
 topic: Personalization
@@ -19,14 +19,14 @@ ht-degree: 6%
 
 ## Descripción
 
-En este vídeo, aprenderá a:
+En este vídeo, aprenderá a hacer lo siguiente:
 
-* Describir qué es una métrica &quot;Objetivo&quot;
-* Describir las diferencias entre las métricas de conversión, ingresos y participación
+* Describir qué es una métrica de &quot;Objetivo&quot;
+* Describir las diferencias entre las métricas de Conversión, Ingresos y Participación
 * Generar métricas de conversión, ingresos y participación
 * Compilar una métrica para el rastreo de clics
 
-## Audiencia prevista
+## Audiencia objetivo
 
 * Profesional empresarial
 

@@ -1,6 +1,6 @@
 ---
 title: Aprenda a utilizar Adobe Target
-description: Aprenda a utilizar [!DNL Adobe Target] con esta colección de tutoriales y vídeos que abarcan todos sus componentes.
+description: Aprenda a usar [!DNL Adobe Target] con esta colección de tutoriales y vídeos que cubren todos sus componentes.
 role: Leader, Architect, Developer, Admin, User
 level: Beginner, Intermediate, Experienced
 feature: Overview
@@ -8,20 +8,20 @@ topic: Personalization
 exl-id: 02204a7f-a897-4a0d-872a-8d8113e4378d
 source-git-commit: 20bd1eb17ef6e287f7b76e14f727456e12d6f115
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 29%
+source-wordcount: '186'
+ht-degree: 10%
 
 ---
 
 # Tutoriales de Adobe Target
 
-[!DNL Adobe Target] es el [!DNL Adobe Experience Cloud] que proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes. [!DNL Target] le ayuda a maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y demás canales digitales. Utilice estos vídeos y tutoriales para conocer los numerosos componentes de [!DNL Adobe Target].
+[!DNL Adobe Target] es la solución [!DNL Adobe Experience Cloud] que proporciona todo lo necesario para adaptar y personalizar la experiencia de sus clientes. [!DNL Target] le ayuda a maximizar los ingresos de sus sitios web y móviles, aplicaciones, medios sociales y otros canales digitales. Utilice estos vídeos y tutoriales para conocer todos los componentes de [!DNL Adobe Target].
 
 >[!NOTE]
 >
 >Además de esta guía, también están disponibles las guías de [!DNL Adobe Target] siguientes:
 >
->* *[Guía para profesionales de Adobe Target Business](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=es){target=_blank}*
+>* *[Guía para profesionales de Adobe Target](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=es){target=_blank}*
 >
 >* *[Guía para desarrolladores de Adobe Target](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=es){target=_blank}*
 
@@ -42,7 +42,7 @@ ht-degree: 29%
     </a>
     <div>
       <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=es">
-    <strong>Migración de Target de at.js al SDK web de Platform</strong>
+    <strong>Migrar Target de at.js al SDK web de Platform</strong>
     </a>
     </div>
     <p>
@@ -55,7 +55,7 @@ ht-degree: 29%
     </a>
     <div>
       <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html">
-    <strong>Implementación de Target con etiquetas de Adobe Experience Platform</strong>
+    <strong>Implementar Target con etiquetas de Adobe Experience Platform</strong>
     </a>
     </div>
     <p>
@@ -68,7 +68,7 @@ ht-degree: 29%
     </a>
     <div>
     <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
-    <strong>Implementar at.js 2.0 en una SPA</strong>
+    SPA <strong>Implementar at.js 2.0 en un elemento de la lista de direcciones de correo electrónico</strong>
     </a>
     </div>
     <p>
