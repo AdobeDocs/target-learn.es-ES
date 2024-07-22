@@ -9,7 +9,7 @@ doc-type: feature video
 kt: 6165
 team: Evangelism
 exl-id: e669d773-494f-4eb7-82da-6b3f23508d9f
-source-git-commit: 17d2bc2929eed3c029705c3842c902141c639f02
+source-git-commit: f7d130040c74cb2dd79edadf7090bc8a4501557e
 workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 3%
@@ -37,5 +37,5 @@ Al final de este vídeo, hará lo siguiente:
 
 ## Recursos adicionales
 
-* [Información general sobre la toma de decisiones en el dispositivo](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/on-device-decisioning-overview.html?lang=en#implementation)
-* [Documentación del SDK de Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* [Información general sobre la toma de decisiones en el dispositivo](https://experienceleague.adobe.com/en/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
+* [Documentación del SDK de Adobe Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
