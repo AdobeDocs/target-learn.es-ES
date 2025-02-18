@@ -1,6 +1,6 @@
 ---
 title: ¿Qué es una fuente en Recommendations?
-description: Descubra qué es una fuente de Recommendations de Adobe Target y cómo se utiliza
+description: Descubra qué es una fuente de Adobe Target Recommendations y cómo se utiliza
 role: User
 level: Intermediate
 topic: Personalization
@@ -8,22 +8,22 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: f9de86e7-1967-4ab7-a600-00e86220f209
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 10%
+source-wordcount: '70'
+ht-degree: 14%
 
 ---
 
 # Explicación de las fuentes en Recommendations
 
-## Descripción
+## Lo que aprenderá
 
 En este vídeo, aprenderá a hacer lo siguiente:
 
 * Describa qué es una fuente y comprenda cómo se utilizan
 
-## Audiencia objetivo
+## Destinatarios previstos
 
 * Profesional empresarial
 

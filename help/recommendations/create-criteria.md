@@ -8,22 +8,22 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: 14135335-9f51-4e5d-905f-3cd6760c54cd
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 16%
+source-wordcount: '57'
+ht-degree: 21%
 
 ---
 
 # Crear criterios en Recommendations
 
-## Descripción
+## Lo que aprenderá
 
 En este vídeo, aprenderá a hacer lo siguiente:
 
 * Crear criterios
 
-## Audiencia objetivo
+## Destinatarios previstos
 
 * Profesional empresarial
 

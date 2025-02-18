@@ -1,6 +1,6 @@
 ---
 title: Cómo crear actividades de segmentación de experiencias
-description: Las actividades de segmentación de experiencias (XT) permiten a los especialistas en marketing segmentar contenido específico para una audiencia específica. Conozca las ventajas de las actividades XT y cómo crearlas y utilizarlas.
+description: Conozca las ventajas de las actividades XT y cómo crearlas y utilizarlas. Las actividades de segmentación de experiencias (XT) permiten a los especialistas en marketing segmentar contenido específico para una audiencia específica.
 role: User
 level: Beginner
 topic: Personalization
@@ -8,24 +8,24 @@ feature: Experience Targeting, Activities, Visual Experience Composer (VEC)
 doc-type: feature video
 kt: null
 exl-id: 997d0902-ff30-4944-b08c-fe6d9f7bcc35
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 26%
+source-wordcount: '168'
+ht-degree: 27%
 
 ---
 
-# Crear actividades de segmentación de experiencias
+# Creación de actividades de segmentación de experiencias
 
 La segmentación de experiencias es un primer paso en el mundo de la personalización y a menudo comienza con las pruebas A/B. Un experto en marketing realiza una prueba A/B y, a través del uso de audiencias de informes, detecta que cada experiencia estimula a una audiencia diferente. La segmentación de experiencias (o XT) permite al experto en marketing aprovechar fácilmente ese descubrimiento y cambiar a la segmentación de contenido a largo plazo para esos diferentes segmentos de usuarios.
 
-## Descripción
+## Lo que aprenderá
 
 En este vídeo, aprenderá a hacer lo siguiente:
 
 * Use el Compositor de experiencias visuales (VEC) de Adobe Target para crear una actividad de segmentación de experiencias (XT)
 
-## Audiencia objetivo
+## Destinatarios previstos
 
 * Profesionales empresariales
 

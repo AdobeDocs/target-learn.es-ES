@@ -9,16 +9,14 @@ doc-type: feature video
 team: Evangelism
 kt: 6691
 exl-id: 3b24efd3-a5b3-41a6-92f4-15433ddb2a26
-source-git-commit: 134db9531c4a279f9d1f27eeb6fcc03bd798660c
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '173'
 ht-degree: 1%
 
 ---
 
 # Información general sobre la toma de decisiones en dispositivos
-
-## Descripción
 
 La toma de decisiones en el dispositivo de Adobe Target permite una entrega de contenido con latencia cercana a cero. Este vídeo de 7 minutos:
 
@@ -35,10 +33,10 @@ Al final de este vídeo, debería poder hacer lo siguiente:
 * Describir la toma de decisiones en el dispositivo y sus ventajas
 * Habilitar la toma de decisiones en el dispositivo en Target
 * Crear una actividad de compositor basada en formularios destinada a utilizarse con la toma de decisiones en el dispositivo
-* Para obtener más información acerca de la configuración del SDK necesaria para la toma de decisiones en el dispositivo, visite la [documentación del SDK para Adobe Target](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* Para obtener más información acerca de la configuración de SDK necesaria para la toma de decisiones en el dispositivo, visite la [documentación de Adobe Target SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
 * Comprenda qué experimentarán los usuarios finales en el contenido entregado mediante la toma de decisiones en el dispositivo
 
-## Audiencia objetivo
+## Destinatarios previstos
 
 * Arquitectos
 

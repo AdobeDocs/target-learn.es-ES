@@ -1,6 +1,6 @@
 ---
 title: Cómo usar la comparación de perfiles para generar audiencias
-description: Este vídeo muestra a los usuarios de Adobe Target cómo utilizar la función Comparación de perfiles para comparar dos valores de perfil numéricos entre sí al crear una audiencia.
+description: Aprenda a utilizar la comparación de perfiles para comparar dos valores de perfil numérico entre sí al crear una audiencia.
 role: User
 level: Experienced
 topic: Personalization
@@ -9,10 +9,10 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: 66764a66-ba47-4ab4-8a36-137a7cca525b
-source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 2%
+source-wordcount: '132'
+ht-degree: 4%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 2%
 
 La característica [!UICONTROL Profile Comparison] de Adobe Target le permite comparar dos valores de perfil numérico entre sí al crear una audiencia. Esto es extremadamente útil si, por ejemplo, pasa puntuaciones de tendencia creadas a medida a [!DNL Target] y desea personalizar el contenido en función del producto con la puntuación de tendencia más alta.
 
-## Descripción
+## Lo que aprenderá
 
 En este vídeo, aprenderá a hacer lo siguiente:
 
 * Comparar los valores numéricos de perfil (puntuaciones) pasados a Adobe Target
 * Utilice esas comparaciones de puntuación para definir audiencias
 
-## Audiencia objetivo
+## Destinatarios previstos
 
 * Profesional empresarial
 

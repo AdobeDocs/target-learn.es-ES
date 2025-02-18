@@ -1,6 +1,6 @@
 ---
 title: Cómo configurar las propiedades
-description: Este vídeo muestra a los administradores cómo crear propiedades en Adobe Target.
+description: Obtenga información sobre cómo crear propiedades en Adobe Target.
 role: Admin
 level: Beginner
 topic: Administration
@@ -9,22 +9,20 @@ doc-type: feature video
 kt: null
 badge: premium
 exl-id: bf732d87-9d4a-4c6e-a299-61df4307f48a
-source-git-commit: 35f64f388eb0bfb2809bdacd07d1398405196b99
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '85'
+ht-degree: 2%
 
 ---
 
 # Configurar propiedades en [!DNL Adobe Target]
 
-## Descripción
-
 En este vídeo, aprenderá a hacer lo siguiente:
 
 * Crear propiedades en [!DNL Adobe Target]
 
-## Audiencia objetivo
+## Destinatarios previstos
 
 * Administradoristrador
 

@@ -1,6 +1,6 @@
 ---
 title: Cómo abordar la estrategia de implementación y la gobernanza del sistema
-description: Este vídeo explica a los administradores y arquitectos los conceptos clave para la administración y la implementación de Adobe Target. Vea este vídeo para aprender a identificar y aplicar las prácticas recomendadas de administración y enumerar los requisitos de implementación de Target.
+description: Obtenga información sobre cómo identificar y aplicar las prácticas recomendadas de gobernanza y enumerar los requisitos de implementación de Target.
 landing-page-description: Vea este vídeo para aprender a identificar y aplicar las prácticas recomendadas de administración y enumerar los requisitos de implementación de Target.
 short-description: Vea este vídeo para aprender a identificar y aplicar las prácticas recomendadas de administración y enumerar los requisitos de implementación de Target.
 role: Admin, Developer, Architect
@@ -11,16 +11,14 @@ doc-type: technical video
 kt: 5063
 thumbnail: 33753.jpg
 exl-id: 750fc1a2-ed15-45e8-9ad3-32049ca36ba8
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 61%
+source-wordcount: '98'
+ht-degree: 38%
 
 ---
 
 # Estrategia de implementación y gobernanza del sistema
-
-## Descripción
 
 En este vídeo, aprenderá a hacer lo siguiente:
 
@@ -28,7 +26,7 @@ En este vídeo, aprenderá a hacer lo siguiente:
 * Identificar y aplicar las prácticas recomendadas de gobernanza
 * Enumerar los requisitos de implementación de Target
 
-## Audiencia objetivo
+## Destinatarios previstos
 
 * Administradores
 * Desarrolladores

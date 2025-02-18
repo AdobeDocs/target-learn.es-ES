@@ -9,22 +9,20 @@ doc-type: technical video
 kt: 5385
 thumbnail: 35145.jpg
 exl-id: 46230e24-b6e8-4f10-8669-2df519d03b87
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 3%
+source-wordcount: '97'
+ht-degree: 2%
 
 ---
 
 # Integración de Target con etiquetas
 
-## Descripción
-
 En este vídeo, aprenderá a hacer lo siguiente:
 
 * Integración de Adobe Target con etiquetas
 
-## Audiencia objetivo
+## Destinatarios previstos
 
 * Desarrolladores
 
@@ -36,7 +34,7 @@ Para obtener más información, visite el [tutorial de etiquetas](https://experi
 >
 >Adobe Experience Platform Launch se ha integrado en Adobe Experience Platform como un conjunto de tecnologías de recopilación de datos. Se han implementado varios cambios terminológicos en la interfaz que debe tener en cuenta al utilizar este contenido:
 >
-> * El platform launch (lado del cliente) ahora es **[[!DNL tags]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es)**
-> * El lado del servidor de platform launch ahora es **[[!DNL event forwarding]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)**
+> * Platform Launch (lado del cliente) ahora es **[[!DNL tags]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=es)**
+> * El lado del servidor de Platform Launch ahora es **[[!DNL event forwarding]](https://experienceleague.adobe.com/docs/experience-platform/tags/event-forwarding/overview.html)**
 > * Ahora, las configuraciones de Edge son **[[!DNL datastreams]](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)**
 

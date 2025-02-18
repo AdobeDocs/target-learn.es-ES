@@ -1,6 +1,6 @@
 ---
 title: ¿Cómo funcionan las solicitudes de Target?
-description: En este vídeo se describe el factor de caducidad de las cookies y los perfiles de Target. Obtenga información sobre cómo determinar el número y los tipos de solicitudes de Target, diferenciar entre la implementación sincrónica y la asincrónica, y explicar la administración de parpadeo.
+description: Obtenga información sobre cómo determinar el número y los tipos de solicitudes de Adobe Target, diferenciar entre la implementación sincrónica y la asincrónica, y explicar la administración de parpadeo.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5381
 thumbnail: 35141.jpg
 exl-id: b5182e70-551c-43e4-bca3-a9889740cecc
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 2%
+source-wordcount: '74'
+ht-degree: 1%
 
 ---
 
-# Introducción a las solicitudes de Target
-
-## Descripción
+# Introducción a [!DNL Target] solicitudes
 
 En este vídeo, aprenderá a hacer lo siguiente:
 
@@ -27,7 +25,7 @@ En este vídeo, aprenderá a hacer lo siguiente:
 * Diferenciación entre la implementación sincrónica y la asincrónica
 * Explicar la administración de parpadeo
 
-## Audiencia objetivo
+## Destinatarios previstos
 
 * Desarrolladores
 * Arquitectos

@@ -1,5 +1,5 @@
 ---
-title: Cómo usar ofertas de Recommendations en pruebas A/B y actividades de segmentación de experiencias
+title: Uso de ofertas de Recommendations en pruebas A/B y actividades de segmentación de experiencias
 description: Aprenda a utilizar ofertas de Recommendations en pruebas A/B y actividades de segmentación de experiencias en Adobe Target.
 role: User
 level: Intermediate
@@ -8,7 +8,7 @@ feature: Recommendations, Auto-Target, Auto-Allocate
 doc-type: feature video
 kt: 3451
 exl-id: 16908f07-cda4-4a34-9e11-42b419e3917b
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 1%

@@ -1,6 +1,6 @@
 ---
 title: ¿Cómo funciona at.js 2.0?
-description: at.js 2.0 mejora la compatibilidad de Adobe Target SPA con aplicaciones de una sola página () e integra otras soluciones de Experience Cloud. Este vídeo y los diagramas adjuntos explican cómo se vincula todo.
+description: Descubra cómo at.js 2.0 mejora la compatibilidad de Adobe Target con las aplicaciones de una sola página (SPA) y se integra con otras soluciones de Experience Cloud.
 role: Developer
 level: Intermediate
 topic: SPA, Architecture, Development
@@ -9,16 +9,16 @@ doc-type: technical video
 kt: null
 author: Daniel Wright
 exl-id: 7f037665-88a7-469c-8df5-c82cb0f65382
-source-git-commit: 80208b3ecbc0d627d2afe72f882e91c9800d2726
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
 
-# Funcionamiento de at.js 2.0 de Adobe Target
+# Descubra cómo funciona at.js 2.0 de Adobe Target
 
-`at.js` 2.0 mejora la compatibilidad de Adobe Target SPA con aplicaciones de una sola página () e integra otras soluciones de Experience Cloud. Este vídeo y los diagramas adjuntos explican cómo se vincula todo.
+`at.js` 2.0 mejora la compatibilidad de Adobe Target con las aplicaciones de una sola página (SPA) e integra otras soluciones de Experience Cloud. Este vídeo y los diagramas adjuntos explican cómo se vincula todo.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?quality=12)
 
@@ -26,7 +26,7 @@ ht-degree: 0%
 
 ![comportamiento de at.js 2.0 al cargar la página](assets/pageload.png)
 
-1. La llamada devuelve el ID del Experience Cloud (ECID). Si el usuario está autenticado, otra llamada sincroniza el ID de cliente.
+1. La llamada devuelve el ID de Experience Cloud (ECID). Si el usuario está autenticado, otra llamada sincroniza el ID de cliente.
 
 1. `at.js` biblioteca se carga sincrónicamente y oculta el cuerpo del documento (`at.js` también se puede cargar asincrónicamente con un fragmento de ocultamiento previo opcional implementado en la página).
 
@@ -52,11 +52,11 @@ Comportamiento de ![at.js 2.0 cuando se usa la función triggerView()](assets/tr
 1. El contenido dirigido se muestra lo más rápido posible y sin parpadeo del contenido predeterminado
 
 1. La solicitud de notificación se envía a [!DNL Target] [!UICONTROL Profile Store] para contar al visitante en la actividad e incrementar las métricas
-1. SPA Se han enviado los datos de [!DNL Analytics] desde el a los servidores de [!UICONTROL Data Collection]
+1. Los datos de [!DNL Analytics] se envían desde la SPA a los servidores de [!UICONTROL Data Collection]
 
 1. Se han enviado los datos de [!DNL Target] desde el servidor de [!DNL Target] a los servidores de [!UICONTROL Data Collection]. Se compararon los datos de [!DNL Target] con los datos de [!DNL Analytics] mediante el SDID y se procesaron en el almacén de informes de [!DNL Analytics]. Los datos de [!DNL Analytics] se pueden ver en [!DNL Analytics] y [!DNL Target] mediante los informes de A4T.
 
 ## Recursos adicionales
 
 * [Implementar at.js 2.0 en una aplicación de una sola página](implement-atjs-20-in-a-single-page-application.md)
-* [Uso del Compositor de experiencias visuales de Adobe Target SPA para aplicaciones de una sola página (VEC de)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
+* [Uso del Compositor de experiencias visuales de Adobe Target para aplicaciones de una sola página (SPA VEC)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)

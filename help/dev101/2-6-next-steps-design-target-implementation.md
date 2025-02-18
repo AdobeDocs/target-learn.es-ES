@@ -1,6 +1,6 @@
 ---
 title: Más allá de lo básico, cuáles son los siguientes pasos para diseñar una implementación de Target
-description: Este vídeo muestra a desarrolladores y arquitectos de Adobe Target cómo implementar Target con bibliotecas de administración de etiquetas, explicar la relevancia de los scripts de perfil para el modelo de usuario y diferenciar el uso y la aplicación de un parámetro de solicitud y un parámetro de perfil.
+description: Obtenga información sobre cómo implementar Target con bibliotecas de administración de etiquetas. Conozca la relevancia de los scripts de perfil para el modelo de usuario y cómo diferenciar el uso y la aplicación de un parámetro de solicitud y un parámetro de perfil.
 role: Developer, Architect
 level: Intermediate
 topic: Personalization, Development, Architecture
@@ -9,16 +9,14 @@ doc-type: technical video
 kt: 5384
 thumbnail: 35144.jpg
 exl-id: c9c907dd-4574-40cb-b5b8-93f4ab6ff609
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 1%
+source-wordcount: '101'
+ht-degree: 0%
 
 ---
 
-# Pasos siguientes para diseñar una implementación de Target
-
-## Descripción
+# Pasos siguientes para diseñar una implementación de [!DNL Target]
 
 En este vídeo, aprenderá a hacer lo siguiente:
 
@@ -26,7 +24,7 @@ En este vídeo, aprenderá a hacer lo siguiente:
 * Explicar la relevancia de los scripts de perfil para el modelo de usuario
 * Diferenciación entre el uso y la aplicación de un parámetro de solicitud y un parámetro de perfil
 
-## Audiencia objetivo
+## Destinatarios previstos
 
 * Desarrolladores
 * Arquitectos

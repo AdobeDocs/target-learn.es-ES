@@ -9,22 +9,20 @@ doc-type: technical video
 kt: 5390
 thumbnail: 35150.jpg
 exl-id: db763906-33f6-4a3b-9db8-f90ec515d8ba
-source-git-commit: 1b14e7987309bc4104fa842558861eeedb0ddb44
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 4%
+source-wordcount: '89'
+ht-degree: 3%
 
 ---
 
 # Integración de Target con Adobe Developer Console
 
-## Descripción
-
 En este vídeo, aprenderá a hacer lo siguiente:
 
-* Integrar Adobe Target y Adobe Developer Console (anteriormente denominado Adobe I/O)
+* Integrar Adobe Target y Adobe Developer Console (anteriormente Adobe I/O)
 
-## Audiencia objetivo
+## Destinatarios previstos
 
 * Desarrolladores
 

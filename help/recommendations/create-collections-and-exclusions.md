@@ -1,5 +1,5 @@
 ---
-title: Cómo crear colecciones y exclusiones en Recommendations
+title: Creación de colecciones y exclusiones en Recommendations
 description: Descubra qué es una colección de Recommendations y cómo utilizarla. Descubra qué es una exclusión de Recommendations y cómo utilizarla.
 role: User
 level: Intermediate
@@ -8,23 +8,23 @@ feature: Recommendations
 doc-type: feature video
 kt: null
 exl-id: 10448c36-44b8-4a2f-a3c5-9e0130593a17
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 12%
+source-wordcount: '74'
+ht-degree: 16%
 
 ---
 
 # Creación de colecciones y exclusiones en Recommendations
 
-## Descripción
+## Lo que aprenderá
 
 En este vídeo, aprenderá a hacer lo siguiente:
 
 * Crear colecciones
 * Creación de exclusiones
 
-## Audiencia objetivo
+## Destinatarios previstos
 
 * Profesional empresarial
 
