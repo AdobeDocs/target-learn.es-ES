@@ -1,6 +1,6 @@
 ---
 title: Cómo usar el Compositor de experiencias visuales (VEC)
-description: Aprenda a crear actividades con el VEC.
+description: Aprenda a crear actividades con VEC.
 landing-page-description: Vea estos vídeos para aprender a crear actividades con el Compositor de experiencias visuales (VEC).
 short-description: Vea estos vídeos para aprender a crear actividades con el Compositor de experiencias visuales (VEC).
 role: User
@@ -13,7 +13,7 @@ exl-id: 3c3985c8-f033-40a1-a39e-8c2f41208d17
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 24%
+ht-degree: 30%
 
 ---
 

@@ -1,8 +1,8 @@
 ---
 title: ¿Cuáles son los diferentes tipos de actividades?
 description: Conozca los diferentes tipos de actividades incluidas en Adobe Target y cómo pueden ayudarle a lograr sus objetivos.
-landing-page-description: Conozca los conceptos básicos de las actividades A/B, las pruebas multivariable, las actividades de segmentación de experiencias, Recommendations y las actividades de Automated Personalization.
-short-description: Conozca los conceptos básicos de las actividades A/B, las pruebas multivariable, las actividades de segmentación de experiencias, Recommendations y las actividades de Automated Personalization.
+landing-page-description: Conozca los conceptos básicos de las actividades A/B, las pruebas multivariable, las actividades de segmentación de experiencias, Recomendaciones y las actividades de Automated Personalization.
+short-description: Conozca los conceptos básicos de las actividades A/B, las pruebas multivariable, las actividades de segmentación de experiencias, Recomendaciones y las actividades de Automated Personalization.
 role: User
 level: Beginner
 topic: Personalization

@@ -1,6 +1,6 @@
 ---
 title: ¿Qué son las audiencias y cómo se utilizan?
-description: Aprenda a utilizar las audiencias para segmentar actividades y filtrar informes.
+description: Aprenda a utilizar los públicos para segmentar las actividades y filtrar informes.
 landing-page-description: Aprenda a definir audiencias y buscarlas, segmentar actividades y filtrar informes.
 short-description: Aprenda a definir audiencias y buscarlas, segmentar actividades y filtrar informes.
 role: User
@@ -14,7 +14,7 @@ exl-id: c164eba0-d548-4ace-b9e7-746bdafa844d
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 43%
+ht-degree: 54%
 
 ---
 
