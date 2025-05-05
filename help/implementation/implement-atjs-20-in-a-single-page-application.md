@@ -20,7 +20,7 @@ ht-degree: 0%
 
 `at.js` 2.0 de Adobe Target proporciona conjuntos de funciones enriquecidos que equipan su empresa para ejecutar personalizaciones en tecnologías de próxima generación de lado del cliente. Esta versión se centra en actualizar `at.js` para tener interacciones armoniosas con aplicaciones de una sola página (SPA).
 
->[!VIDEO](https://video.tv.adobe.com/v/26248?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/34788?quality=12&captions=spa)
 
 ## Implementación de at.js 2.0 en una SPA
 

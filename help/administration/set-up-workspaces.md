@@ -25,4 +25,4 @@ En este vídeo, aprenderá a hacer lo siguiente:
 
 * Administrador
 
->[!VIDEO](https://video.tv.adobe.com/v/19463/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3421730/?quality=12&captions=spa)
