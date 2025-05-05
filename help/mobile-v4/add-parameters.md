@@ -150,7 +150,7 @@ Ejecute el emulador y abra Logcat. Filtre por uno de los parámetros para compro
 
 >[!NOTE]
 >
->Analytics for Target (A4T): Adobe Analytics se puede configurar como fuente de informes para [!DNL Target]. Esto permite que todas las métricas y dimensiones recopiladas por el SDK de Target se vean en Adobe Analytics. Consulte la [Información general de A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) para obtener más información.
+>Analytics for Target (A4T): Adobe Analytics se puede configurar como fuente de informes para [!DNL Target]. Esto permite que todas las métricas y dimensiones recopiladas por el SDK de Target se vean en Adobe Analytics. Consulte la [Información general de A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es) para obtener más información.
 
 ¡Buen trabajo! Ahora que los parámetros están configurados, estamos listos para usarlos para crear audiencias y ofertas en Adobe Target.
 

@@ -36,4 +36,4 @@ En este vídeo, aprenderá a hacer lo siguiente:
 * [Crear diseños personalizados](create-custom-designs.md)
 * [Creación de colecciones y exclusiones](create-collections-and-exclusions.md)
 * [Crear una actividad de Recomendaciones](create-a-recommendations-activity.md)
-* [Documentación de Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Documentación de Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=es)

@@ -28,4 +28,4 @@ En este vídeo, aprenderá a hacer lo siguiente:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35148/?quality=12)
 
-Para obtener más información, visite la [documentación](https://experienceleague.adobe.com/docs/target/using/administer/scene7-settings.html?lang=en).
+Para obtener más información, visite la [documentación](https://experienceleague.adobe.com/docs/target/using/administer/scene7-settings.html?lang=es).

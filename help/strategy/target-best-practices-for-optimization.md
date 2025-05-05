@@ -120,4 +120,4 @@ Dada la comprensión anterior, Adobe recomienda optimizar antes de personalizar 
 
 Para obtener más información, vea [seminario web sobre cómo comprender y optimizar la implementación de Adobe Target](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/), con la consultora de negocios Katie Cozby.
 
-Obtenga más información sobre estrategia y liderazgo mental en el centro de [Éxito del cliente](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).
+Obtenga más información sobre estrategia y liderazgo mental en el centro de [Éxito del cliente](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=es).

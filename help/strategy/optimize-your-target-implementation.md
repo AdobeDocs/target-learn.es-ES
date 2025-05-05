@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Si es nuevo en su organización y desea familiarizarse con las funciones de una práctica de pruebas y optimización, este artículo le ayuda a empezar. Empezaremos con una descripción general de la implementación y estructura de Adobe Target. Aprenderá a comprender y auditar la configuración de su organización. Por último, analizaremos técnicas comunes de resolución de problemas y sugerencias para crear un repositorio de conocimientos para su equipo.
 
-Adobe Target es una herramienta que permite probar y segmentar contenido único para diferentes visitantes. Para obtener una descripción general de las características disponibles, [visite esta guía](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en).
+Adobe Target es una herramienta que permite probar y segmentar contenido único para diferentes visitantes. Para obtener una descripción general de las características disponibles, [visite esta guía](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es).
 
 ## Implementación y estructura de Target
 
@@ -166,4 +166,4 @@ Entre los documentos habituales de un repositorio de conocimientos se incluyen:
 
 Para obtener más información, revise nuestro [seminario web](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) con el consultor sénior Wilder Freed.
 
-Obtenga más información sobre estrategia y liderazgo mental en el centro de [Éxito del cliente](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).
+Obtenga más información sobre estrategia y liderazgo mental en el centro de [Éxito del cliente](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=es).

@@ -39,4 +39,4 @@ En este vídeo, aprenderá a hacer lo siguiente:
 * [Crear criterios](create-criteria.md)
 * [Crear diseños personalizados](create-custom-designs.md)
 * [Creación de colecciones y exclusiones](create-collections-and-exclusions.md)
-* [Documentación de Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Documentación de Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=es)
