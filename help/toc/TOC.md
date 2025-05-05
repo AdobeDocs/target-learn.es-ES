@@ -56,7 +56,7 @@ ht-degree: 6%
       + [Uso de atributos de perfil de Real-Time CDP en Target](../integrations/rtcdp/use-rtcdp-profile-attributes-in-target.md)
    + [Integración de Target con Scene7](../dev101/3-8-target-scene7.md)
    + [Integración de Target con Adobe Experience Manager](../dev101/3-5-target-aem.md)
-   + AEM [Usar fragmentos de experiencia de la en Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [AEM Usar fragmentos de experiencia de la en Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
    + [Datos en: Utilice proveedores de datos para integrar datos de terceros](../integrations/use-data-providers-to-integrate-third-party-data.md)
    + [Datos en: implementación de proveedores de datos para integrar datos de terceros](../integrations/implement-data-providers-to-integrate-third-party-data.md)
    + [Salida de datos: utilice tokens de respuesta y eventos personalizados de at.js](../integrations/use-response-tokens-and-atjs-custom-events.md)
@@ -78,7 +78,7 @@ ht-degree: 6%
    + [Uso del Compositor de experiencias visuales](../experiences/use-the-visual-experience-composer.md)
    + [SPA Uso del Compositor de experiencias visuales para aplicaciones de una sola página (VEC) (VECs)](../experiences/use-the-visual-experience-composer-for-single-page-applications.md)
    + [Uso del Compositor de experiencias basadas en formularios](../experiences/use-the-form-based-experience-composer.md)
-   + AEM [Usar fragmentos de experiencia de la en Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
+   + [AEM Usar fragmentos de experiencia de la en Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-offer-feature-video-use.html)
 + Informes{#reports}
    + [Uso de los informes de Personalization Insights](../reports/use-the-personalization-insights-reports.md)
 + Recomendaciones{#recommendations}
