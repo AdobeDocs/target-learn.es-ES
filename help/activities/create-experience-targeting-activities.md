@@ -29,7 +29,7 @@ En este vídeo, aprenderá a hacer lo siguiente:
 
 * Profesionales empresariales
 
->[!VIDEO](https://video.tv.adobe.com/v/22418?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/38303?quality=12&captions=spa)
 
 ## Recursos adicionales
 

@@ -31,7 +31,7 @@ En este vídeo, aprenderá a hacer lo siguiente:
 
 * Profesional empresarial
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/328109/?quality=12&captions=spa)
 
 ## Recursos adicionales
 
