@@ -37,4 +37,4 @@ En este vídeo, aprenderá a hacer lo siguiente:
 * [Crear una fuente](create-a-feed.md)
 * [Crear criterios](create-criteria.md)
 * [Crear diseños personalizados](create-custom-designs.md)
-* [Documentación de Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Documentación de Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=es)

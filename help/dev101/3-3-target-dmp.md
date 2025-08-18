@@ -28,4 +28,4 @@ En este vídeo, aprenderá a hacer lo siguiente:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35151/?quality=12)
 
-Para obtener más información, visite la [documentación](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=en).
+Para obtener más información, visite la [documentación](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=es).

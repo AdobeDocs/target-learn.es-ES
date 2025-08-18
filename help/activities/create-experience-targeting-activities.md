@@ -34,10 +34,10 @@ En este vídeo, aprenderá a hacer lo siguiente:
 ## Recursos adicionales
 
 * [Descargar el manual de implementación para Experience Personalization](https://guided.adobe.com/?promoid=K42KVXHD&mv=other&search=personalization+playbook#recommended/solutions/target)
-* [Documentación de segmentación de experiencias](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=en)
+* [Documentación de segmentación de experiencias](https://experienceleague.adobe.com/docs/target/using/activities/experience-targeting/experience-target.html?lang=es)
 
 ## Otras funciones utilizadas en este vídeo
 
-* [Audiencias para la documentación de informes](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
-* [Creación de documentación de audiencias](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=en)
-* [Creación de experiencias con la documentación del Compositor de experiencias visuales](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=en)
+* [Audiencias para la documentación de informes](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=es)
+* [Creación de documentación de audiencias](https://experienceleague.adobe.com/docs/target/using/audiences/managing-audience-filters.html?lang=es)
+* [Creación de experiencias con la documentación del Compositor de experiencias visuales](https://experienceleague.adobe.com/docs/target/using/experiences/experiences.html?lang=es)

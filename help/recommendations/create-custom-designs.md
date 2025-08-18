@@ -36,4 +36,4 @@ En este vídeo, aprenderá a hacer lo siguiente:
 * [Explicación de las fuentes](understanding-feeds.md)
 * [Crear una fuente](create-a-feed.md)
 * [Crear criterios](create-criteria.md)
-* [Documentación de Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)
+* [Documentación de Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=es)
