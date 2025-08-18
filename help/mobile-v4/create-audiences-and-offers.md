@@ -78,7 +78,7 @@ Siga los mismos pasos enumerados anteriormente para crear una audiencia para los
 
 >[!NOTE]
 >
->Todas las métricas y dimensiones del ciclo vital recopiladas en el SDK móvil de [!DNL Target] van precedidas de &quot;a&quot; (por ejemplo, a.Launches), están disponibles en la opción &quot;Personalizado&quot; del menú desplegable y se pueden utilizar para crear audiencias.
+>Todas las métricas y dimensiones del ciclo vital recopiladas en el SDK móvil [!DNL Target] van precedidas de &quot;a&quot; (por ejemplo, a.Launches), están disponibles en la opción &quot;Personalizado&quot; del menú desplegable y se pueden usar para generar audiencias.
 
 ### Crear una audiencia para los usuarios que reservan un viaje a San Diego
 
@@ -120,7 +120,7 @@ En primer lugar, vamos a crear ofertas para los mensajes a los nuevos usuarios:
 1. Escriba _Seleccionar Source y destino para buscar los buses disponibles_ como código.
 1. Guarde la nueva oferta.
 
-   ![Crear oferta de HTML particular](assets/offer_home_2.jpg)
+   ![Crear oferta de HTML residencial](assets/offer_home_2.jpg)
 
 ### Creación de la oferta para usuarios que regresan
 
@@ -130,7 +130,7 @@ Ahora vamos a crear la única oferta para los usuarios que regresan (la segunda 
 1. Ingresa _Bienvenido de nuevo. Utilice el código promocional BACK30 durante el cierre de compra para obtener un descuento del 10%._ como código de HTML.
 1. Guarde la nueva oferta.
 
-   ![Crear oferta de HTML particular](assets/offer_home_returning_users.jpg)
+   ![Crear oferta de HTML residencial](assets/offer_home_returning_users.jpg)
 
 ### Creación de la oferta de San Diego
 

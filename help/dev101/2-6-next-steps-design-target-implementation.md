@@ -31,4 +31,4 @@ En este vídeo, aprenderá a hacer lo siguiente:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35144/?quality=12)
 
-Para obtener más información, visite la [documentación](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=es).
+Para obtener más información, visite la [documentación](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en).

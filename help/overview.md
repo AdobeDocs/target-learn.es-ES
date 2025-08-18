@@ -38,23 +38,23 @@ ht-degree: 10%
 <tr>
   <td>
     <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=es">
-      <img alt="Migración de Target de at.js al SDK web de Platform" src="./assets/thumb_websdk.jpg" />
+      <img alt="Migración de Target de at.js a Platform Web SDK" src="./assets/thumb_websdk.jpg" />
     </a>
     <div>
       <a href="https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=es">
-    <strong>Migrar Target de at.js al SDK web de Platform</strong>
+    <strong>Migrar Target de at.js a Platform Web SDK</strong>
     </a>
     </div>
     <p>
-    <em>Obtenga información sobre cómo migrar su implementación de at.js al SDK web de Adobe Experience Platform.</em>
+    <em>Obtenga información sobre cómo migrar su implementación de at.js a Adobe Experience Platform Web SDK.</em>
     <p>
   </td>
   <td>
-    <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html?lang=es"> 
+    <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html"> 
       <img alt="Implementación de Target con etiquetas de Adobe Experience Platform" src="./assets/add-adobe-target.jpg"/>
     </a>
     <div>
-      <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html?lang=es">
+      <a href="https://experienceleague.adobe.com/docs/platform-learn/implement-in-websites/implement-solutions/target.html">
     <strong>Implementar Target con etiquetas de Adobe Experience Platform</strong>
     </a>
     </div>
@@ -63,16 +63,16 @@ ht-degree: 10%
     <p>
   </td>
    <td>
-    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html?lang=es">
-      <img alt="Implementar at.js 2.0 de Adobe Target SPA en una aplicación de una sola página ()" src="./assets/26248.png" />
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
+      <img alt="Implementar at.js 2.0 de Adobe Target en una aplicación de una sola página (SPA)" src="./assets/26248.png" />
     </a>
     <div>
-    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html?lang=es">
-    SPA <strong>Implementar at.js 2.0 en un elemento de la lista de direcciones de correo electrónico</strong>
+    <a href="https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/implement-atjs-20-in-a-single-page-application.html">
+    <strong>Implementar at.js 2.0 en una SPA</strong>
     </a>
     </div>
     <p>
-    <em> Obtenga información sobre cómo implementar at.js 2.0 de Adobe Target SPA (y versiones posteriores) en aplicaciones de una sola página ().</em>
+    <em> Obtenga información sobre cómo implementar at.js 2.0 de Adobe Target (y versiones posteriores) en aplicaciones de una sola página (SPA).</em>
     <p>
   </td>
 </tr>

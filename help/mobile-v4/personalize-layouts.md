@@ -75,7 +75,7 @@ En la interfaz [!DNL Target], haga lo siguiente:
    ![Nueva audiencia de usuarios de aplicaciones móviles](assets/activity_create_7.jpg)
 
 1. Seleccione la ubicación _wetravel_engage_search_.
-1. Cambie la oferta del HTML.
+1. Cambie la oferta de HTML.
 
    ![Nueva audiencia de usuarios de aplicaciones móviles](assets/activity_create_8.jpg)
 
@@ -193,7 +193,7 @@ Ahora selecciona **[!UICONTROL Done]** y prueba otra reserva con Los Ángeles co
 
 ## Conclusión
 
-¡Felicidades! Con esto concluye la parte principal del SDK para Adobe Target 4.x para Android Tutorial. Ahora tiene las habilidades para implementar la personalización en aplicaciones de Android. Puede consultar esta documentación y la aplicación de demostración como referencia para sus futuros proyectos.
+¡Felicidades! Con esto concluye la parte principal del tutorial de Adobe Target SDK 4.x para Android. Ahora tiene las habilidades para implementar la personalización en aplicaciones de Android. Puede consultar esta documentación y la aplicación de demostración como referencia para sus futuros proyectos.
 
 Siguiente: El indicador de funciones es otra función que se puede implementar con Adobe Target en Android. Para obtener más información sobre el marcado de características, consulte la siguiente lección.
 

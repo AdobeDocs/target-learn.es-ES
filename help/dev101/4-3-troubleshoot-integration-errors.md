@@ -28,4 +28,4 @@ En este vídeo, aprenderá a hacer lo siguiente:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35155/?quality=12)
 
-Para obtener más información, visite la [documentación](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/troubleshoot-a4t/a4t-troubleshooting.html?lang=es).
+Para obtener más información, visite la [documentación](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/troubleshoot-a4t/a4t-troubleshooting.html?lang=en).

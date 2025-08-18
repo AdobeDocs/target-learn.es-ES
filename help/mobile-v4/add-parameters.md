@@ -1,6 +1,6 @@
 ---
 title: Añadir parámetros a las solicitudes
-description: En esta lección, agregaremos métricas del ciclo vital de Adobes y parámetros personalizados a las solicitudes de Target agregadas en la lección anterior. Estas métricas y parámetros se utilizarán para crear audiencias personalizadas más adelante en el tutorial.
+description: En esta lección, agregaremos métricas del ciclo vital de Adobe y parámetros personalizados a las solicitudes de Target agregadas en la lección anterior. Estas métricas y parámetros se utilizarán para crear audiencias personalizadas más adelante en el tutorial.
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -17,20 +17,20 @@ ht-degree: 0%
 
 # Añadir parámetros a las solicitudes
 
-En esta lección agregaremos métricas del ciclo vital de Adobes y parámetros personalizados a las [!DNL Target] solicitudes agregadas en la lección anterior. Estas métricas y parámetros se utilizarán para crear audiencias personalizadas más adelante en el tutorial.
+En esta lección agregaremos métricas del ciclo vital y parámetros personalizados de Adobe a las [!DNL Target] solicitudes agregadas en la lección anterior. Estas métricas y parámetros se utilizarán para crear audiencias personalizadas más adelante en el tutorial.
 
 ## Objetivos de aprendizaje
 
 Al final de esta lección, podrá hacer lo siguiente:
 
-* Agregar las métricas del ciclo vital móvil de Adobe
+* Añadir las métricas del ciclo vital de Adobe móvil
 * Adición de parámetros a una solicitud de recuperación previa
 * Añadir parámetros a una ubicación activa
 * Validar los parámetros de ambas solicitudes
 
 ## Añadir los parámetros del ciclo vital
 
-Habilitemos las [métricas del ciclo vital móvil de Adobe](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=es). Esto añadirá parámetros a las solicitudes de ubicación que contengan información completa sobre el dispositivo del usuario y la participación con la aplicación. Generaremos audiencias en la siguiente lección utilizando los datos que proporciona la solicitud del ciclo vital.
+Habilitemos [las métricas del ciclo vital de Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/android/metrics.html?lang=en). Esto añadirá parámetros a las solicitudes de ubicación que contengan información completa sobre el dispositivo del usuario y la participación con la aplicación. Generaremos audiencias en la siguiente lección utilizando los datos que proporciona la solicitud del ciclo vital.
 
 Para habilitar las métricas del ciclo vital, vuelva a abrir el controlador HomeActivity y agregue `Config.collectLifecycleData(this);` a la función onResume():
 
@@ -89,7 +89,7 @@ public void targetPrefetchContent() {
 
 ### Nota sobre los parámetros
 
-En futuros proyectos, es posible que desee implementar parámetros adicionales. El método `createTargetPrefetchObject()` permite tres tipos de parámetros: `locationParams`, `orderParams` y `productParams`. Consulte la documentación de [más detalles sobre cómo agregar estos parámetros a la solicitud de recuperación previa](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=es).
+En futuros proyectos, es posible que desee implementar parámetros adicionales. El método `createTargetPrefetchObject()` permite tres tipos de parámetros: `locationParams`, `orderParams` y `productParams`. Consulte la documentación de [más detalles sobre cómo agregar estos parámetros a la solicitud de recuperación previa](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en).
 
 Tenga en cuenta también que se pueden agregar diferentes parámetros de ubicación a cada ubicación en la solicitud de recuperación previa. Por ejemplo, puede crear otro mapa llamado param2, ponerle un nuevo parámetro y, a continuación, establecer param2 en una ubicación y param1 en la otra ubicación. A continuación se muestra un ejemplo:
 
@@ -146,11 +146,11 @@ Ejecute el emulador y abra Logcat. Filtre por uno de los parámetros para compro
 
 >[!NOTE]
 >
->Parámetros y solicitudes de confirmación de pedido: aunque no se usan en este proyecto de demostración, los detalles de pedido generalmente se capturan en una implementación real, de modo que [!DNL Target] puede usar detalles de pedido como métricas/dimensiones. Consulte la documentación para obtener instrucciones sobre cómo [implementar la solicitud de confirmación de pedido y los parámetros](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=es).
+>Parámetros y solicitudes de confirmación de pedido: aunque no se usan en este proyecto de demostración, los detalles de pedido generalmente se capturan en una implementación real, de modo que [!DNL Target] puede usar detalles de pedido como métricas/dimensiones. Consulte la documentación para obtener instrucciones sobre cómo [implementar la solicitud de confirmación de pedido y los parámetros](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-target-methods.html?lang=en).
 
 >[!NOTE]
 >
->Analytics for Target (A4T): Adobe Analytics se puede configurar como fuente de informes para [!DNL Target]. Esto permite que todas las métricas y dimensiones recopiladas por el SDK de Target se vean en Adobe Analytics. Consulte la [Información general de A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=es) para obtener más información.
+>Analytics for Target (A4T): Adobe Analytics se puede configurar como fuente de informes para [!DNL Target]. Esto permite ver en Adobe Analytics todas las métricas y dimensiones recopiladas por Target SDK. Consulte la [Información general de A4T](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en) para obtener más información.
 
 ¡Buen trabajo! Ahora que los parámetros están configurados, estamos listos para usarlos para crear audiencias y ofertas en Adobe Target.
 

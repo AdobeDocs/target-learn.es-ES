@@ -30,6 +30,6 @@ En este vídeo, aprenderá a hacer lo siguiente:
 * Desarrolladores
 * Arquitectos
 
->[!VIDEO](https://video.tv.adobe.com/v/3421781/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/33754/?quality=12)
 
-Para obtener más información, visite la [documentación](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=es).
+Para obtener más información, visite la [documentación](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=en).

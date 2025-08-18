@@ -1,6 +1,6 @@
 ---
 title: Solución de problemas con seguimientos de Target
-description: Adobe Experience Cloud Debugger le permite entender de forma rápida y sencilla su implementación de Target. Obtenga información sobre cómo autenticarse en el Experience Cloud y utilizar la potente herramienta Seguimiento de objetivos para inspeccionar su actividad, las cualificaciones de audiencia y el perfil del visitante.
+description: Adobe Experience Cloud Debugger le permite entender de forma rápida y sencilla su implementación de Target. Obtenga información sobre cómo autenticarse en Experience Cloud y utilizar la potente herramienta Seguimiento de objetivos para inspeccionar su actividad, las cualificaciones de audiencia y el perfil del visitante.
 role: User
 level: Intermediate
 topic: Personalization, Performance
@@ -20,4 +20,4 @@ ht-degree: 30%
 
 ## Mbox Trace
 
->[!VIDEO](https://video.tv.adobe.com/v/33707/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12)

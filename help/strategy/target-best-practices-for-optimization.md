@@ -65,7 +65,7 @@ Una hipótesis completa consta de tres partes:
 * **Audiencias de informes:** Lista de descripciones de subconjuntos de visitantes que se utilizarán para el análisis.
 * **Conceptos de experiencia:** maquetas, ejemplos, mallas metálicas y descripciones.
 
-**Nota general:** Se puede probar cualquier elemento de una página web que pueda generar valor empresarial o proporcionar información valiosa sobre el comportamiento de los visitantes. Algunos tipos comunes de actividades de prueba incluyen:
+**Nota general:** Se puede probar cualquier elemento de una página web que pueda generar valor empresarial o proporcionar un valioso insight al comportamiento de los visitantes. Algunos tipos comunes de actividades de prueba incluyen:
 
 * Texto de titular
 * Texto de contenido
@@ -104,7 +104,7 @@ En un nivel superior:
 
 Al centrarse en la optimización, las actividades de prueba más comunes son:
 
-* **Pruebas A/B:** Pruebas en tiempo real de dos o más páginas o elementos de página entre sí para obtener un conocimiento cuantitativo de las preferencias del cliente.
+* **Pruebas A/B:** Pruebas en tiempo real de dos o más páginas o elementos de página entre sí para obtener insight cuantitativo en las preferencias del cliente.
 * **Pruebas multivariable:** Comparar combinaciones de ofertas entre elementos de una página para ver qué combinación ofrece el mejor rendimiento. Además, la prueba multivariable identificará qué elemento de la página mejora más las conversiones.
 
 Al centrarse en Personalization, es probable que vea las mismas actividades de prueba que en Optimización, pero están dirigidas a audiencias más específicas. Por ejemplo, en las pruebas A/B, es probable que añada páginas y audiencias dentro de las experiencias para mejorar su Personalization.
@@ -120,4 +120,4 @@ Dada la comprensión anterior, Adobe recomienda optimizar antes de personalizar 
 
 Para obtener más información, vea [seminario web sobre cómo comprender y optimizar la implementación de Adobe Target](https://adobecustomersuccess.adobeconnect.com/pkfafpzd9yarmp4/), con la consultora de negocios Katie Cozby.
 
-Obtenga más información sobre estrategia y liderazgo mental en el centro de [Éxito del cliente](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=es).
+Obtenga más información sobre estrategia y liderazgo mental en el centro de [Éxito del cliente](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).

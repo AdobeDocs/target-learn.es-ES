@@ -1,6 +1,6 @@
 ---
 title: Añadir solicitudes de Adobe Target
-description: El SDK de Adobe Mobile Services (v4) proporciona métodos y funcionalidades de Adobe Target que le permiten personalizar su aplicación con diferentes experiencias para distintos usuarios.
+description: Adobe Mobile Services SDK (v4) proporciona métodos y funcionalidades de Adobe Target que le permiten personalizar su aplicación con diferentes experiencias para distintos usuarios.
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Añadir solicitudes de Adobe Target
 
-El SDK de Adobe Mobile Services (v4) proporciona métodos y funcionalidades de Adobe Target que le permiten personalizar su aplicación con diferentes experiencias para distintos usuarios. Normalmente, se realizan una o más solicitudes desde la aplicación a Adobe Target para recuperar el contenido personalizado y medir el impacto de ese contenido.
+Adobe Mobile Services SDK (v4) proporciona métodos y funcionalidades de Adobe Target que le permiten personalizar su aplicación con diferentes experiencias para distintos usuarios. Normalmente, se realizan una o más solicitudes desde la aplicación a Adobe Target para recuperar el contenido personalizado y medir el impacto de ese contenido.
 
 En esta lección, debe preparar la aplicación We.Travel para la personalización mediante la implementación de [!DNL Target] solicitudes.
 
@@ -52,7 +52,7 @@ A continuación se muestra parte de la terminología clave de Target que utiliza
 
 La primera solicitud que implementaremos en We.Travel es una solicitud de recuperación previa por lotes con dos ubicaciones de [!DNL Target] en la pantalla de inicio. En una lección posterior, configuraremos ofertas para estas ubicaciones que muestran mensajes para ayudar a guiar a los nuevos usuarios a través del proceso de reserva.
 
-Una solicitud de recuperación previa recupera el contenido de [!DNL Target] lo menos posible almacenando en caché la respuesta (oferta) del servidor de Adobe Target. Una solicitud de recuperación previa por lotes recupera y almacena en caché varias ofertas, cada una de ellas asociada a una ubicación diferente. Todas las ubicaciones de recuperación previa se almacenan en la caché del dispositivo para su uso futuro en la sesión del usuario. Al recuperar previamente varias ubicaciones en la pantalla de inicio, podemos recuperar ofertas para utilizarlas más adelante a medida que el visitante navega por la aplicación. Consulte la [documentación de recuperación previa](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=es) para obtener más información sobre los métodos de recuperación previa.
+Una solicitud de recuperación previa recupera el contenido de [!DNL Target] lo menos posible almacenando en caché la respuesta (oferta) del servidor de Adobe Target. Una solicitud de recuperación previa por lotes recupera y almacena en caché varias ofertas, cada una de ellas asociada a una ubicación diferente. Todas las ubicaciones de recuperación previa se almacenan en la caché del dispositivo para su uso futuro en la sesión del usuario. Al recuperar previamente varias ubicaciones en la pantalla de inicio, podemos recuperar ofertas para utilizarlas más adelante a medida que el visitante navega por la aplicación. Consulte la [documentación de recuperación previa](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en) para obtener más información sobre los métodos de recuperación previa.
 
 ### Añadir la solicitud de recuperación previa del lote
 
@@ -116,7 +116,7 @@ public static final String wetravel_engage_search = "wetravel_engage_search";
 
 | Código | Descripción |
 |--- |--- |
-| `targetPrefetchContent()` | Una función definida por el usuario (que no forma parte del SDK) que utiliza métodos de [!DNL Target] para recuperar y almacenar en caché dos ubicaciones de [!DNL Target]. |
+| `targetPrefetchContent()` | Una función definida por el usuario (que no forma parte de SDK) que utiliza métodos de [!DNL Target] para recuperar y almacenar en caché dos ubicaciones de [!DNL Target]. |
 | `prefetchContent()` | El método SDK [!DNL Target] que envía la solicitud de recuperación previa |
 | `Constant.wetravel_engage_home` | Se obtuvo previamente el nombre de la ubicación [!DNL Target], que mostrará el contenido de su oferta en la pantalla de inicio |
 | `Constant.wetravel_engage_search` | Se obtuvo previamente el nombre de ubicación [!DNL Target], que mostrará el contenido de su oferta en la pantalla Resultados de la búsqueda. Dado que esta es una segunda ubicación en la recuperación previa, esta solicitud de recuperación previa se denomina &quot;solicitud de lote de recuperación previa&quot;. |
@@ -284,7 +284,7 @@ import com.adobe.mobile.TargetPrefetchObject;
 
 | Código | Descripción |
 |--- |--- |
-| `targetLoadRequest()` | Una función definida por el usuario (que no forma parte del SDK) que activa `Target.loadRequest()`, la cual carga y muestra la ubicación wetravel_context_dest |
+| `targetLoadRequest()` | Una función definida por el usuario (que no forma parte de SDK) que activa `Target.loadRequest()` y que carga y muestra la ubicación wetravel_context_dest |
 | `Target.loadRequest()` | El método SDK que realiza la solicitud al servidor de Target |
 | Constant.wetravel_context_dest | El nombre de ubicación asignado a la solicitud que usaremos más adelante cuando generemos la actividad en la interfaz [!DNL Target] |
 | `filterRecommendationBasedOnOffer()` | Una función definida por el usuario en la aplicación que toma la oferta de la ubicación de la respuesta de Target y decide cómo debe cambiar la aplicación en función del contenido de la oferta |

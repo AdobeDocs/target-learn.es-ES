@@ -32,11 +32,11 @@ El VEC de SPA permite a los especialistas en marketing crear pruebas y personali
 
 * Profesional empresarial
 
->[!VIDEO](https://video.tv.adobe.com/v/34794?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
 
 
 ## Recursos adicionales
 
 * [Implementación de at.js 2.0 en una aplicación de una sola página](../implementation/implement-atjs-20-in-a-single-page-application.md)
 * [Funcionamiento de at.js 2.0 (Diagramas de arquitectura)](../implementation/understanding-how-atjs-20-works.md)
-* [Documentación del Compositor de experiencias visuales para aplicaciones de una sola página (SPA)](https://experienceleague.adobe.com/docs/target/using/experiences/spa-visual-experience-composer.html?lang=es)
+* [Documentación del Compositor de experiencias visuales para aplicaciones de una sola página (SPA)](https://experienceleague.adobe.com/docs/target/using/experiences/spa-visual-experience-composer.html?lang=en)

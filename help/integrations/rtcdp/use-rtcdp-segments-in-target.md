@@ -1,6 +1,6 @@
 ---
 title: ¿Cómo se utilizan los segmentos de Real-Time CDP en Adobe Target?
-description: Aprenda a utilizar los segmentos de Real-time Customer Data Platform en Adobe Target para ofrecer experiencias personalizadas en su sitio web y aplicaciones móviles.
+description: Aprenda a utilizar los segmentos de Real-Time Customer Data Platform en Adobe Target para ofrecer experiencias personalizadas en su sitio web y aplicaciones móviles.
 feature-set: Experience Platform, Target
 feature: Destinations, Segments, Audiences, Integrations
 solution: Experience Platform, Target
@@ -19,6 +19,6 @@ ht-degree: 0%
 
 # Uso de segmentos de Real-Time CDP en Target
 
-Aprenda a utilizar los segmentos de Real-time Customer Data Platform en Adobe Target para ofrecer experiencias personalizadas en su sitio web y aplicaciones móviles. Para obtener más información, consulte [la documentación](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html?lang=es).
+Aprenda a utilizar los segmentos de Real-Time Customer Data Platform en Adobe Target para ofrecer experiencias personalizadas en su sitio web y aplicaciones móviles. Para obtener más información, consulte [la documentación](https://experienceleague.adobe.com/docs/target/using/integrate/integrating-with-rtcdp.html).
 
->[!VIDEO](https://video.tv.adobe.com/v/3446830/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)

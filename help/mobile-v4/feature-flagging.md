@@ -10,7 +10,7 @@ kt: 3040
 exl-id: 034d13f2-63b1-44b0-b3dc-867efe37672f
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '732'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Ahora crearemos una oferta JSON simple que actuará como un indicador o déclenc
 
 ![Crear oferta JSON de marcador de característica](assets/feature_flag_json_offer.jpg)
 
-Asignemos un nombre &quot;Marca de característica v1&quot; con el valor {&quot;enable&quot;:1}
+Llamémosla &quot;Marca de característica v1&quot; con el valor {&quot;enable&quot;:1}
 
 ![oferta JSON feature_flag_v1](assets/feature_flag_json_name.jpg)
 

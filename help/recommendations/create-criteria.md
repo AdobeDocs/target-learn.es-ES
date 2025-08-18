@@ -27,7 +27,7 @@ En este vídeo, aprenderá a hacer lo siguiente:
 
 * Profesional empresarial
 
->[!VIDEO](https://video.tv.adobe.com/v/35326?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
 
 ## Recursos adicionales
 
@@ -36,4 +36,4 @@ En este vídeo, aprenderá a hacer lo siguiente:
 * [Crear una actividad de Recomendaciones](create-a-recommendations-activity.md)
 * [Explicación de las fuentes](understanding-feeds.md)
 * [Crear una fuente](create-a-feed.md)
-* [Documentación de Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=es)
+* [Documentación de Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

@@ -20,4 +20,4 @@ ht-degree: 12%
 
 Aprenda a crear y guardar audiencias personalizadas en [!DNL Target] para usarlas en sus actividades.
 
->[!VIDEO](https://video.tv.adobe.com/v/3411153/?quality=12&learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/344302/?quality=12&learn=on)

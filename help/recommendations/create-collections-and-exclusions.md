@@ -28,7 +28,7 @@ En este vídeo, aprenderá a hacer lo siguiente:
 
 * Profesional empresarial
 
->[!VIDEO](https://video.tv.adobe.com/v/35463?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/27689?quality=12)
 
 ## Recursos adicionales
 
@@ -37,4 +37,4 @@ En este vídeo, aprenderá a hacer lo siguiente:
 * [Crear una fuente](create-a-feed.md)
 * [Crear criterios](create-criteria.md)
 * [Crear diseños personalizados](create-custom-designs.md)
-* [Documentación de Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=es)
+* [Documentación de Recommendations](https://experienceleague.adobe.com/docs/target/using/recommendations/recommendations.html?lang=en)

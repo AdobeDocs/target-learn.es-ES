@@ -1,6 +1,6 @@
 ---
 title: ¿Cómo activo los segmentos y atributos de perfil de Adobe Real-time CDP a Adobe Target?
-description: Obtenga información sobre cómo activar segmentos y atributos de perfil de Adobe Real-time Customer Data Platform a Adobe Target para mostrar contenido personalizado en tiempo real en sus sitios web, aplicaciones móviles y otras propiedades digitales.
+description: Obtenga información sobre cómo activar segmentos y atributos de perfil de Adobe Real-Time Customer Data Platform a Adobe Target para mostrar contenido personalizado en tiempo real en sus sitios web, aplicaciones móviles y otras propiedades digitales.
 feature-set: Experience Platform, Target
 feature: Destinations, Profiles, Integrations
 role: User
@@ -18,6 +18,6 @@ ht-degree: 5%
 
 # Activar segmentos y atributos de perfil
 
-Obtenga información sobre cómo activar segmentos y atributos de perfil de Adobe Real-time Customer Data Platform a Adobe Target para mostrar contenido personalizado en tiempo real en sus sitios web, aplicaciones móviles y otras propiedades digitales. Para obtener más información, consulte la [documentación de activación de datos de audiencia en destinos de solicitud de perfil](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=es).
+Obtenga información sobre cómo activar segmentos y atributos de perfil de Adobe Real-Time Customer Data Platform a Adobe Target para mostrar contenido personalizado en tiempo real en sus sitios web, aplicaciones móviles y otras propiedades digitales. Para obtener más información, consulte la [documentación de activación de datos de audiencia en destinos de solicitud de perfil](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html).
 
->[!VIDEO](https://video.tv.adobe.com/v/3447358/?learn=on&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)

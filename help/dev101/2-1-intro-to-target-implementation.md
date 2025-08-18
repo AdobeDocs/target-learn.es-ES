@@ -13,7 +13,7 @@ exl-id: ce615020-6775-486a-b0e0-f4298adbae39
 source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
 workflow-type: tm+mt
 source-wordcount: '73'
-ht-degree: 2%
+ht-degree: 38%
 
 ---
 
@@ -32,5 +32,5 @@ En este vídeo, aprenderá a hacer lo siguiente:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35139/?quality=12)
 
-Para obtener más información, consulte [Implementación del lado del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=es){target=_blank} o [Implementación del lado del servidor](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=es){target=_blank} en *[!UICONTROL Adobe Target Developer Guide]*.
+Para obtener más información, consulte [Implementación del lado del cliente](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank} o [Implementación del lado del servidor](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=es){target=_blank} en *[!UICONTROL Adobe Target Developer Guide]*.
 

@@ -1,6 +1,6 @@
 ---
 title: Descargue y actualice la aplicación de ejemplo We.Travel.
-description: La aplicación de ejemplo We.Travel está preimplementada con el SDK v4 de Adobe Mobile Services. Solo tiene que actualizarlo para que apunte a sus propias cuentas de organización de Experience Cloud y de solución.
+description: La aplicación de ejemplo We.Travel está preimplementada con Adobe Mobile Services SDK v4. Solo tiene que actualizarlo para que apunte a sus propias cuentas de organización y solución de Experience Cloud.
 role: Developer
 level: Intermediate
 topic: Mobile, Personalization
@@ -17,14 +17,14 @@ ht-degree: 0%
 
 # Descargue y actualice la aplicación de ejemplo We.Travel.
 
-La aplicación de ejemplo We.Travel está preimplementada con el SDK v4 de Adobe Mobile Services. Solo tiene que actualizarlo, de modo que señale a sus propias cuentas de organización de Experience Cloud y de solución.
+La aplicación de ejemplo We.Travel está preimplementada con Adobe Mobile Services SDK v4. Solo tiene que actualizarlo para que apunte a sus propias cuentas de organización y solución de Experience Cloud.
 
 ## Objetivos de aprendizaje
 
 Al final de esta lección, podrá hacer lo siguiente:
 
 * Descargue y abra la aplicación de ejemplo We.Travel en Android Studio.
-* Verificar y actualizar la configuración del SDK de Mobile Services para [!DNL Target]
+* Verificar y actualizar la configuración de SDK de Mobile Services para [!DNL Target]
 
 ## Descargue la aplicación We.Travel
 
@@ -36,9 +36,9 @@ Al final de esta lección, podrá hacer lo siguiente:
 
   ![Abrir la aplicación](assets/wetravel_homeScreen.png)![Pantalla de confirmación](assets/wetravel_confirmationScreen.png)
 
-## Verificar y actualizar la configuración del SDK de Mobile Services para [!DNL Target]
+## Verificar y actualizar la configuración de SDK de Mobile Services para [!DNL Target]
 
-El SDK de Adobe Mobile Services se ha preinstalado en la aplicación We.Travel [según la documentación](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=es). Ahora actualizará la instalación para que apunte a su propia cuenta de [!DNL Target].
+Adobe Mobile Services SDK se ha preinstalado en la aplicación We.Travel [según la documentación](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en). Ahora actualizará la instalación para que apunte a su propia cuenta de [!DNL Target].
 
 En primer lugar, cree una nueva aplicación en la interfaz de usuario de Mobile Services:
 
@@ -49,7 +49,7 @@ En primer lugar, cree una nueva aplicación en la interfaz de usuario de Mobile 
 1. La configuración [!UICONTROL Request Timeout] determina cuánto tiempo espera la aplicación la respuesta del servidor [!DNL Target] antes de ejecutar las instrucciones de tiempo de espera. Deje la configuración predeterminada.
 1. Habilite [!UICONTROL Visitor ID Service] y asegúrese de que su [!UICONTROL Organization] esté seleccionado en la lista desplegable.
 1. Guarde los cambios haciendo clic en **[!UICONTROL Save]** en la parte superior derecha de la ventana (no en la sección [!UICONTROL Universal Links], [!UICONTROL App Links] o [!UICONTROL Push Services]).
-1. Desplácese a la sección Descargas del SDK de la aplicación en la parte inferior de la página y descargue el archivo de configuración:
+1. Desplácese a la sección Descargas de la aplicación de SDK en la parte inferior de la página y descargue el archivo de configuración:
 
    ![Descargar el archivo de configuración](assets/config_file.jpg)
 
@@ -60,6 +60,6 @@ En primer lugar, cree una nueva aplicación en la interfaz de usuario de Mobile 
 
 Si no ve su configuración, confirme que ha hecho clic en el botón derecho **[!UICONTROL Save]** en la interfaz [!UICONTROL Mobile Services] y que ha copiado el archivo en la ubicación correcta.
 
-¡Felicidades! ¡Ha actualizado el SDK con los detalles de su cuenta de [!DNL Target]! Haremos una validación adicional de la configuración después de agregar [!DNL Target] solicitudes en la siguiente lección.
+¡Felicidades! ¡Ha actualizado SDK con los detalles de su cuenta de [!DNL Target]! Haremos una validación adicional de la configuración después de agregar [!DNL Target] solicitudes en la siguiente lección.
 
 **[SIGUIENTE: &quot;Agregar solicitudes de Target&quot; >](add-requests.md)**

@@ -21,8 +21,8 @@ ht-degree: 2%
 
 Las actividades de Automated Personalization y Segmentación automática utilizan el aprendizaje automático avanzado para ofrecer a cada visitante la experiencia más adaptada en función de su perfil de cliente y del comportamiento de visitantes anteriores con perfiles similares. Los informes de Personalization Insights proporcionan información sobre cómo estos modelos toman sus decisiones.
 
->[!VIDEO](https://video.tv.adobe.com/v/328108/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/?quality=12)
 
 ## Información adicional
 
-* [Información de Personalization en la documentación de ayuda](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=es)
+* [Información de Personalization en la documentación de ayuda](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=en)

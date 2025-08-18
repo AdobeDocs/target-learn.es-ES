@@ -25,8 +25,8 @@ En este vídeo, aprenderá a hacer lo siguiente:
 
 * Profesional empresarial
 
->[!VIDEO](https://video.tv.adobe.com/v/30133/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17391/?quality=12)
 
 ## Otros recursos
 
-Para obtener instrucciones paso a paso, consulte [Crear una prueba A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html?lang=es){target=_blank} en la *Guía para profesionales de Adobe Target*.
+Para obtener instrucciones paso a paso, consulte [Crear una prueba A/B](https://experienceleague.adobe.com/docs/target/using/activities/abtest/create/test-create-ab.html){target=_blank} en la *Guía para profesionales de Adobe Target*.

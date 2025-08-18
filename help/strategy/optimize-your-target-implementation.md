@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Si es nuevo en su organización y desea familiarizarse con las funciones de una práctica de pruebas y optimización, este artículo le ayuda a empezar. Empezaremos con una descripción general de la implementación y estructura de Adobe Target. Aprenderá a comprender y auditar la configuración de su organización. Por último, analizaremos técnicas comunes de resolución de problemas y sugerencias para crear un repositorio de conocimientos para su equipo.
 
-Adobe Target es una herramienta que permite probar y segmentar contenido único para diferentes visitantes. Para obtener una descripción general de las características disponibles, [visite esta guía](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es).
+Adobe Target es una herramienta que permite probar y segmentar contenido único para diferentes visitantes. Para obtener una descripción general de las características disponibles, [visite esta guía](https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en).
 
 ## Implementación y estructura de Target
 
@@ -40,7 +40,7 @@ Existen tres tipos de actividades fundamentales de Target:
 
 * Una forma de mostrar varias ofertas en varios elementos.
 * Un método para probar la experiencia única resultante con un objetivo específico.
-* Saber qué elementos tienen el mayor impacto negativo o positivo en las interacciones del visitante.
+* Insight especifica qué elementos tienen el mayor impacto negativo o positivo en las interacciones de los visitantes.
 
 **Pruebas de experiencia** (Segmentación de experiencias) ofrece contenido a una audiencia específica en función de un conjunto de reglas y criterios definidos por expertos en marketing. Este método proporciona una forma de dirigir contenido específico a una audiencia específica en función de un conjunto de reglas de asignación definidas.
 
@@ -54,11 +54,11 @@ Este es un ejemplo de alto nivel de cómo funciona Target:
 1. El contenido se muestra en función de las reglas de la actividad del usuario.
 1. Adobe Target captura métricas específicas tal como se definen en la configuración de la actividad para medir el impacto de las experiencias de prueba.
 
-Target se basa en un &quot;mbox global&quot; que permite afectar a cualquier elemento de la página. Esta función se implementa al cargar la página como vínculo codificado al archivo at.js o se entrega mediante un Administrador de etiquetas como Adobe Launch.
+Target se basa en un &quot;mbox global&quot; que permite afectar a cualquier elemento de la página. Esta función se implementa al cargar la página como vínculo codificado al archivo at.js o se entrega con un Administrador de etiquetas como Adobe Launch.
 
 ## Comprender la implementación actual
 
-Para comprender su implementación actual, Adobe recomienda revisar la implementación de la interfaz de usuario de Target junto con la implementación del Administrador de etiquetas y Carga de página.
+Para comprender su implementación actual, Adobe le recomienda que revise la implementación de la interfaz de usuario de Target junto con la implementación del Administrador de etiquetas y la implementación de carga de página.
 
 **Para revisar la interfaz de usuario de [!DNL Target]:**
 
@@ -102,14 +102,14 @@ Para revisar el administrador de etiquetas y la carga de página:
 
 ## [!DNL Target] actividades de auditoría
 
-Para evitar pasar manualmente por cada página para auditar [!DNL Target] actividades, use Adobe Auditor para comprender el estado técnico actual de la implementación. Adobe Auditor utiliza ObservePoint y se puede configurar para que se ejecute de forma manual a fin de identificar los problemas de implementación de alto nivel en su sitio.
+Para evitar pasar manualmente por cada página para auditar [!DNL Target] actividades, use Adobe Auditor para comprender el estado técnico actual de la implementación. Adobe Auditor funciona con ObservePoint y se puede configurar para que se ejecute de forma manual a fin de identificar los problemas de implementación de alto nivel en su sitio.
 
 Adobe Auditor proporciona lo siguiente:
 
 * Un buen estado del sitio
 * Llamadas rápidas para problemas de implementación
 
-El Adobe recomienda realizar auditorías manuales mensuales para:
+Adobe recomienda realizar auditorías manuales mensuales para:
 
 * Identificación de páginas sin etiquetar
 * Identificación de versiones incoherentes
@@ -120,7 +120,7 @@ El Adobe recomienda realizar auditorías manuales mensuales para:
 
 >[!NOTE]
 >
->El Adobe recomienda instalar el Adobe Experience Platform Debugger.
+>Adobe recomienda instalar Adobe Experience Platform Debugger.
 
 A continuación se ofrecen sugerencias generales para la resolución de problemas al entrar en Experience Cloud:
 
@@ -166,4 +166,4 @@ Entre los documentos habituales de un repositorio de conocimientos se incluyen:
 
 Para obtener más información, revise nuestro [seminario web](https://adobecustomersuccess.adobeconnect.com/p4p7xlp7dh42mp4/) con el consultor sénior Wilder Freed.
 
-Obtenga más información sobre estrategia y liderazgo mental en el centro de [Éxito del cliente](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html?lang=es).
+Obtenga más información sobre estrategia y liderazgo mental en el centro de [Éxito del cliente](https://experienceleague.adobe.com/docs/customer-success/customer-success/overview.html).
