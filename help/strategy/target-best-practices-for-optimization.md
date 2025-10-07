@@ -118,6 +118,6 @@ Personalization también incluye el tipo de actividad de prueba Segmentación de
 
 Dada la comprensión anterior, Adobe recomienda optimizar antes de personalizar y avanzar Personalization de amplio a granular. Para madurar las actividades de Personalization de amplia a granular, empezará a utilizar un estilo de personalización de uno a varios (amplio) (mediante pruebas A/B) y, a continuación, pasará al estilo de personalización de uno a uno (granular) (mediante actividades de personalización automatizada).
 
-Para obtener más información, lea [QuickStart para pruebas de personalización y creación de hoja de ruta](https://experienceleague.adobe.com/en/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
+Para obtener más información, lea [QuickStart para pruebas de personalización y creación de hoja de ruta](https://experienceleague.adobe.com/es/perspectives/quickstart-for-personalization-testing-and-roadmap-creation).
 
-Obtenga más información sobre estrategia y liderazgo mental en el centro de [Perspectivas](https://experienceleague.adobe.com/en/perspectives).
+Obtenga más información sobre estrategia y liderazgo mental en el centro de [Perspectivas](https://experienceleague.adobe.com/es/perspectives).
