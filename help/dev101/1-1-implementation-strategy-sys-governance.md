@@ -34,4 +34,4 @@ En este vídeo, aprenderá a hacer lo siguiente:
 
 >[!VIDEO](https://video.tv.adobe.com/v/33753/?quality=12)
 
-Para obtener más información, visite la [documentación](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=es).
+Para obtener más información, visite la [documentación](https://experienceleague.adobe.com/docs/target/using/administer/administrating-target.html?lang=en).

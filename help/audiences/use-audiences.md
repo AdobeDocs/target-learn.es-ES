@@ -20,7 +20,7 @@ ht-degree: 54%
 
 # Uso de audiencias en Adobe Target
 
-Este vídeo muestra a los usuarios de Adobe Target cómo usar audiencias para direccionar actividades y filtrar informes.
+Este vídeo muestra a los usuarios de Adobe Target cómo usar públicos para direccionar actividades y filtrar informes.
 
 ## Lo que aprenderá
 
@@ -34,4 +34,4 @@ En este vídeo, aprenderá a hacer lo siguiente:
 
 * Profesional empresarial
 
->[!VIDEO](https://video.tv.adobe.com/v/30132/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/17398/?quality=12)
