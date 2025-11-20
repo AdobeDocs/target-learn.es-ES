@@ -29,7 +29,7 @@ ht-degree: 6%
 + Implementación{#implementation}
    + [Introducción a la implementación de Target](../dev101/2-1-intro-to-target-implementation.md)
    + [Integración de Target con Launch](../dev101/3-1-target-launch.md)
-   + [Implementar en sitios web con Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
+   + [Implementar en sitios web con Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=es)
    + [Ventajas de utilizar las ubicaciones](../dev101/2-2-benefits-of-locations.md)
    + [Introducción a las solicitudes de Target](../dev101/2-3-intro-to-target-requests.md)
    + [Introducción a los parámetros de Target](../dev101/2-4-intro-to-target-params.md)
@@ -37,7 +37,7 @@ ht-degree: 6%
    + [Implementar at.js 2.0 en una aplicación de una sola página (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Diseño de una implementación de Target](../dev101/2-5-design-target-implementation.md)
    + [Pasos siguientes para diseñar una implementación de Target](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [Use la opción de inclusión para controlar las soluciones de Experience Cloud basadas en el consentimiento del usuario](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
+   + [Use la opción de inclusión para controlar las soluciones de Experience Cloud basadas en el consentimiento del usuario](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=es)
    + [Comprender la implementación híbrida de Adobe Target](../implementation/hybrid-deployment.md)
    + [Información general sobre la toma de decisiones en dispositivos](../implementation/on-device-decisioning-overview.md)
    + [Patrones de implementación para Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)
