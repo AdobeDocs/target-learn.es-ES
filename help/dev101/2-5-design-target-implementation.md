@@ -1,7 +1,7 @@
 ---
 title: Cómo diseñar una implementación de Target
 description: Aprenda a aplicar el proceso para implementar una campaña basada en personas (mbox3rdPartyID), identificar información relevante en los documentos de arquitectura/diseño del sistema y analizar una estrategia de creación de informes para las implicaciones de implementación.
-role: Developer, Architect
+role: Developer
 level: Intermediate
 topic: Personalization, Development, Architecture
 feature: Implementation, Implement Server-side, Implement Client-side
@@ -9,7 +9,7 @@ doc-type: technical video
 kt: 5383
 thumbnail: 35143.jpg
 exl-id: 8a568f5d-3cc4-4b73-b490-0023043b3f81
-source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 1%
@@ -32,4 +32,4 @@ En este vídeo, aprenderá a hacer lo siguiente:
 
 >[!VIDEO](https://video.tv.adobe.com/v/35143/?quality=12)
 
-Para obtener más información, visite la [documentación](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=es).
+Para obtener más información, visite la [documentación](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=en).

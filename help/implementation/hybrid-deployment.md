@@ -1,7 +1,7 @@
 ---
 title: Opciones de implementación híbrida
 description: Obtenga información sobre el modelo de implementación híbrido único de Adobe Target para implementaciones del lado del cliente y del lado del servidor que combinan personalización.
-role: Developer, Architect
+role: Developer
 level: Beginner
 topic: Personalization, Architecture, Development
 feature: Implementation, Implement Server-side, Implement Client-side
@@ -9,7 +9,7 @@ doc-type: feature video
 kt: 6165
 team: Evangelism
 exl-id: e669d773-494f-4eb7-82da-6b3f23508d9f
-source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
+source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
 workflow-type: tm+mt
 source-wordcount: '123'
 ht-degree: 3%
@@ -33,9 +33,9 @@ Al final de este vídeo, hará lo siguiente:
 * Desarrolladores
 * Arquitectos
 
->[!VIDEO](https://video.tv.adobe.com/v/329471/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/41698/?quality=12)
 
 ## Recursos adicionales
 
-* [Información general sobre la toma de decisiones en el dispositivo](https://experienceleague.adobe.com/es/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
-* [Documentación de Adobe Target SDK](https://experienceleague.adobe.com/es/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* [Información general sobre la toma de decisiones en el dispositivo](https://experienceleague.adobe.com/en/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
+* [Documentación de Adobe Target SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
