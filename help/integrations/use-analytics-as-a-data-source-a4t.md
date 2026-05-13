@@ -47,4 +47,4 @@ Este vídeo presenta a los especialistas en marketing de Analytics for Target (A
 
 * Profesional empresarial
 
->[!VIDEO](https://video.tv.adobe.com/v/17384/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3421724/?captions=spa&quality=12)

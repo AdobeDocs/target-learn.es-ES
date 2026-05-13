@@ -49,7 +49,7 @@ El VEC de SPA permite a los especialistas en marketing crear pruebas y personali
 
 * Profesional empresarial
 
->[!VIDEO](https://video.tv.adobe.com/v/26249?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/34794?captions=spa&quality=12)
 
 
 ## Recursos adicionales

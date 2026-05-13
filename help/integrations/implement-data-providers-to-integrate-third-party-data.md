@@ -39,7 +39,7 @@ Detalles de implementación y ejemplos de cómo usar la función [!UICONTROL Dat
 
 ## Implementar los componentes básicos de los proveedores de datos
 
->[!VIDEO](https://video.tv.adobe.com/v/22348/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/34016/?captions=spa&quality=12)
 
 Una breve descripción general de los componentes básicos de `dataProvider` y cómo obtener el código en el orden correcto.\
 Puede encontrar un ejemplo práctico con el código utilizado en el vídeo aquí:
@@ -47,7 +47,7 @@ Puede encontrar un ejemplo práctico con el código utilizado en el vídeo aquí
 
 ## Integración con una API de terceros
 
->[!VIDEO](https://video.tv.adobe.com/v/22345/)
+>[!VIDEO](https://video.tv.adobe.com/v/33687?captions=spa)
 
 Un ejemplo más realista, al integrar una API meteorológica.\
 Puede encontrar un ejemplo práctico con el código utilizado en el vídeo aquí:
@@ -55,7 +55,7 @@ Puede encontrar un ejemplo práctico con el código utilizado en el vídeo aquí
 
 ## Integración con varios proveedores
 
->[!VIDEO](https://video.tv.adobe.com/v/22346/)
+>[!VIDEO](https://video.tv.adobe.com/v/36783?captions=spa)
 
 Cómo incorporar datos de varios proveedores a su solicitud global de [!DNL Target].\
 Puede encontrar un ejemplo práctico con el código utilizado en el vídeo aquí:
@@ -63,7 +63,7 @@ Puede encontrar un ejemplo práctico con el código utilizado en el vídeo aquí
 
 ## Minimizar el impacto en la carga de página
 
->[!VIDEO](https://video.tv.adobe.com/v/22347/)
+>[!VIDEO](https://video.tv.adobe.com/v/36784?captions=spa)
 
 Minimice el impacto en el tiempo de carga de la página almacenando datos en un objeto de almacenamiento de sesión. Como alternativa, puede pasar los valores como parámetros de perfil utilizando el prefijo `profile.` y simplemente pasarlos en la primera [!DNL Target] solicitud de la sesión. Sin embargo, se limitaría a pasar cincuenta parámetros de perfil por solicitud.
 

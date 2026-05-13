@@ -46,6 +46,6 @@ En este vídeo, aprenderá a hacer lo siguiente:
 
 * Desarrolladores
 
->[!VIDEO](https://video.tv.adobe.com/v/35152/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3421748/?captions=spa&quality=12)
 
 Para obtener más información, visite la [documentación](https://experienceleague.adobe.com/docs/target/using/integrate/mmp.html?lang=es).
