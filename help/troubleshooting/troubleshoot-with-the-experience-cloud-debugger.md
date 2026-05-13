@@ -9,10 +9,16 @@ doc-type: feature video
 kt: null
 author: Daniel Wright
 exl-id: afdc531d-e54c-4612-b21b-67a3e8e65a26
-source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
+TQID: https://experienceleague.adobe.com/EYzdBJ-wJZF6gMidHSHvE-iiEys9EL-qjKVM52xbCBg
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eebid: c93393a4-e558-47e1-992e-c91ed4d480ceid: f7c7de77-382f-4f48-8b36-61a170f06d3d
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 82%
+source-wordcount: 237
+ht-degree: 61%
 
 ---
 
@@ -20,12 +26,12 @@ ht-degree: 82%
 
 Adobe Experience Cloud Debugger le permite entender de forma rápida y sencilla su implementación de Target. Puede ver rápidamente la configuración de la biblioteca, examinar las solicitudes para asegurarse de que los parámetros personalizados se pasan correctamente, activar el registro de consola y desactivar todas las solicitudes de Target. Si se autentica en Experience Cloud, podrá utilizar la potente herramienta Mbox Trace para inspeccionar su actividad, las cualificaciones de audiencia y el perfil del visitante.
 
->[!VIDEO](https://video.tv.adobe.com/v/33706/?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
 
 ## Recursos adicionales
 
 * [Vídeo Resolución de problemas con seguimientos de Target](troubleshoot-with-target-traces.md)
-* [Adobe Experience Cloud Debugger en la tienda de Chrome](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
-* [Agregar el vídeo de la extensión de Debugger](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/add-the-extension.html?lang=es)
-* [Documentación de ayuda de resolución de problemas de Target](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=es)
-* [Cómo utilizar el vídeo de Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/use-the-experience-cloud-debugger.html?lang=es)
+* [Adobe Experience Cloud Debugger en la Tienda Chrome](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)
+* [Vídeo sobre la adición de la extensión de Debugger](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/add-the-extension.html?lang=en)
+* [Solución de problemas de la documentación de ayuda de Target](https://experienceleague.adobe.com/docs/target/using/troubleshoot/troubleshooting-target.html?lang=en)
+* [Cómo usar el vídeo de Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger-learn/tutorials/experience-cloud-debugger/use-the-experience-cloud-debugger.html?lang=en)

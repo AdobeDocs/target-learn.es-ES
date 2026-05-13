@@ -8,9 +8,15 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 exl-id: 4b153e4f-a979-49a8-8c26-f7ac95162a2f
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+TQID: https://experienceleague.adobe.com/DoRg-ukzkWeNsIVbq-KSKES4ECa0SMX-9S1uqoe-K44
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '971'
+source-wordcount: 977
 ht-degree: 1%
 
 ---
@@ -23,12 +29,12 @@ En esta lección, entraremos en la interfaz de [!DNL Target] y crearemos audienc
 
 Al final de esta lección, podrá hacer lo siguiente:
 
-* Cree audiencias en Adobe Target
+* Cree públicos en Adobe Target
 * Creación de ofertas en Adobe Target
 
 Más específicamente, en esta lección crearemos audiencias y ofertas necesarias para lograr los casos de uso de personalización definidos al principio del tutorial. Queremos usar las pantallas de Inicio y Búsqueda para ayudar a los usuarios de la aplicación a reservar sus viajes, y queremos usar la pantalla de agradecimiento para mostrar algunas promociones relevantes basadas en el destino del usuario. Esta es una tabla que representa lo que vamos a generar en esta lección para cada ubicación:
 
-| Ubicación | Audiencia | Oferta |
+| Ubicación | Público | Oferta |
 | --- | --- | --- |
 | wetravel_engage_home | Nuevos usuarios de aplicaciones móviles | &quot;Seleccione su origen y destino para buscar rutas de autobús disponibles&quot; |
 | wetravel_engage_search | Nuevos usuarios de aplicaciones móviles | &quot;Utilice los filtros para reducir los resultados de búsqueda&quot; |
@@ -127,7 +133,7 @@ En primer lugar, vamos a crear ofertas para los mensajes a los nuevos usuarios:
 Ahora vamos a crear la única oferta para los usuarios que regresan (la segunda oferta será el contenido predeterminado, que se mostrará como nada):
 
 1. Asigne un nombre a la oferta _Inicio: Usuarios que regresan_.
-1. Ingresa _Bienvenido de nuevo. Utilice el código promocional BACK30 durante el cierre de compra para obtener un descuento del 10%._ como código de HTML.
+1. Ingresa _Bienvenido de nuevo. Use el código de promoción BACK30 durante el cierre de compra para obtener un descuento del 10%._ como código HTML.
 1. Guarde la nueva oferta.
 
    ![Crear oferta de HTML residencial](assets/offer_home_returning_users.jpg)

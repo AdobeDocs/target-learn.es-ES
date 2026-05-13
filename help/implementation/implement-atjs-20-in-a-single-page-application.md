@@ -9,9 +9,16 @@ doc-type: technical video
 kt: null
 author: Daniel Wright
 exl-id: 955f0571-5791-4dbb-9931-e6d5c8bb42a7
-source-git-commit: fcd2273ba373dc2b3bc59a77f1925cdb7b2ed3ee
+TQID: https://experienceleague.adobe.com/eGA92lV-FAhNnjeKc-Vceh1DrDgWBUKqDkVHzzTQ5Nk
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: 420
 ht-degree: 0%
 
 ---
@@ -20,7 +27,7 @@ ht-degree: 0%
 
 `at.js` 2.0 de Adobe Target proporciona conjuntos de funciones enriquecidos que equipan su empresa para ejecutar personalizaciones en tecnologías de próxima generación de lado del cliente. Esta versión se centra en actualizar `at.js` para tener interacciones armoniosas con aplicaciones de una sola página (SPA).
 
->[!VIDEO](https://video.tv.adobe.com/v/34788?quality=12&captions=spa)
+>[!VIDEO](https://video.tv.adobe.com/v/26248?quality=12)
 
 ## Implementación de at.js 2.0 en una SPA
 

@@ -8,9 +8,15 @@ feature: Implement Mobile
 doc-type: tutorial
 kt: 3040
 exl-id: 88a5be3f-d61f-43e7-997a-574ef56122ed
-source-git-commit: 342e02562b5296871638c1120114214df6115809
+TQID: https://experienceleague.adobe.com/oQyrxuVXqyUR4v-BxX1cqqjvmGz58MeEme-fveXGG4o
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: adee20bd-51f4-461d-b9db-d215f8756eeb
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '1785'
+source-wordcount: 1820
 ht-degree: 0%
 
 ---
@@ -21,7 +27,7 @@ Adobe Mobile Services SDK (v4) proporciona métodos y funcionalidades de Adobe T
 
 En esta lección, debe preparar la aplicación We.Travel para la personalización mediante la implementación de [!DNL Target] solicitudes.
 
-## Requisitos previos  
+## Requisitos previos
 
 Asegúrese de [descargar y actualizar la aplicación de ejemplo](download-and-update-the-sample-app.md).
 
@@ -35,7 +41,7 @@ Al final de esta lección, podrá hacer lo siguiente:
 * Borrar ubicaciones de recuperación previa de la caché
 * Validar solicitudes de recuperación previa y en tiempo real
 
-## Terminología  
+## Terminología
 
 A continuación se muestra parte de la terminología clave de Target que utilizaremos en el resto de este tutorial.
 
@@ -52,7 +58,7 @@ A continuación se muestra parte de la terminología clave de Target que utiliza
 
 La primera solicitud que implementaremos en We.Travel es una solicitud de recuperación previa por lotes con dos ubicaciones de [!DNL Target] en la pantalla de inicio. En una lección posterior, configuraremos ofertas para estas ubicaciones que muestran mensajes para ayudar a guiar a los nuevos usuarios a través del proceso de reserva.
 
-Una solicitud de recuperación previa recupera el contenido de [!DNL Target] lo menos posible almacenando en caché la respuesta (oferta) del servidor de Adobe Target. Una solicitud de recuperación previa por lotes recupera y almacena en caché varias ofertas, cada una de ellas asociada a una ubicación diferente. Todas las ubicaciones de recuperación previa se almacenan en la caché del dispositivo para su uso futuro en la sesión del usuario. Al recuperar previamente varias ubicaciones en la pantalla de inicio, podemos recuperar ofertas para utilizarlas más adelante a medida que el visitante navega por la aplicación. Consulte la [documentación de recuperación previa](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=es) para obtener más información sobre los métodos de recuperación previa.
+Una solicitud de recuperación previa recupera el contenido de [!DNL Target] lo menos posible almacenando en caché la respuesta (oferta) del servidor de Adobe Target. Una solicitud de recuperación previa por lotes recupera y almacena en caché varias ofertas, cada una de ellas asociada a una ubicación diferente. Todas las ubicaciones de recuperación previa se almacenan en la caché del dispositivo para su uso futuro en la sesión del usuario. Al recuperar previamente varias ubicaciones en la pantalla de inicio, podemos recuperar ofertas para utilizarlas más adelante a medida que el visitante navega por la aplicación. Consulte la [documentación de recuperación previa](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html?lang=en) para obtener más información sobre los métodos de recuperación previa.
 
 ### Añadir la solicitud de recuperación previa del lote
 
