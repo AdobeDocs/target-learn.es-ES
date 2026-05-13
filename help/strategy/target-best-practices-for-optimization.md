@@ -6,9 +6,29 @@ role: Leader, Developer, Admin
 feature: Overview
 level: Beginner
 exl-id: dd29faea-bb67-4128-b261-fa407ba7158c
-source-git-commit: ac4fad8a7fb77852b1bd27b9b6d49e55f8aa975a
+TQID: https://experienceleague.adobe.com/4M13hg8c1kxAmsBaiSfyvV3XEXLxV5lHEy299YGBvII
+product_v2:
+  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2:
+  - id: adee20bd-51f4-461d-b9db-d215f8756eeb
+  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+  - id: f8a45b24-4be7-4f1b-909b-60d06b483a20
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: 1254
 ht-degree: 0%
 
 ---
@@ -83,11 +103,11 @@ Una hipótesis completa consta de tres partes:
 
     A. Valor de elemento
     
-    Esto se logra dando un paso atrás para preguntar por qué existe un elemento determinado en el sitio y si el contenido sirve para un propósito específico. Estas preguntas son un buen punto de partida si el sitio acaba de finalizar un rediseño o si se ha implementado recientemente una nueva función. La táctica utilizada para determinar el valor del elemento se denomina Pruebas de inclusión/exclusión. Las Pruebas de inclusión/exclusión proporcionan una buena lectura del valor en la página donde se muestra el elemento.
+    Esto se logra dando un paso atrás para preguntar por qué existe un elemento determinado en el sitio y si el contenido sirve para un propósito específico. Estas preguntas son un buen punto de partida si el sitio acaba de finalizar un rediseño o si se ha implementado recientemente una nueva función. La táctica utilizada para determinar el valor del elemento se denomina Pruebas de inclusión/exclusión. Pruebas de inclusión/exclusión proporciona una buena lectura del valor en la página donde se muestra el elemento.
     
     B. Presentación de elementos
     
-    Aquí es donde pensaría en el aspecto general del elemento y en cómo afecta a la presentación general de la página. La táctica utilizada para la presentación es centrarse en realizar cambios impactantes en el contenido y la página de elementos.
+    Aquí es donde pensaría en el aspecto general del elemento y en cómo afecta a la presentación general de la página. La táctica usada para la presentación es centrarse en hacer cambios impactantes en el contenido y en la página de elementos.
     
     C. Función Elemento
     
