@@ -44,6 +44,6 @@ En este vídeo, aprenderá a hacer lo siguiente:
 
 ## Recursos adicionales
 
-* [Creación de una audiencia de comparación de atributos de perfil](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=en)
-* [Creación de audiencias](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=en)
+* [Creación de una audiencia de comparación de atributos de perfil](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/creating-a-profile-attribute-comparison-audience.html?lang=es)
+* [Creación de audiencias](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/create-audience.html?lang=es)
 * [Vídeo de Crear actividades de segmentación de experiencias](../activities/create-experience-targeting-activities.md)

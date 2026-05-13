@@ -53,5 +53,5 @@ Al final de este vídeo, hará lo siguiente:
 
 ## Recursos adicionales
 
-* [Información general sobre la toma de decisiones en dispositivos](https://experienceleague.adobe.com/en/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
-* [Documentación de Adobe Target SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/on-device-decisioning/overview)
+* [Información general sobre la toma de decisiones en dispositivos](https://experienceleague.adobe.com/es/docs/target-learn/tutorials/implementation/on-device-decisioning-overview#implementation)
+* [Documentación de Adobe Target SDK](https://experienceleague.adobe.com/es/docs/target-dev/developer/server-side/on-device-decisioning/overview)
