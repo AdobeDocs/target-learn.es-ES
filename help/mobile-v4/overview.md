@@ -23,7 +23,7 @@ Se proporciona una aplicación de Android de ejemplo para completar las leccione
 
 Tras completar este tutorial, podrá:
 
-* Validar la configuración de [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en)
+* Validar la configuración de [Adobe Mobile Services SDK](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=es)
 * Implementar los siguientes tipos de [!DNL Target] solicitudes:
    * Recuperación previa del contenido [!DNL Target]
    * Lote de varias ubicaciones de [!DNL Target] (mboxes) en una sola solicitud

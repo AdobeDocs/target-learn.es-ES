@@ -38,4 +38,4 @@ Las actividades de Automated Personalization y Segmentación automática utiliza
 
 ## Información adicional
 
-* [Personalization Insights en la documentación de ayuda de](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=en)
+* [Personalization Insights en la documentación de ayuda de](https://experienceleague.adobe.com/docs/target/using/reports/insights/personalization-insights-reports.html?lang=es)
