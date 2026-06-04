@@ -49,7 +49,7 @@ Al final de este vídeo, hará lo siguiente:
 * Desarrolladores
 * Arquitectos
 
->[!VIDEO](https://video.tv.adobe.com/v/41698/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/329471/?captions=spa&quality=12)
 
 ## Recursos adicionales
 
