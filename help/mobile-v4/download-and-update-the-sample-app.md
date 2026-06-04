@@ -9,22 +9,15 @@ doc-type: tutorial
 kt: 3040
 exl-id: 244bcf7a-b59b-4dd1-bd05-0a55ce7a7132
 TQID: https://experienceleague.adobe.com/23TuO5OZXkf9TDWMgIEXyu2Hx9f3dzI1n91u7A1Wix0
-product_v2:
-  - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
-feature_v2:
-  - id: c93393a4-e558-47e1-992e-c91ed4d480ce
-subfeature_v2:
-  - id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
-role_v2:
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2: id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+feature_v2: id: c93393a4-e558-47e1-992e-c91ed4d480ce
+subfeature_v2: id: fd0ff162-b6d3-4a11-8aeb-e165a01c0f0a
+role_v2: id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 499
+source-wordcount: 530
 ht-degree: 0%
 
 ---
@@ -52,17 +45,17 @@ Al final de esta lección, podrá hacer lo siguiente:
 
 ## Verificar y actualizar la configuración de SDK de Mobile Services para [!DNL Target]
 
-Adobe Mobile Services SDK se ha preinstalado en la aplicación We.Travel [según la documentación](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=es). Ahora actualizará la instalación para que apunte a su propia cuenta de [!DNL Target].
+Adobe Mobile Services SDK se ha preinstalado en la aplicación We.Travel [según la documentación](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html?lang=en). Ahora actualizará la instalación para que apunte a su propia cuenta de [!DNL Target].
 
 En primer lugar, cree una nueva aplicación en la interfaz de usuario de Mobile Services:
 
 1. Inicie sesión en la [interfaz de Adobe Mobile Services](https://mobilemarketing.adobe.com/).
-1. Vaya a [!UICONTROL Manage Apps] y, a continuación, haga clic en **[!UICONTROL Add]** para agregar una aplicación nueva y utilizarla con este tutorial (**[!UICONTROL Manage Apps]** > **[!UICONTROL Add]**).
-1. Elija un grupo de informes de Analytics con datos que no sean de producción, asigne un nombre a la aplicación, seleccione el tipo **[!UICONTROL Standard]** y haga clic en **[!UICONTROL Save]**.
-1. Una vez agregada la aplicación, agregue el código de cliente [!DNL Target] en la siguiente pantalla de la sección [!UICONTROL SDK Target Options] (puede encontrar el código de cliente en la interfaz [!DNL Target], en **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit Settings]**, junto al botón Descargar `at.js`).
-1. La configuración [!UICONTROL Request Timeout] determina cuánto tiempo espera la aplicación la respuesta del servidor [!DNL Target] antes de ejecutar las instrucciones de tiempo de espera. Deje la configuración predeterminada.
-1. Habilite [!UICONTROL Visitor ID Service] y asegúrese de que su [!UICONTROL Organization] esté seleccionado en la lista desplegable.
-1. Guarde los cambios haciendo clic en **[!UICONTROL Save]** en la parte superior derecha de la ventana (no en la sección [!UICONTROL Universal Links], [!UICONTROL App Links] o [!UICONTROL Push Services]).
+1. Vaya a [!UICONTROL Administrar aplicaciones] y, a continuación, haga clic en **[!UICONTROL Agregar]** para agregar una aplicación nueva para usarla con este tutorial (**[!UICONTROL Administrar aplicaciones]** > **[!UICONTROL Agregar]**).
+1. Elija un grupo de informes de Analytics con datos que no sean de producción, asigne un nombre a la aplicación, seleccione el tipo **[!UICONTROL Standard]** y haga clic en **[!UICONTROL Guardar]**.
+1. Una vez agregada la aplicación, agrega tu código de cliente [!DNL Target] en la siguiente pantalla de la sección [!UICONTROL Opciones de SDK Target] (puedes encontrar tu código de cliente en la interfaz de [!DNL Target] en **[!UICONTROL Configuración]** > **[!UICONTROL Implementación]** > **[!UICONTROL Editar configuración]**, junto al botón Descargar `at.js`).
+1. La configuración [!UICONTROL Tiempo de espera de la solicitud] determina cuánto tiempo espera la aplicación la respuesta del servidor [!DNL Target] antes de ejecutar las instrucciones de tiempo de espera. Deje la configuración predeterminada.
+1. Habilite el [!UICONTROL servicio de identificación del visitante] y asegúrese de que su [!UICONTROL organización] esté seleccionada en la lista desplegable.
+1. Guarde los cambios haciendo clic en **[!UICONTROL Guardar]** en la parte superior derecha de la ventana (no en la sección [!UICONTROL Vínculos universales], [!UICONTROL Vínculos de aplicación] o [!UICONTROL Servicios push]).
 1. Desplácese a la sección Descargas de la aplicación de SDK en la parte inferior de la página y descargue el archivo de configuración:
 
    ![Descargar el archivo de configuración](assets/config_file.jpg)
@@ -72,7 +65,7 @@ En primer lugar, cree una nueva aplicación en la interfaz de usuario de Mobile 
 1. Ahora abra el archivo `ADBMobileConfig.json` y asegúrese de que contiene los cambios esperados, como el código de cliente [!DNL Target] y los detalles de Analytics:
    ![Descargar el archivo de configuración](assets/client_code.jpg)
 
-Si no ve su configuración, confirme que ha hecho clic en el botón derecho **[!UICONTROL Save]** en la interfaz [!UICONTROL Mobile Services] y que ha copiado el archivo en la ubicación correcta.
+Si no ve su configuración, confirme que ha hecho clic con el botón derecho **[!UICONTROL Guardar]** en la interfaz de [!UICONTROL Mobile Services] y que ha copiado el archivo en la ubicación correcta.
 
 ¡Felicidades! ¡Ha actualizado SDK con los detalles de su cuenta de [!DNL Target]! Haremos una validación adicional de la configuración después de agregar [!DNL Target] solicitudes en la siguiente lección.
 
