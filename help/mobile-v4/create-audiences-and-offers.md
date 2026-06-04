@@ -21,7 +21,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 977
+source-wordcount: 1004
 ht-degree: 1%
 
 ---
@@ -62,17 +62,17 @@ Ahora vamos a crear las audiencias que utilizaremos para personalizar la aplicac
 
 Las audiencias de Adobe Target se utilizan para identificar grupos específicos de visitantes. Las ofertas se pueden dirigir a esos grupos específicos. Para las dos primeras ubicaciones, se utiliza la audiencia &quot;Nuevos usuarios&quot;:
 
-1. Haga clic en **[!UICONTROL Audiences]** en la barra de navegación superior.
-1. Haga clic en el botón **[!UICONTROL Create Audience]**.
+1. Haga clic en **[!UICONTROL Audiencias]** en la barra de navegación superior.
+1. Haga clic en el botón **[!UICONTROL Crear audiencia]**.
    ![Crear una audiencia de usuario nueva](assets/audience_new_mobile_app_users_1.jpg)
 
-1. Escriba **[!UICONTROL New Mobile App Users]** como nombre de audiencia.
-1. Seleccione **[!UICONTROL Add Rule]**.
+1. Escriba **[!UICONTROL Nuevos usuarios de aplicaciones móviles]** como nombre de audiencia.
+1. Seleccione **[!UICONTROL Agregar regla]**.
 1. Seleccione una regla **[!UICONTROL Custom]**.
    ![Crear una audiencia de usuario nueva](assets/audience_new_mobile_app_users_2.jpg)
 
 1. Seleccione **[!UICONTROL a.Launches]**.
-1. Seleccione **[!UICONTROL is less than]**.
+1. Seleccionar **[!UICONTROL es menor que]**.
 1. Escriba **5**.
 1. Guarde la nueva audiencia.
    ![Crear una audiencia de usuario nueva](assets/audience_new_mobile_app_users_3.jpg)
@@ -82,7 +82,7 @@ Las audiencias de Adobe Target se utilizan para identificar grupos específicos 
 Siga los mismos pasos enumerados anteriormente para crear una audiencia para los usuarios que regresan.
 
 1. Asigne un nombre a la audiencia _Usuarios de aplicaciones móviles que regresan_.
-1. Usar **[!UICONTROL a.Launches is greater than or equal to 5]** como regla personalizada.
+1. Usar **[!UICONTROL a.Lanzamientos mayores o iguales a 5]** como regla personalizada.
 1. Guarde la nueva audiencia.
 
    ![Crear una audiencia de usuario que regresa](assets/audience_returning_mobile_app_users.jpg)
@@ -121,9 +121,9 @@ Ahora, vamos a crear ofertas para mostrar estos mensajes. Como recordatorio, las
 
 En primer lugar, vamos a crear ofertas para los mensajes a los nuevos usuarios:
 
-1. Haga clic en **[!UICONTROL Offers]** en la barra de navegación superior.
-1. Haga clic en **[!UICONTROL Create]**.
-1. Seleccione **[!UICONTROL HTML Offer]**.
+1. Haga clic en **[!UICONTROL Ofertas]** en la barra de navegación superior.
+1. Haga clic en **[!UICONTROL Crear]**.
+1. Seleccione **[!UICONTROL Oferta de HTML]**.
 
    ![Crear oferta de inicio](assets/offer_home_1.jpg)
 

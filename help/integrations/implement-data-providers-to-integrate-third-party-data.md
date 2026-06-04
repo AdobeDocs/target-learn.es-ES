@@ -24,18 +24,18 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 293
+source-wordcount: 299
 ht-degree: 0%
 
 ---
 
-# Implemente [!UICONTROL Data Providers] para integrar datos de terceros en Adobe Target
+# Implemente [!UICONTROL Proveedores de datos] para integrar datos de terceros en Adobe Target
 
-Detalles de implementación y ejemplos de cómo usar la función [!UICONTROL Data Providers] de Adobe Target para recuperar datos de proveedores de datos de terceros y pasarlos en la solicitud de Target.
+Detalles de implementación y ejemplos de cómo usar la función [!UICONTROL Proveedores de datos] de Adobe Target para recuperar datos de proveedores de datos de terceros y pasarlos en la solicitud de Target.
 
 >[!NOTE]
 >
->[!UICONTROL Data Providers] requiere `at.js` 1.3 o superior
+>[!UICONTROL Proveedores de datos] requiere `at.js` 1.3 o superior
 
 ## Implementar los componentes básicos de los proveedores de datos
 

@@ -24,7 +24,7 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 816
+source-wordcount: 823
 ht-degree: 0%
 
 ---
@@ -65,13 +65,13 @@ Las propiedades de Adobe Target se definen en la interfaz [!DNL Target] y se uti
 >
 >Puede que vea o no las opciones de Propiedades en la interfaz [!DNL Target], según la licencia. Si no tiene estas opciones o si no utiliza Propiedades en su empresa, vaya a la siguiente sección de esta lección.
 
-Puede recuperar su valor at_property en la interfaz [!DNL Target] en [!UICONTROL Setup] > [!UICONTROL Properties].  Pase el ratón sobre la propiedad, seleccione el icono de fragmento de código y copie el valor `at_property`:
+Puede recuperar su valor at_property en la interfaz [!DNL Target] en [!UICONTROL Configuración] > [!UICONTROL Propiedades].  Pase el ratón sobre la propiedad, seleccione el icono de fragmento de código y copie el valor `at_property`:
 
 ![Copiar at_property](assets/at_property_interface.jpg)
 
 Añádalo como parámetro para cada ubicación en la solicitud de recuperación previa de esta manera:
 ![Agregar parámetro at_property](assets/params_at_property.jpg)
-Este es el código actualizado para la función `targetPrefetchContent()` (asegúrese de actualizar el texto del marcador de posición _[!UICONTROL your at_property value goes here]_):
+Este es el código actualizado para la función `targetPrefetchContent()` (asegúrese de actualizar el _[!UICONTROL el valor de at_property va aquí]_ texto de marcador de posición!):
 
 ```java
 public void targetPrefetchContent() {

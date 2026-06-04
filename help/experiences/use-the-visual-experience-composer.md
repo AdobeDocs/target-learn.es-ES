@@ -24,12 +24,12 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 125
-ht-degree: 30%
+source-wordcount: 128
+ht-degree: 29%
 
 ---
 
-# Usar [!UICONTROL Visual Experience Composer] en Adobe Target
+# Usar [!UICONTROL Compositor de experiencias visuales] en Adobe Target
 
 En el primer vídeo, aprenderá a hacer lo siguiente:
 

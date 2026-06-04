@@ -20,14 +20,14 @@ topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
 workflow-type: tm+mt
-source-wordcount: 159
+source-wordcount: 161
 ht-degree: 7%
 
 ---
 
 # Uso de la comparación de perfiles para crear audiencias en Adobe Target
 
-La característica [!UICONTROL Profile Comparison] de Adobe Target le permite comparar dos valores de perfil numérico entre sí al crear una audiencia. Esto es extremadamente útil si, por ejemplo, pasa puntuaciones de tendencia creadas a medida a [!DNL Target] y desea personalizar el contenido en función del producto con la puntuación de tendencia más alta.
+La característica [!UICONTROL Comparación de perfiles] de Adobe Target le permite comparar dos valores de perfil numéricos entre sí al crear una audiencia. Esto es extremadamente útil si, por ejemplo, pasa puntuaciones de tendencia creadas a medida a [!DNL Target] y desea personalizar el contenido en función del producto con la puntuación de tendencia más alta.
 
 ## Lo que aprenderá
 

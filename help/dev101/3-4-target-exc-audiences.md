@@ -1,6 +1,6 @@
 ---
-title: Cómo integrar Target con las audiencias de Experience Cloud
-description: Obtenga información sobre cómo importar audiencias de otros productos de Adobe. Familiarícese con Experience Cloud Admin Console y los requisitos del Experience Cloud ID (ECID).
+title: Cómo integrar Target con audiencias de Experience Cloud
+description: Obtenga información sobre cómo importar audiencias de otros productos de Adobe. Familiarícese con Experience Cloud Admin Console y los requisitos de Experience Cloud ID (ECID).
 role: Developer
 level: Intermediate
 topic: Personalization, Integrations
@@ -33,7 +33,7 @@ ht-degree: 1%
 
 ---
 
-# Integrar [!DNL Target] con las audiencias de Experience Cloud
+# Integrar [!DNL Target] con audiencias de Experience Cloud
 
 En este vídeo, aprenderá a hacer lo siguiente:
 

@@ -10,7 +10,7 @@ kt: 3040
 exl-id: 20f8ed4f-a86d-4c5e-9296-71a93724caa3
 source-git-commit: 342e02562b5296871638c1120114214df6115809
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '559'
 ht-degree: 2%
 
 ---
@@ -36,12 +36,12 @@ Tras completar este tutorial, podrá:
 * Personalizar diseños
 * Despliegue de nuevas funciones con indicador de funciones
 
-## Requisitos previos  
+## Requisitos previos
 
 En estas lecciones, se da por hecho que:
 
 * Tener un Adobe ID y acceso a nivel de aprobador a la interfaz de Adobe Target (consulte los pasos de verificación a continuación)
-* Conocer el código de cliente de Adobe Target para poder realizar solicitudes a su propia cuenta. El código de cliente se muestra en la interfaz de Adobe Target en la   Pantalla Configuración > Implementación > Editar la configuración de at.js
+* Conocer el código de cliente de Adobe Target para poder realizar solicitudes a su propia cuenta. El código de cliente se muestra en la interfaz de Adobe Target en la pantalla Configuración > Implementación > Editar la configuración de at.js
 * Tener acceso a y estar familiarizado con la [interfaz de usuario de Mobile Services](https://mobilemarketing.adobe.com/)
 * Tener un IDE para el desarrollo de aplicaciones móviles de Android. Este tutorial incluye [Android Studio](https://developer.android.com/studio/install) en varios pasos y capturas de pantalla
 
@@ -53,7 +53,7 @@ Además, se da por hecho que está familiarizado con el desarrollo de Android en
 
 Esta lección requiere acceso a Adobe Target. Antes de pasar a los siguientes pasos, asegúrese de que tiene acceso a Adobe Target haciendo lo siguiente:
 
-1. Iniciar sesión en [Adobe Experience Cloud](https://experience.adobe.com/)
+1. Inicie sesión en [Adobe Experience Cloud](https://experience.adobe.com/)
 1. En la pantalla de inicio de Experience Cloud, haga clic en [!DNL Target]:
    ![Pantalla de inicio de Experience Cloud](assets/aec_homeScreen_clickTarget.png)
 1. Debe llegar a la lista Actividades en Adobe Target, como se muestra a continuación, y debe ver que su usuario tiene acceso de nivel de Aprobador. Si no puede acceder a [!DNL Target] o no puede verificar el acceso de nivel de aprobador, póngase en contacto con uno de los administradores de Experience Cloud de su empresa, solicite este acceso y reanude este tutorial una vez que se le haya concedido:
