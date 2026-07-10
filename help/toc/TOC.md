@@ -3,7 +3,7 @@ user-guide-title: Tutoriales de Adobe Target
 user-guide-url: /content/help/en/target-learn/tutorials/overview.html
 landing-page-breadcrumb-title: Adobe Target
 landing-page-name: target
-source-git-commit: 28a6f4bc24da40b4f8cb121227e53add17d391c7
+source-git-commit: 10d1d5c148a222a928b5bd39b53cefccd0df4164
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 5%
@@ -29,7 +29,7 @@ ht-degree: 5%
 + Implementación{#implementation}
    + [Introducción a la implementación de Target](../dev101/2-1-intro-to-target-implementation.md)
    + [Integración de Target con Launch](../dev101/3-1-target-launch.md)
-   + [Implementación en sitios web con Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=es)
+   + [Implementación en sitios web con Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=en)
    + [Ventajas de utilizar las ubicaciones](../dev101/2-2-benefits-of-locations.md)
    + [Introducción a las solicitudes de Target](../dev101/2-3-intro-to-target-requests.md)
    + [Introducción a los parámetros de Target](../dev101/2-4-intro-to-target-params.md)
@@ -37,7 +37,7 @@ ht-degree: 5%
    + [Implementar at.js 2.0 en una aplicación de una sola página (SPA)](../implementation/implement-atjs-20-in-a-single-page-application.md)
    + [Diseño de una implementación de Target](../dev101/2-5-design-target-implementation.md)
    + [Pasos siguientes para diseñar una implementación de Target](../dev101/2-6-next-steps-design-target-implementation.md)
-   + [Utilice la inclusión para controlar soluciones de Experience Cloud basadas en el consentimiento del usuario](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=es)
+   + [Utilice la inclusión para controlar soluciones de Experience Cloud basadas en el consentimiento del usuario](https://experienceleague.adobe.com/docs/id-service/using/implementation/opt-in-service/use-opt-in-to-control-experience-cloud-activities-based-on-user-consent.html?lang=en)
    + [Comprender la implementación híbrida de Adobe Target](../implementation/hybrid-deployment.md)
    + [Información general sobre la toma de decisiones en dispositivos](../implementation/on-device-decisioning-overview.md)
    + {hide-from-toc}[Patrones de implementación para Adobe Target](../implementation/implementation-patterns-for-adobe-target.md)
@@ -99,3 +99,4 @@ ht-degree: 5%
    + [Solución de errores de integración de A4T](../dev101/4-3-troubleshoot-integration-errors.md)
 + Móvil{#mobile}
    + [Implementar Adobe Target con Adobe Mobile Services SDK v4 para Android](../mobile-v4/overview.md)
+
