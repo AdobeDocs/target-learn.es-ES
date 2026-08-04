@@ -35,4 +35,4 @@ ht-degree: 9%
 
 Obtenga información sobre cómo personalizar la siguiente visita con Real-Time Customer Data Platform y Adobe Target. El destino de Adobe Target en Real-Time CDP le permite utilizar segmentos de Experience Platform en Adobe Target para la personalización de la misma página y de la página siguiente con soporte de gobernanza y privacidad. Para obtener más información, consulte [Configurar destinos de personalización para la documentación de personalización de la misma página y de la página siguiente](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html?lang=es)
 
->[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/342976?captions=spa&quality=12&learn=on)
