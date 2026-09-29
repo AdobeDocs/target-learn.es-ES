@@ -68,4 +68,4 @@ En este vídeo, aprenderá a hacer lo siguiente:
 
 * Profesional empresarial
 
->[!VIDEO](https://video.tv.adobe.com/v/17386/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/30103/?captions=spa&quality=12)
