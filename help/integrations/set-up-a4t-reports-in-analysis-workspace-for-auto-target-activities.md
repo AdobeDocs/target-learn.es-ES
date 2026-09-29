@@ -1,39 +1,53 @@
 ---
-title: Cómo configurar informes de A4T en  [!DNL Analysis Workspace] for [!DNL Auto-Target] Activities
-description: ¿Cómo configuro los informes de A4T en  [!DNL Analysis Workspace] para obtener los resultados esperados al ejecutar las actividades de [!UICONTROL Segmentación automática]?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=es#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
+title: Configurar informes de A4T en [!DNL Analysis Workspace] para [!DNL Auto-Target] actividades
+description: ¿Cómo configuro los informes de A4T en [!DNL Analysis Workspace] para obtener los resultados esperados al ejecutar actividades de [!UICONTROL Segmentación automática]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#premium newtab=true" tooltip="Consulte qué se incluye en Target Premium."
 role: User
 level: Intermediate
 topic: Personalization, Integrations
 feature: Analytics for Target (A4T), Auto-Target, Integrations
 doc-type: tutorial
-thumbnail: null
-kt: null
+thumbnail:
+kt:
 exl-id: 58006a25-851e-43c8-b103-f143f72ee58d
-TQID: https://experienceleague.adobe.com/9UgPPqvQiI3LcX1Lhv1yxlM0BnQf6176cTB3bbPd1YE
+TQID: 'https://experienceleague.adobe.com/9UgPPqvQiI3LcX1Lhv1yxlM0BnQf6176cTB3bbPd1YE'
 product_v2:
   - id: e43347a8-f2c5-4aa4-8623-6f13875d7e3a
+    internal-label: Target
 feature_v2:
   - id: f7c7de77-382f-4f48-8b36-61a170f06d3d
+    internal-label: Integrations
+  - id: 891742a5-242d-5099-966a-ca76c17cd2d2
+    internal-label: Analytics for Target (A4T)
+  - id: f69bc5f1-ebdb-4306-a281-f2e77daf734c
+    internal-label: Activities and tests
 subfeature_v2:
   - id: df62f171-ac37-440f-8f0f-f41a72ebdd34
+    internal-label: Analytics integration
+  - id: db15a02f-03cd-46fe-a53e-02064cdeadfa
+    internal-label: Auto target
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
+    internal-label: Experimentation
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eb30f47f-d87a-400f-8f78-63ce7979ff56
-source-git-commit: c0b4abf2d4ead4d58a8db6e8970857b7b50dbe5c
+    internal-label: Machine learning
+source-git-commit: d11449f8685d14c2bbd1e70f80711d4edab9d3a1
 workflow-type: tm+mt
-source-wordcount: 2717
+source-wordcount: '2720'
 ht-degree: 1%
-
 ---
-
 # Configurar informes de A4T en [!DNL Analysis Workspace] para [!DNL Auto-Target] actividades
 
 >[!IMPORTANT]
@@ -47,7 +61,7 @@ Aunque hay funcionalidades de análisis enriquecidas disponibles en [!DNL Adobe 
 Este tutorial muestra las modificaciones recomendadas para analizar las actividades de [!UICONTROL Segmentación automática] en [!DNL Analysis Workspace], que se basan en los siguientes conceptos clave:
 
 * La dimensión **[!UICONTROL Control vs. Objetivo]** se puede usar para distinguir entre las experiencias [!UICONTROL Control] y las que ofrece el algoritmo ML de ensamblado [!UICONTROL Segmentación automática].
-* Las visitas deben utilizarse como métrica de normalización al ver desgloses de rendimiento de nivel de experiencia. Además, la metodología de contabilización predeterminada de [Adobe Analytics podría incluir visitas en las que el usuario no ve realmente contenido de actividad](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html?lang=es#metrics){target=_blank}, pero este comportamiento predeterminado se puede modificar mediante un segmento con el ámbito adecuado (detalles a continuación).
+* Las visitas deben utilizarse como métrica de normalización al ver desgloses de rendimiento de nivel de experiencia. Además, la metodología de contabilización predeterminada de [Adobe Analytics podría incluir visitas en las que el usuario no ve realmente contenido de actividad](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-faq/a4t-faq-viewing-reports.html#metrics){target=_blank}, pero este comportamiento predeterminado se puede modificar mediante un segmento con el ámbito adecuado (detalles a continuación).
 * La atribución con ámbito de retrospectiva de visita, también conocida como &quot;ventana retrospectiva de visita&quot; en el modelo de atribución prescrito, la utilizan los modelos XML de [!DNL Adobe Target] durante sus fases de formación, y se debe utilizar el mismo modelo de atribución (no predeterminado) al desglosar la métrica de objetivo.
 
 ## Crear A4T para el panel [!UICONTROL Segmentación automática] en [!DNL Analysis Workspace]
@@ -66,7 +80,7 @@ Para crear un informe de A4T para [!UICONTROL Segmentación automática], comien
 >
 >Para configurar el panel [!UICONTROL Analytics for Target] para las actividades de [!UICONTROL Segmentación automática], elija cualquier experiencia de control, elija [!UICONTROL Visitas] como métrica de normalización y elija la misma métrica de objetivo que se eligió para la optimización durante la creación de la actividad de [!DNL Target].
 
-## Usar el control [!UICONTROL frente aDimensión &#x200B;] de destino para comparar el modelo XML de ensamblado [!DNL Target] con el control
+## Usar el control [!UICONTROL frente aDimensión ] de destino para comparar el modelo XML de ensamblado [!DNL Target] con el control
 
 El panel predeterminado de A4T está diseñado para las actividades clásicas (manuales) de [!UICONTROL prueba A/B] o [!UICONTROL asignación automática], cuyo objetivo es comparar el rendimiento de las experiencias individuales con el de la experiencia de control. Sin embargo, en las actividades [!UICONTROL Segmentación automática], la primera comparación de pedidos debe ser entre la *estrategia* de control y la *estrategia* de destino. En otras palabras, determinar el alza del rendimiento general del modelo XML del ensamblado [!UICONTROL Segmentación automática] sobre la estrategia de control.
 
@@ -80,7 +94,7 @@ Tenga en cuenta que este reemplazo invalida los cálculos predeterminados de [!U
 
 >[!NOTE]
 >
->Actualmente, los números [!UICONTROL Alza y confianza] no están disponibles para las dimensiones [!UICONTROL Control vs. Objetivo] de los informes de A4T para [!UICONTROL Segmentación automática]. Hasta que se agregue la compatibilidad, [!UICONTROL Alza y confianza] se pueden calcular manualmente descargando la [calculadora de confianza](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx?lang=es).
+>Actualmente, los números [!UICONTROL Alza y confianza] no están disponibles para las dimensiones [!UICONTROL Control vs. Objetivo] de los informes de A4T para [!UICONTROL Segmentación automática]. Hasta que se agregue la compatibilidad, [!UICONTROL Alza y confianza] se pueden calcular manualmente descargando la [calculadora de confianza](https://experienceleague.adobe.com/docs/target/assets/complete_confidence_calculator.xlsx).
 
 ## Agregar desgloses de métricas de nivel de experiencia
 
@@ -166,7 +180,7 @@ Por lo tanto, la diferencia entre la atribución utilizada por los modelos [!DNL
 >
 >Si los modelos XML se están optimizando para una métrica que se atribuye de forma diferente a la de las métricas que está viendo en un informe, es posible que los modelos no funcionen según lo esperado. Para evitarlo, asegúrese de que las métricas de objetivo del informe utilicen la misma definición de métrica y atribución que los modelos ML de [!DNL Target].
 
-La definición de métrica exacta y la configuración de atribución dependen del [criterio de optimización](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html?lang=es#supported){target=_blank} que haya especificado durante la creación de la actividad.
+La definición de métrica exacta y la configuración de atribución dependen del [criterio de optimización](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t-at-aa.html#supported){target=_blank} que haya especificado durante la creación de la actividad.
 
 ### Conversiones definidas por el objetivo o métricas de [!DNL Analytics] con *Maximizar valor de métrica por visita*
 
@@ -244,7 +258,7 @@ Para ello, cree una [!UICONTROL Métrica calculada], para hacerlo, siga estos pa
 
 >[!TIP]
 >
-> También puede crear esta métrica usando la [funcionalidad de métrica calculada rápida](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html?lang=es).
+> También puede crear esta métrica usando la [funcionalidad de métrica calculada rápida](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/components/calculated-metrics/quick-calculated-metrics-in-analysis-workspace.html).
 
 La definición completa de la métrica calculada se muestra aquí.
 
