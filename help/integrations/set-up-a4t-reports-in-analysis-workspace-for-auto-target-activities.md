@@ -80,7 +80,7 @@ Para crear un informe de A4T para [!UICONTROL Segmentación automática], comien
 >
 >Para configurar el panel [!UICONTROL Analytics for Target] para las actividades de [!UICONTROL Segmentación automática], elija cualquier experiencia de control, elija [!UICONTROL Visitas] como métrica de normalización y elija la misma métrica de objetivo que se eligió para la optimización durante la creación de la actividad de [!DNL Target].
 
-## Usar el control [!UICONTROL frente aDimensión ] de destino para comparar el modelo XML de ensamblado [!DNL Target] con el control
+## Usar el control [!UICONTROL frente aDimensión &#x200B;] de destino para comparar el modelo XML de ensamblado [!DNL Target] con el control
 
 El panel predeterminado de A4T está diseñado para las actividades clásicas (manuales) de [!UICONTROL prueba A/B] o [!UICONTROL asignación automática], cuyo objetivo es comparar el rendimiento de las experiencias individuales con el de la experiencia de control. Sin embargo, en las actividades [!UICONTROL Segmentación automática], la primera comparación de pedidos debe ser entre la *estrategia* de control y la *estrategia* de destino. En otras palabras, determinar el alza del rendimiento general del modelo XML del ensamblado [!UICONTROL Segmentación automática] sobre la estrategia de control.
 
