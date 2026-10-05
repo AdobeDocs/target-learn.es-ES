@@ -17,4 +17,4 @@ ht-degree: 0%
 
 En este vídeo se explica cómo utilizar la función Más visitados por atributos de perfil de Adobe Target para ofrecer recomendaciones localizadas específicas de segmentos, en lugar de una lista de popularidad única para todos. Al configurar un script de perfil simple (con el prefijo rexattribute\_ requerido) y seleccionar el algoritmo de popularidad de atributo-perfil, las empresas pueden adaptar dinámicamente el contenido &quot;más visitado&quot; en función de atributos como el país del usuario, el nivel de suscripción o la demografía.
 
->[!VIDEO](https://video.tv.adobe.com/v/3503624/?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3503627/?captions=spa&learn=on&enablevpops)
