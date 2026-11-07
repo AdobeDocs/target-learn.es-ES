@@ -53,4 +53,4 @@ En este vídeo, aprenderá a hacer lo siguiente:
 
 * Profesional empresarial
 
->[!VIDEO](https://video.tv.adobe.com/v/17390/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507883/?captions=spa&quality=12)
