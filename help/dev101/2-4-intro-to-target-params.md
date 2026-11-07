@@ -50,6 +50,6 @@ En este vídeo, aprenderá a hacer lo siguiente:
 * Desarrolladores
 * Arquitectos
 
->[!VIDEO](https://video.tv.adobe.com/v/35142/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507782/?captions=spa&quality=12)
 
 Para obtener más información, visite la [documentación](https://experienceleague.adobe.com/docs/target/using/implement-target/implementing-target.html?lang=es).

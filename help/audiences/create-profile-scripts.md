@@ -49,4 +49,4 @@ En este vídeo, aprenderá a hacer lo siguiente:
 * Profesional empresarial
 * Desarrollador
 
->[!VIDEO](https://video.tv.adobe.com/v/17394/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507910/?captions=spa&quality=12)

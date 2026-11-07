@@ -48,7 +48,7 @@ En este vídeo, aprenderá a hacer lo siguiente:
 
 * Desarrolladores
 
->[!VIDEO](https://video.tv.adobe.com/v/35145/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3507700/?captions=spa&quality=12)
 
 Para obtener más información, visite el [tutorial de etiquetas](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html?lang=es).
 
